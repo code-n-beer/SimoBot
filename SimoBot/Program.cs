@@ -14,7 +14,7 @@ namespace SimoBot
             ExternalMySQL ems = new ExternalMySQL();
             Parser pr = new Parser();
             Engine SimoEngine = new Engine(pr, ems, DirLdr);
-            startUp StartUp = new startUp(SimoEngine);
+            StartUp StartUp = new StartUp(SimoEngine);
 
             bool setupSucceeded = StartUp.connectQs();
             if (setupSucceeded)

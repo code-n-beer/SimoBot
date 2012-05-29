@@ -5,10 +5,10 @@ using System.Text;
 
 namespace SimoBot
 {
-    class startUp
+    class StartUp
     {
         Engine engine;
-        public startUp(Engine SimoEngine)
+        public StartUp(Engine SimoEngine)
         {
             engine = SimoEngine;
         }
@@ -24,6 +24,5 @@ namespace SimoBot
 
             return true;
         }
-
     }
 }
