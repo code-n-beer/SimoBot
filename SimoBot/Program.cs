@@ -10,7 +10,11 @@ namespace SimoBot
     {
         static void Main(string[] args)
         {
-
+            Engine theEngine = new Engine();
+            while (theEngine.bgwIrcReader.IsBusy)
+            {
+                System.Threading.Thread.Sleep(1000);
+            }
         }
     }
 }
