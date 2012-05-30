@@ -19,7 +19,9 @@ namespace SimoBot
             Entry = UrlEncode(Entry, Encoding.Default);
             try
             {
-                var request = (HttpWebRequest)WebRequest.Create(@"http://" + language + ".wikipedia.org/w/api.php?format=xml&action=query&titles=" + Entry + @"&prop=extracts&exsentences=1&explaintext");
+                var request = (HttpWebRequest)WebRequest.Create(@"http://" + language +
+                    //".wikipedia.org/w/api.php?format=xml&action=query&titles=" + Entry + @"&prop=extracts&exintro=1&explaintext");
+                    ".wikipedia.org/w/api.php?format=xml&action=query&titles=" + Entry + @"&prop=extracts&exsentences=2&explaintext");
                 request.UserAgent = "SimoBot/3.0 (tsarpf@gmail.com)";
 
                 var response = request.GetResponse();

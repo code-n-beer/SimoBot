@@ -63,8 +63,12 @@ namespace SimoBot
             if (msg.messageAsArray.Length >= 2)
             {
                 string entry = msg.message.Replace("!wiki ", "");
-                //entry = entry.Remove(0, msg.messageAsArray[1].Length + 1);
-                Say(Wikipedia.ReadWikiEntry(entry));
+                string wikiEntry = Wikipedia.ReadWikiEntry(entry);
+                //if (wikiEntry.Length > 400)
+                //{
+                //    wikiEntry = wikiEntry.Substring(0, 400);
+                //}
+                Say(wikiEntry);
             }
         }
 
