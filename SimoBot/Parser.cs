@@ -18,6 +18,12 @@ namespace SimoBot
                 return new Message("PING", wordsInLine[1].Replace(":",""));
             }
 
+            if (wordsInLine.Length < 4)
+            {
+                return new Message("penis", "asdf");
+            }
+
+
             /*
              * Parses a string such as
              * 
