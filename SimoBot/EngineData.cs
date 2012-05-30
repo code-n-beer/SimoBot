@@ -16,7 +16,8 @@ namespace SimoBot
         public StreamWriter ircWriter;
         public TcpClient tcpClient;
         public NetworkStream networkStream;
-        DateTime startTime;
+        public DateTime startTime;
+        public List<string> nickList;
 
         public EngineData(string configPath)
         {
@@ -33,18 +34,19 @@ namespace SimoBot
         private void readConfig(string filename = "config.txt")
         {
             StreamReader confReader = new StreamReader(filename);
-            string line = confReader.ReadLine();
+            string line = "asdf";
             //string[] confs = new string[8];
 
             List<string> lines = new List<string>();
             while(line != null)
             {
+                line = confReader.ReadLine();
                 //If a comment, skip dat shit.
+                if (line == null) break;
                 if (line.StartsWith("*")) continue;
 
-                lines.Add(line);
 
-                line = confReader.ReadLine();
+                lines.Add(line);
             }
 
             MySQLConnectionString = lines[0];
@@ -97,6 +99,9 @@ namespace SimoBot
                 Console.WriteLine(line);
                 line = ircReader.ReadLine();
             }
+            Console.WriteLine(line);
+
+            nickList = new Parser().BuildNickList(line); 
             //Now we've joined a channel.
         }
     }

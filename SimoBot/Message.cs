@@ -17,7 +17,7 @@ namespace SimoBot
             action = parsedMsgArray[3];
             message = parsedMsgArray[4];
 
-            messageAsArray = message.Split(' ');
+            messageAsArray = message.Trim().Split(' ');
 
             firstWord = messageAsArray[0];
         }

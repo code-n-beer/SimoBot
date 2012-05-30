@@ -10,7 +10,7 @@ namespace SimoBot
     {
         public Message ParseMsg(string wholeline)    // DateTime = 0 | Nick = 1 | Channel = 2 | Action = 3 | Msg = 4 |
         {
-            string[] wordsInLine = wholeline.Split(null);
+            string[] wordsInLine = wholeline.Split(' ');
 
             //Wololo, I'll just leave this here.
             if(wordsInLine.Length < 3 && wholeline.Contains("PING"))
@@ -68,6 +68,10 @@ namespace SimoBot
             {
                 parsedMsg[4] += wordsInLine[a] + " ";
                 parsedMsg[4] = parsedMsg[4].Replace("'", "´").Replace("„Ã", "Ä").Replace("–Ã", "Ö").Replace("¤Ã", "ä").Replace("¶Ã", "ö");
+                if (parsedMsg[4].StartsWith(":"))
+                {
+                    parsedMsg[4] = parsedMsg[4].Remove(0, 1);
+                }
             }
 
             return new Message(parsedMsg);
@@ -104,54 +108,7 @@ namespace SimoBot
 
         //Easy way to check whether given URL is valid. Accepts www.xyz.com style URLs,
         //does not allow xyz.com style URLs. doesn't accept other than https, http, ftp
-        public Regex RgxUrl = new Regex("(((https|http|ftp):\\/\\/)|www\\.)(([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)|localhost|([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\.(com|net|org|info|biz|gov|name|edu|[a-zA-Z][a-zA-Z]))(:[0-9]+)?((\\/|\\?)[^ \"]*[^ ,;\\.:\">)])?");
+        
 
-        public string GetUrl(string output)
-        {
-            string URL = "";
-
-            string[] outputArray = output.Split(null);
-
-            int i = 0;
-
-            try
-            {
-                while (!RgxUrl.IsMatch(outputArray[i]))
-                {
-                    i++;
-                }
-
-                URL = outputArray[i].ToString();
-
-                URL = URL.TrimStart(':');
-
-                if (!URL.ToLower().Contains("http://") && !URL.ToLower().Contains("https://"))
-                {
-                    URL = "http://" + URL; //.Replace(":", "");
-                }
-            }
-            catch (NullReferenceException)
-            {
-                URL = "Failed to get URL.";
-            }
-
-            return URL;
-        }
-
-        public string ReverseMsg(string msg)
-        {
-
-            int msgLength = msg.Length;
-            //char[] charAr = new char[msgLength];
-            char[] charAr = msg.ToCharArray();
-            string reversedMsg = "";
-
-            for (int i = msgLength; i > 0; i--)
-            {
-                reversedMsg += charAr[i - 1];
-            }
-
-            return reversedMsg;
-        }
     }
 }
