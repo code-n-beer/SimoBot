@@ -84,6 +84,11 @@ namespace SimoBot
                 URL = "Failed to get URL.";
             }
 
+            //if (URL.ToLower().Contains("https://"))
+            //{
+            //    URL = URL.Replace("https://", "http://");
+            //}
+
             return URL;
         }
 
@@ -130,58 +135,64 @@ namespace SimoBot
             }
             else
             {
-
-                WebClient client = new WebClient();
-                string htmlCode = client.DownloadString(URL);
-
-
-                title = "";
-
-                if (htmlCode.Contains("<title>"))
+                try
                 {
-                    string[] htmlCodeSplitBiggerThan = htmlCode.Split('>');
+                    WebClient client = new WebClient();
+                    string htmlCode = client.DownloadString(URL);
 
-                    for (int i = 0; i < htmlCodeSplitBiggerThan.Length; i++)
-                    {
-                        if (htmlCodeSplitBiggerThan[i].Contains("</title"))
-                        {
-                            title = htmlCodeSplitBiggerThan[i].ToString();
-                            break;//i = htmlCodeSplitBiggerThan.Length;
-                        }
-                    }
-                    title = title.Replace("</title", null).Trim().Replace("&ouml;", "ö").Replace("&auml;", "ä").
-                        Replace("&#45;", "-").Replace("&amp;", "&").Replace("&#39;", "'").Replace("&#8211;", "-").
-                        Replace("&#x202a;", "").Replace("&#x202c;", "").Replace("&rlm;", "").Replace("&#x202b;", "").
-                        Replace("&ndash;", "").Replace("&lt;", "<").Replace("&gt;", ">").Replace("&quot;", @"'");
-                }
 
-                else
-                {
                     title = "";
-                }
 
-                if (title.Contains('\n'))        // You cannot say multiline stuff to irc so you have to split them to multiple messages
-                {
-                    string[] titleArray = title.Split('\n');
-                    string returnstring = "";
-                    for (int i = 0; i < titleArray.Length && i < 4; i++)
+                    if (htmlCode.Contains("<title>"))
                     {
-                        returnstring += titleArray[i].ToString().Trim() + " - ";
-                    }
-                    return returnstring;
+                        string[] htmlCodeSplitBiggerThan = htmlCode.Split('>');
 
-                }
-                else if (title == "")
-                {
-                    //Don't spam if there's no title. For now, bwahahahha.
-                }
-                else
-                {
+                        for (int i = 0; i < htmlCodeSplitBiggerThan.Length; i++)
+                        {
+                            if (htmlCodeSplitBiggerThan[i].Contains("</title"))
+                            {
+                                title = htmlCodeSplitBiggerThan[i].ToString();
+                                break;//i = htmlCodeSplitBiggerThan.Length;
+                            }
+                        }
+                        title = title.Replace("</title", null).Trim().Replace("&ouml;", "ö").Replace("&auml;", "ä").
+                            Replace("&#45;", "-").Replace("&amp;", "&").Replace("&#39;", "'").Replace("&#8211;", "-").
+                            Replace("&#x202a;", "").Replace("&#x202c;", "").Replace("&rlm;", "").Replace("&#x202b;", "").
+                            Replace("&ndash;", "").Replace("&lt;", "<").Replace("&gt;", ">").Replace("&quot;", @"'");
+                    }
+
+                    else
+                    {
+                        title = "";
+                    }
+
+                    if (title.Contains('\n'))        // You cannot say multiline stuff to irc so you have to split them to multiple messages
+                    {
+                        string[] titleArray = title.Split('\n');
+                        string returnstring = "";
+                        for (int i = 0; i < titleArray.Length && i < 4; i++)
+                        {
+                            returnstring += titleArray[i].ToString().Trim() + " - ";
+                        }
+                        return returnstring;
+
+                    }
+                    else if (title == "")
+                    {
+                        //Don't spam if there's no title. For now, bwahahahha.
+                    }
+                    else
+                    {
+                        return title;
+                    }
+
+                    addToLinkMysqlList();
                     return title;
                 }
-
-                addToLinkMysqlList();
-                return title;
+                catch (Exception e)
+                {
+                    return e.Message;
+                }
             }
         }
 
