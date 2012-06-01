@@ -19,6 +19,7 @@ namespace SimoBot
         public BackgroundWorker bgwIrcReader = new BackgroundWorker();
         LastFmStuff lastFm;
         URLTitleAndPictureSave URLTAPS;
+        MarkovChainTest.MarkovChainRedis MCR;
         //Wikipedia wiki;
 
         private Dictionary<string, MessageHandler> messageHandlers;
@@ -26,6 +27,7 @@ namespace SimoBot
 
         public Engine(string configPath = "config.txt")
         {
+            MCR = new MarkovChainTest.MarkovChainRedis();
             expl = new Expl();
             parser = new Parser();
             DATA = new EngineData(configPath);
@@ -56,6 +58,28 @@ namespace SimoBot
             privMsgHandlers["!add"] = addHandler;
             privMsgHandlers["!remove"] = removeHandler;
             privMsgHandlers["!wiki"] = wikiHandler;
+            privMsgHandlers["!m"] = markovHandler;
+            privMsgHandlers["simobot"] = comebackHandler;
+            privMsgHandlers["simobot:"] = comebackHandler;
+            privMsgHandlers["simobot,"] = comebackHandler;
+        }
+
+        private void comebackHandler(Message msg)
+        {
+            if(msg.messageAsArray.Length == 1)
+                Say(MCR.getNewMarkov("mitä "));
+            else //if(msg.messageAsArray.Length >= 1)
+            {
+                Say(msg.nick + ": " + MCR.getNewMarkov("oot "));
+            }
+        }
+
+        private void markovHandler(Message msg)
+        {
+            if (msg.messageAsArray.Length > 1)
+                Say(MCR.getNewMarkov(msg.messageAsArray[1]));
+            else
+                Say(MCR.getNewMarkov(""));
         }
 
         private void wikiHandler(Message msg)
@@ -128,8 +152,8 @@ namespace SimoBot
             }
 
             addToDB(msg);
+            MCR.addNewLineToRedis(msg.message);
         }
-
 
         public void addToDB(Message msg)
         {
@@ -159,7 +183,6 @@ namespace SimoBot
                 Console.WriteLine("MySQL failed: " + durp);
             }
         }
-
 
         private void reverseHandler(Message msg)
         {
@@ -261,8 +284,5 @@ namespace SimoBot
                 input = DATA.ircReader.ReadLine();
             }
         }
-
-        
-        
     }
 }
