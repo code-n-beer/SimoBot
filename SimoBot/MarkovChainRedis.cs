@@ -35,6 +35,13 @@ namespace MarkovChainTest
                 key = getTwoLastWords(finalString);
             }
 
+            if (finalString.Split(' ').Length <= 3 && seed == "" && wordCount == 100)
+            {
+                finalString += " ja " + getNewMarkov("", 99);
+            }
+
+            if (finalString.Length > 400) finalString = finalString.Substring(0, 400);
+
             return finalString;
         }
 
@@ -122,16 +129,18 @@ namespace MarkovChainTest
 
             int max = foundWords.Values.Max();
 
-            List<string> candidates = new List<string>();
+            List<string> candidates = new List<string>(foundWords.Keys);
 
+            /*
+            List<string> candidates = new List<string>();
             foreach(KeyValuePair<string,int> kvp in foundWords)
             {
-                //if (kvp.Value == max)
-                //{
+                if (kvp.Value == max)
+                {
                     candidates.Add(kvp.Key);
-                //}
+                }
             }
-
+            */
             int randomIdx = new Random().Next(candidates.Count);
 
             return candidates[randomIdx];
@@ -148,6 +157,8 @@ namespace MarkovChainTest
             {
                 if (s.StartsWith(seed))
                     keysWithSeed.Add(s);
+                //else if (s.EndsWith(seed))
+                 //   keysWithSeed.Add(s);
             }
 
 
@@ -182,6 +193,11 @@ namespace MarkovChainTest
         private List<string> getAllKeys()
         {
             return rclient.GetAllKeys();
+        }
+
+        public void selectDb(int db)
+        {
+            rclient.Db = db;
         }
 
 

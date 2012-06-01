@@ -62,6 +62,23 @@ namespace SimoBot
             privMsgHandlers["simobot"] = comebackHandler;
             privMsgHandlers["simobot:"] = comebackHandler;
             privMsgHandlers["simobot,"] = comebackHandler;
+            privMsgHandlers["!switchdb"] = switchHandler;
+        }
+
+        private void switchHandler(Message msg)
+        {
+
+            try
+            {
+                int db = Convert.ToInt32(msg.messageAsArray[1]);
+                MCR.selectDb(db);
+                Say("Changed to " + db);
+            }
+
+            catch (Exception e)
+            {
+                Say("Failed to change");
+            }
         }
 
         private void comebackHandler(Message msg)
