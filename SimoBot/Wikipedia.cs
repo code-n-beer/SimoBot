@@ -12,7 +12,7 @@ namespace SimoBot
 {
     static class Wikipedia
     {
-        public static string ReadWikiEntry(string Entry, string language = "fi") //Thx Crank
+        public static string ReadWikiEntry(string Entry, string language = "en")
         {
             string ret = "";
             string placeholder = Entry;
@@ -41,13 +41,9 @@ namespace SimoBot
             {
                 return ReadWikiEntry(ret.Remove(0, "REDIRECT ".Length));
             }
-            else if (ret.Contains("'None' is an element node.") && language == "fi")
+            else if (ret.Contains("'None' is an element node.") && language == "en")
             {
-                return ReadWikiEntry(placeholder, "en");
-            }
-            else if (ret.ToLower().StartsWith("ohjaus"))
-            {
-                return ReadWikiEntry(ret.Remove(0, "ohjaus ".Length));
+                return ReadWikiEntry(placeholder, "fi");
             }
 
             return ret;
