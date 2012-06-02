@@ -45,11 +45,14 @@ namespace MarkovChainTest
             return finalString;
         }
 
-        private Dictionary<string, Dictionary<string, int>> prepareDictionary(string s)
+        private Dictionary<string, List<string>> prepareDictionary(string s)
         {
+            var chains = new Dictionary<string, List<string>>();
+
             string[] words = s.Split(' ');
 
-            Dictionary<string, Dictionary<string, int>> chains = new Dictionary<string,Dictionary<string,int>>();
+            if (words.Length < 3)
+                return null;
 
             for (int i = 0; i < words.Length - 2; i++)
             {
@@ -58,21 +61,14 @@ namespace MarkovChainTest
 
                 if (chains.ContainsKey(key))
                 {
-                    if (chains[key].ContainsKey(words[i + 2]))
-                    {
-                        chains[key][words[i + 2]] += 1;
-                    }
-                    else
-                    {
-                        chains[key][words[i + 2]] = 1;
-                    }
+                    chains[key].Add(words[i + 2]);
                 }
                 else
                 {
                     //In this case there obviously are no records of following words for the two words,... Because there
                     //are no records of the two words themselves. So only one thingy is needed. Language barrier.
-                    chains[key] = new Dictionary<string, int>();
-                    chains[key].Add(words[i + 2], 1);
+                    chains[key] = new List<string>();
+                    chains[key].Add(words[i + 2]);
                 }
             }
 
@@ -81,55 +77,41 @@ namespace MarkovChainTest
 
         public void addNewLineToRedis(string s)
         {
+            s = strip(s);
 
             if (s.Split(' ').Length < 3) return;
 
-            Dictionary<string, Dictionary<string, int>> chains = prepareDictionary(s);
+            Dictionary<string, List<string>> chains = prepareDictionary(s);
+            if (chains == null) return;
 
-            foreach (KeyValuePair<string, Dictionary<string, int>> kvpUpper in chains)
+            foreach (KeyValuePair<string, List<string>> kvp in chains)
             {
-                string key = kvpUpper.Key;
-                foreach (KeyValuePair<string, int> kvpLower in kvpUpper.Value)
-                {
-                    string value = kvpLower.Key + " " + kvpLower.Value;
-                    //Console.WriteLine("KEY:{ " + key + " } VALUE: { " + value + " }");
-                    rclient.Add(key, value);
-                }
-                //Console.WriteLine();
+                rclient.AddRangeToSet(kvp.Key, kvp.Value);
             }
         }
 
-        private string getTwoLastWords(string s)
+        public void selectDb(int db)
         {
-            string[] words = s.Split(' ');
-            string rString = words[words.Length - 2] + " " + words[words.Length - 1];
-            return rString;
+            rclient.Db = db;
         }
 
-        private Dictionary<string, int> getFromRedis(string key)
+        private List<string> getFromRedis(string key)
         {
+            List<string> values = rclient.GetAllItemsFromSet(key).ToList();
+            //rclient.GetAllItemsFromSet
+            if (values.Count == 0) return null;
 
-            string value = rclient.Get<string>(key);
-            if (value == null) return null;
-            string[] valueSplit = value.Split(' ');
-
-            Dictionary<string, int> returnableDic = new Dictionary<string, int>();
-            returnableDic.Add(valueSplit[0], Convert.ToInt32(valueSplit[1]));
-
-            return returnableDic;
+            return values;
         }
         
         private string getNextWord(string key)
         {
-            Dictionary<string, int> foundWords = getFromRedis(key);
+            List<string> foundWords = getFromRedis(key);
 
             if (foundWords == null) { return ""; }
 
             if (foundWords.Count == 0) return "";
 
-            int max = foundWords.Values.Max();
-
-            List<string> candidates = new List<string>(foundWords.Keys);
 
             /*
             List<string> candidates = new List<string>();
@@ -141,9 +123,9 @@ namespace MarkovChainTest
                 }
             }
             */
-            int randomIdx = new Random().Next(candidates.Count);
+            int randomIdx = new Random(DateTime.Now.Millisecond).Next(foundWords.Count);
 
-            return candidates[randomIdx];
+            return foundWords[randomIdx];
         }
         
         private string getFirstWordPair(string seed)
@@ -161,17 +143,15 @@ namespace MarkovChainTest
                  //   keysWithSeed.Add(s);
             }
 
-
             //If the seeded word isn't found, return random key(=word pair)
             if (keysWithSeed.Count == 0)
             {
-                return keys[new Random().Next(keys.Count)];
+                return rclient.GetRandomKey();
             }
 
-            int randomIdx = new Random().Next(keysWithSeed.Count);
+            int randomIdx = new Random(DateTime.Now.Millisecond).Next(keysWithSeed.Count);
 
             return keysWithSeed[randomIdx];
-
         }
 
         private string getFirstWord(string s)
@@ -195,11 +175,27 @@ namespace MarkovChainTest
             return rclient.GetAllKeys();
         }
 
-        public void selectDb(int db)
+        private string getTwoLastWords(string s)
         {
-            rclient.Db = db;
+            string[] words = s.Split(' ');
+            string rString = words[words.Length - 2] + " " + words[words.Length - 1];
+            return rString;
         }
 
+        private string strip(string str)
+        {
+            char[] arr = str.ToCharArray();
 
+            arr = Array.FindAll<char>(arr, (c => (char.IsLetterOrDigit(c)
+                                                 || c == '-' || c == '_'
+                                                 || c == ':' || c == '('
+                                                 || c == ')' || c == '<'
+                                                 || c == '>' || c == ':'
+                                                 || c == ' ' //|| c == 'ä'
+                //|| c == 'ö' || c == 'å'
+                                                 )));
+
+            return new string(arr);
+        }
     }
 }

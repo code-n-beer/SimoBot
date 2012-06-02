@@ -93,10 +93,17 @@ namespace SimoBot
 
         private void markovHandler(Message msg)
         {
-            if (msg.messageAsArray.Length > 1)
-                Say(MCR.getNewMarkov(msg.messageAsArray[1]));
-            else
-                Say(MCR.getNewMarkov(""));
+            try
+            {
+                if (msg.messageAsArray.Length > 1)
+                    Say(MCR.getNewMarkov(msg.messageAsArray[1]));
+                else
+                    Say(MCR.getNewMarkov(""));
+            }
+            catch (Exception e)
+            {
+                Say(e.Message);
+            }
         }
 
         private void wikiHandler(Message msg)
