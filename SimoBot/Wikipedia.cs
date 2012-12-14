@@ -12,7 +12,7 @@ namespace SimoBot
 {
     static class Wikipedia
     {
-        public static string ReadWikiEntry(string Entry, string language = "fi") //Thx Crank
+        public static string ReadWikiEntry(string Entry, string language = "fi")
         {
             string ret = "";
             string placeholder = Entry;

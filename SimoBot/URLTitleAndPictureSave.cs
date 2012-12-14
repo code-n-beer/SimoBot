@@ -135,6 +135,12 @@ namespace SimoBot
             }
             else
             {
+                if (URL.ToLower().Contains("https://"))
+                    URL = URL.Replace("https://", "http://");
+
+                if (URL.Contains("["))
+                    return "";
+
                 try
                 {
                     WebClient client = new WebClient();

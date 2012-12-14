@@ -27,10 +27,10 @@ namespace SimoBot
 
         public Engine(string configPath = "config.txt")
         {
-            MCR = new MarkovChainTest.MarkovChainRedis();
-            expl = new Expl();
             parser = new Parser();
             DATA = new EngineData(configPath);
+            expl = new Expl(DATA.explPath);
+            MCR = new MarkovChainTest.MarkovChainRedis(Convert.ToInt32(DATA.RedisMainDB), Convert.ToInt32(DATA.RedisFastOneWordDB));
             addHandlers();
             lastFm = new LastFmStuff(DATA.LastFmAPIKey);
             URLTAPS = new URLTitleAndPictureSave(DATA.localPicturePath, DATA.remotePicturePath, DATA.MySQLConnectionString);
@@ -58,16 +58,22 @@ namespace SimoBot
             privMsgHandlers["!add"] = addHandler;
             privMsgHandlers["!remove"] = removeHandler;
             privMsgHandlers["!wiki"] = wikiHandler;
-            privMsgHandlers["!m"] = markovHandler;
+            //privMsgHandlers["!m"] = markovHandler;
             privMsgHandlers["simobot"] = comebackHandler;
             privMsgHandlers["simobot:"] = comebackHandler;
             privMsgHandlers["simobot,"] = comebackHandler;
             privMsgHandlers["!switchdb"] = switchHandler;
+            privMsgHandlers["!antonio"] = antonioHandler;
+        }
+
+        private void antonioHandler(Message msg)
+        {
+            int idx = new Random().Next(0, 35);
+            Say(DATA.antonioLines[idx]);
         }
 
         private void switchHandler(Message msg)
         {
-
             try
             {
                 int db = Convert.ToInt32(msg.messageAsArray[1]);
@@ -84,10 +90,14 @@ namespace SimoBot
         private void comebackHandler(Message msg)
         {
             if(msg.messageAsArray.Length == 1)
-                Say(MCR.getNewMarkov("mitä "));
-            else //if(msg.messageAsArray.Length >= 1)
+                Say(msg.nick + ": " + MCR.getNewMarkov(""));
+            else if (msg.messageAsArray.Length == 2) // Aka nick + 1 word
             {
-                Say(msg.nick + ": " + MCR.getNewMarkov("oot "));
+                Say(msg.nick + ": " + MCR.getNewMarkov(msg.messageAsArray[1]));
+            }
+            else if (msg.messageAsArray.Length > 2) // Aka nick + more than 1 word
+            {
+                Say(msg.nick + ": " + MCR.getNewMarkov(msg.messageAsArray[1] + " " + msg.messageAsArray[2]));
             }
         }
 
@@ -95,8 +105,10 @@ namespace SimoBot
         {
             try
             {
-                if (msg.messageAsArray.Length > 1)
+                if(msg.messageAsArray.Length == 1)
                     Say(MCR.getNewMarkov(msg.messageAsArray[1]));
+                if (msg.messageAsArray.Length > 2)
+                    Say(MCR.getNewMarkov(msg.messageAsArray[1] + " " + msg.messageAsArray[2]));
                 else
                     Say(MCR.getNewMarkov(""));
             }
@@ -164,6 +176,15 @@ namespace SimoBot
             expl.remove(msg.messageAsArray[1]);
         }
 
+        /*
+        //not yet implemented anywhere
+        string[] markovTriggers =
+        {
+        "simo",
+        "pääsiäinen",
+        "kakka"
+        };
+        */
         private void PrivMsgHandler(Message msg)
         {
             if (privMsgHandlers.Keys.Contains(msg.firstWord.ToLower()))
@@ -172,13 +193,37 @@ namespace SimoBot
             }
             else if (containsUrl(msg.message))
             {
-                Say(URLTAPS.getURLTitle(msg));
+                try
+                {
+                    Say(URLTAPS.getURLTitle(msg));
+                }
+                catch (Exception e)
+                {
+                    Say(e.Message);
+                }
+            }
+            else if (msg.message.ToLower().Contains("simo"))
+            {
+                if (!(msg.message.ToLower().Contains("simonix")))
+                {
+                    markovTriggers(msg.messageAsArray);
+                }
             }
 
-            addToDB(msg);
+            //addToDB(msg);
             MCR.addNewLineToRedis(msg.message);
         }
+        
+        private void markovTriggers(string[] msg)
+        {
+            //int randomIdx = new Random().Next(msg.messageAsArray.Length);
+            //Say(MCR.getNewMarkov(msg.messageAsArray[randomIdx]));
+            for (int i = 0; i < msg.Length - 1; i++)
+            {
 
+            }
+        }
+        
         public void addToDB(Message msg)
         {
             string CommandString = "INSERT INTO msgs VALUES ('" +
@@ -219,6 +264,8 @@ namespace SimoBot
             {
                 reversedMsg += charAr[i - 1];
             }
+
+            reversedMsg = reversedMsg.Replace("r!", "").Trim();
 
             Say(reversedMsg);
         }
@@ -265,6 +312,8 @@ namespace SimoBot
             input = input.ToLower();
             if (input.Contains("www.") || input.Contains("http://") || input.Contains("https://")) //Add more if necessary..?
             {
+                if (input.Contains("[") || input.Contains("]"))
+                    return false;
                 return true;
             }
             else
@@ -281,6 +330,7 @@ namespace SimoBot
         public void Say(string msg)
         {
             msg = "PRIVMSG " + DATA.channel + " :" + msg;
+	    if (msg.Length > 400) msg = msg.Substring(0, 400);
             DATA.ircWriter.WriteLine(msg);
         }
 

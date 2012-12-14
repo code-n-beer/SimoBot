@@ -47,22 +47,29 @@ namespace SimoBot
 
         public string runNP(Message msg)
         {
+            try
+            {
 
-            if (msg.messageAsArray.Length >= 2)
-            {
-                string nick = msg.messageAsArray[1];
-                return getNP(nick);
-            }
-            else
-            {
-                if (nickDictionary.Keys.Contains(msg.nick))
+                if (msg.messageAsArray.Length >= 2)
                 {
-                    return getNP(nickDictionary[msg.nick]);
+                    string nick = msg.messageAsArray[1];
+                    return getNP(nick);
                 }
                 else
                 {
-                    return "Your nick wasn't found from the saved Last.Fm nicklist. Try !setlastfm 'YourLastFmNick' (without quotes)"; 
+                    if (nickDictionary.Keys.Contains(msg.nick))
+                    {
+                        return getNP(nickDictionary[msg.nick]);
+                    }
+                    else
+                    {
+                        return "Your nick wasn't found from the saved Last.Fm nicklist. Try !setlastfm 'YourLastFmNick' (without quotes)";
+                    }
                 }
+            }
+            catch (Exception e)
+            {
+                return "Olen rikki: " + e.Message;
             }
         }
 

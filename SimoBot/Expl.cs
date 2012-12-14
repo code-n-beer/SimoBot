@@ -61,8 +61,8 @@ namespace SimoBot
 
         public string addExpl(string name, string expl)
         {
+            expl = expl.Trim();
             name = name.ToLower();
-            //expl = expl.ToLower();
 
             if (name.Contains("|"))
             {
@@ -82,11 +82,13 @@ namespace SimoBot
             }
             else
             {
-
-
                 if (dictionary.ContainsKey(name))
                 {
-                    expl = dictionary[name] + " | " + expl;
+                    if ((dictionary[name] + " | " + expl).Length > 400)
+                    {
+                        return "Proposed new expl doesn't fit into one message character limit";
+                    }
+                    expl = dictionary[name] + " | " + expl.Trim();
                     dictionary[name] = expl;
                     refreshTextFile();
                     return explain(name);

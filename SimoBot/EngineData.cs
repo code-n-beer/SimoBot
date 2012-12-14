@@ -11,24 +11,44 @@ namespace SimoBot
     public class EngineData
     {
         //public static string MySQLConnectionString = "";
-        public string MySQLConnectionString, LastFmAPIKey, server, port, nick, channel, localPicturePath, remotePicturePath;
+        public string MySQLConnectionString, LastFmAPIKey, server, port, nick, channel, localPicturePath, remotePicturePath, explPath;
+        public string RedisMainDB, RedisFastOneWordDB;
+
         public StreamReader ircReader;
         public StreamWriter ircWriter;
         public TcpClient tcpClient;
         public NetworkStream networkStream;
         public DateTime startTime;
         public List<string> nickList;
+        public List<string> antonioLines;
 
         public EngineData(string configPath)
         {
             startTime = DateTime.Now;
             readConfig(configPath);
+            populateAntonio();
 
             initSockets();
 
             //Initialize Last.fm thingy.
 
             connect();
+        }
+
+        private void populateAntonio(string filename = "antonio.txt")
+        {
+            StreamReader antonioReader = new StreamReader(filename);
+            string line = "asdf";
+
+            antonioLines = new List<string>();
+
+            while (line != null)
+            {
+                line = antonioReader.ReadLine();
+                if (line == null) break;
+                antonioLines.Add(line);
+            }
+
         }
 
         private void readConfig(string filename = "config.txt")
@@ -57,6 +77,9 @@ namespace SimoBot
             channel = lines[5];
             localPicturePath = lines[6];
             remotePicturePath = lines[7];
+            explPath = lines[8];
+            RedisMainDB = lines[9];
+            RedisFastOneWordDB = lines[10];
         }
 
         private void initSockets()
@@ -78,7 +101,7 @@ namespace SimoBot
             ircWriter.WriteLine("USER " + nick + " 8 * :" + nick);
 
             string line = ircReader.ReadLine();
-            while(!line.Contains("/MOTD"))
+            while(!line.Contains("/MOTD") && !line.Contains("End of MOTD"))
             {
                 Console.WriteLine(line);
 
