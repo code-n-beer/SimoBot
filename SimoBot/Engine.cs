@@ -68,7 +68,7 @@ namespace SimoBot
 
         private void antonioHandler(Message msg)
         {
-            int idx = new Random().Next(0, 35);
+            int idx = new Random().Next(0, DATA.antonioLines.Count - 1);
             Say(DATA.antonioLines[idx]);
         }
 
