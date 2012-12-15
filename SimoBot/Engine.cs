@@ -156,11 +156,20 @@ namespace SimoBot
                 return;
             }
 
-            string explName = msg.messageAsArray[1];
-            string explanation = msg.message.Replace("!add ", "");
-            explanation = explanation.Remove(0, explName.Length + 1);
+            try
+            {
 
-            Say(expl.addExpl(explName, explanation));
+                string explName = msg.messageAsArray[1];
+                string explanation = msg.message.Replace("!add ", "");
+                explanation = explanation.Remove(0, explName.Length + 1);
+
+                Say(expl.addExpl(explName, explanation));
+            }
+            catch (Exception e)
+            {
+                Say("Something went wrong, did not add");
+                Console.WriteLine("Fail: " + e.Message);
+            }
 
 
             //expl.addExpl(msg.messageAsArray[1],
@@ -195,11 +204,14 @@ namespace SimoBot
             {
                 try
                 {
-                    Say(URLTAPS.getURLTitle(msg));
+                    //Say(URLTAPS.getURLTitle(msg));
+                    string asd = URLTAPS.getURLTitle(msg);
+                    if (asd != "fail")
+                        Say(asd);
                 }
                 catch (Exception e)
                 {
-                    Say(e.Message);
+                    //Say(e.Message);
                 }
             }
             else if (msg.message.ToLower().Contains("simo"))
