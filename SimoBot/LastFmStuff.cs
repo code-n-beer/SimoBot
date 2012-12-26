@@ -123,11 +123,11 @@ namespace SimoBot
             htmlCode = getUrlHtmlContent(tagURL);
 
             if (htmlCode == "")
-                return "";
+                return lastFmMsg;
 
             List<string> htmlCodeLines = new List<string>(htmlCode.Split('\n'));
             if (htmlCodeLines.Count < 13)
-                return "";
+                return lastFmMsg;
 
 
             lastFmMsg += " (" + htmlCodeLines[4].Replace("<name>", "").Replace("</name>", "").Trim();
