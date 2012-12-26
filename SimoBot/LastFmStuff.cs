@@ -126,17 +126,51 @@ namespace SimoBot
                 return lastFmMsg;
 
             List<string> htmlCodeLines = new List<string>(htmlCode.Split('\n'));
-            if (htmlCodeLines.Count < 13)
-                return lastFmMsg;
 
-
+            if(htmlCodeLines.Count >= 13)
+            {
             lastFmMsg += " (" + htmlCodeLines[4].Replace("<name>", "").Replace("</name>", "").Trim();
             lastFmMsg += ", " + htmlCodeLines[8].Replace("<name>", "").Replace("</name>", "").Trim();
             lastFmMsg += ", " + htmlCodeLines[12].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
+            }
+            else if(htmlCodeLines.Count >= 9)
+            {
+                lastFmMsg += " (" + htmlCodeLines[4].Replace("<name>", "").Replace("</name>", "").Trim();
+                lastFmMsg += ", " + htmlCodeLines[8].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
+            }
+            else if (htmlCodeLines.Count >= 5 && htmlCodeLines[4].Contains("<name>"))
+            {
+                lastFmMsg += " (" + htmlCodeLines[4].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
+            }
+            else
+            {
+                //Track had no tags, get artist tags instead
+                string artistTagURL = "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptags&artist="
+                                + artist + "&api_key=" + APIKey;
 
+                htmlCode = getUrlHtmlContent(artistTagURL);
 
+                List<string> htmlCodeLinesArtistTopTags = new List<string>(htmlCode.Split('\n'));
+
+                if (htmlCodeLinesArtistTopTags.Count >= 13)
+                {
+                    lastFmMsg += " (" + htmlCodeLinesArtistTopTags[4].Replace("<name>", "").Replace("</name>", "").Trim();
+                    lastFmMsg += ", " + htmlCodeLinesArtistTopTags[8].Replace("<name>", "").Replace("</name>", "").Trim();
+                    lastFmMsg += ", " + htmlCodeLinesArtistTopTags[12].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
+                }
+                else if (htmlCodeLinesArtistTopTags.Count >= 9)
+                {
+                    lastFmMsg += " (" + htmlCodeLinesArtistTopTags[4].Replace("<name>", "").Replace("</name>", "").Trim();
+                    lastFmMsg += ", " + htmlCodeLinesArtistTopTags[8].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
+                }
+                else if (htmlCodeLinesArtistTopTags.Count >= 5 && htmlCodeLinesArtistTopTags[4].Contains("<name>"))
+                {
+                    lastFmMsg += " (" + htmlCodeLinesArtistTopTags[4].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
+                }
+            }
 
             return lastFmMsg;
+
         }
 
         private string getUrlHtmlContent(string URL)
