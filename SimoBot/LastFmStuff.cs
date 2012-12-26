@@ -78,38 +78,13 @@ namespace SimoBot
             string URL = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&nowplaying=%22true%22&user="
                + lastFmUser + "&limit=1&api_key=" + APIKey;
 
-            WebClient client = null;
-            string htmlCode = "";
-            try
-            {
-                client = new WebClient();
-                htmlCode = client.DownloadString(URL);
-            }
             
-            catch (WebException)
-            {
+            string htmlCode = getUrlHtmlContent(URL);
+            if (htmlCode == "")
                 return "";
-            }
 
-
-            List<string> htmlCodeInLines = new List<string>();
-
-            string line = "";
-
-            foreach (char c in htmlCode)
-            {
-                if (c == '\n')
-                {
-                    htmlCodeInLines.Add(line);
-                    line = "";
-                }
-                else
-                {
-                    line += c;
-                }
-            }
-
-            Regex RgxWildCard = new Regex(".*");
+            
+            List<string> htmlCodeInLines = new List<string>(htmlCode.Split('\n'));
 
             string artistStr = htmlCodeInLines[4].ToString();
 
@@ -133,14 +108,54 @@ namespace SimoBot
 
             if (htmlCodeInLines[3].Contains(@"nowplaying=""true"""))
             {
-                lastFmMsg = lastFmUser + " is now playing: <" + artist + "> - <" + track + ">";
+                lastFmMsg = lastFmUser + " playing: <" + artist + "> - <" + track + ">";
             }
             else
             {
-                lastFmMsg = lastFmUser + " played last: <" + artist + "> - <" + track + ">";
+                lastFmMsg = lastFmUser + " played: <" + artist + "> - <" + track + ">";
             }
 
+            //Get three most used tags for the song
+
+            string tagURL = "http://ws.audioscrobbler.com/2.0/?method=track.gettoptags&artist="
+                + artist + "&track=" + track + "&api_key=" + APIKey;
+
+            htmlCode = getUrlHtmlContent(tagURL);
+
+            if (htmlCode == "")
+                return "";
+
+            List<string> htmlCodeLines = new List<string>(htmlCode.Split('\n'));
+            if (htmlCodeLines.Count < 13)
+                return "";
+
+
+            lastFmMsg += " (" + htmlCodeLines[4].Replace("<name>", "").Replace("</name>", "").Trim();
+            lastFmMsg += ", " + htmlCodeLines[8].Replace("<name>", "").Replace("</name>", "").Trim();
+            lastFmMsg += ", " + htmlCodeLines[12].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
+
+
+
             return lastFmMsg;
+        }
+
+        private string getUrlHtmlContent(string URL)
+        {
+            WebClient client = null;
+            string htmlCode = "";
+            try
+            {
+                client = new WebClient();
+                htmlCode = client.DownloadString(URL);
+            }
+
+            catch (WebException)
+            {
+                Console.WriteLine("Empty html code received from: " + URL);
+                return "";
+            }
+
+            return htmlCode;
         }
 
         private Dictionary<string, string> getLastFmNickDictionary(string filename = "LastFmNick.txt")

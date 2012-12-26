@@ -132,6 +132,7 @@ namespace MarkovChainTest
         public void selectDb(int db)
         {
             rclient.Db = db;
+            mainDb = db;
         }
 
         private List<string> getFromRedis(string key)
