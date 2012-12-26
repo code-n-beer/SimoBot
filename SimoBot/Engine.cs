@@ -368,6 +368,11 @@ namespace SimoBot
                 }
 
                 input = DATA.ircReader.ReadLine();
+
+
+                //Perhaps a good idea to sleep once in a while so we don't just use all processing available
+                //when waiting for something to happen.
+                System.Threading.Thread.Sleep(100);
             }
         }
     }
