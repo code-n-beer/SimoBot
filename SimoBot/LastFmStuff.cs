@@ -152,7 +152,7 @@ namespace SimoBot
 
                 List<string> htmlCodeLinesArtistTopTags = new List<string>(htmlCode.Split('\n'));
 
-                if (htmlCodeLinesArtistTopTags.Count >= 13)
+                if (htmlCodeLinesArtistTopTags.Count >= 14)
                 {
                     lastFmMsg += " (" + htmlCodeLinesArtistTopTags[4].Replace("<name>", "").Replace("</name>", "").Trim();
                     lastFmMsg += ", " + htmlCodeLinesArtistTopTags[8].Replace("<name>", "").Replace("</name>", "").Trim();
