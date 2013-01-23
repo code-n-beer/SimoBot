@@ -127,7 +127,7 @@ namespace SimoBot
 
             List<string> htmlCodeLines = new List<string>(htmlCode.Split('\n'));
 
-            if(htmlCodeLines.Count >= 13)
+            if(htmlCodeLines.Count >= 14)
             {
             lastFmMsg += " (" + htmlCodeLines[4].Replace("<name>", "").Replace("</name>", "").Trim();
             lastFmMsg += ", " + htmlCodeLines[8].Replace("<name>", "").Replace("</name>", "").Trim();

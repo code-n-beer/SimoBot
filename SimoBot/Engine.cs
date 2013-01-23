@@ -20,6 +20,7 @@ namespace SimoBot
         LastFmStuff lastFm;
         URLTitleAndPictureSave URLTAPS;
         MarkovChainTest.MarkovChainRedis MCR;
+        AnsweringMachine AMachine;
         //Wikipedia wiki;
 
         private Dictionary<string, MessageHandler> messageHandlers;
@@ -34,6 +35,7 @@ namespace SimoBot
             addHandlers();
             lastFm = new LastFmStuff(DATA.LastFmAPIKey);
             URLTAPS = new URLTitleAndPictureSave(DATA.localPicturePath, DATA.remotePicturePath, DATA.MySQLConnectionString);
+            //AMachine = new AnsweringMachine(DATA.AnsweringMachineTextFileSave);
 
             bgwIrcReader.DoWork += new DoWorkEventHandler(bgwIrcReader_DoWork);
             bgwIrcReader.RunWorkerAsync();
@@ -47,23 +49,25 @@ namespace SimoBot
 
             privMsgHandlers = new Dictionary<string, MessageHandler>();
 
-            //The following do not exist yet...
             privMsgHandlers["!np"] = npHandler;
             privMsgHandlers["!setlastfm"] = setLastFmHandler;
             privMsgHandlers["!uguu"] = uguuHandler;
-            //privMsgHandlers["!wiki"] = wikiHandler;
             privMsgHandlers["!r"] = reverseHandler;
-            //privMsgHandlers["URLTITLE"] = URLHandler;
             privMsgHandlers["!expl"] = explHandler;
             privMsgHandlers["!add"] = addHandler;
             privMsgHandlers["!remove"] = removeHandler;
             privMsgHandlers["!wiki"] = wikiHandler;
-            //privMsgHandlers["!m"] = markovHandler;
             privMsgHandlers["simobot"] = comebackHandler;
             privMsgHandlers["simobot:"] = comebackHandler;
             privMsgHandlers["simobot,"] = comebackHandler;
             privMsgHandlers["!switchdb"] = switchHandler;
             privMsgHandlers["!antonio"] = antonioHandler;
+            privMsgHandlers["!leavemsg"] = addNewAnsMachineMsgHandler;
+        }
+
+        private void addNewAnsMachineMsgHandler(Message msg)
+        {
+
         }
 
         private void antonioHandler(Message msg)

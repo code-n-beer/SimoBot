@@ -98,6 +98,8 @@ namespace SimoBot
         }
 
 
+
+
         public List<string> BuildNickList(string output)
         {
             output = output.Replace(":", "").Replace("+", "").Replace("@", "");
