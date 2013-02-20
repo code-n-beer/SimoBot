@@ -6,6 +6,7 @@ using System.Net;
 using System.IO;
 using System.Text.RegularExpressions;
 using MySql.Data.MySqlClient;
+using System.Diagnostics;
 
 namespace SimoBot
 {
@@ -16,15 +17,12 @@ namespace SimoBot
         Message message;
         private string connectionString;
         string title = "";
-        System.Diagnostics.Process wgetProcess;
 
         public URLTitleAndPictureSave(string localPicPath, string remotePicPath, string connectionString)
         {
             this.connectionString = connectionString;
             this.localPicPath = localPicPath;
             this.remotePicPath = remotePicPath;
-            wgetProcess = new System.Diagnostics.Process();
-            //wgetProcess.Start();
         }
         private bool fileNameAlreadyExists(string filename)
         {
@@ -120,8 +118,18 @@ namespace SimoBot
                     return "";
                 }
 
-                wgetProcess = System.Diagnostics.Process.Start("wget", "--no-check-certificate -O " + localPicPath + picSaveName + " " + URL);
-                Console.WriteLine("Nope, didn't crash there.");
+		ProcessStartInfo ps = new ProcessStartInfo("wget", "--no-check-certificate -O " + localPicPath + picSaveName + " " + URL);
+		ps.UseShellExecute = false;
+
+		ps.RedirectStandardOutput = true;
+
+		using (Process p = Process.Start(ps))
+		{
+		    string output = p.StandardOutput.ReadToEnd();
+		    p.WaitForExit();
+		    Console.WriteLine(output);
+		}
+			 
                 try
                 {
                     addToLinkMysqlList(picSaveName);

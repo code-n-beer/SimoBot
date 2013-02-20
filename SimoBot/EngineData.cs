@@ -11,8 +11,8 @@ namespace SimoBot
     public class EngineData
     {
         //public static string MySQLConnectionString = "";
-        public string MySQLConnectionString, LastFmAPIKey, server, port, nick, channel, localPicturePath, remotePicturePath, explPath;
-        public string RedisMainDB, RedisFastOneWordDB, AnsweringMachineTextFileSave;
+        public string MySQLConnectionString, LastFmAPIKey, server, port, nick, channel, localPicturePath, remotePicturePath, explPath, timerPath;
+        public string RedisMainDB, RedisFastOneWordDB;
 
         public StreamReader ircReader;
         public StreamWriter ircWriter;
@@ -22,16 +22,16 @@ namespace SimoBot
         public List<string> nickList;
         public List<string> antonioLines;
 
+
         public EngineData(string configPath)
         {
             startTime = DateTime.Now;
             readConfig(configPath);
-
-            //buildAnsweringMachine(AnsweringMachineTextFileSave);
-
             populateAntonio();
 
             initSockets();
+
+            //Initialize Last.fm thingy.
 
             connect();
         }
@@ -81,7 +81,7 @@ namespace SimoBot
             explPath = lines[8];
             RedisMainDB = lines[9];
             RedisFastOneWordDB = lines[10];
-            AnsweringMachineTextFileSave = lines[11];
+	    timerPath = lines[11];
         }
 
         private void initSockets()

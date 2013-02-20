@@ -98,8 +98,6 @@ namespace SimoBot
         }
 
 
-
-
         public List<string> BuildNickList(string output)
         {
             output = output.Replace(":", "").Replace("+", "").Replace("@", "");
@@ -114,9 +112,107 @@ namespace SimoBot
             return ChannelNickList;
         }
 
-        //Easy way to check whether given URL is valid. Accepts www.xyz.com style URLs,
-        //does not allow xyz.com style URLs. doesn't accept other than https, http, ftp
-        
+	static Regex numbers = new Regex("^[0-9]");
+	static Regex charactersAZaz = new Regex("^[a-zA-Z]");
+	static Regex dhms = new Regex("^[dhmsDHMS]");
 
+	static public bool isValidTime(string time)
+	{
+		if (time.Length < 2)
+			return false;
+
+		//if(!numbers.IsMatch(time[0].ToString()))
+		//	return false;
+
+		if (!"0123456789".Contains(time[0]))
+			return false;
+
+		for (int i = 1; i < time.Length; i++)
+		{
+			char c = time[i];
+
+			if (dhms.IsMatch(time[i].ToString())) // if(d or h or m or s)
+			{
+
+				if ( ! numbers.IsMatch(time[i - 1].ToString()))
+				{
+					//Is not preceded by a number, hence the datetime format is flawed
+					return false;
+				}
+
+				if (time.IndexOf(time[i]) != time.LastIndexOf(time[i])) //ie: contains more than one of the same character -> format flawed
+				{
+					return false;
+				}
+			}
+		}
+
+
+
+		return true;
+	}
+
+		static public DateTime convertToDateTimeAndGetAlarmTime(string time)
+		{
+			int days = 0;
+			int hours = 0;
+			int minutes = 0;
+			int seconds = 0;
+
+			DateTime now = DateTime.Now;
+
+			for (int i = time.Length - 1; i >= 0; i--) //Disgusting, terrible code. Please look away ^__^. It's actually funny how utterly confusing it is.
+			{
+				char c = time[i];
+				if(dhms.IsMatch(c.ToString())) // If d/h/m/s
+				{
+					string number = "";
+
+					//for (char curChar = time[i-1]; numbers.IsMatch(curChar.ToString()); i--)
+					//{
+					//	curChar = time[i - 1];
+					//	number = curChar + number;
+					//}
+
+					int j = i - 1;
+					while (numbers.IsMatch(time[j].ToString()))
+					{
+						number = time[j] + number;
+						if (j == 0)
+							break;
+						j--;
+					}
+					c  = c.ToString().ToLower().ToCharArray()[0]; //An another monstrosity. If you haven't cringed a single time so far, never code anything yourself again, ever.
+
+					int intNumber = Convert.ToInt32(number);
+					switch (c)
+					{
+						case 'd':
+							days = intNumber;
+							break;
+						case 'h':
+							hours = intNumber;
+							break;
+						case 'm':
+							minutes = intNumber;
+							break;
+						case 's':
+							seconds = intNumber;
+							break;
+					}
+				    //Adding one because the for loop end statement will soon deduct 1 from it again. This ist he most terrible thing ever :D
+					//but it does make it possible to skip the numbers we already went through. 
+				}
+			}
+
+			DateTime alarm = new DateTime();
+			alarm = now;
+			alarm = alarm.AddDays(days);
+			alarm = alarm.AddHours(hours);
+			alarm = alarm.AddMinutes(minutes);
+			alarm = alarm.AddSeconds(seconds);
+
+			return alarm;
+		}
     }
 }
