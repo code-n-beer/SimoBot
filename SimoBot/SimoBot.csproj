@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnsweringMachine.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="EngineData.cs" />
     <Compile Include="Expl.cs" />

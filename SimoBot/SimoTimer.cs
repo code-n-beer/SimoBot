@@ -9,9 +9,10 @@ namespace SimoBot
     class SimoTimer : Timer
     {
 		public TimerHandler th;
-        public SimoTimer(string nick, string message, DateTime time, TimerHandler th)
+        public SimoTimer(string nick, string message, DateTime time, DateTime timeSet, TimerHandler th)
             : base()
         {
+            this.timeSet = timeSet;
 			this.th = th;
 			this.nick = nick;
 			this.message = message;
@@ -19,7 +20,11 @@ namespace SimoBot
 			this.AutoReset = false;
         }
 
-
+        public DateTime timeSet
+        {
+            get;
+            set;
+        }
 
 		public string message
 		{

@@ -28,7 +28,16 @@ namespace SimoBot
 		public static void TimerCallBack(object source, ElapsedEventArgs e)
 		{
 			SimoTimer st = (SimoTimer)source;
-			st.th.engine.Say(st.nick + ": " + st.message);
+            TimeSpan ts = (DateTime.Now - st.timeSet);
+            st.th.engine.Say("'" + st.message + "' left by " + st.nick + " "
+                + ts.Days + "d "
+                + ts.Hours + "h "
+                + ts.Minutes + "m "
+                + ts.Seconds + "s "
+                + "ago");
+                //+ (DateTime.Now - st.timeSet).Days + "d "
+                //+ (DateTime.
+            //st.th.engine.Say(st.nick + ": " + st.message);
 			st.th.removeTimer(st);
 			st.Dispose();
 		}
@@ -39,13 +48,13 @@ namespace SimoBot
 
 		}
 
-		private void createNewTimer(string nick, string message, DateTime time, bool shouldAddToFile = true)
+		private void createNewTimer(string nick, string message, DateTime time, DateTime timeSet, bool shouldAddToFile = true)
 		{
 			if (!nickTimerListDictionary.ContainsKey(nick))
 			{
 				nickTimerListDictionary[nick] = new List<SimoTimer>();
 			}
-			SimoTimer st = new SimoTimer(nick, message, time, this);
+			SimoTimer st = new SimoTimer(nick, message, time, timeSet, this);
 			nickTimerListDictionary[nick].Add(st);
 
 			st.Elapsed += new ElapsedEventHandler(TimerCallBack);
@@ -64,7 +73,7 @@ namespace SimoBot
 			for (int i = 0; i < nickTimerListDictionary[nick].Count; i++)
 			{
 				curTimer = nickTimerListDictionary[nick][0];
-				if (curTimer.nick == st.nick && curTimer.message == st.message && curTimer.time == st.time)
+				if (curTimer.nick == st.nick && curTimer.message == st.message && curTimer.time == st.time && curTimer.timeSet == st.timeSet)
 				{
 					removeFromFile(curTimer);
 					nickTimerListDictionary[nick].RemoveAt(i);
@@ -99,9 +108,11 @@ namespace SimoBot
 				string nick = splitLine[0];
 				string message = splitLine[1];
 				DateTime time;
+                DateTime timeSet;
 				try
 				{
 					time = DateTime.Parse(splitLine[2]);
+                    timeSet = DateTime.Parse(splitLine[3]);
 				}
 				catch (Exception) //Gotta catch 'em all
 				{
@@ -116,7 +127,7 @@ namespace SimoBot
 					continue;
 				}
 
-				createNewTimer(nick, message, time, false);
+				createNewTimer(nick, message, time, timeSet, false);
 
 				lines += line + '\n';
 
@@ -132,7 +143,7 @@ namespace SimoBot
 		private void addToFile(SimoTimer st)
 		{
 			StreamWriter writer = new StreamWriter(path, true); //append
-			writer.WriteLine(st.nick + "|" + st.message.Replace("|", "") + "|" + st.time); //replaced |'s from message so they don't break THE SYSTEM
+			writer.WriteLine(st.nick + "|" + st.message.Replace("|", "") + "|" + st.time + "|" + st.timeSet); //replaced |'s from message so they don't break THE SYSTEM
 			writer.Flush();
 			writer.Close();
 		}
@@ -142,7 +153,7 @@ namespace SimoBot
 			StreamReader reader = new StreamReader(path);
 
 			List<string> lines = new List<string>(reader.ReadToEnd().Split('\n'));
-			lines.Remove(st.nick + "|" + st.message.Replace("|", "") + "|" + st.time);
+			lines.Remove(st.nick + "|" + st.message.Replace("|", "") + "|" + st.time + "|" + st.timeSet);
 			reader.Close();
 
 			dumpListToFile(lines);
@@ -202,7 +213,7 @@ namespace SimoBot
 
 			try
 			{
-				createNewTimer(nick, message, dt);
+				createNewTimer(nick, message, dt, DateTime.Now);
 			}
 			catch (Exception e)
 			{
