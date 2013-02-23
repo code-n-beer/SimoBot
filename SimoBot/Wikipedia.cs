@@ -20,7 +20,6 @@ namespace SimoBot
             try
             {
                 var request = (HttpWebRequest)WebRequest.Create(@"http://" + language +
-                    //".wikipedia.org/w/api.php?format=xml&action=query&titles=" + Entry + @"&prop=extracts&exintro=1&explaintext");
                     ".wikipedia.org/w/api.php?format=xml&action=query&titles=" + Entry + @"&prop=extracts&exsentences=2&explaintext");
                 request.UserAgent = "SimoBot/3.0 (tsarpf@gmail.com)";
 
@@ -53,6 +52,34 @@ namespace SimoBot
             return ret;
         }
 
+		public static string ReadRandomEntry(string language = "fi")
+		{
+			string ret = "";
+
+			try
+			{
+				var request = (HttpWebRequest)WebRequest.Create(@"http://" + language +
+					".wikipedia.org/w/api.php?format=xml&action=query&generator=random&prop=extracts&exsentences=2&explaintext&grnnamespace=0");
+				request.UserAgent = "SimoBot/3.0 (tsarpf@gmail.com)";
+
+				var response = request.GetResponse();
+
+				var reader = XmlTextReader.Create(response.GetResponseStream());
+
+				reader.ReadToFollowing("extract");
+
+				ret = reader.ReadElementContentAsString();
+			}
+			catch (Exception e)
+			{
+				ret = e.Message;
+			}
+
+			return ret;
+		}
+		//
+		//
+		//http://en.wikipedia.org/w/api.php?action=query&generator=random&prop=extracts&exsentences=2&explaintext&grnnamespace=0
         public static string UrlEncode(string s, Encoding e)
         {
             StringBuilder sb = new StringBuilder();

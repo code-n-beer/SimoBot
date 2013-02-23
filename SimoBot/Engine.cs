@@ -184,6 +184,11 @@ namespace SimoBot
                 //}
                 Say(wikiEntry);
             }
+			else if(msg.messageAsArray.Length == 1)
+			{
+				//wanted random
+				Say(Wikipedia.ReadRandomEntry());
+			}
         }
 
         private void explHandler(Message msg)
