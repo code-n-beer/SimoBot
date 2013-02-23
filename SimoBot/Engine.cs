@@ -176,6 +176,16 @@ namespace SimoBot
         {
             if (msg.messageAsArray.Length >= 2)
             {
+				if (msg.messageAsArray[1].ToLower() == "en")
+				{
+					Say(Wikipedia.ReadRandomEntry("en"));
+					return;
+				}
+				else if(msg.messageAsArray[1].ToLower() == "fi")
+				{
+					Say(Wikipedia.ReadRandomEntry("fi"));
+					return;
+				}
                 string entry = msg.message.Replace("!wiki ", "");
                 string wikiEntry = Wikipedia.ReadWikiEntry(entry);
                 //if (wikiEntry.Length > 400)
@@ -184,11 +194,6 @@ namespace SimoBot
                 //}
                 Say(wikiEntry);
             }
-			else if(msg.messageAsArray.Length == 1)
-			{
-				//wanted random
-				Say(Wikipedia.ReadRandomEntry());
-			}
         }
 
         private void explHandler(Message msg)
