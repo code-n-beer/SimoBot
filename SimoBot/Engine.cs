@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ComponentModel;
 using MySql.Data.MySqlClient;
+using System.IO;
 
 
 namespace SimoBot
@@ -21,6 +22,7 @@ namespace SimoBot
         URLTitleAndPictureSave URLTAPS;
         MarkovChainTest.MarkovChainRedis MCR;
 		TimerHandler timerHandler;
+		SimoTwitter simoTwitter;
         //Wikipedia wiki;
 
         private Dictionary<string, MessageHandler> messageHandlers;
@@ -36,6 +38,7 @@ namespace SimoBot
             lastFm = new LastFmStuff(DATA.LastFmAPIKey);
             URLTAPS = new URLTitleAndPictureSave(DATA.localPicturePath, DATA.remotePicturePath, DATA.MySQLConnectionString);
 			timerHandler = new TimerHandler(DATA.timerPath, this);
+			simoTwitter = new SimoTwitter(DATA.twitterCredentials);
 
             bgwIrcReader.DoWork += new DoWorkEventHandler(bgwIrcReader_DoWork);
             bgwIrcReader.RunWorkerAsync();
@@ -68,7 +71,38 @@ namespace SimoBot
             privMsgHandlers["!antonio"] = antonioHandler;
 			privMsgHandlers["!timer"] = timerCommandHandler;
 			privMsgHandlers["!timerremove"] = removeTimerHandler;
+			privMsgHandlers["!tweet"] = tweetHandler;
         }
+
+		private void tweetHandler(Message msg)
+		{
+			string fail;
+			string newTweet = msg.message.Substring(6).Trim(); //length of "!tweet" ... sigh.
+			if (Parser.isLegitTweet(out fail, newTweet))
+			{
+				try
+				{
+					justInCaseFile(msg);
+					Say(simoTwitter.tweet(newTweet));
+				}
+				catch (Exception e)
+				{
+					Console.WriteLine("Tweeting '" + newTweet + "' failed because: " + e.Message);
+				}
+			}
+			else
+			{
+				Say(fail);
+			}
+		}
+
+		private void justInCaseFile(Message msg)
+		{
+			StreamWriter writer = new StreamWriter("tweetlog.txt", true);
+			writer.WriteLine(DateTime.Now.ToString() + " --- '" + msg.nick + "' tried '" + msg.message + "'");
+			writer.Flush();
+			writer.Close();
+		}
 
 		private void timerCommandHandler(Message msg)
 		{

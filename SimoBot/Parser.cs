@@ -116,6 +116,22 @@ namespace SimoBot
 	static Regex charactersAZaz = new Regex("^[a-zA-Z]");
 	static Regex dhms = new Regex("^[dhmsDHMS]");
 
+	static public bool isLegitTweet(out string fail, string tweet)
+	{
+		if (tweet.Length > 140)
+		{
+			fail = "Tweet was over 140 characters";
+			return false;
+		}
+		if (tweet.Contains("@"))
+		{
+			fail = "Tweet contained '@'. Not allowed.";
+			return false;
+		}
+		fail = null;
+		return true;
+	}
+
 	static public bool isValidTime(string time)
 	{
 		if (time.Length < 2)

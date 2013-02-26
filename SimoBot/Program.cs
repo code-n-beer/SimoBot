@@ -13,7 +13,7 @@ namespace SimoBot
             Engine theEngine = new Engine();
             while (theEngine.bgwIrcReader.IsBusy)
             {
-                System.Threading.Thread.Sleep(1000);
+                System.Threading.Thread.Sleep(250);
             }
         }
     }

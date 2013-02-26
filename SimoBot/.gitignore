@@ -1,6 +1,9 @@
 config.txt
 expl.txt
 ToDo.txt
+credentials.txt
+app.config
+antonio.txt
 bin/
 servicestack/
 obj/
