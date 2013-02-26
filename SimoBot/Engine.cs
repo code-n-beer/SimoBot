@@ -72,8 +72,36 @@ namespace SimoBot
 			privMsgHandlers["!timer"] = timerCommandHandler;
 			privMsgHandlers["!timerremove"] = removeTimerHandler;
 			privMsgHandlers["!tweet"] = tweetHandler;
+			privMsgHandlers["!random"] = randomHandler;
         }
 
+		private void randomHandler(Message msg)
+		{
+			Console.WriteLine(msg.message);
+			if (msg.message.Trim().Split(' ').Length < 3 || msg.message.Trim().Split(' ').Length > 3)
+			{
+				Say("!random <start> <end>");
+				return;
+			}
+	
+			string[] numbers = msg.message.Substring(8).Split(' ');
+
+			try
+			{
+				int start = Convert.ToInt32(numbers[0]);
+				int end = Convert.ToInt32(numbers[1]);
+
+				int random = new Random().Next(start, end + 1);
+
+				Say(random.ToString());
+			}
+			catch (Exception e)
+			{
+				Say(e.Message);
+			}
+
+
+		}
 		private void tweetHandler(Message msg)
 		{
 			string fail;
