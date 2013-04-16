@@ -5,7 +5,7 @@ using System.Text;
 using System.ComponentModel;
 using MySql.Data.MySqlClient;
 using System.IO;
-
+using System.Text.RegularExpressions;
 
 namespace SimoBot
 {
@@ -40,8 +40,12 @@ namespace SimoBot
 			timerHandler = new TimerHandler(DATA.timerPath, this);
 			simoTwitter = new SimoTwitter(DATA.twitterCredentials);
 
+			addKickRegexes();
+
             bgwIrcReader.DoWork += new DoWorkEventHandler(bgwIrcReader_DoWork);
             bgwIrcReader.RunWorkerAsync();
+
+
         }
 
         private void addHandlers()
@@ -340,28 +344,44 @@ namespace SimoBot
                     //Say(e.Message);
                 }
             }
-            else if (msg.message.ToLower().Contains("simo"))
-            {
-                if (!(msg.message.ToLower().Contains("simonix")))
-                {
-                    markovTriggers(msg.messageAsArray);
-                }
-            }
 
-            //addToDB(msg);
+            markovTriggers(msg);
+
             MCR.addNewLineToRedis(msg.message);
         }
-        
-        private void markovTriggers(string[] msg)
+
+		private Regex RgxUrl = new Regex("(((https|http|ftp):\\/\\/)|www\\.)(([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)|localhost|([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\.(com|net|org|info|biz|gov|name|edu|[a-zA-Z][a-zA-Z]))(:[0-9]+)?((\\/|\\?)[^ \"]*[^ ,;\\.:\">)])?");
+
+		List<Regex> regexit = new List<Regex>();
+
+		private void addKickRegexes()
+		{
+			regexit.Add(new Regex(".*top.*le.*"));
+			regexit.Add(new Regex(".*flora.*lel.*"));
+			//regexit.Add(new Regex(@".*:\).*"));
+		}
+
+        private void markovTriggers(Message msg)
         {
+			for (int i = 0; i < regexit.Count; i++)
+			{
+				if (regexit[i].IsMatch(msg.message))
+				{
+					kick(msg.nick, "GTFO");
+				}
+			}
             //int randomIdx = new Random().Next(msg.messageAsArray.Length);
             //Say(MCR.getNewMarkov(msg.messageAsArray[randomIdx]));
-            for (int i = 0; i < msg.Length - 1; i++)
-            {
-
-            }
         }
-        
+
+		public void kick(string nick, string msg)
+		{
+			if (msg.Length > 400) msg = msg.Substring(0, 400);
+			string outputMsg = "KICK " + DATA.channel + " " + nick + " :" + msg;
+			DATA.ircWriter.WriteLine(outputMsg);
+		}
+
+
         public void addToDB(Message msg)
         {
             string CommandString = "INSERT INTO msgs VALUES ('" +

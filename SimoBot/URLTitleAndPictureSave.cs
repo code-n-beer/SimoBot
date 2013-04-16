@@ -169,10 +169,11 @@ namespace SimoBot
                                 break;//i = htmlCodeSplitBiggerThan.Length;
                             }
                         }
-                        title = title.Replace("</title", null).Trim().Replace("&ouml;", "ö").Replace("&auml;", "ä").
-                            Replace("&#45;", "-").Replace("&amp;", "&").Replace("&#39;", "'").Replace("&#8211;", "-").
-                            Replace("&#x202a;", "").Replace("&#x202c;", "").Replace("&rlm;", "").Replace("&#x202b;", "").
-                            Replace("&ndash;", "").Replace("&lt;", "<").Replace("&gt;", ">").Replace("&quot;", @"'");
+						title = title.Replace("</title", null).Trim().Replace("&ouml;", "ö").Replace("&auml;", "ä").
+							Replace("&#45;", "-").Replace("&amp;", "&").Replace("&#39;", "'").Replace("&#8211;", "-").
+							Replace("&#x202a;", "").Replace("&#x202c;", "").Replace("&rlm;", "").Replace("&#x202b;", "").
+							Replace("&ndash;", "").Replace("&lt;", "<").Replace("&gt;", ">").Replace("&quot;", @"'").
+							Replace("&#039;", "'").Replace("&raquo;", "»").Replace("&#8217;", "´");
                     }
 
                     else

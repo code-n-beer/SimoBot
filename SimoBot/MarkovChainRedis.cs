@@ -31,7 +31,7 @@ namespace MarkovChainTest
 
             string finalString = "";
             string key;
-            string[] splitkey = seed.Split(' ');
+            string[] splitkey = seed.Trim().Split(' ');
 
 
             //If we already have a key
@@ -45,6 +45,7 @@ namespace MarkovChainTest
                 key = getFirstWordPairFromOneWord(seed);
             }
             finalString += key;
+
             for (string word = getNextWord(key); word != ""; word = getNextWord(key))
             {
                 finalString += " " + word;
@@ -63,10 +64,6 @@ namespace MarkovChainTest
             if (finalString == seed) return getNewMarkov("");
             return finalString;
         }
-
-        //Find wordpairs from random text triggers et and shit and something.
-        
-        //public string get
 
         private string biggenFirstLetter(string str)
         {
