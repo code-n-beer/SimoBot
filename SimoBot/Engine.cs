@@ -23,6 +23,7 @@ namespace SimoBot
         MarkovChainTest.MarkovChainRedis MCR;
 		TimerHandler timerHandler;
 		SimoTwitter simoTwitter;
+		FinnishNewsTicker newsTicker;
         //Wikipedia wiki;
 
         private Dictionary<string, MessageHandler> messageHandlers;
@@ -39,6 +40,7 @@ namespace SimoBot
             URLTAPS = new URLTitleAndPictureSave(DATA.localPicturePath, DATA.remotePicturePath, DATA.MySQLConnectionString);
 			timerHandler = new TimerHandler(DATA.timerPath, this);
 			simoTwitter = new SimoTwitter(DATA.twitterCredentials);
+			newsTicker = new FinnishNewsTicker(DATA.allowedArticleWebsites);
 
 			addKickRegexes();
 
@@ -77,7 +79,28 @@ namespace SimoBot
 			privMsgHandlers["!timerremove"] = removeTimerHandler;
 			privMsgHandlers["!tweet"] = tweetHandler;
 			privMsgHandlers["!random"] = randomHandler;
+			privMsgHandlers["!news"] = newsHandler;
         }
+
+		private void newsHandler(Message msg)
+		{
+			try
+			{
+				string tick = newsTicker.getNewTick();
+
+                if(tick.StartsWith("Couldn't"))
+				{
+                    Say("Couldn't find new articles");
+                    return;
+				}
+
+				Say("News: " + tick);
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine("Main handler error: " + e.Message);
+			}
+		}
 
 		private void randomHandler(Message msg)
 		{
@@ -106,6 +129,7 @@ namespace SimoBot
 
 
 		}
+
 		private void tweetHandler(Message msg)
 		{
 			string fail;
@@ -357,17 +381,19 @@ namespace SimoBot
 		private void addKickRegexes()
 		{
 			regexit.Add(new Regex(".*top.*le.*"));
-			regexit.Add(new Regex(".*flora.*lel.*"));
+			//regexit.Add(new Regex(".*flora.*lel.*"));
+			regexit.Add(new Regex(@".*fl[aeiouyäöåAEIOUYÄÖÅ]*ra\s*l[aeiouyäöåAEIOUYÄÖÅ]*l.*"));
 			//regexit.Add(new Regex(@".*:\).*"));
 		}
-
+        
         private void markovTriggers(Message msg)
         {
 			for (int i = 0; i < regexit.Count; i++)
 			{
+				string reversedString = reverseString(msg.message);
 				if (regexit[i].IsMatch(msg.message))
 				{
-					kick(msg.nick, "GTFO");
+					kick(msg.nick, "Kicked due to: " + regexit[i].ToString());
 				}
 			}
             //int randomIdx = new Random().Next(msg.messageAsArray.Length);
@@ -414,19 +440,27 @@ namespace SimoBot
         private void reverseHandler(Message msg)
         {
             int msgLength = msg.message.Length;
-            //char[] charAr = new char[msgLength];
-            char[] charAr = msg.message.ToCharArray();
+
             string reversedMsg = "";
 
-            for (int i = msgLength; i > 0; i--)
-            {
-                reversedMsg += charAr[i - 1];
-            }
-
-            reversedMsg = reversedMsg.Replace("r!", "").Trim();
+			reversedMsg = reverseString(msg.message);
 
             Say(reversedMsg);
         }
+
+		private string reverseString(string theString)
+		{
+			string reversedString = "";
+
+			for (int i = theString.Length; i > 0; i--)
+			{
+				reversedString += theString[i - 1];
+			}
+
+			reversedString = reversedString.Replace("r!", "").Trim();
+
+			return reversedString;
+		}
 
         private void uguuHandler(Message msg)
         {
@@ -487,8 +521,17 @@ namespace SimoBot
 
         public void Say(string msg)
         {
+			for (int i = 0; i < regexit.Count; i++)
+			{
+				if (regexit[i].IsMatch(msg))
+				{
+					Say("Oh u...");
+					return;
+				}
+			}
+
             msg = "PRIVMSG " + DATA.channel + " :" + msg;
-	    if (msg.Length > 400) msg = msg.Substring(0, 400);
+	        if (msg.Length > 400) msg = msg.Substring(0, 400);
             DATA.ircWriter.WriteLine(msg);
         }
 

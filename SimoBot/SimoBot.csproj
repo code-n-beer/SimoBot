@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>Q:\Downloads\GiGo\HtmlAgilityPack.1.4.6\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="LinqToTwitter">
       <HintPath>.\LinqToTwitter.dll</HintPath>
     </Reference>
@@ -67,6 +70,7 @@
     <Compile Include="Engine.cs" />
     <Compile Include="EngineData.cs" />
     <Compile Include="Expl.cs" />
+    <Compile Include="FinnishNewsTicker.cs" />
     <Compile Include="LastFmStuff.cs" />
     <Compile Include="MarkovChainRedis.cs" />
     <Compile Include="Message.cs" />

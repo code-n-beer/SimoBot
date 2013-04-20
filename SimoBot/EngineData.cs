@@ -12,7 +12,7 @@ namespace SimoBot
     {
         //public static string MySQLConnectionString = "";
         public string MySQLConnectionString, LastFmAPIKey, server, port, nick, channel, localPicturePath, remotePicturePath, explPath, timerPath;
-        public string RedisMainDB, RedisFastOneWordDB;
+        public string RedisMainDB, RedisFastOneWordDB, allowedArticleWebsites;
 		public string twitterCredentials;
 
         public StreamReader ircReader;
@@ -82,8 +82,9 @@ namespace SimoBot
             explPath = lines[8];
             RedisMainDB = lines[9];
             RedisFastOneWordDB = lines[10];
-	    timerPath = lines[11];
-		twitterCredentials = lines[12];
+	        timerPath = lines[11];
+		    twitterCredentials = lines[12];
+			allowedArticleWebsites = lines[13];
 
         }
 
