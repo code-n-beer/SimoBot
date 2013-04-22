@@ -13,14 +13,16 @@ namespace SimoBot
 		List<string> allowedWebsites;
 		string newsWebsite;
 		List<string> usedTickers;
+		List<string> usedSites;
 		WebClient client;
 		HtmlDocument htmldoc;
 		string regexString = @"[A-ZÄÖÅ]{1}[^.?!]{3,100}\sja\s[^A-ZÄÖÅ]{1}[^.?!]{3,100}[.?!]";
 		//string regexString = @"[A-ZÖÄÅ][^.]{0,175}\sja\s[^.]{0,175}[.]";
 		//                     [A-ZÖÄÅ][^.]{0,100}\sja\s[^.A-ZÖÄÅ]{0,100}[.]
-		//
 
-		public FinnishNewsTicker(string allowedWebsites)
+		MarkovChainTest.MarkovChainRedis MCR;
+
+		public FinnishNewsTicker(string allowedWebsites, MarkovChainTest.MarkovChainRedis MCR)
 		{
 			this.allowedWebsites = prepareAllowedWebsites(allowedWebsites);
 			this.newsWebsite = "http://www.ampparit.com/haku?q=ja&t=news";
@@ -29,6 +31,8 @@ namespace SimoBot
 			client = new WebClient();
 			htmldoc = new HtmlDocument();
 			htmldoc.OptionFixNestedTags = true;
+			usedSites = new List<string>();
+			this.MCR = MCR;
 		}
 
 		private List<string> prepareAllowedWebsites(string sitesInAString)
@@ -58,6 +62,18 @@ namespace SimoBot
 			return true;
 		}
 
+		private bool isAlreadyUsed(string URL)
+		{
+			for (int i = 0; i < usedSites.Count; i++)
+			{
+				if (usedSites[i] == URL)
+					return true;
+			}
+
+			usedSites.Add(URL);
+			return false;
+		}
+
 		public string getNewTick()
 		{
 
@@ -84,11 +100,15 @@ namespace SimoBot
 					continue;
 				}
 
-				string encoding = "ISO-8859-1";
-
-				if (currentSite == "Ilta-Sanomat" || currentSite == "Mobiili.fi" || currentSite == "Turun Sanomat")
+				if (isAlreadyUsed(articleURL))
 				{
-					encoding = "UTF-8";
+					continue;
+				}
+
+				string encoding = "UTF-8";
+				if (currentSite == "Iltalehti")
+				{
+					encoding = "ISO-8859-1";
 				}
 
 				if (!loadHTML(articleURL, encoding))
@@ -112,7 +132,7 @@ namespace SimoBot
 				return sentence;
 			}
 
-			return "Couldn't find new articles";
+			return "Couldn't find new articles :D";
 		}
 
 		private bool alreadyUsedOrBrokenTick(string tick)
@@ -127,7 +147,6 @@ namespace SimoBot
 				if (usedTickers[i] == tick)
 					return true;
 			}
-
 			return false;
 		}
 
@@ -136,24 +155,53 @@ namespace SimoBot
 			switch (currentSite)
 			{
 				case "Iltalehti":
-					return IltalehtiGet();
+					return getSentenceFromSite("//div[@id='container_keski']", "Iltalehti");
 				case "Ilta-Sanomat":
-					return IltaSanomatGet();
+					return getSentenceFromSite("//div[@id='article-text']");
 				case "Mobiili.fi":
-					return MobiilifiGet();
+					return getSentenceFromSite("//div[@class='sharecontainer']");
 				case "Turun Sanomat":
-					return TurunSanomatGet();
+					return getSentenceFromSite("//div[@class='text']");
+				case "Yle":
+					return getSentenceFromSite("//div[@class='text']");
+				case "Stara":
+					return getSentenceFromSite("//div[@class='text']");
 				default:
-					return "Tried to get text from unsupported website??";
+					return "Tried to get text from unsupported website? " + currentSite;
 			}
 
 			return "Something went wrong (tried to get text from " + currentSite;
 		}
 
-		private string TurunSanomatGet()
+		private static void RemoveComments(HtmlNode node)
 		{
-			HtmlNode textNode = htmldoc.DocumentNode.SelectSingleNode("//div[@class='text']");
+			foreach (var n in node.ChildNodes.ToArray())
+				RemoveComments(n);
+			if (node.NodeType == HtmlNodeType.Comment)
+				node.Remove();
+		}
+
+		private string getSentenceFromSite(string mainTextLocationXpath = "//div[@class='text']", string site = "")
+		{
+			HtmlNode textNode = htmldoc.DocumentNode.SelectSingleNode(mainTextLocationXpath);
+
+			RemoveComments(textNode);
+
 			string articleText = textNode.InnerText;
+
+			articleText = articleText.Trim().Replace("\n", " ").Replace("  ", " ");
+
+
+			if (site == "Iltalehti")
+			{
+				Match stopAtFunction = Regex.Match(articleText, "^(?:(?!\\r).)*");
+				//Match stopAtFunction = Regex.Match(articleText, "^(?:(?!function).)*");
+				articleText = stopAtFunction.Captures[0].ToString();
+			}
+
+
+			addToMarkov(articleText);
+
 
 			Match match = Regex.Match(articleText, regexString);
 
@@ -167,57 +215,9 @@ namespace SimoBot
 			return text;
 		}
 
-
-		private string MobiilifiGet()
+		private void addToMarkov(string articleText)
 		{
-			HtmlNode textNode = htmldoc.DocumentNode.SelectSingleNode("//div[@class='sharecontainer']");
-			string articleText = textNode.InnerText;
-
-			Match match = Regex.Match(articleText, regexString);
-
-			if (!match.Success)
-			{
-				return "olenrikki";
-			}
-
-			string text = match.Captures[0].ToString();
-
-			return text;
-		}
-
-		private string IltalehtiGet()
-		{
-			HtmlNode textNode = htmldoc.DocumentNode.SelectSingleNode("//div[@class='keski']");
-			string articleText = textNode.InnerText;
-
-			Match match = Regex.Match(articleText, regexString);
-
-			if (!match.Success)
-			{
-				return "olenrikki";
-			}
-
-			string text = match.Captures[0].ToString();
-
-			return text;
-		}
-
-
-		private string IltaSanomatGet()
-		{
-			HtmlNode textNode = htmldoc.DocumentNode.SelectSingleNode("//div[@id='article-text']");
-			string articleText = textNode.InnerText;
-
-			Match match = Regex.Match(articleText, regexString);
-
-			if (!match.Success)
-			{
-				return "olenrikki";
-			}
-
-			string text = match.Captures[0].ToString();
-
-			return text;
+			MCR.addNewLineToRedis(articleText);
 		}
 
 		private string automagicFunnytizer(string text, string curSite)
@@ -245,10 +245,13 @@ namespace SimoBot
 
 		private bool isFromAllowedSource(string source, out string site)
 		{
+			Console.WriteLine(source);
 			for (int i = 0; i < allowedWebsites.Count; i++)
 			{
-				if (source.ToLower().Contains("jääkiekko")) //Add other forbidden tags here
+				if (source.ToLower().Contains("jääkiekko") || source.ToLower().Contains("JÃ¤Ã¤kiekko") ||
+					source.ToLower().Contains("f1") || source.ToLower().Contains("naiset")) //Add other forbidden tags here
 				{
+
 					site = "";
 					return false;
 				}

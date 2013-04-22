@@ -40,7 +40,7 @@ namespace SimoBot
             URLTAPS = new URLTitleAndPictureSave(DATA.localPicturePath, DATA.remotePicturePath, DATA.MySQLConnectionString);
 			timerHandler = new TimerHandler(DATA.timerPath, this);
 			simoTwitter = new SimoTwitter(DATA.twitterCredentials);
-			newsTicker = new FinnishNewsTicker(DATA.allowedArticleWebsites);
+			newsTicker = new FinnishNewsTicker(DATA.allowedArticleWebsites, MCR);
 
 			addKickRegexes();
 
