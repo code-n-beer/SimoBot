@@ -314,8 +314,7 @@ namespace SimoBot
             {
 
                 string explName = msg.messageAsArray[1];
-                string explanation = msg.message.Replace("!add ", "");
-                explanation = explanation.Remove(0, explName.Length + 1);
+                string explanation = msg.message.Substring(explName.Length + "!add ".Length);
 
                 Say(expl.addExpl(explName, explanation));
             }

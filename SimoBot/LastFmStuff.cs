@@ -133,7 +133,7 @@ namespace SimoBot
             lastFmMsg += ", " + htmlCodeLines[8].Replace("<name>", "").Replace("</name>", "").Trim();
             lastFmMsg += ", " + htmlCodeLines[12].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
             }
-            else if(htmlCodeLines.Count >= 9)
+            else if(htmlCodeLines.Count >= 10)
             {
                 lastFmMsg += " (" + htmlCodeLines[4].Replace("<name>", "").Replace("</name>", "").Trim();
                 lastFmMsg += ", " + htmlCodeLines[8].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
@@ -158,7 +158,7 @@ namespace SimoBot
                     lastFmMsg += ", " + htmlCodeLinesArtistTopTags[8].Replace("<name>", "").Replace("</name>", "").Trim();
                     lastFmMsg += ", " + htmlCodeLinesArtistTopTags[12].Replace("<name>", "").Replace("</name>", "").Trim() + ")";
                 }
-                else if (htmlCodeLinesArtistTopTags.Count >= 9)
+                else if (htmlCodeLinesArtistTopTags.Count >= 10)
                 {
                     lastFmMsg += " (" + htmlCodeLinesArtistTopTags[4].Replace("<name>", "").Replace("</name>", "").Trim();
                     lastFmMsg += ", " + htmlCodeLinesArtistTopTags[8].Replace("<name>", "").Replace("</name>", "").Trim() + ")";

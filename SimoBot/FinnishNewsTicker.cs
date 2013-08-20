@@ -231,7 +231,8 @@ namespace SimoBot
 			}
 
 
-			int jaPos = text.IndexOf(" ja ");
+			//int jaPos = text.IndexOf(" ja ");
+			int jaPos = text.LastIndexOf(" ja ");
 
 			string finalString = text.Substring(0, jaPos) + " :D" + text.Substring(jaPos) + " :D";
 			finalString = finalString.Replace(".", "");
@@ -248,8 +249,9 @@ namespace SimoBot
 			Console.WriteLine(source);
 			for (int i = 0; i < allowedWebsites.Count; i++)
 			{
-				if (source.ToLower().Contains("jääkiekko") || source.ToLower().Contains("JÃ¤Ã¤kiekko") ||
-					source.ToLower().Contains("f1") || source.ToLower().Contains("naiset")) //Add other forbidden tags here
+				if (source.ToLower().Contains("jääkiekko") || source.ToLower().Contains("kiekko") ||
+					source.ToLower().Contains("f1") || source.ToLower().Contains("naiset") ||
+					source.ToLower().Contains("sm-liiga") || source.ToLower().Contains("liikenne")) //Add other forbidden tags here
 				{
 
 					site = "";

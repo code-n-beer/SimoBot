@@ -194,39 +194,51 @@ namespace MarkovChainTest
         
         private string getFirstWordPairFromOneWord(string seed)
         {
-            rclient.Db = fastOneWordKeyDb;
-
-            List<string> keys = getAllKeys();
-
-			bool keyFound = false;
-			string usableSeed = "";
-
-			for (int i = 0; i < keys.Count; i++)
+			try
 			{
-				if (keys[i].Trim().Contains(seed.Trim()))
+				rclient.Db = fastOneWordKeyDb;
+
+				List<string> keys = getAllKeys();
+				List<string> legitKeys = new List<string>();
+
+				bool keyFound = false;
+				string usableSeed = "";
+
+				for (int i = 0; i < keys.Count; i++)
 				{
-					usableSeed = keys[i];
-					keyFound = true;
-					break;
+					if (keys[i].Contains(seed.Trim()))
+					{
+						legitKeys.Add(keys[i]);
+						//usableSeed = keys[i];
+						keyFound = true;
+						//break;
+					}
+				}
+				if (keyFound)
+				{
+					int random = new Random().Next(0, legitKeys.Count);
+
+					usableSeed = legitKeys[random];
+
+					string key = rclient.GetRandomItemFromSet(usableSeed);
+					rclient.Db = mainDb;
+					if (key == "") return rclient.GetRandomKey();
+					Console.WriteLine("Non-random key: " + key);
+					return key;
+				}
+				else
+				{
+					rclient.Db = mainDb;
+					string key = rclient.GetRandomKey();
+					Console.WriteLine("Random key: " + key);
+					return key;
 				}
 			}
-
-            //if (keys.Contains(seed))
-            if (keyFound)
-            {
-				string key = rclient.GetRandomItemFromSet(usableSeed);
-                rclient.Db = mainDb;
-				if (key == "") return rclient.GetRandomKey();
-                Console.WriteLine("Non-random key: " + key);
-                return key;
-            }
-            else
-            {
-                rclient.Db = mainDb;
-				string key = rclient.GetRandomKey();
-                Console.WriteLine("Random key: " + key);
-                return key;
-            }
+			catch (Exception e)
+			{
+				Console.WriteLine("getFirstWordPairFromOneWord failed: " + e.Message);
+				return "";
+			}
         }
 
         private string getFirstWord(string s)

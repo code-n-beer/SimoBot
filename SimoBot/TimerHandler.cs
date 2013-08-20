@@ -50,6 +50,7 @@ namespace SimoBot
 
 		private void createNewTimer(string nick, string message, DateTime time, DateTime timeSet, bool shouldAddToFile = true)
 		{
+			Console.WriteLine(time.ToString());
 			if (!nickTimerListDictionary.ContainsKey(nick))
 			{
 				nickTimerListDictionary[nick] = new List<SimoTimer>();
