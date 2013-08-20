@@ -35,6 +35,16 @@ namespace SimoBot
 			this.MCR = MCR;
 		}
 
+		public void resetTickers()
+		{
+			usedSites = new List<string>();
+			usedTickers = new List<string>();
+
+            //Not sure why this was done in the constructor, but I don't want to spend
+			//any time in finding out if not doing it would break something. 
+			usedTickers.Add("olenrikki"); 
+		}
+
 		private List<string> prepareAllowedWebsites(string sitesInAString)
 		{
 			return new List<string>(sitesInAString.Split('|'));
@@ -199,6 +209,7 @@ namespace SimoBot
 				articleText = stopAtFunction.Captures[0].ToString();
 			}
 
+			articleText = fixText(articleText);
 
 			addToMarkov(articleText);
 
@@ -215,6 +226,46 @@ namespace SimoBot
 			return text;
 		}
 
+		private string fixText(string articleText)
+		{
+			string text = articleText;
+
+			for (int i = 0; i < text.Length; i++)
+			{
+                char c = text[i];
+
+				if (i < text.Length - 1 && //check that we're not at the last character
+					c == '.' && 
+					text[i + 1] != '.' && 
+					text[i + 1] != ' ')
+				{
+					text = text.Substring(0, i) + " " + text.Substring(i + 1);
+				}
+
+                int charCount = 0;
+				if (c == '&')
+				{
+                    charCount++;
+					for (int j = i; j < text.Length; j++)
+					{
+						if (text[j] == ' ')
+							break;
+
+						if (text[j] == ';')
+						{
+							text = text.Remove(i, charCount);
+							break;
+						} 
+
+					}
+				}
+			}
+
+
+
+			return text;
+		}
+
 		private void addToMarkov(string articleText)
 		{
 			MCR.addNewLineToRedis(articleText);
@@ -225,13 +276,9 @@ namespace SimoBot
 
 			if (text.Contains('\n'))
 			{
-				//int pos = text.IndexOf("\n");
 				text = text.Replace("\n", " ");
-				//text = text.Trim().Substring(0, pos);
 			}
 
-
-			//int jaPos = text.IndexOf(" ja ");
 			int jaPos = text.LastIndexOf(" ja ");
 
 			string finalString = text.Substring(0, jaPos) + " :D" + text.Substring(jaPos) + " :D";

@@ -80,7 +80,35 @@ namespace SimoBot
 			privMsgHandlers["!tweet"] = tweetHandler;
 			privMsgHandlers["!random"] = randomHandler;
 			privMsgHandlers["!news"] = newsHandler;
+			privMsgHandlers["!simonews"] = simoNewsHandler;
+			privMsgHandlers["!resetnews"] = resetNewsHandler; 
         }
+
+		private void resetNewsHandler(Message msg)
+		{
+			newsTicker.resetTickers();
+			Say("Reset'd");
+		}
+
+		private void simoNewsHandler(Message msg)
+		{
+			string newsLine = newsTicker.getNewTick();
+
+			if (newsLine.StartsWith("Couldn't"))
+			{
+				Say("Couldn't find new articles :D");
+				return;
+			}
+
+			newsLine = newsLine.Replace(" :D ", "");
+
+            string[] newsLineArray = newsLine.Split(' ');
+
+			string markovString = newsLineArray[0] + " " + newsLineArray[1];
+
+            Console.WriteLine(markovString);
+			Say(MCR.getNewMarkov(markovString));
+		}
 
 		private void newsHandler(Message msg)
 		{
@@ -90,7 +118,7 @@ namespace SimoBot
 
                 if(tick.StartsWith("Couldn't"))
 				{
-                    Say("Couldn't find new articles");
+                    Say("Couldn't find new articles :D");
                     return;
 				}
 
@@ -99,6 +127,7 @@ namespace SimoBot
 			catch (Exception e)
 			{
 				Console.WriteLine("Main handler error: " + e.Message);
+				newsHandler(msg);
 			}
 		}
 
@@ -520,6 +549,7 @@ namespace SimoBot
 
         public void Say(string msg)
         {
+            /*
 			for (int i = 0; i < regexit.Count; i++)
 			{
 				if (regexit[i].IsMatch(msg))
@@ -528,10 +558,63 @@ namespace SimoBot
 					return;
 				}
 			}
+            */
 
             msg = "PRIVMSG " + DATA.channel + " :" + msg;
 	        if (msg.Length > 400) msg = msg.Substring(0, 400);
-            DATA.ircWriter.WriteLine(msg);
+
+			string text = msg;
+
+			for (int i = 0; i < text.Length; i++)
+			{
+				char c = text[i];
+
+				if (i < text.Length - 1 && //check that we're not at the last character
+					c == '.' &&
+					text[i + 1] != '.' &&
+					text[i + 1] != ' ')
+				{
+					text = text.Substring(0, i) + " " + text.Substring(i + 1);
+				}
+
+				int charCount = 0;
+				if (c == '&')
+				{
+					charCount++;
+					for (int j = i; j < text.Length; j++)
+					{
+						if (text[j] == ' ')
+							break;
+
+						if (text[j] == ';')
+						{
+							text = text.Remove(i, charCount);
+							break;
+						}
+
+					}
+				}
+
+				charCount = 0;
+				if (c == '#')
+				{
+					charCount++;
+					for (int j = i; j < text.Length; j++)
+					{
+						if (text[j] == ' ')
+							break;
+
+						if (text[j] == ';')
+						{
+							text = text.Remove(i, charCount);
+							break;
+						}
+
+					}
+				}
+			}
+
+            DATA.ircWriter.WriteLine(text);
         }
 
         private void bgwIrcReader_DoWork(object sender, DoWorkEventArgs e)
