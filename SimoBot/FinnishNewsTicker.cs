@@ -234,7 +234,7 @@ namespace SimoBot
 			{
                 char c = text[i];
 
-				if (i < text.Length - 1 && //check that we're not at the last character
+				if (i < text.Length - 1 && // check that we're not at the last character
 					c == '.' && 
 					text[i + 1] != '.' && 
 					text[i + 1] != ' ')
@@ -245,9 +245,9 @@ namespace SimoBot
                 int charCount = 0;
 				if (c == '&')
 				{
-                    charCount++;
 					for (int j = i; j < text.Length; j++)
 					{
+						charCount++;
 						if (text[j] == ' ')
 							break;
 
@@ -256,9 +256,26 @@ namespace SimoBot
 							text = text.Remove(i, charCount);
 							break;
 						} 
-
 					}
 				}
+
+				if (c == '#')
+				{
+					for (int j = i; j < text.Length; j++)
+					{
+						charCount++;
+						if (text[j] == ' ')
+							break;
+
+						if (text[j] == ';')
+						{
+							text = text.Remove(i, charCount);
+							break;
+						}
+					}
+				}
+
+
 			}
 
 

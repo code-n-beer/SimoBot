@@ -59,12 +59,24 @@ namespace MarkovChainTest
                 recursionLevel++;
                 return getNewMarkov(seed, recursionLevel);
             }
-            //if(recursionLevel < 5)
             if (finalString == seed) return getNewMarkov("");
+            /*
+			if (finalString.Length > 380)
+			{
+
+			}
+            */
+
+			if (finalString == "")
+			{
+                recursionLevel++;
+				getNewMarkov(seed, recursionLevel);
+			}
+
             return finalString;
         }
 
-        private string biggenFirstLetter(string str)
+		private string biggenFirstLetter(string str)
         {
             if (char.IsUpper(str[0]))
             {

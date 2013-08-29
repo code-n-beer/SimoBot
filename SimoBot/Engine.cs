@@ -55,6 +55,7 @@ namespace SimoBot
             messageHandlers = new Dictionary<string, MessageHandler>();
             messageHandlers["PING"] = PingHandler;
             messageHandlers["PRIVMSG"] = PrivMsgHandler;
+			messageHandlers["KICK"] = KickHandler;
 
             privMsgHandlers = new Dictionary<string, MessageHandler>();
 
@@ -92,22 +93,64 @@ namespace SimoBot
 
 		private void simoNewsHandler(Message msg)
 		{
-			string newsLine = newsTicker.getNewTick();
+            try
+            {
+                string newsLine = newsTicker.getNewTick();
 
-			if (newsLine.StartsWith("Couldn't"))
-			{
-				Say("Couldn't find new articles :D");
-				return;
-			}
+                if (newsLine.StartsWith("Couldn't"))
+                {
+                    Say("Couldn't find new articles :D");
+                    return;
+                }
 
-			newsLine = newsLine.Replace(" :D ", "");
+                newsLine = newsLine.Replace(" :D ", "");
 
-            string[] newsLineArray = newsLine.Split(' ');
+                string[] newsLineArray = newsLine.Split(' ');
 
-			string markovString = newsLineArray[0] + " " + newsLineArray[1];
+                string markovString = newsLineArray[0] + " " + newsLineArray[1];
 
-            Console.WriteLine(markovString);
-			Say(MCR.getNewMarkov(markovString));
+                Console.WriteLine(markovString);
+
+				string finalString = MCR.getNewMarkov(markovString);
+
+				if (finalString.Length > 374)
+				{
+					finalString = endAtLastDot(finalString);
+
+					int timesTried = 0;
+
+					while (finalString.Trim() == "")
+					{
+						if (timesTried >= 10)
+						{
+							finalString = "";
+							break;
+						}
+						timesTried++;
+						finalString = MCR.getNewMarkov(markovString);
+						finalString = endAtLastDot(finalString);
+					}
+				}
+
+				if (finalString.Trim() != "")
+				{
+					finalString = finalString.Trim();
+                    char lastChar = finalString[finalString.Length -1];
+					if (lastChar != '.' && lastChar != '!' && lastChar != '?' && lastChar != '\'' && lastChar != '"')
+					{
+						finalString += ".";
+					}
+					Say(finalString);
+				}
+				else
+				{
+					Console.WriteLine("Vituiks män");
+				}
+            }
+            catch(Exception e)
+            {
+                simoNewsHandler(msg);
+            }
 		}
 
 		private void newsHandler(Message msg)
@@ -307,10 +350,7 @@ namespace SimoBot
 				}
                 string entry = msg.message.Replace("!wiki ", "");
                 string wikiEntry = Wikipedia.ReadWikiEntry(entry);
-                //if (wikiEntry.Length > 400)
-                //{
-                //    wikiEntry = wikiEntry.Substring(0, 400);
-                //}
+
                 Say(wikiEntry);
             }
         }
@@ -380,7 +420,10 @@ namespace SimoBot
         {
             if (privMsgHandlers.Keys.Contains(msg.firstWord.ToLower()))
             {
-                privMsgHandlers[msg.firstWord.ToLower()](msg);
+				if (msg.channel.ToLower() != DATA.nick.ToLower())
+				{
+					privMsgHandlers[msg.firstWord.ToLower()](msg);
+				}
             }
             else if (containsUrl(msg.message))
             {
@@ -542,77 +585,35 @@ namespace SimoBot
             }
         }
 
+		private string endAtLastDot(string finalString)
+		{
+			for (int i = finalString.Length - 1; i > 0; i--)
+			{
+				if (finalString[i] == '.')
+				{
+					return finalString.Substring(0, i + 1);
+				}
+			}
+
+			return "";
+		}
+
         private void PingHandler(Message msg)
         {
             DATA.ircWriter.WriteLine("PONG :" + msg.message);
         }
 
+		private void KickHandler(Message msg)
+		{
+			DATA.ircWriter.WriteLine("JOIN :" + msg.channel);
+		}
+
         public void Say(string msg)
         {
-            /*
-			for (int i = 0; i < regexit.Count; i++)
-			{
-				if (regexit[i].IsMatch(msg))
-				{
-					Say("Oh u...");
-					return;
-				}
-			}
-            */
-
             msg = "PRIVMSG " + DATA.channel + " :" + msg;
 	        if (msg.Length > 400) msg = msg.Substring(0, 400);
 
 			string text = msg;
-
-			for (int i = 0; i < text.Length; i++)
-			{
-				char c = text[i];
-
-				if (i < text.Length - 1 && //check that we're not at the last character
-					c == '.' &&
-					text[i + 1] != '.' &&
-					text[i + 1] != ' ')
-				{
-					text = text.Substring(0, i) + " " + text.Substring(i + 1);
-				}
-
-				int charCount = 0;
-				if (c == '&')
-				{
-					charCount++;
-					for (int j = i; j < text.Length; j++)
-					{
-						if (text[j] == ' ')
-							break;
-
-						if (text[j] == ';')
-						{
-							text = text.Remove(i, charCount);
-							break;
-						}
-
-					}
-				}
-
-				charCount = 0;
-				if (c == '#')
-				{
-					charCount++;
-					for (int j = i; j < text.Length; j++)
-					{
-						if (text[j] == ' ')
-							break;
-
-						if (text[j] == ';')
-						{
-							text = text.Remove(i, charCount);
-							break;
-						}
-
-					}
-				}
-			}
 
             DATA.ircWriter.WriteLine(text);
         }
@@ -635,6 +636,7 @@ namespace SimoBot
 
                 if (messageHandlers.Keys.Contains(msg.action))
                 {
+                    
                     messageHandlers[msg.action](msg);
                 }
 
