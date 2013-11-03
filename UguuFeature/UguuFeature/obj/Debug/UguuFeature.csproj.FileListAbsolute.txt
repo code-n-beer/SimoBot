@@ -1,6 +1,0 @@
-c:\users\dwarfcrank\documents\visual studio 2012\Projects\UguuFeature\UguuFeature\bin\Debug\UguuFeature.exe.config
-c:\users\dwarfcrank\documents\visual studio 2012\Projects\UguuFeature\UguuFeature\obj\Debug\UguuFeature.csprojResolveAssemblyReference.cache
-c:\users\dwarfcrank\documents\visual studio 2012\Projects\UguuFeature\UguuFeature\bin\Debug\UguuFeature.exe
-c:\users\dwarfcrank\documents\visual studio 2012\Projects\UguuFeature\UguuFeature\bin\Debug\UguuFeature.pdb
-c:\users\dwarfcrank\documents\visual studio 2012\Projects\UguuFeature\UguuFeature\obj\Debug\UguuFeature.exe
-c:\users\dwarfcrank\documents\visual studio 2012\Projects\UguuFeature\UguuFeature\obj\Debug\UguuFeature.pdb

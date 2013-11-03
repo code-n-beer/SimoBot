@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimoBot
 {
-    class Program
+    interface IFeature
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        public void RegisterFeature(EngineFeatures features);
+        //public void Initialize(
     }
 }
