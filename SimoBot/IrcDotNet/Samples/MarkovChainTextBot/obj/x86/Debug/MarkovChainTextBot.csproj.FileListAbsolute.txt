@@ -1,0 +1,1 @@
+C:\Users\Tsarpf\Documents\GitHub\SimoBotNextGen\bin\Samples\Debug\net40\MarkovChainTextBox.exe.config
