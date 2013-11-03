@@ -10,7 +10,12 @@ namespace SimoBot
     {
         static void Main(string[] args)
         {
-            
+            Engine engine = new Engine();
+            //Todo: Load ChannelConfigs
+            //Todo: Load and initialize features
+            //Todo: Connect
+            //Todo: Begin "main loop"
         }
+
     }
 }

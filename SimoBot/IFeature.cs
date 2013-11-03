@@ -8,7 +8,8 @@ namespace SimoBot
 {
     interface IFeature
     {
-        public void RegisterFeature(EngineFeatures features);
-        //public void Initialize(
+        public void RegisterFeature(EngineMessageHandlers features);
+        public void Initialize(Dictionary<string,string> configs);
+        public void Execute(Message msg);
     }
 }
