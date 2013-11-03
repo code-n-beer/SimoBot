@@ -41,11 +41,130 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChannelConfigs.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="IFeature.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet.Tests\IrcClientTestSet.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet.Tests\Properties\AssemblyInfo.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet.Tests\Properties\Resources.Designer.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet.Tests\TestStateManager.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\CircularBufferStream.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Collections\CollectionsUtilities.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Collections\ReadOnlyDictionary.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Collections\ReadOnlySet.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\CollectionUtilities.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Ctcp\CtcpClient.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Ctcp\CtcpClientMessageProcessing.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Ctcp\CtcpClientMessageSending.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Ctcp\CtcpEventArgs.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\DebugUtilities.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IIrcFloodPreventer.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IIrcMessageReceiveHandler.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IIrcMessageReceiver.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IIrcMessageSendHandler.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IIrcMessageSource.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IIrcMessageTarget.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcChannel.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcChannelCollection.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcChannelInfo.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcChannelUser.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcChannelUserCollection.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcClient.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcClientMessageProcessing.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcClientMessageSending.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcEventArgs.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcLocalUser.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcNetworkInfo.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcRegistrationInfo.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcServer.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcServerInfo.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcServerStatisticalEntry.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcStandardFloodPreventer.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcTargetMask.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcUser.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcUserCollection.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\IrcUtilities.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\MessageProcessorAttribute.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Properties\AssemblyInfo.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\Properties\Resources.Designer.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\ReflectionUtilities.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\SafeLineReader.cs" />
+    <Compile Include="IrcDotNet\IrcDotNet\TextUtilities.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\BasicIrcBot.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\ConsoleUtilities.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\InvalidCommandParametersException.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\IrcBot.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\IrcBotException.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\IrcBotUtilities.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\ProgramInfo.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\Properties\AssemblyInfo.cs" />
+    <Compile Include="IrcDotNet\Samples\Common\Properties\Resources.Designer.cs" />
+    <Compile Include="IrcDotNet\Samples\MarkovChainTextBot\MarkovChain.cs" />
+    <Compile Include="IrcDotNet\Samples\MarkovChainTextBot\MarkovChainNode.cs" />
+    <Compile Include="IrcDotNet\Samples\MarkovChainTextBot\MarkovChainTextBot.cs" />
+    <Compile Include="IrcDotNet\Samples\MarkovChainTextBot\Program.cs" />
+    <Compile Include="IrcDotNet\Samples\MarkovChainTextBot\Properties\AssemblyInfo.cs" />
+    <Compile Include="IrcDotNet\Samples\MarkovChainTextBot\Properties\Resources.Designer.cs" />
+    <Compile Include="IrcDotNet\Samples\TwitterBot\Program.cs" />
+    <Compile Include="IrcDotNet\Samples\TwitterBot\Properties\AssemblyInfo.cs" />
+    <Compile Include="IrcDotNet\Samples\TwitterBot\Properties\Resources.Designer.cs" />
+    <Compile Include="IrcDotNet\Samples\TwitterBot\TwitterBot.cs" />
+    <Compile Include="IrcDotNet\Samples\TwitterBot\TwitterBotUser.cs" />
+    <Compile Include="Message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="IrcDotNet\IrcDotNet.snk" />
+    <None Include="IrcDotNet\IrcDotNet.Tests\CompleteIrcClient.orderedtest" />
+    <None Include="IrcDotNet\IrcDotNet.Tests\README.md" />
+    <None Include="IrcDotNet\IrcDotNet.vsmdi" />
+    <None Include="IrcDotNet\IrcDotNet\ClassDiagram.cd" />
+    <None Include="IrcDotNet\IrcDotNet\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.csproj.GenerateResource.Cache" />
+    <None Include="IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.csprojResolveAssemblyReference.cache" />
+    <None Include="IrcDotNet\Local.testsettings" />
+    <None Include="IrcDotNet\Samples\Common\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="IrcDotNet\Samples\IrcDotNet-Samples.v11.suo" />
+    <None Include="IrcDotNet\Samples\MarkovChainTextBot\app.config" />
+    <None Include="IrcDotNet\Samples\MarkovChainTextBot\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="IrcDotNet\Samples\MarkovChainTextBot\README.md" />
+    <None Include="IrcDotNet\Samples\README.md" />
+    <None Include="IrcDotNet\Samples\TwitterBot\app.config" />
+    <None Include="IrcDotNet\Samples\TwitterBot\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="IrcDotNet\Samples\TwitterBot\README.md" />
+    <None Include="IrcDotNet\TraceAndTestImpact.testsettings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IrcDotNet\IrcDotNet.sln" />
+    <Content Include="IrcDotNet\IrcDotNet.Tests\IrcDotNet.Tests.csproj" />
+    <Content Include="IrcDotNet\IrcDotNet.Tests\Properties\AppManifest.xml" />
+    <Content Include="IrcDotNet\IrcDotNet\IrcDotNet-Silverlight.csproj" />
+    <Content Include="IrcDotNet\IrcDotNet\IrcDotNet.csproj" />
+    <Content Include="IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.csproj.FileListAbsolute.txt" />
+    <Content Include="IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.dll" />
+    <Content Include="IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.pdb" />
+    <Content Include="IrcDotNet\Samples\Common\Common.csproj" />
+    <Content Include="IrcDotNet\Samples\IrcDotNet-Samples.sln" />
+    <Content Include="IrcDotNet\Samples\MarkovChainTextBot\MarkovChainTextBot.csproj" />
+    <Content Include="IrcDotNet\Samples\MarkovChainTextBot\obj\x86\Debug\MarkovChainTextBot.csproj.FileListAbsolute.txt" />
+    <Content Include="IrcDotNet\Samples\TwitterBot\TwitterBot.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IrcDotNet\IrcDotNet.Tests\Properties\Resources.resx" />
+    <EmbeddedResource Include="IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.Properties.Resources.resources" />
+    <EmbeddedResource Include="IrcDotNet\IrcDotNet\Properties\Resources.resx" />
+    <EmbeddedResource Include="IrcDotNet\Samples\Common\Properties\Resources.resx" />
+    <EmbeddedResource Include="IrcDotNet\Samples\MarkovChainTextBot\Properties\Resources.resx" />
+    <EmbeddedResource Include="IrcDotNet\Samples\TwitterBot\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IrcDotNet\IrcDotNet\obj\Debug\TempPE\" />
+    <Folder Include="IrcDotNet\Samples\Common\obj\Debug\TempPE\" />
+    <Folder Include="IrcDotNet\Samples\MarkovChainTextBot\obj\x86\Debug\TempPE\" />
+    <Folder Include="IrcDotNet\Samples\TwitterBot\obj\x86\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
