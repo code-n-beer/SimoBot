@@ -10,8 +10,17 @@ namespace SimoBot
     {
         static void Main(string[] args)
         {
-            Engine engine = new Engine();
-            //Todo: Load ChannelConfigs
+            ChannelConfigs confs = new ChannelConfigs
+            {
+                //Todo: Load ChannelConfigs
+                channelConfigs = new Dictionary<string,Dictionary<string,string>>()
+            };
+
+            Engine engine = new Engine(confs);
+            engine.LoadFeatures();
+            engine.InitializeFeatures();
+
+
             //Todo: Load and initialize features
             //Todo: Connect
             //Todo: Begin "main loop"

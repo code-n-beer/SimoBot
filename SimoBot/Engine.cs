@@ -12,9 +12,11 @@ namespace SimoBot
     {
         EngineMessageHandlers handlers;
         List<IFeature> features;
+        ChannelConfigs configs;
 
-        public Engine()
+        public Engine(ChannelConfigs configs)
         {
+            this.configs = configs;
             handlers = new EngineMessageHandlers
             {
                 commands = new Dictionary<string, MessageHandler>(),
@@ -38,6 +40,14 @@ namespace SimoBot
                 IFeature f = (IFeature)o;
                 f.RegisterFeature(handlers);
                 features.Add(f);
+            }
+        }
+
+        public void InitializeFeatures()
+        {
+            foreach (IFeature f in features)
+            {
+                f.Initialize(configs);
             }
         }
     }

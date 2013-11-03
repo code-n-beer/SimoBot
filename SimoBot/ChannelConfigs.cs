@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SimoBot
 {
-    class ChannelConfig
+    class ChannelConfigs
     {
-        Dictionary<string,Dictionary<string, string>> channelConfigs;
+        public Dictionary<string,Dictionary<string, string>> channelConfigs;
     }
 }
