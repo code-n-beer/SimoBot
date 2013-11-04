@@ -7,7 +7,7 @@ app.use(express.bodyParser());
 app.post('/', function(request, response){
     console.log(request.body);
     response.send(request.body);
-    exec("git pull", null);
+    exec("./pullAndDeploy", null);
     fs.writeFile("./test.log", request.body, function(err) {
         if(err){
             console.log(err);

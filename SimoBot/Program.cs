@@ -26,7 +26,7 @@ namespace SimoBot
             kikkeli["password"] = "kekkels";
             kikkeli["realname"] = "Simo Bot";
             kikkeli["username"] = "simobot";
-            kikkeli["server"] = "irc.atw-inter.net";
+            kikkeli["server"] = "openirc.snt.utwente.nl";
             kikkeli["channels"] = placeholderchannel;
 
             confs.channelConfigs[placeholderchannel] = kikkeli;
