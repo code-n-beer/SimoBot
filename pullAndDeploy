@@ -1,0 +1,5 @@
+killall simobot.exe
+git pull
+dmcs SimoBot/*.cs -r:SimoBot/IrcDotNet.dll -out:SimoBot/simobot.exe
+SimoBot/simobot.exe
+
