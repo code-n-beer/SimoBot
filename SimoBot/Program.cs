@@ -37,7 +37,9 @@ namespace SimoBot
             engine.StartClients();
 
             while (true)
-            { }
+            {
+                System.Threading.Thread.Sleep(50);
+            }
 
 
             //Todo: Load and initialize features
