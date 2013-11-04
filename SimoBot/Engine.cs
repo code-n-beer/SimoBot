@@ -13,7 +13,7 @@ namespace SimoBot
         EngineMessageHandlers handlers;
         List<IFeature> features;
         ChannelConfigs configs;
-
+        
         public Engine(ChannelConfigs configs)
         {
             this.configs = configs;
@@ -24,7 +24,7 @@ namespace SimoBot
                 catchAlls = new Dictionary<string, MessageHandler>()
             };
         }
-
+        
         public void LoadFeatures()
         {
             //Finds all classes that implement the IFeature interface
@@ -50,6 +50,16 @@ namespace SimoBot
                 f.Initialize(configs);
             }
         }
+            
+        public void StartClients()
+        {
+            foreach (var channel in configs.channelConfigs.Values)
+            {
+                var client = new SimoBotClient.Client(channel);
+                client.Connect();
+            }
+        }
+
     }
 
     public class EngineMessageHandlers

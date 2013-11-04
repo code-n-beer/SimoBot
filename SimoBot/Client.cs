@@ -5,21 +5,77 @@ using System.Text;
 using System.Threading.Tasks;
 using IrcDotNet;
 
-namespace SimoBot
+namespace SimoBotClient
 {
+    public delegate void MessageEventHandler(object sender, EventArgs e);
+
     class Client
     {
+        public event MessageEventHandler MsgEvent;
+
         private IrcUserRegistrationInfo regInfo;
-        IrcClient client;
-        public Client(string nick, string realName, string userName, string password)
+        private IrcClient client;
+        Dictionary<string, string> configs;
+
+        string server;
+        string[] channels;
+
+        public Client(Dictionary<string, string> configs)
+        {
+            client = new IrcClient();
+            this.configs = configs;
+            SetEventHandlers();
+        }
+
+
+        public void Connect()
+        {
+            client.Connect(server, false, regInfo);
+        }
+
+        private void OnRawMessage(object sender, IrcRawMessageEventArgs e)
+        {
+            Console.Write(e.RawContent);
+        }
+
+        private void OnDisconnected(object sender, EventArgs e)
+        {
+            Connect(); // :D
+        }
+
+        private void OnRegistered(object sender, EventArgs e)
+        {
+            client.Channels.Join(channels);
+            client.LocalUser.JoinedChannel += (s, a) =>
+                {
+                    a.Channel.MessageReceived += OnMessageReceived;
+                };
+        }
+
+        protected virtual void OnMessageReceived(object sender, EventArgs e)
+        {
+            if (MsgEvent != null)
+                MsgEvent(this, e);
+        }
+
+        private void findClientConfs()
         {
             regInfo = new IrcUserRegistrationInfo();
-            regInfo.NickName = nick;
-            regInfo.Password = password;
-            regInfo.RealName = realName;
-            regInfo.UserName = userName;
-            regInfo.UserModes = new char[] {};
-            client = new IrcClient();
+            regInfo.NickName = configs["nickname"];
+            regInfo.Password = configs["password"];
+            regInfo.RealName = configs["realname"];
+            regInfo.UserName = configs["username"];
+            regInfo.UserModes = new char[] { };
+
+            server = configs["server"];
+            channels = configs["channels"].Split('|');
+        }
+
+        private void SetEventHandlers()
+        {
+            client.Registered += OnRegistered;
+            client.Disconnected += OnDisconnected;
+            client.RawMessageReceived += OnRawMessage;
         }
     }
 }

@@ -9,7 +9,7 @@ namespace SimoBot
     interface IFeature
     {
         public void RegisterFeature(EngineMessageHandlers features);
-        public void Initialize(ChannelConfigs);
+        public void Initialize(ChannelConfigs configs);
         public void Execute(Message msg);
     }
 }
