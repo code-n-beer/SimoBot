@@ -1,0 +1,5 @@
+#datism@irc.quakenet.org
+explfile=datism-expl.txt
+#tkt-cocknballs@openirc.snt.utwente.nl
+explfile=cnb-expl.txt
+#jäbistelijät@openirc.snt.utwente.nl
