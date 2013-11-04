@@ -16,7 +16,7 @@ namespace SimoBot
                 channelConfigs = new Dictionary<string,Dictionary<string,string>>()
             };
 
-            string placeholderchannel = "#jäbistelijät";
+            string placeholderchannel = "#testingk";
             
             confs.channelConfigs[placeholderchannel] = new Dictionary<string, string>();
 
@@ -26,7 +26,7 @@ namespace SimoBot
             kikkeli["password"] = "kekkels";
             kikkeli["realname"] = "Simo Bot";
             kikkeli["username"] = "simobot";
-            kikkeli["server"] = "openirc.snt.utwente.nl";
+            kikkeli["server"] = "irc.atw-inter.net";
             kikkeli["channels"] = placeholderchannel;
 
             confs.channelConfigs[placeholderchannel] = kikkeli;
@@ -37,7 +37,9 @@ namespace SimoBot
             engine.StartClients();
 
             while (true)
-            { }
+            {
+                System.Threading.Thread.Sleep(50);
+            }
 
 
             //Todo: Load and initialize features
