@@ -7,7 +7,7 @@ using IrcDotNet;
 
 namespace SimoBotClient
 {
-    public delegate void MessageEventHandler(object sender, EventArgs e);
+    public delegate void MessageEventHandler(object sender, IrcMessageEventArgs e, IrcClient client);
 
     class Client
     {
@@ -25,6 +25,7 @@ namespace SimoBotClient
             client = new IrcClient();
             this.configs = configs;
             SetEventHandlers();
+            findClientConfs();
         }
 
 
@@ -52,10 +53,10 @@ namespace SimoBotClient
                 };
         }
 
-        protected virtual void OnMessageReceived(object sender, EventArgs e)
+        protected virtual void OnMessageReceived(object sender, IrcMessageEventArgs e)
         {
             if (MsgEvent != null)
-                MsgEvent(this, e);
+                MsgEvent(this, e, client);
         }
 
         private void findClientConfs()

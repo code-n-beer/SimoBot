@@ -8,8 +8,12 @@ namespace SimoBot
 {
     interface IFeature
     {
-        public void RegisterFeature(EngineMessageHandlers features);
-        public void Initialize(ChannelConfigs configs);
-        public void Execute(Message msg);
+        void RegisterFeature(EngineMessageHandlers features);
+        void Initialize(ChannelConfigs configs);
+        void Execute(
+            IrcDotNet.IrcClient Client,
+            string Channel,
+            IrcDotNet.IrcUser Sender,
+            string Message);
     }
 }

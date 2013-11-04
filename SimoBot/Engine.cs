@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IrcDotNet;
 
 namespace SimoBot
 {
-    public delegate void MessageHandler(Message msg);
+    public delegate void MessageHandler(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message);
     
     class Engine
     {
@@ -57,7 +58,43 @@ namespace SimoBot
             {
                 var client = new SimoBotClient.Client(channel);
                 client.Connect();
+                client.MsgEvent += new SimoBotClient.MessageEventHandler(MessageReceived);
             }
+        }
+
+        private void MessageReceived(object sender, IrcMessageEventArgs e, IrcClient client)
+        {
+            var parts = e.Text.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+            var cmd = parts[0].Substring(1);
+
+            if(!handlers.commands.ContainsKey(cmd))
+            {
+                return;
+            }
+
+            var processedMessage = "";
+            if (e.Text.Length >= (cmd.Length + 2))
+            {
+                processedMessage = e.Text.Substring(cmd.Length + 2);
+            }
+
+            string channel = "";
+
+            foreach (var messageTarget in e.Targets)
+            {
+                if (messageTarget is IrcChannel)
+                {
+                    channel = messageTarget.Name;
+                    break;
+                }
+            }
+
+            if (channel == "")
+            {
+                return;
+            }
+
+            handlers.commands[cmd](client, channel, e.Source as IrcUser, processedMessage);
         }
 
     }

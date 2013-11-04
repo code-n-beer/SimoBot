@@ -1,7 +1,0 @@
-C:\Users\Tsarpf\Documents\GitHub\SimoBotNextGen\bin\Debug\IrcDotNet.dll
-C:\Users\Tsarpf\Documents\GitHub\SimoBotNextGen\bin\Debug\IrcDotNet.pdb
-C:\Users\Tsarpf\Documents\GitHub\SimoBotNextGen\IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.csprojResolveAssemblyReference.cache
-C:\Users\Tsarpf\Documents\GitHub\SimoBotNextGen\IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.Properties.Resources.resources
-C:\Users\Tsarpf\Documents\GitHub\SimoBotNextGen\IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.csproj.GenerateResource.Cache
-C:\Users\Tsarpf\Documents\GitHub\SimoBotNextGen\IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.dll
-C:\Users\Tsarpf\Documents\GitHub\SimoBotNextGen\IrcDotNet\IrcDotNet\obj\Debug\IrcDotNet.pdb

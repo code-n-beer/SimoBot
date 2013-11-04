@@ -1,1 +1,13 @@
 C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\SimoBot.exe.config
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\obj\Debug\SimoBot.csprojResolveAssemblyReference.cache
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\SimoBot.exe
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\SimoBot.pdb
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\Hammock.ClientProfile.dll
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\IrcDotNet.dll
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\TweetSharp.dll
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\Hammock.ClientProfile.pdb
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\TweetSharp.pdb
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\obj\Debug\SimoBot.exe
+C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\obj\Debug\SimoBot.pdb
