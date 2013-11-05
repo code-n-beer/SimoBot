@@ -24,7 +24,9 @@ namespace SimoBot
                 {
                     channel = line.Split('@')[0];
                     server = line.Split('@')[1];
+					
                     //aaarghh shit I'm too tired for this
+
                 }
 
                 line = reader.ReadLine();

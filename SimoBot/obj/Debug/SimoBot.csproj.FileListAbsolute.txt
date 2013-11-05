@@ -11,3 +11,4 @@ C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\bin\Debug\TweetSharp.pdb
 C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\obj\Debug\SimoBot.exe
 C:\Users\Tsarpf\Documents\GitHub\SimoBot\SimoBot\obj\Debug\SimoBot.pdb
+C:\CODE\GitHub\SimoBot\SimoBot\bin\Debug\SimoBot.exe.config

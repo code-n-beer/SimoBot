@@ -80,16 +80,3 @@ namespace SimoBotClient
         }
     }
 }
-
-/*
-Simo simo = new Simo("SimoBot", "SimoBot", "simobot", "fuckshit");
-foreach (var feature in features)
-{
-    feature.Init(simo);
-}
-
-simo.Channels = new string[] { "#tkt-cocknballs" };
-simo.Connect("openirc.snt.utwente.nl");
-
-while (simo.Connected) ;    
-*/

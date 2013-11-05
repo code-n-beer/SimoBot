@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="ChannelConfigs.cs" />
     <Compile Include="Client.cs" />
+    <Compile Include="ConfigLoader.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="IFeature.cs" />
     <Compile Include="Message.cs" />

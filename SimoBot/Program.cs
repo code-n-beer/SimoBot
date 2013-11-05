@@ -10,9 +10,11 @@ namespace SimoBot
     {
         static void Main(string[] args)
         {
+			/*
             ChannelConfigs confs = new ChannelConfigs
             {
                 //Todo: Load ChannelConfigs
+				//derp herp
                 channelConfigs = new Dictionary<string,Dictionary<string,string>>()
             };
 
@@ -31,6 +33,7 @@ namespace SimoBot
 
             confs.channelConfigs[placeholderchannel] = kikkeli;
 
+			*/
             Engine engine = new Engine(confs);
             engine.LoadFeatures();
             engine.InitializeFeatures();
@@ -40,11 +43,6 @@ namespace SimoBot
             {
                 System.Threading.Thread.Sleep(50);
             }
-
-
-            //Todo: Load and initialize features
-            //Todo: Connect
-            //Todo: Begin "main loop"
         }
 
     }
