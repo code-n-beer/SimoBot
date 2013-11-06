@@ -18,16 +18,26 @@ namespace SimoBot
 
             string channel = "";
             string server = "";
+
+            string key = "";
+            string value = "";
             while (line != null)
             {
                 if (line.Contains("@"))
                 {
                     channel = line.Split('@')[0];
                     server = line.Split('@')[1];
-					
-                    //aaarghh shit I'm too tired for this
-
+                    configs[line] = new Dictionary<string, string>();
+                    continue;
                 }
+
+
+                int pos = line.IndexOf('=');
+                key = line.Substring(0, pos + 1);
+
+                value = line.Substring(pos);
+
+                configs[line][key] = value;
 
                 line = reader.ReadLine();
             }
