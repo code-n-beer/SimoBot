@@ -9,7 +9,7 @@ namespace SimoBot
 {
     class ConfigLoader
     {
-        public ConfigLoader(string filename = "config.txt")
+        public static Dictionary<string, Dictionary<string, string>> LoadConfig(string filename = "config.txt")
         {
             StreamReader reader = new StreamReader(filename);
             string line = reader.ReadLine();
@@ -21,8 +21,11 @@ namespace SimoBot
 
             string key = "";
             string value = "";
-            while (line != null)
+            while (line != null && line != "end")
             {
+                if (line == "")
+                    continue;
+
                 if (line.Contains("@"))
                 {
                     channel = line.Split('@')[0];
@@ -40,7 +43,10 @@ namespace SimoBot
                 configs[line][key] = value;
 
                 line = reader.ReadLine();
+
             }
+
+            return configs;
         }
     }
 }

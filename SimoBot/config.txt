@@ -1,3 +1,20 @@
+#thirdTestChannel@irc.quakenet.org
+nickname=SimoBotdes
+passowrd=kekkels
+realname=Simo Bot
+username=simobot
+server=irc.quakenet.org
+channels=#thirdTestChannel
+
+#thirdTestChannel@irc.quakenet.org
+nickname=SimoBotdes
+passowrd=kekkels
+realname=Simo Bot
+username=simobot
+server=irc.quakenet.org
+channels=#thirdTestChannel
+end
+
 #datism@irc.quakenet.org
 explfile=datism-expl.txt
 #tkt-cocknballs@openirc.snt.utwente.nl

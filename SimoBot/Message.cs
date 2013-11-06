@@ -11,3 +11,7 @@ namespace SimoBot
         public string firstWord, message, nick, action, channel, time;
     }
 }
+
+/*
+
+*/
