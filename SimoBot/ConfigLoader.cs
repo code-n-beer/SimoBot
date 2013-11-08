@@ -48,5 +48,38 @@ namespace SimoBot
 
             return configs;
         }
+
+        public static void OrganizeConfsPerServer(Dictionary<string, Dictionary<string, string>> confs)
+		{
+			List<Server> servers = new List<Server>();
+			Channel channel;
+			foreach (KeyValuePair<string, Dictionary<string, string>> kvp in confs)
+			{
+				channel = new Channel();
+				channel.config = kvp.Value;
+				channel.channel = kvp.Value["channel"];
+				channel.server = kvp.Value["server"];
+				AddChannel(ref servers, channel);
+			}
+		}
+
+		private static void AddChannel(ref List<Server> servers, Channel channel)
+		{
+            foreach(Server server in servers)
+            {
+               if(channel.server == server.server)
+				{
+				    server.channels.Add(channel);
+					return;
+				}
+			}
+            
+			var channels = new List<Channel>();
+            channels.Add(channel);
+
+			Server newServer = new Server(channel.server, channels);
+			servers.Add(newServer);
+
+		}
     }
 }

@@ -96,7 +96,6 @@ namespace SimoBot
 
             handlers.commands[cmd](client, channel, e.Source as IrcUser, processedMessage);
         }
-
     }
 
     public class EngineMessageHandlers
