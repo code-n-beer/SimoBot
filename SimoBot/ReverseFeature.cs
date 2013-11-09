@@ -16,7 +16,7 @@ namespace SimoBot
             features.commands["r"] = Execute; // Name the 
         }
 
-        public void Initialize(ChannelConfigs configs)
+        public void Initialize(Dictionary<string, Dictionary<string, string>> confs)
         {
             // If you need to initialize something, f.ex create a database connection using strings from the configuration file etc you probably should do it here.
             // Also if you need to keep a list of sometihng over multiple executions of the command or something you could instantiate the list here.
@@ -32,9 +32,9 @@ namespace SimoBot
             // The dictionary within the channels dictionary contains the actual configuration strings.
             // It can be used like so:
             
-            //string connectionString = configs.channelConfigs["#NameOfTheChannelInQuestion"]["exampleDatabaseConnectionStringOrWhatever"];
+            //string connectionString = confs["#NameOfTheChannelInQuestion"]["exampleDatabaseConnectionStringOrWhatever"];
 
-            //string anotherExampleString = configs.channelConfigs["#OtherExample"]["plainTextPassword"];
+            //string anotherExampleString = confs["#OtherExample"]["plainTextPassword"];
 
         }
 

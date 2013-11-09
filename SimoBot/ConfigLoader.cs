@@ -9,6 +9,14 @@ namespace SimoBot
 {
     class ConfigLoader
     {
+        /*
+         * 
+         * 
+         *               THIS WHOLE CLASS IS IN A HUGE NEED OF A COMPLETE REWRITE.... THE WAY IT IS NOW IS JUST HORRIBLE.          
+         * 
+         * 
+         * 
+         */ 
         public static Dictionary<string, Dictionary<string, string>> LoadConfig(string filename = "config.txt")
         {
             StreamReader reader = new StreamReader(filename);
@@ -16,31 +24,35 @@ namespace SimoBot
 
             Dictionary<string, Dictionary<string, string>> configs = new Dictionary<string, Dictionary<string, string>>();
 
-            string channel = "";
-            string server = "";
 
             string key = "";
             string value = "";
+
+            string channel = "";
+
             while (line != null && line != "end")
             {
                 if (line == "")
+                {
+                    line = reader.ReadLine();
                     continue;
+                }
 
                 if (line.Contains("@"))
                 {
                     channel = line.Split('@')[0];
-                    server = line.Split('@')[1];
-                    configs[line] = new Dictionary<string, string>();
+                    configs[channel] = new Dictionary<string, string>();
+                    line = reader.ReadLine();
                     continue;
                 }
 
 
                 int pos = line.IndexOf('=');
-                key = line.Substring(0, pos + 1);
+                key = line.Substring(0, pos);
 
-                value = line.Substring(pos);
+                value = line.Substring(pos + 1);
 
-                configs[line][key] = value;
+                configs[channel][key] = value;
 
                 line = reader.ReadLine();
 

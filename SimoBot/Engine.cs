@@ -14,10 +14,13 @@ namespace SimoBot
         EngineMessageHandlers handlers;
         List<IFeature> features;
 		List<Server> servers;
+        Dictionary<string, Dictionary<string, string>> confs;
         
-        public Engine(List<Server> servers)
+        public Engine(List<Server> servers, Dictionary<string, Dictionary<string, string>> confs)
         {
 			this.servers = servers;
+
+            this.confs = confs;
 
             handlers = new EngineMessageHandlers
             {
@@ -49,22 +52,25 @@ namespace SimoBot
         {
             foreach (IFeature f in features)
             {
-                f.Initialize(configs);
+                f.Initialize(confs);
             }
         }
             
         public void StartClients()
         {
+            /*
             foreach (var channel in configs.channelConfigs.Values)
             {
                 var client = new SimoBotClient.Client(channel);
                 client.Connect();
                 client.MsgEvent += new SimoBotClient.MessageEventHandler(MessageReceived);
             }
-
+            */
             foreach (Server server in servers)
 			{
-                
+                var client = new SimoBotClient.Client(server);
+                client.Connect();
+                client.MsgEvent += new SimoBotClient.MessageEventHandler(MessageReceived);
 			}
         }
 

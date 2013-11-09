@@ -10,7 +10,9 @@ namespace SimoBot
     {
         static void Main(string[] args)
         {
-			List<Server> servers = ConfigLoader.OrganizeConfsPerServer(ConfigLoader.LoadConfig("config.txt"))
+            var confs = ConfigLoader.LoadConfig("config.txt");
+
+            List<Server> servers = ConfigLoader.OrganizeConfsPerServer(confs);
 
 			/*
             ChannelConfigs confs = new ChannelConfigs
@@ -36,7 +38,7 @@ namespace SimoBot
             confs.channelConfigs[placeholderchannel] = kikkeli;
             */
 
-            Engine engine = new Engine(confs);
+            Engine engine = new Engine(servers, confs);
             engine.LoadFeatures();
             engine.InitializeFeatures();
             engine.StartClients();

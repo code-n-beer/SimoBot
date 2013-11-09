@@ -9,7 +9,7 @@ namespace SimoBot
     interface IFeature
     {
         void RegisterFeature(EngineMessageHandlers features);
-        void Initialize(ChannelConfigs configs);
+        void Initialize(Dictionary<string, Dictionary<string, string>> configs);
         void Execute(
             IrcDotNet.IrcClient Client,
             string Channel,

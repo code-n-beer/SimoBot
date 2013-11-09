@@ -4,34 +4,52 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IrcDotNet;
+using SimoBot;
 
 namespace SimoBotClient
 {
     public delegate void MessageEventHandler(object sender, IrcMessageEventArgs e, IrcClient client);
 
+
     class Client
     {
+
         public event MessageEventHandler MsgEvent;
 
         private IrcUserRegistrationInfo regInfo;
         private IrcClient client;
-        Dictionary<string, string> configs;
 
-        string server;
+        Server server;
+
         string[] channels;
-
-        public Client(Dictionary<string, string> configs)
+        public Client(Server server)
         {
             client = new IrcClient();
-            this.configs = configs;
+            this.server = server;
+
+
+            channels = getChannels(server);
+
             SetEventHandlers();
             findClientConfs();
+        }
+
+        private string[] getChannels(Server server)
+        {
+            string[] channels = new string[server.channels.Count];
+
+            for(int i = 0; i < server.channels.Count; i++)
+            {
+                channels[i] = server.channels[i].channel;
+            }
+
+            return channels;
         }
 
 
         public void Connect()
         {
-            client.Connect(server, false, regInfo);
+            client.Connect(server.server, false, regInfo);
         }
 
         private void OnRawMessage(object sender, IrcRawMessageEventArgs e)
@@ -62,14 +80,14 @@ namespace SimoBotClient
         private void findClientConfs()
         {
             regInfo = new IrcUserRegistrationInfo();
-            regInfo.NickName = configs["nickname"];
-            regInfo.Password = configs["password"];
-            regInfo.RealName = configs["realname"];
-            regInfo.UserName = configs["username"];
+            var conf = server.channels[0].config;
+
+            regInfo.NickName = conf["nickname"];
+            regInfo.Password = conf["password"];
+            regInfo.RealName = conf["realname"];
+            regInfo.UserName = conf["username"];
             regInfo.UserModes = new char[] { };
 
-            server = configs["server"];
-            channels = configs["channels"].Split('|');
         }
 
         private void SetEventHandlers()
