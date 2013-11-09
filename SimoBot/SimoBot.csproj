@@ -57,6 +57,7 @@
     <Compile Include="Client.cs" />
     <Compile Include="ConfigLoader.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="HelpFeature.cs" />
     <Compile Include="IFeature.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="PirkkanixFeature.cs" />
