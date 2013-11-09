@@ -33,26 +33,28 @@ namespace SimoBot
 
             IrcUserCollection nicklist = Client.Channels.Client.Users;
 
-
             Random random = new Random();
 
             if (Message == "")
             {
                 int rnd = random.Next(0,15);
-                for (int i = 0; i < rnd; i++){
+                for (int i = 0; i < rnd; i++)
+                {
                     uguu += 'u';
                 }
                 uguu += '~';
 
-                                string[] IllegalNicks = { "SIMOBOT", Sender.NickName};
-                                int rndNick = random.Next(0, nicklist.Count);
+                string[] IllegalNicks = { "SIMOBOT", Sender.NickName};
+                int rndNick = random.Next(0, nicklist.Count);
                 text = nicklist[rndNick].NickName + uguu;
-                // text = getRandomNick() + uguu;
             }
             else
             {
-                int rnd = random.Next(0,15);
-                for (int i = 0; i < rnd; i++){
+                Message = Message.Trim();
+
+                int rnd = random.Next(0, 15);
+                for (int i = 0; i < rnd; i++)
+                {
                     uguu += 'u';
                 }
                 uguu += '~';
