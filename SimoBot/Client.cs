@@ -54,7 +54,7 @@ namespace SimoBotClient
 
         private void OnRawMessage(object sender, IrcRawMessageEventArgs e)
         {
-            Console.Write(e.RawContent);
+            Console.WriteLine(e.RawContent);
         }
 
         private void OnDisconnected(object sender, EventArgs e)
