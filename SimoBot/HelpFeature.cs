@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SimoBot
 {
-    class HelpFeature
+    class HelpFeature : IFeature
     {
         EngineMessageHandlers features;
         public void RegisterFeature(EngineMessageHandlers features)
