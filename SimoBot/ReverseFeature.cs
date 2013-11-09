@@ -36,8 +36,6 @@ namespace SimoBot
 
             //string anotherExampleString = configs.channelConfigs["#OtherExample"]["plainTextPassword"];
 
-
-
         }
 
 

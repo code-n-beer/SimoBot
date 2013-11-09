@@ -10,8 +10,8 @@ namespace SimoBot
     {
         static void Main(string[] args)
         {
-            ChannelConfigs confs = new ChannelConfigs();
-            confs.channelConfigs = ConfigLoader.LoadConfig("config.txt");
+			List<Server> servers = ConfigLoader.OrganizeConfsPerServer(ConfigLoader.LoadConfig("config.txt"))
+
 			/*
             ChannelConfigs confs = new ChannelConfigs
             {

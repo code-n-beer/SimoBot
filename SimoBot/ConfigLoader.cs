@@ -49,7 +49,7 @@ namespace SimoBot
             return configs;
         }
 
-        public static void OrganizeConfsPerServer(Dictionary<string, Dictionary<string, string>> confs)
+        public static List<Server> OrganizeConfsPerServer(Dictionary<string, Dictionary<string, string>> confs)
 		{
 			List<Server> servers = new List<Server>();
 			Channel channel;
@@ -61,6 +61,9 @@ namespace SimoBot
 				channel.server = kvp.Value["server"];
 				AddChannel(ref servers, channel);
 			}
+
+			return servers;
+
 		}
 
 		private static void AddChannel(ref List<Server> servers, Channel channel)

@@ -13,11 +13,12 @@ namespace SimoBot
     {
         EngineMessageHandlers handlers;
         List<IFeature> features;
-        ChannelConfigs configs;
+		List<Server> servers;
         
-        public Engine(ChannelConfigs configs)
+        public Engine(List<Server> servers)
         {
-            this.configs = configs;
+			this.servers = servers;
+
             handlers = new EngineMessageHandlers
             {
                 commands = new Dictionary<string, MessageHandler>(),
@@ -60,6 +61,11 @@ namespace SimoBot
                 client.Connect();
                 client.MsgEvent += new SimoBotClient.MessageEventHandler(MessageReceived);
             }
+
+            foreach (Server server in servers)
+			{
+                
+			}
         }
 
         private void MessageReceived(object sender, IrcMessageEventArgs e, IrcClient client)
