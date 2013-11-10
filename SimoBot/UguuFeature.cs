@@ -50,7 +50,7 @@ namespace SimoBot
             }
             else
             {
-                Message = Message.Trim();
+                Message = Message.Trim().TrimEnd("aeiouyåäö".ToCharArray());
 
                 int rnd = random.Next(0, 15);
                 for (int i = 0; i < rnd; i++)
