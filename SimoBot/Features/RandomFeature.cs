@@ -29,8 +29,8 @@ namespace SimoBot.Features
             int start, end;
 			try
 			{
-				start = Convert.ToInt32(words[1]);
-				end = Convert.ToInt32(words[2]);
+				start = Convert.ToInt32(words[0]);
+				end = Convert.ToInt32(words[1]);
 			}
 			catch (Exception)
 			{
