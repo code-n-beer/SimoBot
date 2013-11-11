@@ -29,7 +29,7 @@ namespace SimoBot
             // uguu u:kirjainten määrä vaihtelee satunnaisesti 2-17 välillä
 
             string text = "";
-            string uguu = "";
+            string uguu = "uu";
 
             IrcUserCollection nicklist = Client.Channels.Client.Users;
 
@@ -37,7 +37,7 @@ namespace SimoBot
 
             if (Message == "")
             {
-                int rnd = random.Next(0,15);
+                int rnd = random.Next(0,16);
                 for (int i = 0; i < rnd; i++)
                 {
                     uguu += 'u';
@@ -52,7 +52,7 @@ namespace SimoBot
             {
                 Message = Message.Trim().TrimEnd("aeiouyåäö".ToCharArray());
 
-                int rnd = random.Next(0, 15);
+                int rnd = random.Next(0, 16);
                 for (int i = 0; i < rnd; i++)
                 {
                     uguu += 'u';
