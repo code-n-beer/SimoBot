@@ -57,15 +57,16 @@
     <Compile Include="Client.cs" />
     <Compile Include="ConfigLoader.cs" />
     <Compile Include="Engine.cs" />
-    <Compile Include="HelpFeature.cs" />
+    <Compile Include="Features\HelpFeature.cs" />
+    <Compile Include="Features\RandomFeature.cs" />
     <Compile Include="IFeature.cs" />
     <Compile Include="Message.cs" />
-    <Compile Include="PirkkanixFeature.cs" />
+    <Compile Include="Features\PirkkanixFeature.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReverseFeature.cs" />
+    <Compile Include="Features\ReverseFeature.cs" />
     <Compile Include="Server.cs" />
-    <Compile Include="UguuFeature.cs" />
+    <Compile Include="Features\UguuFeature.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
