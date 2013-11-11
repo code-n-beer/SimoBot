@@ -20,7 +20,7 @@ namespace SimoBot.Features
         public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
         {
 			string[] words = Message.Trim().Split(' ');
-			if (words.Length < 3 || words.Length > 3)
+			if (words.Length < 2 || words.Length > 2)
 			{
 				Client.LocalUser.SendMessage(Channel, "!random <start> <end>");
 				return;
