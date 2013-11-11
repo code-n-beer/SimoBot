@@ -46,7 +46,7 @@ namespace SimoBot
 
                 string[] IllegalNicks = { "SIMOBOT", Sender.NickName};
                 int rndNick = random.Next(0, nicklist.Count);
-                text = nicklist[rndNick].NickName + uguu;
+                text = nicklist[rndNick].NickName.TrimEnd("aeiouyåäö".ToCharArray()) + uguu;
             }
             else
             {
