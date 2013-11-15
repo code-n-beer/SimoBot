@@ -44,7 +44,6 @@ namespace SimoBot
 			if (message.Trim() == "")
 			{
 				expl = explain(explDictionaries[channel]);
-				return;
 			}
 
 			expl = explain(message, explDictionaries[channel]);
