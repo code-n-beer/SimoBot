@@ -57,6 +57,7 @@ namespace SimoBot
                 line = reader.ReadLine();
 
             }
+			reader.Close();
 
             return configs;
         }

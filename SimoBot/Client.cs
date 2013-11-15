@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using IrcDotNet;
 using SimoBot;
+using System.IO;
 
 namespace SimoBotClient
 {
@@ -22,8 +23,13 @@ namespace SimoBotClient
         Server server;
 
         string[] channels;
+
+        StreamWriter writer;
+        
         public Client(Server server)
         {
+            writer = new StreamWriter(server.server + ".log", true);
+
             client = new IrcClient();
             this.server = server;
 
@@ -55,6 +61,7 @@ namespace SimoBotClient
         private void OnRawMessage(object sender, IrcRawMessageEventArgs e)
         {
             Console.WriteLine(e.RawContent);
+            writer.WriteLine(e.RawContent);
         }
 
         private void OnDisconnected(object sender, EventArgs e)

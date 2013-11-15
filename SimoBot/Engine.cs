@@ -58,14 +58,6 @@ namespace SimoBot
             
         public void StartClients()
         {
-            /*
-            foreach (var channel in configs.channelConfigs.Values)
-            {
-                var client = new SimoBotClient.Client(channel);
-                client.Connect();
-                client.MsgEvent += new SimoBotClient.MessageEventHandler(MessageReceived);
-            }
-            */
             foreach (Server server in servers)
 			{
                 var client = new SimoBotClient.Client(server);
