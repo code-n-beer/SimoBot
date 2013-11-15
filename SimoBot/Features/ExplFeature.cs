@@ -45,8 +45,10 @@ namespace SimoBot
 			{
 				expl = explain(explDictionaries[channel]);
 			}
-
-			expl = explain(message, explDictionaries[channel]);
+			else
+			{
+				expl = explain(message, explDictionaries[channel]);
+			}
 
 			Client.LocalUser.SendMessage(channel, expl);
             
