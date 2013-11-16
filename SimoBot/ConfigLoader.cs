@@ -97,5 +97,19 @@ namespace SimoBot
 			servers.Add(newServer);
 
 		}
+
+        public static string FindValueFromNestedDictionary(Dictionary<string, Dictionary<string, string>> dictionary, string key)
+		{
+            foreach(var channelkvp in dictionary)
+			{
+                foreach(var kvp in channelkvp.Value)
+				{
+                    if(kvp.Key == key)
+                        return kvp.Value;
+				}
+			}
+
+			return null;
+		}
     }
 }
