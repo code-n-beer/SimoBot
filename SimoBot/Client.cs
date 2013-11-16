@@ -62,6 +62,7 @@ namespace SimoBotClient
         {
             Console.WriteLine(e.RawContent);
             writer.WriteLine(e.RawContent);
+			writer.Flush();
         }
 
         private void OnDisconnected(object sender, EventArgs e)
