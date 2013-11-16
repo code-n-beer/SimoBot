@@ -9,7 +9,7 @@ using System.Net;
 
 namespace SimoBot.Features
 {
-	class NowPlayingFeature
+	class NowPlayingFeature : IFeature
 	{
 		public void RegisterFeature(EngineMessageHandlers features)
 		{
@@ -221,7 +221,7 @@ namespace SimoBot.Features
 			return htmlCode;
 		}
 
-		private Dictionary<string, string> getLastFmNickDictionary(string filename = "LastFmNick.txt")
+		private Dictionary<string, string> getLastFmNickDictionary(string filename)
 		{
 			Dictionary<string, string> NickDir = new Dictionary<string, string>();
 			string output = "asdf";
