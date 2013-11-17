@@ -126,12 +126,15 @@ namespace SimoBot
         private int getNumericSuffix(string name)
         {
             int i = name.Length;
-            while(Char.IsDigit(name[--i]) && i > 0);
-            if(i+1 == name.Length)
+            while(i > 0 && Char.IsDigit(name[i-1]))
+            {
+            	i--;	
+            }
+            if(i == name.Length)
             {
 		return -1;
             }
-            return Int32.Parse(name.Substring(i+1, name.Length - (i+1)));
+            return Int32.Parse(name.Substring(i, name.Length - i));
         }
         
         private string getLastSuffix(string name, Dictionary<string, string> dictionary)
