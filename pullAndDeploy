@@ -1,4 +1,5 @@
 git pull
-dmcs SimoBot/*.cs -r:SimoBot/IrcDotNet.dll -out:SimoBot/simobot.exe
+dmcs SimoBot/*.cs SimoBot/Features/*.cs -r:SimoBot/IrcDotNet.dll -out:SimoBot/simobot.exe
+git log -1 --pretty=%B > commitmessage.log
 ps x | grep simobot.exe | awk '{print $1}' | head -1 | xargs kill
 SimoBot/simobot.exe
