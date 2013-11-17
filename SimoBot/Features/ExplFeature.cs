@@ -172,7 +172,7 @@ namespace SimoBot
             	string final = getLastSuffix(word, dictionary);
             	if(!word.Equals(final))
             	{
-                    ret += " | More expl: " + final;
+                    ret += " | Continues in: " + final;
             	}
             	return ret;
             }
