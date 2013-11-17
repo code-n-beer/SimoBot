@@ -105,7 +105,7 @@ namespace SimoBot
                             return "Proposed new expl doesn't fit into one message character limit";
                         }
                         int suffix = getNumericSuffix(name);
-                        if(suffix == 0) return addExpl(name + '2', expl, dictionary, filename);
+                        if(suffix == -1) return addExpl(name + '2', expl, dictionary, filename);
                         return addExpl(name.TrimEnd("0123456789".ToCharArray()) + (suffix+1),
                         expl, dictionary, filename);
                     }
@@ -129,9 +129,25 @@ namespace SimoBot
             while(i > 0 && Char.IsDigit(name[--i]));
             if(i+1 == name.Length)
             {
-		return 0;
+		return -1;
             }
             return Int32.Parse(name.Substring(i+1, name.Length - (i+1)));
+        }
+        
+        private int getLastSuffix(string name, Dictionary<string, string> dictionary)
+        {
+            string prefix = name.TrimEnd("0123456789".ToCharArray());
+            int initSuffix = getNumericSuffix(name);
+            int finalSuffix = initSuffix;
+            for(int i = 0;;i++) 
+            {
+            	if(dictionary.ContainsKey(prefix + i))
+            	{
+                    finalSuffix = i;
+            	}
+            	else if(i >= 2) break; //special case in mind
+            }
+            return finalSuffix;
         }
 
 
@@ -152,7 +168,13 @@ namespace SimoBot
 
             if (dictionary.ContainsKey(word))
             {
-                return word + " : " + dictionary[word];
+            	string ret = word + " : " + dictionary[word];
+            	string final = word.TrimEnd("0123456789".ToCharArray()) + getLastSuffix(word);
+            	if(!word.Equals(final))
+            	{
+                    ret += " | More expl: " + final;
+            	}
+            	return ret;
             }
             return "No such expl";
         }
