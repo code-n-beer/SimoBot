@@ -79,7 +79,7 @@ namespace SimoBotClient
             client.LocalUser.JoinedChannel += (s, a) =>
                 {
                     a.Channel.MessageReceived += OnMessageReceived;
-					client.LocalUser.SendMessage(a.Channel, "Rebooted backend. Newest commit: " + commitMessage);
+					client.LocalUser.SendMessage(a.Channel, "Rebooted backend: \"" + commitMessage + "\"");
                 };
         }
 
