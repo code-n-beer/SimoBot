@@ -110,8 +110,8 @@ namespace SimoBot
                         {
                             return addExpl(name + '2', expl, dictionary, filename);
                         }
-                        int suffix = 1 + Int32.Parse(name.Substring(i, name.Length - i));
-                        return addExpl(name.Substring(0, i) + suffix, expl, dictionary, filename);
+                        int suffix = 1 + Int32.Parse(name.Substring(i+1, name.Length - (i+1)));
+                        return addExpl(name.Substring(0, i+1) + suffix, expl, dictionary, filename);
                     }
                     expl = dictionary[name] + " | " + expl.Trim();
                     dictionary[name] = expl;
