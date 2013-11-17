@@ -24,11 +24,9 @@ namespace SimoBotClient
 
         string[] channels;
 
-        StreamWriter writer;
         
         public Client(Server server)
         {
-            writer = new StreamWriter(server.server + ".log", true);
 
             client = new IrcClient();
             this.server = server;
@@ -55,14 +53,17 @@ namespace SimoBotClient
 
         public void Connect()
         {
+			if (server.server.Contains(":"))
+			{
+                client.Connect(server.server.Split(':')[0], Convert.ToInt32(server.server.Split(':')[1]), false, regInfo);
+				return;
+			}
             client.Connect(server.server, false, regInfo);
         }
 
         private void OnRawMessage(object sender, IrcRawMessageEventArgs e)
         {
             Console.WriteLine(e.RawContent);
-            //writer.WriteLine(e.RawContent);
-            //writer.Flush();
         }
 
         private void OnDisconnected(object sender, EventArgs e)
