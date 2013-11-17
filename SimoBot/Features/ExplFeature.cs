@@ -196,7 +196,7 @@ namespace SimoBot
         {
             what = what.ToLower();
             word = word.Trim();
-            if(dictionary.ContainsKey(what) && !IsNullOrEmpty(word) && dictionary[what].Contains(word))
+            if(dictionary.ContainsKey(what) && !String.IsNullOrEmpty(word) && dictionary[what].Contains(word))
             {
             	if(!dictionary[what].StartsWith(word))
             	{
