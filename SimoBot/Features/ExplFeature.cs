@@ -105,9 +105,7 @@ namespace SimoBot
                             return "Proposed new expl doesn't fit into one message character limit";
                         }
                         int i = name.Length;
-                        while(i > 0 && Char.IsDigit(name[i])) {
-                            i--;
-                        }
+                        while(i > 0 && Char.IsDigit(name[--i]));
                         if(i == name.Length)
                         {
                             return addExpl(name + '2', expl, dictionary, filename);
