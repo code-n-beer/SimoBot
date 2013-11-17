@@ -61,7 +61,7 @@ namespace SimoBot
 		            remove(Message, explDictionaries[Channel], configs[Channel][configExplNameKey]);
 			}
 			else remove(message[0], message[1], explDictionaries[Channel],
-			    configs[Channel][configExplNameKey]);
+			configs[Channel][configExplNameKey]);
 		}
 
         public void ExecuteAdd(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
