@@ -100,7 +100,20 @@ namespace SimoBot
                 {
                     if ((dictionary[name] + " | " + expl).Length > 400)
                     {
-                        return "Proposed new expl doesn't fit into one message character limit";
+                        if(expl.Length > 400)
+                        {
+                            return "Proposed new expl doesn't fit into one message character limit";
+                        }
+                        int i = name.Length;
+                        while(i > 0 && Char.isDigit(name[i])) {
+                            i--;
+                        }
+                        if(i == name.Length)
+                        {
+                            return addExpl(name + '2', expl, dictionary, filename);
+                        }
+                        int suffix = 1 + Int32.Parse(name.Substring(i, name.Length - i));
+                        return addexpl(name.SubString(0, i) + suffix, expl, dictionary, filename);
                     }
                     expl = dictionary[name] + " | " + expl.Trim();
                     dictionary[name] = expl;
