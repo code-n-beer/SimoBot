@@ -56,7 +56,7 @@ namespace SimoBot
 
 		public void ExecuteRemove(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
 		{
-			remove(Message, configs[Channel], configs[Channel][configExplNameKey]);
+			remove(Message, explDictionaries[Channel], configs[Channel][configExplNameKey]);
 			//Client.LocalUser.SendMessage(Channel, "Not implemented lulz :D");
 		}
 
