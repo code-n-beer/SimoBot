@@ -105,7 +105,7 @@ namespace SimoBot
                             return "Proposed new expl doesn't fit into one message character limit";
                         }
                         int suffix = getNumericSuffix(name);
-                        if(suffix == 0) return addExp(name + '2', expl, dictionary, filename);
+                        if(suffix == 0) return addExpl(name + '2', expl, dictionary, filename);
                         return addExpl(name.trimEnd("0123456789".toCharArray()) + (suffix+1),
                         expl, dictionary, filename);
                     }
