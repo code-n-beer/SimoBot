@@ -56,7 +56,12 @@ namespace SimoBot
 
 		public void ExecuteRemove(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
 		{
-			remove(Message, explDictionaries[Channel], configs[Channel][configExplNameKey]);
+			string[] message = Message.Trim().Split(' ');
+			if(message.Length == 1) {
+		            remove(Message, explDictionaries[Channel], configs[Channel][configExplNameKey]);
+			}
+			else remove(message[0], message[1], explDictionaries[Channel],
+			configs[Channel][configExplNameKey]));
 			//Client.LocalUser.SendMessage(Channel, "Not implemented lulz :D");
 		}
 
@@ -187,6 +192,26 @@ namespace SimoBot
             string key = dictionary.Keys.ElementAt(random(dictionary.Keys.Count));
             return key + " : " + dictionary[key];
         }
+        
+        private void remove(string what, string word, Dictionary<string, string> dictionary, string filename)
+        {
+            what = what.ToLower();
+            word = word.Trim();
+            if(dictionary.ContainsKey(what) && !word.IsNullOrEmpty() && dictionary[what].Contains(word))
+            {
+            	if(!dictionary[what].StartsWith(word))
+            	{
+                    dictionary[what] = dictionary[what].Replace(" | " + word, "");
+            	}
+            	else if(!dictionary[what].Equals(word))
+            	{
+                    dictionary[what] = dictionary[what].Replace(word + " | ", "");
+            	}
+            	else dictionary.Remove(what);
+            }
+            refreshTextFile(filename, dictionary);
+        }
+        
         private void remove(string what, Dictionary<string, string> dictionary, string filename)
         {
             what = what.ToLower();
