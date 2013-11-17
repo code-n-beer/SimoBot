@@ -104,14 +104,10 @@ namespace SimoBot
                         {
                             return "Proposed new expl doesn't fit into one message character limit";
                         }
-                        int i = name.Length;
-                        while(i > 0 && Char.IsDigit(name[--i]));
-                        if(i+1 == name.Length)
-                        {
-                            return addExpl(name + '2', expl, dictionary, filename);
-                        }
-                        int suffix = 1 + Int32.Parse(name.Substring(i+1, name.Length - (i+1)));
-                        return addExpl(name.Substring(0, i+1) + suffix, expl, dictionary, filename);
+                        int suffix = getNumericSuffix(name);
+                        if(suffix == 0) return addExp(name + '2', expl, dictionary, filename);
+                        return addExpl(name.trimEnd("0123456789".toCharArray()) + (suffix+1),
+                        expl, dictionary, filename);
                     }
                     expl = dictionary[name] + " | " + expl.Trim();
                     dictionary[name] = expl;
@@ -125,6 +121,17 @@ namespace SimoBot
                     return explain(name, dictionary);
                 }
             }
+        }
+        
+        private int getNumericSuffix(string input)
+        {
+            int i = name.Length;
+            while(i > 0 && Char.IsDigit(name[--i]));
+            if(i+1 == name.Length)
+            {
+		return 0;
+            }
+            return Int32.Parse(name.Substring(i+1, name.Length - (i+1)));
         }
 
 
