@@ -126,7 +126,7 @@ namespace SimoBot
         private int getNumericSuffix(string name)
         {
             int i = name.Length;
-            while(Char.IsDigit(name[--i]) && i >= 0);
+            while(Char.IsDigit(name[--i]) && i > 0);
             if(i+1 == name.Length)
             {
 		return -1;
