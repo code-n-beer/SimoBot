@@ -134,12 +134,11 @@ namespace SimoBot
             return Int32.Parse(name.Substring(i+1, name.Length - (i+1)));
         }
         
-        private int getLastSuffix(string name, Dictionary<string, string> dictionary)
+        private string getLastSuffix(string name, Dictionary<string, string> dictionary)
         {
             string prefix = name.TrimEnd("0123456789".ToCharArray());
-            int initSuffix = getNumericSuffix(name);
-            int finalSuffix = initSuffix;
-            for(int i = 0;;i++) 
+            int finalSuffix = getNumericSuffix(name);
+            for(int i = finalSuffix;;i++) 
             {
             	if(dictionary.ContainsKey(prefix + i))
             	{
@@ -147,7 +146,8 @@ namespace SimoBot
             	}
             	else if(i >= 2) break; //special case in mind
             }
-            return finalSuffix;
+            if(finalSuffix == -1) return name;
+            return prefix + finalSuffix;
         }
 
 
@@ -169,7 +169,7 @@ namespace SimoBot
             if (dictionary.ContainsKey(word))
             {
             	string ret = word + " : " + dictionary[word];
-            	string final = word.TrimEnd("0123456789".ToCharArray()) + getLastSuffix(word, dictionary);
+            	string final = getLastSuffix(word, dictionary);
             	if(!word.Equals(final))
             	{
                     ret += " | More expl: " + final;
