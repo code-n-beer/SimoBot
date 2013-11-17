@@ -115,7 +115,18 @@ namespace SimoBot
 		public static string GetCommitMessage(Dictionary<string, Dictionary<string, string>> dictionary)
 		{
             StreamReader reader = new StreamReader(FindValueFromNestedDictionary(dictionary, "commitmessage"));
-            return reader.ReadLine();
+			string message = reader.ReadLine();
+			reader.Close();
+            string[] split = message.Trim().Split(' ');
+            message = "";
+            for(int i = 0; i < split.Length - 1; i++)
+			{
+                message += split[i];
+			}
+            message.Trim();
+            string author = split[split.Length - 1];
+
+            return "Deployed commit: \"" + message + "\" by " + author;
 		}
     }
 }
