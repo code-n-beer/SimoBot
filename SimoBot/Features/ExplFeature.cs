@@ -56,8 +56,8 @@ namespace SimoBot
 
 		public void ExecuteRemove(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
 		{
-            //TODO: :DDDDDDDDDDDDDDDDDDDDDD
-			Client.LocalUser.SendMessage(Channel, "Not implemented lulz :D");
+			remove(Message, configs[Channel], configs[Channel][configExplNameKey]);
+			//Client.LocalUser.SendMessage(Channel, "Not implemented lulz :D");
 		}
 
         public void ExecuteAdd(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
@@ -187,7 +187,7 @@ namespace SimoBot
             string key = dictionary.Keys.ElementAt(random(dictionary.Keys.Count));
             return key + " : " + dictionary[key];
         }
-        public void remove(string what, Dictionary<string, string> dictionary, string filename)
+        private void remove(string what, Dictionary<string, string> dictionary, string filename)
         {
             what = what.ToLower();
             if(dictionary.ContainsKey(what))
