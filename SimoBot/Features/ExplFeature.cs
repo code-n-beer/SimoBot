@@ -169,7 +169,7 @@ namespace SimoBot
             if (dictionary.ContainsKey(word))
             {
             	string ret = word + " : " + dictionary[word];
-            	string final = word.TrimEnd("0123456789".ToCharArray()) + getLastSuffix(word);
+            	string final = word.TrimEnd("0123456789".ToCharArray()) + getLastSuffix(word, dictionary);
             	if(!word.Equals(final))
             	{
                     ret += " | More expl: " + final;
