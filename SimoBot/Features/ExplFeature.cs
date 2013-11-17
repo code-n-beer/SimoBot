@@ -61,7 +61,7 @@ namespace SimoBot
 		            remove(Message, explDictionaries[Channel], configs[Channel][configExplNameKey]);
 			}
 			else remove(message[0], message[1], explDictionaries[Channel],
-			configs[Channel][configExplNameKey]));
+			configs[Channel][configExplNameKey]);
 			//Client.LocalUser.SendMessage(Channel, "Not implemented lulz :D");
 		}
 
@@ -197,7 +197,7 @@ namespace SimoBot
         {
             what = what.ToLower();
             word = word.Trim();
-            if(dictionary.ContainsKey(what) && !word.IsNullOrEmpty() && dictionary[what].Contains(word))
+            if(dictionary.ContainsKey(what) &&  !String.IsNullOrEmpty(word) && dictionary[what].Contains(word))
             {
             	if(!dictionary[what].StartsWith(word))
             	{
