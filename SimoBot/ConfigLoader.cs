@@ -111,5 +111,11 @@ namespace SimoBot
 
 			return null;
 		}
+
+		public static string GetCommitMessage(Dictionary<string, Dictionary<string, string>> dictionary)
+		{
+            StreamReader reader = new StreamReader(FindValueFromNestedDictionary(dictionary, "commitmessage"));
+            return reader.ReadLine();
+		}
     }
 }

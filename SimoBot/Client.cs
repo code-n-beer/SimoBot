@@ -24,13 +24,15 @@ namespace SimoBotClient
 
         string[] channels;
 
-        
-        public Client(Server server)
+
+		string commitMessage;
+        public Client(Server server, string commitMessage)
         {
 
             client = new IrcClient();
             this.server = server;
 
+			this.commitMessage = commitMessage;
 
             channels = getChannels(server);
 
@@ -77,6 +79,7 @@ namespace SimoBotClient
             client.LocalUser.JoinedChannel += (s, a) =>
                 {
                     a.Channel.MessageReceived += OnMessageReceived;
+					client.LocalUser.SendMessage(a.Channel, "Rebooted backend. Newest commit: " + commitMessage);
                 };
         }
 

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IrcDotNet;
+using System.IO;
 
 namespace SimoBot
 {
@@ -58,9 +59,11 @@ namespace SimoBot
             
         public void StartClients()
         {
+            //tis a bit ugly for this to be here.
+			string commitMessage = ConfigLoader.GetCommitMessage(confs);
             foreach (Server server in servers)
 			{
-                var client = new SimoBotClient.Client(server);
+                var client = new SimoBotClient.Client(server, commitMessage);
                 client.Connect();
                 client.MsgEvent += new SimoBotClient.MessageEventHandler(MessageReceived);
 			}
