@@ -106,7 +106,7 @@ namespace SimoBot
                         }
                         int suffix = getNumericSuffix(name);
                         if(suffix == 0) return addExpl(name + '2', expl, dictionary, filename);
-                        return addExpl(name.trimEnd("0123456789".toCharArray()) + (suffix+1),
+                        return addExpl(name.TrimEnd("0123456789".ToCharArray()) + (suffix+1),
                         expl, dictionary, filename);
                     }
                     expl = dictionary[name] + " | " + expl.Trim();
