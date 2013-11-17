@@ -106,7 +106,7 @@ namespace SimoBot
                         }
                         int i = name.Length;
                         while(i > 0 && Char.IsDigit(name[--i]));
-                        if(i == name.Length)
+                        if(i+1 == name.Length)
                         {
                             return addExpl(name + '2', expl, dictionary, filename);
                         }
