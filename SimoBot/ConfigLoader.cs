@@ -116,12 +116,8 @@ namespace SimoBot
 		{
             StreamReader reader = new StreamReader(FindValueFromNestedDictionary(dictionary, "commitmessage"));
 			string message = reader.ReadLine().Trim();
-			string author = "";
-			if (message.Contains("\n"))
-			{
-				author = reader.ReadLine();
-			}
-			else
+			string author = reader.ReadLine();
+			if (author == null)
 			{
 				string[] split = message.Split(' ');
 				message = "";
@@ -132,6 +128,7 @@ namespace SimoBot
 				message = message.Trim();
 				author = split[split.Length - 1].Trim();
 			}
+			author = author.Trim();
 			reader.Close();
 
             return "Deployed commit: \"" + message + "\" by " + author;
