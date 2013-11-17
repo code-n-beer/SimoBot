@@ -62,7 +62,6 @@ namespace SimoBot
 			}
 			else remove(message[0], message[1], explDictionaries[Channel],
 			configs[Channel][configExplNameKey]));
-			//Client.LocalUser.SendMessage(Channel, "Not implemented lulz :D");
 		}
 
         public void ExecuteAdd(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
