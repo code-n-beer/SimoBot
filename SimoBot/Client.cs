@@ -79,7 +79,7 @@ namespace SimoBotClient
             client.LocalUser.JoinedChannel += (s, a) =>
                 {
                     a.Channel.MessageReceived += OnMessageReceived;
-					client.LocalUser.SendMessage(a.Channel, commitMessage);
+					client.LocalUser.SendNotice(a.Channel, commitMessage);
                 };
         }
 
