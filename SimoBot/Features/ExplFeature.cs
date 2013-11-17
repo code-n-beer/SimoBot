@@ -113,7 +113,7 @@ namespace SimoBot
                             return addExpl(name + '2', expl, dictionary, filename);
                         }
                         int suffix = 1 + Int32.Parse(name.Substring(i, name.Length - i));
-                        return addexpl(name.SubString(0, i) + suffix, expl, dictionary, filename);
+                        return addExpl(name.SubString(0, i) + suffix, expl, dictionary, filename);
                     }
                     expl = dictionary[name] + " | " + expl.Trim();
                     dictionary[name] = expl;
