@@ -56,7 +56,7 @@ namespace SimoBot
 
 		public void ExecuteRemove(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
 		{
-			string[] message = Message.Trim();
+			string message = Message.Trim();
 			if(message.IndexOf(' ') == -1)
 			{
 		            remove(Message, explDictionaries[Channel], configs[Channel][configExplNameKey]);
