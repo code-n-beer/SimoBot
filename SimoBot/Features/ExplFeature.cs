@@ -61,8 +61,8 @@ namespace SimoBot
 			{
 		            remove(Message, explDictionaries[Channel], configs[Channel][configExplNameKey]);
 			}
-			else remove(message.SubString(0, message.IndexOf(' ')),
-			message.SubString(message.IndexOf(' ') + 1),
+			else remove(message.Substring(0, message.IndexOf(' ')),
+			message.Substring(message.IndexOf(' ') + 1),
 			explDictionaries[Channel], configs[Channel][configExplNameKey]);
 		}
 
