@@ -56,12 +56,14 @@ namespace SimoBot
 
 		public void ExecuteRemove(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
 		{
-			string[] message = Message.Trim().Split(' ');
-			if(message.Length == 1) {
+			string[] message = Message.Trim();
+			if(message.IndexOf(' ') == -1)
+			{
 		            remove(Message, explDictionaries[Channel], configs[Channel][configExplNameKey]);
 			}
-			else remove(message[0], message[1], explDictionaries[Channel],
-			configs[Channel][configExplNameKey]);
+			else remove(message.SubString(0, message.IndexOf(' ')),
+			message.SubString(message.IndexOf(' ') + 1),
+			explDictionaries[Channel], configs[Channel][configExplNameKey]);
 		}
 
         public void ExecuteAdd(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
