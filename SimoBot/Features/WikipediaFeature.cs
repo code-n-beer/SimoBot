@@ -23,14 +23,14 @@ namespace SimoBot.Features
         public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
         {
             string[] messageAsArray = Message.Trim().Split(' ');
-            if (messageAsArray.Length >= 2)
+            if (messageAsArray.Length >= 1)
             {
-                if (messageAsArray[1].ToLower() == "en")
+                if (messageAsArray[0].ToLower() == "en")
                 {
                     Say(Channel, ReadRandomEntry("en"), Client);
                     return;
                 }
-                else if (messageAsArray[1].ToLower() == "fi")
+                else if (messageAsArray[0].ToLower() == "fi")
                 {
                     Say(Channel, ReadRandomEntry("fi"), Client);
                     return;
