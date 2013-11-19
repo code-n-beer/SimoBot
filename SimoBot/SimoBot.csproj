@@ -62,6 +62,7 @@
     <Compile Include="Features\NowPlayingFeature.cs" />
     <Compile Include="Features\RandomFeature.cs" />
     <Compile Include="Features\UnicafeFeature.cs" />
+    <Compile Include="Features\WikipediaFeature.cs" />
     <Compile Include="IFeature.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="Features\PirkkanixFeature.cs" />
