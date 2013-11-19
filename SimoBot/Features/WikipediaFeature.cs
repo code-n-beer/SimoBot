@@ -22,6 +22,12 @@ namespace SimoBot.Features
 
         public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
         {
+            if (Message.Trim() == "")
+            {
+                Say(Channel, ReadRandomEntry("fi"), Client);
+                return;
+            }
+
             string[] messageAsArray = Message.Trim().Split(' ');
 
             if (messageAsArray[0].ToLower() == "en")
@@ -34,16 +40,10 @@ namespace SimoBot.Features
                 Say(Channel, ReadRandomEntry("fi"), Client);
                 return;
             }
-            if (messageAsArray.Length >= 1)
-            {
-                string wikiEntry = ReadWikiEntry(Message);
 
-                Say(Channel, wikiEntry, Client);
-            }
-            else
-            {
-                Say(Channel, ReadRandomEntry("fi"), Client);
-            }
+            string wikiEntry = ReadWikiEntry(Message);
+
+            Say(Channel, wikiEntry, Client);
         }
 
         private static void Say(string channel, string msg, IrcDotNet.IrcClient client)
