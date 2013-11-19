@@ -34,9 +34,16 @@ namespace SimoBot.Features
                 Say(Channel, ReadRandomEntry("fi"), Client);
                 return;
             }
-            string wikiEntry = ReadWikiEntry(Message);
+            if (messageAsArray.Length >= 1)
+            {
+                string wikiEntry = ReadWikiEntry(Message);
 
-            Say(Channel, wikiEntry, Client);
+                Say(Channel, wikiEntry, Client);
+            }
+            else
+            {
+                Say(Channel, ReadRandomEntry("fi"), Client);
+            }
         }
 
         private static void Say(string channel, string msg, IrcDotNet.IrcClient client)
