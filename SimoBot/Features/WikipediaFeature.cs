@@ -18,7 +18,6 @@ namespace SimoBot.Features
 
         public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
         {
-            throw new NotImplementedException();
         }
 
         public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
