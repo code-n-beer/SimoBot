@@ -22,28 +22,35 @@ namespace SimoBot.Features
 
         public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
         {
-            if (Message.Trim() == "")
+            try
             {
-                Say(Channel, ReadRandomEntry("fi"), Client);
-                return;
+                if (Message.Trim() == "")
+                {
+                    Say(Channel, ReadRandomEntry("fi"), Client);
+                    return;
+                }
+
+                string[] messageAsArray = Message.Trim().Split(' ');
+
+                if (messageAsArray[0].ToLower() == "en")
+                {
+                    Say(Channel, ReadRandomEntry("en"), Client);
+                    return;
+                }
+                else if (messageAsArray[0].ToLower() == "fi")
+                {
+                    Say(Channel, ReadRandomEntry("fi"), Client);
+                    return;
+                }
+
+                string wikiEntry = ReadWikiEntry(Message);
+
+                Say(Channel, wikiEntry, Client);
             }
-
-            string[] messageAsArray = Message.Trim().Split(' ');
-
-            if (messageAsArray[0].ToLower() == "en")
+            catch (Exception e)
             {
-                Say(Channel, ReadRandomEntry("en"), Client);
-                return;
+                Say(Channel, e.Message, Client);
             }
-            else if (messageAsArray[0].ToLower() == "fi")
-            {
-                Say(Channel, ReadRandomEntry("fi"), Client);
-                return;
-            }
-
-            string wikiEntry = ReadWikiEntry(Message);
-
-            Say(Channel, wikiEntry, Client);
         }
 
         private static void Say(string channel, string msg, IrcDotNet.IrcClient client)
