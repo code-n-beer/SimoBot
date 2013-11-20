@@ -11,16 +11,14 @@ namespace SimoBot
     class IgnoreFeature : IFeature
     {
         HashSet<String> ignoredHosts;
-        EngineMessageHandlers features;
 
         string configIgnoNameKey = "ignofile";
-        Regex nickRegex = new Regex(@"/\A[a-z_\-\[\]\\^{}|`][a-z0-9_\-\[\]\\^{}|`]*\z/i");
+        Regex nickRegex = new Regex(@"/\A[a-z_\-\[\]\^\{\}\|`][a-z0-9_\-\[\]\^\{\}\|`]*\z/i");
 
         Dictionary<string, Dictionary<string, string>> configs;
 
         public void RegisterFeature(EngineMessageHandlers features)
         {
-            this.features = features;
             features.commands["ignore"] = Execute;
             features.commands["unignore"] = ExecuteUnignore;
             features.commands["ig"] = Execute;
@@ -56,7 +54,7 @@ namespace SimoBot
                 Client.LocalUser.SendMessage(channel, ignore(Client, channel, Sender, message));
 
                 // do this here to make simo more ~responsive~
-                refreshChannelFile(configs[channel][configIgnoNameKey]);
+                refreshFile(configs[channel][configIgnoNameKey]);
             }
         }
 
@@ -72,7 +70,7 @@ namespace SimoBot
                 Client.LocalUser.SendMessage(channel, unignore(Client, channel, Sender, message));
 
                 // do this here to make simo more ~responsive~
-                refreshChannelFile(configs[channel][configIgnoNameKey]);
+                refreshFile(configs[channel][configIgnoNameKey]);
             }
         }
 
@@ -178,7 +176,6 @@ namespace SimoBot
             }
 
             string line = reader.ReadLine();
-
             while (line != null)
             {
                 if (line.Contains('@') && line.Contains('.'))
@@ -193,7 +190,7 @@ namespace SimoBot
             reader.Close();
         }
 
-        private void refreshChannelFile(string filename)
+        private void refreshFile(string filename)
         {
             StreamWriter writer = new StreamWriter(filename, false);
             foreach (String host in ignoredHosts)

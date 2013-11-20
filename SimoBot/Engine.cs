@@ -57,8 +57,6 @@ namespace SimoBot
             foreach (IFeature f in features)
             {
                 f.Initialize(confs);
-
-                // this one's special ^^
                 if (f is IgnoreFeature) ignoreFeature = (IgnoreFeature)f;
             }
         }
@@ -107,7 +105,6 @@ namespace SimoBot
         private void handleCommands(object sender, IrcMessageEventArgs e, IrcClient client)
         {
             var parts = e.Text.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
-            // enter emergent feature
             var cmd = parts[0].Substring(1);
 
             if (!handlers.commands.ContainsKey(cmd))
