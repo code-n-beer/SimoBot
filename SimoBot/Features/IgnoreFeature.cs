@@ -14,6 +14,7 @@ namespace SimoBot
 
         string configIgnoNameKey = "ignofile";
         Regex nickRegex = new Regex(@"^[a-zA-Z_\-\[\]\^\{\}\|`][a-zA-Z0-9_\-\[\]\^\{\}\|`]*$");
+        bool nowrite = false;
 
         Dictionary<string, Dictionary<string, string>> configs;
 
@@ -37,7 +38,9 @@ namespace SimoBot
                 }
                 catch (KeyNotFoundException e)
                 {
-                    Console.WriteLine("Ignorefile for " + channel.Key + " not defined");
+                    Console.WriteLine("Ignorefile for " + channel.Key + " not defined, switching to no-write mode");
+                    nowrite = true;
+
                 }
             }
         }
@@ -54,7 +57,7 @@ namespace SimoBot
                 Client.LocalUser.SendMessage(channel, ignore(Client, channel, Sender, message));
 
                 // do this here to make simo more ~responsive~
-                refreshFile(configs[channel][configIgnoNameKey]);
+                if(!nowrite) refreshFile(configs[channel][configIgnoNameKey]);
             }
         }
 
@@ -70,7 +73,7 @@ namespace SimoBot
                 Client.LocalUser.SendMessage(channel, unignore(Client, channel, Sender, message));
 
                 // do this here to make simo more ~responsive~
-                refreshFile(configs[channel][configIgnoNameKey]);
+                if (!nowrite) refreshFile(configs[channel][configIgnoNameKey]);
             }
         }
 
