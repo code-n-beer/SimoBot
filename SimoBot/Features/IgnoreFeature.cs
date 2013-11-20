@@ -136,7 +136,7 @@ namespace SimoBot
                 username = a.User.UserName;
             };
 
-            result = (result == "") ? "" : username + '@' + host;
+            result = (result != "") ? "" : username + '@' + host;
             return result;
         }
 
