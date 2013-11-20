@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using IrcDotNet;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace SimoBot
 {
@@ -26,7 +27,7 @@ namespace SimoBot
             handlers = new EngineMessageHandlers
             {
                 commands = new Dictionary<string, MessageHandler>(),
-                regexes = new Dictionary<string, MessageHandler>(),
+                regexes = new Dictionary<Regex, MessageHandler>(),
                 catchAlls = new Dictionary<string, MessageHandler>()
             };
         }
@@ -71,10 +72,39 @@ namespace SimoBot
 
         private void MessageReceived(object sender, IrcMessageEventArgs e, IrcClient client)
         {
+            handleCommands(sender, e, client);
+            handleRegexes(sender, e, client);
+
+        }
+
+
+        private void handleRegexes(object sender, IrcMessageEventArgs e, IrcClient client)
+        {
+            string channel = "";
+            foreach (var messageTarget in e.Targets)
+            {
+                if (messageTarget is IrcChannel)
+                {
+                    channel = messageTarget.Name;
+                    break;
+                }
+            }
+
+            foreach (var regex in handlers.regexes)
+            {
+                if (regex.Key.IsMatch(e.Text))
+                {
+                    regex.Value(client, channel, e.Source as IrcUser, e.Text);
+                }
+            }
+        }
+
+        private void handleCommands(object sender, IrcMessageEventArgs e, IrcClient client)
+        {
             var parts = e.Text.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
             var cmd = parts[0].Substring(1);
 
-            if(!handlers.commands.ContainsKey(cmd))
+            if (!handlers.commands.ContainsKey(cmd))
             {
                 return;
             }
@@ -103,12 +133,14 @@ namespace SimoBot
 
             handlers.commands[cmd](client, channel, e.Source as IrcUser, processedMessage);
         }
+
+
     }
 
     public class EngineMessageHandlers
     {
         public Dictionary<string, MessageHandler> commands;
-        public Dictionary<string, MessageHandler> regexes;
+        public Dictionary<Regex, MessageHandler> regexes;
         public Dictionary<string, MessageHandler> catchAlls;
     }
 }
