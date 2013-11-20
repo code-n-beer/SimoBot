@@ -13,7 +13,7 @@ namespace SimoBot
         HashSet<String> ignoredHosts;
 
         string configIgnoNameKey = "ignofile";
-        Regex nickRegex = new Regex(@"/\A[a-z_\-\[\]\^\{\}\|`][a-z0-9_\-\[\]\^\{\}\|`]*\z/i");
+        Regex nickRegex = new Regex(@"^[a-zA-Z_\-\[\]\^\{\}\|`][a-zA-Z0-9_\-\[\]\^\{\}\|`]*$");
 
         Dictionary<string, Dictionary<string, string>> configs;
 
