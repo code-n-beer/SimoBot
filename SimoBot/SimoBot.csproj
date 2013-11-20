@@ -59,6 +59,7 @@
     <Compile Include="Engine.cs" />
     <Compile Include="Features\ExplFeature.cs" />
     <Compile Include="Features\HelpFeature.cs" />
+    <Compile Include="Features\IgnoreFeature.cs" />
     <Compile Include="Features\NowPlayingFeature.cs" />
     <Compile Include="Features\RandomFeature.cs" />
     <Compile Include="Features\UnicafeFeature.cs" />

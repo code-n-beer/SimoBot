@@ -17,6 +17,8 @@ namespace SimoBot
         List<IFeature> features;
 		List<Server> servers;
         Dictionary<string, Dictionary<string, string>> confs;
+
+        IgnoreFeature ignoreFeature;
         
         public Engine(List<Server> servers, Dictionary<string, Dictionary<string, string>> confs)
         {
@@ -55,6 +57,9 @@ namespace SimoBot
             foreach (IFeature f in features)
             {
                 f.Initialize(confs);
+
+                // this one's special ^^
+                if (f is IgnoreFeature) ignoreFeature = (IgnoreFeature)f;
             }
         }
             
@@ -102,9 +107,16 @@ namespace SimoBot
         private void handleCommands(object sender, IrcMessageEventArgs e, IrcClient client)
         {
             var parts = e.Text.Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
+            // enter emergent feature
             var cmd = parts[0].Substring(1);
 
             if (!handlers.commands.ContainsKey(cmd))
+            {
+                return;
+            }
+
+            // let's check ignores!
+            if (ignoreFeature.IsIgnored(e.Source as IrcUser))
             {
                 return;
             }
