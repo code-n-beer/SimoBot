@@ -141,6 +141,7 @@ namespace SimoBot
                 {
                     host = a.User.HostName;
                     username = a.User.UserName;
+                    result = "ei";
                 }
             };
 
