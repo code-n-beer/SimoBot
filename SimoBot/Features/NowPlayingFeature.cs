@@ -225,7 +225,10 @@ namespace SimoBot.Features
 		{
 			Dictionary<string, string> NickDir = new Dictionary<string, string>();
 			string output = "asdf";
-			StreamReader reader = new StreamReader(filename);
+            if (filename == null)
+                return new Dictionary<string, string>();
+
+                StreamReader reader = new StreamReader(filename);
 
 			string[] outputArray;
 			string nickLast;

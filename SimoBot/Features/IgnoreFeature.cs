@@ -40,7 +40,6 @@ namespace SimoBot
                 {
                     Console.WriteLine("Ignorefile for " + channel.Key + " not defined, switching to no-write mode");
                     nowrite = true;
-
                 }
             }
         }
@@ -50,15 +49,11 @@ namespace SimoBot
             message = message.Trim();
             if (message == "")
             {
-                Client.LocalUser.SendMessage(channel, ignoHelpMsg());
+                Client.LocalUser.SendMessage(channel, ignoreHelpMsg());
             }
             else
             {
-                Client.LocalUser.SendMessage(channel, ignore(Client, channel, Sender, message));
-
-                // do this here to make simo more ~responsive~
-                if(!nowrite) 
-                    refreshFile(configs[channel][configIgnoNameKey], channel);
+                ignore(Client, channel, Sender, message);
             }
         }
 
@@ -67,95 +62,113 @@ namespace SimoBot
             message = message.Trim();
             if (message == "")
             {
-                Client.LocalUser.SendMessage(channel, unignoHelpMsg());
+                Client.LocalUser.SendMessage(channel, unignoreHelpMsg());
             }
             else
             {
-                Client.LocalUser.SendMessage(channel, unignore(Client, channel, Sender, message));
-
-                // do this here to make simo more ~responsive~
-                if (!nowrite) 
-                    refreshFile(configs[channel][configIgnoNameKey], channel);
+                unignore(Client, channel, Sender, message);
             }
         }
 
-        private string ignore(IrcDotNet.IrcClient Client, string channel, IrcDotNet.IrcUser Sender, string message)
+        private void ignore(IrcDotNet.IrcClient Client, string channel, IrcDotNet.IrcUser Sender, string message)
         {
             
             if (!nickRegex.IsMatch(message))
             {
-                return "Regex failure ^^'";
+                Client.LocalUser.SendMessage(channel, "Messing around, eh?");
                 ignore(Client, channel, Sender, Sender.NickName);
             }
 
-            string userathost = whois(Client, message);
-
-            if (userathost == "@")
+            IrcDotNet.IrcUser user = getUserByName(Client, channel, message);
+            if (user == null)
             {
-                return "I maybe didn't find that nick";
+                Client.LocalUser.SendMessage(channel, "Who now?");
+                return;
             }
 
-            ignoredHosts[channel].Add(userathost);
+            if (IsIgnored(user, channel))
+            {
+                Client.LocalUser.SendMessage(channel, "They're already ignored");
+                return;
+            }
+                user.NickNameChanged += (b, d) =>
+                    {
+                        ignoredHosts[channel].Add(user.NickName);
+                        if (!nowrite)
+                            refreshFile(configs[channel][configIgnoNameKey], channel);
+                    };
 
-            return "Ignored " + message + " ^o^";
+                Client.LocalUser.SendMessage(channel, "Ignored " + message + " ^o^");
+                ignoredHosts[channel].Add(user.NickName);
+                
+
+                if (!nowrite)
+                    refreshFile(configs[channel][configIgnoNameKey], channel);
 
         }
 
-        private string unignore(IrcDotNet.IrcClient Client, string channel, IrcDotNet.IrcUser Sender, string message)
+        private void unignore(IrcDotNet.IrcClient Client, string channel, IrcDotNet.IrcUser Sender, string message)
         {
             if (!nickRegex.IsMatch(message))
             {
-                return "Regex failure ^^'";
+                Client.LocalUser.SendMessage(channel, "Messing around, eh?");
                 ignore(Client, channel, Sender, Sender.NickName);
             }
 
-
-            string userathost = whois(Client, message);
-
-            if (userathost == "@")
+            if (!ignoredHosts[channel].Contains(message))
             {
-                return "I maybe didn't find that nick";
+                Client.LocalUser.SendMessage(channel, "They're not ignored");
+                return;
             }
 
-            if (ignoredHosts[channel].Contains(userathost))
-            {
-                ignoredHosts.Remove(userathost);
-                return "Unignored " + message;
-            }
-            return "Nick was not ignored...";
+            ignoredHosts[channel].Remove(message);
+            Client.LocalUser.SendMessage(channel, "Unignored " + message);
+
+            if (!nowrite)
+                refreshFile(configs[channel][configIgnoNameKey], channel);
         }
 
-        private string whois(IrcDotNet.IrcClient Client, string nick)
+        private IrcDotNet.IrcUser getUserByName(IrcDotNet.IrcClient Client, string channel, string nick)
         {
-            string host = "";
-            string username = "";
-
-            Client.QueryWhoIs(nick);
-            Client.WhoIsReplyReceived += (s, a) =>
+            IrcDotNet.IrcUser user = null;
+            foreach (IrcDotNet.IrcChannel c in Client.Channels)
             {
-                host = a.User.HostName;
-                username = a.User.UserName;
-            };
-
-            return username + '@' + host;
+                if (c.Name == channel)
+                {
+                    foreach (IrcDotNet.IrcChannelUser u in c.Users)
+                    {
+                        if (u.User.NickName == nick)
+                        {
+                            user = u.User;
+                            break;
+                        }
+                    }
+                    break;
+                }
+            }
+            return user;
         }
 
         public bool IsIgnored(IrcDotNet.IrcUser Disguy, string channel)
         {
-            string host = Disguy.HostName;
-            string username = Disguy.UserName;
-            return ignoredHosts[channel].Contains(username + '@' + host);
+            if (!ignoredHosts.ContainsKey(channel))
+            {
+                return false;
+            }
+
+            return ignoredHosts[channel].Contains(Disguy.NickName);
         }
 
-        private String ignoHelpMsg()
+        private string ignoreHelpMsg()
         {
             return "Usage: ignore NICK Prevents the bot from accepting commands from NICK";
         }
 
-        private string unignoHelpMsg()
+        private string unignoreHelpMsg()
         {
  	        return "Usage unignore NICK Start accepting commands from NICK again";
         }
+
         private HashSet<string> loadIgnoredHosts(string filename)
         {
             StreamReader reader;
@@ -178,11 +191,7 @@ namespace SimoBot
             string line = reader.ReadLine();
             while (line != null)
             {
-                if (line.Contains('@') && line.Contains('.'))
-                {
                     channelIgnoredHosts.Add(line);
-                }
-                else Console.WriteLine("Ignorefile " + filename + " contains incomprehensible crap, continuing");
 
                 line = reader.ReadLine();
             }
