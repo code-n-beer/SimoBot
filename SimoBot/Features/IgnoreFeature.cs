@@ -130,14 +130,12 @@ namespace SimoBot
             string host = "";
             string username = "";
 
+            Client.QueryWhoIs(nick);
             Client.WhoIsReplyReceived += (s, a) =>
             {
-                host = "" + a.User.IdleDuration;
-                username = a.User.NickName;
-                host = "penislair";
+                host = a.User.HostName;
+                username = a.User.UserName;
             };
-
-            Client.QueryWhoIs(nick);
 
             return username + '@' + host;
         }
