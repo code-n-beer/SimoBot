@@ -112,12 +112,6 @@ namespace SimoBot
                 return;
             }
 
-            // let's check ignores!
-            if (ignoreFeature.IsIgnored(e.Source as IrcUser))
-            {
-                return;
-            }
-
             var processedMessage = "";
             if (e.Text.Length >= (cmd.Length + 2))
             {
@@ -136,6 +130,12 @@ namespace SimoBot
             }
 
             if (channel == "")
+            {
+                return;
+            }
+
+            // let's check ignores!
+            if (ignoreFeature.IsIgnored(e.Source as IrcUser, channel))
             {
                 return;
             }

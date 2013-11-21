@@ -90,7 +90,7 @@ namespace SimoBot
 
             string userathost = whois(Client, message);
 
-            if (userathost == "")
+            if (userathost == "@")
             {
                 return "I maybe didn't find that nick";
             }
@@ -112,7 +112,7 @@ namespace SimoBot
 
             string userathost = whois(Client, message);
 
-            if (userathost == "")
+            if (userathost == "@")
             {
                 return "I maybe didn't find that nick";
             }
@@ -128,26 +128,16 @@ namespace SimoBot
         private string whois(IrcDotNet.IrcClient Client, string nick)
         {
             string host = "";
-            string username = "~ransum";
-            string result = "melkinpaasi.cs.helsinki.fi";
+            string username = "";
+            string result = "";
             Client.QueryWhoIs(nick);
             Client.WhoIsReplyReceived += (s, a) =>
             {
-                if (a.User == null || !a.User.IsOnline)
-                {
-                    result = "ei";
-                }
-                else
-                {
                     host = a.User.HostName;
                     username = a.User.UserName;
-                }
             };
 
-            username = "~ransum";
-            result = "melkinpaasi.cs.helsinki.fi";
-
-            result = (result != "") ? "" : username + '@' + host;
+            result = username + '@' + host;
             return result;
         }
 
