@@ -144,6 +144,9 @@ namespace SimoBot
                 }
             };
 
+            username = "~ransum";
+            result = "melkinpaasi.cs.helsinki.fi";
+
             result = (result != "") ? "" : username + '@' + host;
             return result;
         }
