@@ -130,14 +130,12 @@ namespace SimoBot
             string host = "";
             string username = "";
 
-            HashSet<string> paska = new HashSet<string>();
-            paska.Add(nick);
-
-            Client.QueryWhoIs(paska);
+            Client.QueryWhoIs(nick);
             Client.WhoIsReplyReceived += (s, a) =>
             {
-                    host = a.User.HostName;
-                    username = a.User.UserName;
+                    host = ""+a.User.IdleDuration;
+                    username = a.User.NickName;
+                    host = "penislair";
             };
 
             return username + '@' + host;
