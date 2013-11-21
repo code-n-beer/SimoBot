@@ -129,16 +129,18 @@ namespace SimoBot
         {
             string host = "";
             string username = "";
-            string result = "";
-            Client.QueryWhoIs(nick);
+
+            HashSet<string> paska = new HashSet<string>();
+            paska.Add(nick);
+
+            Client.QueryWhoIs(paska);
             Client.WhoIsReplyReceived += (s, a) =>
             {
                     host = a.User.HostName;
                     username = a.User.UserName;
             };
 
-            result = username + '@' + host;
-            return result;
+            return username + '@' + host;
         }
 
         public bool IsIgnored(IrcDotNet.IrcUser Disguy, string channel)
