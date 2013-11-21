@@ -12,6 +12,7 @@ namespace SimoBot
     {
         Dictionary<string, HashSet<string>> ignoredHosts;
 
+        // General settings
         string configIgnoNameKey = "ignofile";
         Regex nickRegex = new Regex(@"^[a-zA-Z_\-\[\]\^\{\}\|`][a-zA-Z0-9_\-\[\]\^\{\}\|`]*$");
         bool nowrite = false;
@@ -72,11 +73,11 @@ namespace SimoBot
 
         private void ignore(IrcDotNet.IrcClient Client, string channel, IrcDotNet.IrcUser Sender, string message)
         {
-            
             if (!nickRegex.IsMatch(message))
             {
                 Client.LocalUser.SendMessage(channel, "Messing around, eh?");
                 ignore(Client, channel, Sender, Sender.NickName);
+                return;
             }
 
             IrcDotNet.IrcUser user = getUserByName(Client, channel, message);
@@ -113,6 +114,7 @@ namespace SimoBot
             {
                 Client.LocalUser.SendMessage(channel, "Messing around, eh?");
                 ignore(Client, channel, Sender, Sender.NickName);
+                return;
             }
 
             if (!ignoredHosts[channel].Contains(message))
@@ -121,8 +123,8 @@ namespace SimoBot
                 return;
             }
 
-            ignoredHosts[channel].Remove(message);
             Client.LocalUser.SendMessage(channel, "Unignored " + message);
+            ignoredHosts[channel].Remove(message);
 
             if (!nowrite)
                 refreshFile(configs[channel][configIgnoNameKey], channel);
