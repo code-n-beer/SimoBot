@@ -128,8 +128,8 @@ namespace SimoBot
         private string whois(IrcDotNet.IrcClient Client, string nick)
         {
             string host = "";
-            string username = "";
-            string result = "";
+            string username = "~ransum";
+            string result = "melkinpaasi.cs.helsinki.fi";
             Client.QueryWhoIs(nick);
             Client.WhoIsReplyReceived += (s, a) =>
             {
@@ -141,7 +141,6 @@ namespace SimoBot
                 {
                     host = a.User.HostName;
                     username = a.User.UserName;
-                    result = "ei";
                 }
             };
 
