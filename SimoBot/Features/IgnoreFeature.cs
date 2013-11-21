@@ -10,7 +10,7 @@ namespace SimoBot
 {
     class IgnoreFeature : IFeature
     {
-        HashSet<String> ignoredHosts;
+        Dictionary<string, HashSet<string>> ignoredHosts;
 
         string configIgnoNameKey = "ignofile";
         Regex nickRegex = new Regex(@"^[a-zA-Z_\-\[\]\^\{\}\|`][a-zA-Z0-9_\-\[\]\^\{\}\|`]*$");
@@ -29,12 +29,12 @@ namespace SimoBot
         public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
         {
             this.configs = configs;
-            ignoredHosts = new HashSet<String>();
+            ignoredHosts = new Dictionary<string, HashSet<string>>();
             foreach (var channel in configs)
             {
                 try
                 {
-                    loadIgnoredHosts(channel.Value[configIgnoNameKey]);
+                    ignoredHosts[channel.Key] = loadIgnoredHosts(channel.Value[configIgnoNameKey]);
                 }
                 catch (KeyNotFoundException e)
                 {
@@ -57,7 +57,8 @@ namespace SimoBot
                 Client.LocalUser.SendMessage(channel, ignore(Client, channel, Sender, message));
 
                 // do this here to make simo more ~responsive~
-                if(!nowrite) refreshFile(configs[channel][configIgnoNameKey]);
+                if(!nowrite) 
+                    refreshFile(configs[channel][configIgnoNameKey], channel);
             }
         }
 
@@ -73,7 +74,8 @@ namespace SimoBot
                 Client.LocalUser.SendMessage(channel, unignore(Client, channel, Sender, message));
 
                 // do this here to make simo more ~responsive~
-                if (!nowrite) refreshFile(configs[channel][configIgnoNameKey]);
+                if (!nowrite) 
+                    refreshFile(configs[channel][configIgnoNameKey], channel);
             }
         }
 
@@ -93,7 +95,7 @@ namespace SimoBot
                 return "I maybe didn't find that nick";
             }
 
-            ignoredHosts.Add(userathost);
+            ignoredHosts[channel].Add(userathost);
 
             return "Ignored " + message + " ^o^";
 
@@ -115,7 +117,7 @@ namespace SimoBot
                 return "I maybe didn't find that nick";
             }
 
-            if (ignoredHosts.Contains(userathost))
+            if (ignoredHosts[channel].Contains(userathost))
             {
                 ignoredHosts.Remove(userathost);
                 return "Unignored " + message;
@@ -135,19 +137,22 @@ namespace SimoBot
                 {
                     result = "ei";
                 }
-                host = a.User.HostName;
-                username = a.User.UserName;
+                else
+                {
+                    host = a.User.HostName;
+                    username = a.User.UserName;
+                }
             };
 
             result = (result != "") ? "" : username + '@' + host;
             return result;
         }
 
-        public bool IsIgnored(IrcDotNet.IrcUser Disguy)
+        public bool IsIgnored(IrcDotNet.IrcUser Disguy, string channel)
         {
             string host = Disguy.HostName;
             string username = Disguy.UserName;
-            return ignoredHosts.Contains(username + '@' + host);
+            return ignoredHosts[channel].Contains(username + '@' + host);
         }
 
         private String ignoHelpMsg()
@@ -159,10 +164,10 @@ namespace SimoBot
         {
  	        return "Usage unignore NICK Start accepting commands from NICK again";
         }
-        private void loadIgnoredHosts(string filename)
+        private HashSet<string> loadIgnoredHosts(string filename)
         {
-            Dictionary<string, string> dictionary = new Dictionary<string, string>();
             StreamReader reader;
+            HashSet<string> channelIgnoredHosts = new HashSet<string>();
             try
             {
                 reader = new StreamReader(filename);
@@ -170,12 +175,12 @@ namespace SimoBot
             catch (FileNotFoundException)
             {
                 Console.WriteLine("Ignorefile " + filename + " not found");
-                return;
+                return channelIgnoredHosts;
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message + " - aids happened");
-                return;
+                return channelIgnoredHosts;
             }
 
             string line = reader.ReadLine();
@@ -183,7 +188,7 @@ namespace SimoBot
             {
                 if (line.Contains('@') && line.Contains('.'))
                 {
-                    ignoredHosts.Add(line);
+                    channelIgnoredHosts.Add(line);
                 }
                 else Console.WriteLine("Ignorefile " + filename + " contains incomprehensible crap, continuing");
 
@@ -191,12 +196,13 @@ namespace SimoBot
             }
 
             reader.Close();
+            return channelIgnoredHosts;
         }
 
-        private void refreshFile(string filename)
+        private void refreshFile(string filename, string channel)
         {
             StreamWriter writer = new StreamWriter(filename, false);
-            foreach (String host in ignoredHosts)
+            foreach (string host in ignoredHosts[channel])
             {
                 writer.WriteLine(host);
             }
