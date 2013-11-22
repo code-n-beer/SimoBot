@@ -40,6 +40,7 @@ namespace SimoBot
 
         public void Execute(IrcDotNet.IrcClient Client, string channel, IrcDotNet.IrcUser Sender, string message)
         {
+			message = message.Trim();
 			string expl = "";
 			if (message.Trim() == "")
 			{
