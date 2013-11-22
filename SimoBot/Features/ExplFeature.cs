@@ -82,7 +82,7 @@ namespace SimoBot
 		private string addExpl(string name, string expl, Dictionary<string, string> dictionary, string filename)
         {
             expl = expl.Trim();
-            name = name.ToLower();
+            name = name.ToLower().Trim();
 
             if (name.Contains("|"))
             {
