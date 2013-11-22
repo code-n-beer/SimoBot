@@ -69,7 +69,7 @@ namespace SimoBot
         public void ExecuteAdd(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
         {
             string[] messageAsArray = Message.Trim().Split(' ');
-			string name = messageAsArray[0];
+			string name = messageAsArray[0].Trim();
 			string expl = "";
 			for (int i = 1;i < messageAsArray.Length; i++)
 			{
