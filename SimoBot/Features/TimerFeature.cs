@@ -23,7 +23,11 @@ namespace SimoBot
         public void Execute(IrcClient Client, string Channel, IrcUser Sender, string Message)
         {
             Message = Message.Trim();
-            string message = "gänikoodi ei valmis XD " + Message;
+            string message = "";
+            if (Message.StartsWith("add"))
+            {
+                message = "Lisätään jotain: " + Message;
+            }
             Client.LocalUser.SendMessage(Channel, message);
         }
     }
