@@ -64,11 +64,27 @@ namespace SimoBot.Features
         }
         private int TimerIntParser(string DelayAsString)
         {
-            if (Regex.IsMatch(DelayAsString, @"^\d+m(in)?$"))
+            if (Regex.IsMatch(DelayAsString, @"^\d+m(ins?)?$"))
             {
-                return int.Parse(Regex.Match(DelayAsString, @"\d+").Value) * 1000 * 60;
+                return NumberInUse(DelayAsString) * 1000 * 60;
+            }
+            if (Regex.IsMatch(DelayAsString, @"^\d+h(ours?)?$"))
+            {
+                return NumberInUse(DelayAsString) * 1000 * 60 * 60;
+            }
+            if (Regex.IsMatch(DelayAsString, @"^\d+d(ays?)?$"))
+            {
+                return NumberInUse(DelayAsString) * 1000 * 60 * 60 * 24;
+            }
+            if (Regex.IsMatch(DelayAsString, @"^\d+y(ears?)?$"))
+            {
+                return NumberInUse(DelayAsString) * 1000 * 60 * 60 * 24 * 365;
             }
             return int.Parse(DelayAsString);
+        }
+        private int NumberInUse(string s)
+        {
+            int.Parse(Regex.Match(s, @"\d+").Value)
         }
     }
 }
