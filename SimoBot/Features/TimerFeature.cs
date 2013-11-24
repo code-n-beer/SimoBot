@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 using System.Timers;
 using System.Text.RegularExpressions;
 
-namespace SimoBot
+namespace SimoBot.Features
 {
-    
     using IrcDotNet;
     
     class TimerFeature : IFeature
