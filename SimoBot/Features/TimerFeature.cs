@@ -39,7 +39,8 @@ namespace SimoBot
         }
         public void Execute(IrcClient Client, string Channel, IrcUser Sender, string Message)
         {
-            SimoTimer XD = new SimoTimer(Client, Channel, 666, "foobar");
+            string[] splits = Message.Split(new char[] { ' ' }, 2, StringSplitOptions.RemoveEmptyEntries);
+            new SimoTimer(Client, Channel, int.Parse(splits[0]), splits[1]);
         }
     }
 }
