@@ -19,6 +19,7 @@ namespace SimoBot
             IrcClient _Client;
             string _Channel;
             string _Nick;
+            System.Timers.Timer aTimer;
             
             public SimoTimer(IrcClient Client, string Channel, string Nick, int Delay, string Message)
             {
@@ -27,7 +28,7 @@ namespace SimoBot
                 _Nick = Nick;
                 _Delay = Delay;
                 _Message = Message;
-                System.Timers.Timer aTimer = new System.Timers.Timer(_Delay);
+                aTimer = new System.Timers.Timer(_Delay);
                 aTimer.Elapsed += new ElapsedEventHandler(TimerFiring);
                 aTimer.Enabled = true;
                 IrcSay(TimerMessage());
@@ -40,7 +41,8 @@ namespace SimoBot
             
             private void TimerFiring(object source, ElapsedEventArgs e)
             {
-                //IrcSay(String.Format("{0}: {1}", _Nick, _Message));
+                aTimer.Enabled = false;
+                IrcSay(String.Format("{0}: {1}", _Nick, _Message));
             }
             
             private void IrcSay(string Message)
