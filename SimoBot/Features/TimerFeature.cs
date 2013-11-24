@@ -84,7 +84,7 @@ namespace SimoBot.Features
         }
         private int NumberInUse(string s)
         {
-            int.Parse(Regex.Match(s, @"\d+").Value)
+            int.Parse(Regex.Match(s, @"\d+").Value);
         }
     }
 }
