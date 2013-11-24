@@ -12,20 +12,20 @@ namespace SimoBot.Features
     
     class TimerFeature : IFeature
     {
+        public delegate void Spam(string message);
+        
         class SimoTimer
         {
-            private IrcClient Client;
-            private string Channel;
+            private Spam IrcSay;
             private string nick;
             
             private int delay;
             private string message;
             private System.Timers.Timer timer;
             
-            public SimoTimer(IrcClient Client, string Channel, string nick, int delay, string message)
+            public SimoTimer(Spam IrcSay, string nick, int delay, string message)
             {
-                this.Client = Client;
-                this.Channel = Channel;
+                this.IrcSay = IrcSay;
                 this.nick = nick;
                 
                 this.delay = delay;
@@ -49,10 +49,6 @@ namespace SimoBot.Features
             {
                 return TimeSpan.FromMilliseconds(delay).ToString();
             }
-            private void IrcSay(string message)
-            {
-                Client.LocalUser.SendMessage(Channel, message);
-            }
         }
 
         public void RegisterFeature(EngineMessageHandlers features)
@@ -65,7 +61,8 @@ namespace SimoBot.Features
         public void Execute(IrcClient Client, string Channel, IrcUser Sender, string Message)
         {
             string[] splits = Message.Split(new char[] { ' ' }, 2, StringSplitOptions.RemoveEmptyEntries);
-            new SimoTimer(Client, Channel, Sender.NickName, TimerIntParser(splits[0]), splits[1]);
+            new SimoTimer(delegate(string m) {Client.LocalUser.SendMessage(Channel, m)},
+                Sender.NickName, TimerIntParser(splits[0]), splits[1]);
         }
         private int TimerIntParser(string DelayAsString)
         {
