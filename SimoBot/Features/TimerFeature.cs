@@ -18,7 +18,6 @@ namespace SimoBot.Features
         {
             private Spam IrcSay;
             private string nick;
-            
             private int delay;
             private string message;
             private System.Timers.Timer timer;
@@ -27,7 +26,6 @@ namespace SimoBot.Features
             {
                 this.IrcSay = IrcSay;
                 this.nick = nick;
-                
                 this.delay = delay;
                 this.message = message;
                 
