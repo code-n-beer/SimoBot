@@ -25,7 +25,7 @@ namespace SimoBot
             
             private string TimerMessage()
             {
-                return String.Format("Timer set {0} {1}", delay, message);
+                return String.Format("Timer set {0} {1}", _Delay, _Message);
             }
         }
 
