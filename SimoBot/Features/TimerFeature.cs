@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SimoBot
 {
+    
+    using IrcDotNet;
+    
     class TimerFeature : IFeature
     {
 
