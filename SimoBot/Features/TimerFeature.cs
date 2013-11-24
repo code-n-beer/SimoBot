@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
+using System.Text.RegularExpressions;
 
 namespace SimoBot
 {
@@ -66,6 +67,10 @@ namespace SimoBot
         }
         private int TimerIntParser(string DelayAsString)
         {
+            if (Regex.IsMatch(DelayAsString, @"^\d+m(in)?$"))
+            {
+                return int.Parse(Regex.Match(DelayAsString, @"\d+").Value) * 1000 * 60;
+            }
             return int.Parse(DelayAsString);
         }
     }
