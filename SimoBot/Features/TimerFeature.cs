@@ -40,7 +40,7 @@ namespace SimoBot
             
             private void TimerFiring(object source, ElapsedEventArgs e)
             {
-                IrcSay(String.Format("{0}: {1}", _Nick, _Message));
+                //IrcSay(String.Format("{0}: {1}", _Nick, _Message));
             }
             
             private void IrcSay(string Message)
