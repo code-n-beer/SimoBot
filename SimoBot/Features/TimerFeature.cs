@@ -30,7 +30,7 @@ namespace SimoBot
                 _Message = Message;
                 aTimer = new System.Timers.Timer(_Delay);
                 aTimer.Elapsed += new ElapsedEventHandler(TimerFiring);
-                aTimer.Enabled = true;
+                aTimer.Start();
                 IrcSay(TimerMessage());
             }
             
