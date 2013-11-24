@@ -38,7 +38,7 @@ namespace SimoBot
                 return String.Format("Timer set {0} {1}", _Delay, _Message);
             }
             
-            private void TimerFiring()
+            private void TimerFiring(object source, ElapsedEventArgs e)
             {
                 IrcSay(String.Format("{0}: {1}", _Nick, _Message));
             }
