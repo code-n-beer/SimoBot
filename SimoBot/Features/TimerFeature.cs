@@ -53,7 +53,7 @@ namespace SimoBot
             
             private string TimeInString()
             {
-                return TimeSpan.FromTicks(_Delay).ToString();
+                return TimeSpan.FromMilliseconds(_Delay).ToString();
             }
         }
 
