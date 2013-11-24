@@ -16,7 +16,7 @@ namespace SimoBot
             int _Delay;
             string _Message;
             
-            public void Initialize(IrcClient Client, string Channel, int Delay, string Message)
+            public SimoTimer(IrcClient Client, string Channel, int Delay, string Message)
             {
                 _Delay = Delay;
                 _Message = Message;
