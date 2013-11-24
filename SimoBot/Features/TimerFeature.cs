@@ -15,45 +15,44 @@ namespace SimoBot
     {
         class SimoTimer
         {
-            int _Delay;
-            string _Message;
-            IrcClient _Client;
-            string _Channel;
-            string _Nick;
-            System.Timers.Timer aTimer;
+            private IrcClient Client;
+            private string Channel;
+            private string nick;
             
-            public SimoTimer(IrcClient Client, string Channel, string Nick, int Delay, string Message)
+            private int delay;
+            private string message;
+            private System.Timers.Timer timer;
+            
+            public SimoTimer(IrcClient Client, string Channel, string nick, int delay, string message)
             {
-                _Client = Client;
-                _Channel = Channel;
-                _Nick = Nick;
-                _Delay = Delay;
-                _Message = Message;
-                aTimer = new System.Timers.Timer(_Delay);
-                aTimer.Elapsed += new ElapsedEventHandler(TimerFiring);
-                aTimer.Start();
+                this.Client = Client;
+                this.Channel = Channel;
+                this.nick = nick;
+                
+                this.delay = delay;
+                this.message = message;
+                
+                timer = new System.Timers.Timer(delay);
+                timer.Elapsed += new ElapsedEventHandler(TimerFiring);
+                timer.Start();
                 IrcSay(TimerMessage());
             }
-            
             private string TimerMessage()
             {
-                return String.Format("Timer set {0} {1} by {2}", TimeInString(), _Message, _Nick);
+                return String.Format("Timer set {0} {1} by {2}", TimeInString(), message, nick);
             }
-            
             private void TimerFiring(object source, ElapsedEventArgs e)
             {
-                aTimer.Stop();
-                IrcSay(String.Format("{0}: {1}, {2} ago", _Nick, _Message, TimeInString()));
+                timer.Stop();
+                IrcSay(String.Format("{0}: {1}, {2} ago", nick, message, TimeInString()));
             }
-            
-            private void IrcSay(string Message)
-            {
-                _Client.LocalUser.SendMessage(_Channel, Message);
-            }
-            
             private string TimeInString()
             {
-                return TimeSpan.FromMilliseconds(_Delay).ToString();
+                return TimeSpan.FromMilliseconds(delay).ToString();
+            }
+            private void IrcSay(string message)
+            {
+                Client.LocalUser.SendMessage(Channel, message);
             }
         }
 
@@ -61,7 +60,6 @@ namespace SimoBot
         {
             features.commands["timer"] = Execute;
         }
-
         public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
         {
         }
