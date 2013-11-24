@@ -5,6 +5,7 @@ namespace SimoBot
 
         public void RegisterFeature(EngineMessageHandlers features)
         {
+            features.commands["timer"] = Execute;
         }
 
         public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
