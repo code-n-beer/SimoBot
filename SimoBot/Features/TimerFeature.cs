@@ -68,15 +68,15 @@ namespace SimoBot.Features
             {
                 return NumberInUse(DelayAsString) * 1000 * 60;
             }
-            if (Regex.IsMatch(DelayAsString, @"^\d+h(ours?)?$"))
+            else if (Regex.IsMatch(DelayAsString, @"^\d+h(ours?)?$"))
             {
                 return NumberInUse(DelayAsString) * 1000 * 60 * 60;
             }
-            if (Regex.IsMatch(DelayAsString, @"^\d+d(ays?)?$"))
+            else if (Regex.IsMatch(DelayAsString, @"^\d+d(ays?)?$"))
             {
                 return NumberInUse(DelayAsString) * 1000 * 60 * 60 * 24;
             }
-            if (Regex.IsMatch(DelayAsString, @"^\d+y(ears?)?$"))
+            else if (Regex.IsMatch(DelayAsString, @"^\d+y(ears?)?$"))
             {
                 return NumberInUse(DelayAsString) * 1000 * 60 * 60 * 24 * 365;
             }
@@ -84,7 +84,7 @@ namespace SimoBot.Features
         }
         private int NumberInUse(string s)
         {
-            int.Parse(Regex.Match(s, @"\d+").Value);
+            return int.Parse(Regex.Match(s, @"\d+").Value);
         }
     }
 }
