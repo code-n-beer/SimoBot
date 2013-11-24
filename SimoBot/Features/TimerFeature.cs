@@ -13,6 +13,8 @@ namespace SimoBot
         }
         public void Execute(IrcClient Client, string Channel, IrcUser Sender, string Message)
         {
+            string message = "gänikoodi ei valmis XD";
+            Client.LocalUser.SendMessage(Channel, message);
         }
     }
 }
