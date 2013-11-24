@@ -37,7 +37,7 @@ namespace SimoBot
             
             private string TimerMessage()
             {
-                return String.Format("Timer set {0} {1}", TimeInString(), _Message);
+                return String.Format("Timer set {0} {1} by {2}", TimeInString(), _Message, _Nick);
             }
             
             private void TimerFiring(object source, ElapsedEventArgs e)
