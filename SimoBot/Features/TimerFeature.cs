@@ -61,7 +61,7 @@ namespace SimoBot.Features
         public void Execute(IrcClient Client, string Channel, IrcUser Sender, string Message)
         {
             string[] splits = Message.Split(new char[] { ' ' }, 2, StringSplitOptions.RemoveEmptyEntries);
-            new SimoTimer(delegate(string m) {Client.LocalUser.SendMessage(Channel, m)},
+            new SimoTimer(delegate(string m) {Client.LocalUser.SendMessage(Channel, m);},
                 Sender.NickName, TimerIntParser(splits[0]), splits[1]);
         }
         private int TimerIntParser(string DelayAsString)
