@@ -37,18 +37,23 @@ namespace SimoBot
             
             private string TimerMessage()
             {
-                return String.Format("Timer set {0} {1}", _Delay, _Message);
+                return String.Format("Timer set {0} {1}", TimeInString(), _Message);
             }
             
             private void TimerFiring(object source, ElapsedEventArgs e)
             {
                 aTimer.Stop();
-                IrcSay(String.Format("{0}: {1}", _Nick, _Message));
+                IrcSay(String.Format("{0}: {1}, {2} ago", _Nick, _Message, TimeInString()));
             }
             
             private void IrcSay(string Message)
             {
                 _Client.LocalUser.SendMessage(_Channel, Message);
+            }
+            
+            private string TimeInString()
+            {
+                return TimeSpan.FromTicks(_Delay).ToString();
             }
         }
 
