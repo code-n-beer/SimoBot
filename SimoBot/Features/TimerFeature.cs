@@ -11,6 +11,23 @@ namespace SimoBot
     
     class TimerFeature : IFeature
     {
+        class SimoTimer
+        {
+            int _Delay;
+            string _Message;
+            
+            public void Initialize(IrcClient Client, string Channel, int Delay, string Message)
+            {
+                _Delay = Delay;
+                _Message = Message;
+                Client.LocalUser.SendMessage(Channel, TimerMessage());
+            }
+            
+            private string TimerMessage()
+            {
+                return "Timer set <delay> <message>"
+            }
+        }
 
         public void RegisterFeature(EngineMessageHandlers features)
         {
@@ -22,13 +39,7 @@ namespace SimoBot
         }
         public void Execute(IrcClient Client, string Channel, IrcUser Sender, string Message)
         {
-            Message = Message.Trim();
-            string message = "";
-            if (Message.StartsWith("add"))
-            {
-                message = "Lisätään jotain: " + Message;
-            }
-            Client.LocalUser.SendMessage(Channel, message);
+            SimoTimer XD = new SimoTimer(Client, Channel, 666, "foobar");
         }
     }
 }
