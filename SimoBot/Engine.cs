@@ -64,10 +64,10 @@ namespace SimoBot
         public void StartClients()
         {
             //tis a bit ugly for this to be here.
-			string commitMessage = ConfigLoader.GetCommitMessage(confs);
+			//string commitMessage = ConfigLoader.GetCommitMessage(confs);
             foreach (Server server in servers)
 			{
-                var client = new SimoBotClient.Client(server, commitMessage);
+                var client = new SimoBotClient.Client(server);
                 client.Connect();
                 client.MsgEvent += new SimoBotClient.MessageEventHandler(MessageReceived);
 			}

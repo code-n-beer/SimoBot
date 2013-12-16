@@ -30,6 +30,7 @@ namespace SimoBotClient
             client = new IrcClient();
             this.server = server;
 
+
             channels = getChannels(server);
 
             SetEventHandlers();
