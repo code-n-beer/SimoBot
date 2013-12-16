@@ -24,14 +24,11 @@ namespace SimoBotClient
         string[] channels;
 
 
-		string commitMessage;
-        public Client(Server server, string commitMessage)
+        public Client(Server server)
         {
 
             client = new IrcClient();
             this.server = server;
-
-			this.commitMessage = commitMessage;
 
             channels = getChannels(server);
 

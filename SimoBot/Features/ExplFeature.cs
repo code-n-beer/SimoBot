@@ -10,7 +10,6 @@ namespace SimoBot
     {
 
 		Dictionary<string, Dictionary<string, string>> explDictionaries;
-        EngineMessageHandlers features;
 
 		string configExplNameKey = "explfile";
 
@@ -18,7 +17,6 @@ namespace SimoBot
 
         public void RegisterFeature(EngineMessageHandlers features)
         {
-            this.features = features;
             features.commands["expl"] = Execute;
             features.commands["add"] =  ExecuteAdd;
 			features.commands["remove"] = ExecuteRemove;
