@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using IrcDotNet;
 using System.IO;
 using System.Text.RegularExpressions;
@@ -13,6 +12,7 @@ namespace SimoBot
     
     class Engine
     {
+        
         EngineMessageHandlers handlers;
         List<IFeature> features;
 		List<Server> servers;
