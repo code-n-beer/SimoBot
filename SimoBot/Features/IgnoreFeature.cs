@@ -36,7 +36,7 @@ namespace SimoBot
                 {
                     ignoredHosts[channel.Key] = loadIgnoredHosts(channel.Value[configIgnoNameKey]);
                 }
-                catch (KeyNotFoundException e)
+                catch (KeyNotFoundException)
                 {
                     Console.WriteLine("Ignorefile for " + channel.Key + " not defined, switching to no-write mode");
                     nowrite = true;

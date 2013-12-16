@@ -69,6 +69,7 @@
     <Compile Include="Features\MarkovTestFeature.cs" />
     <Compile Include="Features\NowPlayingFeature.cs" />
     <Compile Include="Features\RandomFeature.cs" />
+    <Compile Include="Features\TimerFeature.cs" />
     <Compile Include="Features\UnicafeFeature.cs" />
     <Compile Include="Features\URLTitle.cs" />
     <Compile Include="Features\WikipediaFeature.cs" />
