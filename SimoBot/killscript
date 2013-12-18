@@ -1,0 +1,4 @@
+for x in `ps x | grep simobot.exe | awk '{print $1}'`
+do
+        kill $x
+done
