@@ -313,13 +313,13 @@ namespace SimoBot.Features
 
 		public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
 		{
-			string[] messageAsArray = Message.Split(' ');
+			string[] messageAsArray = Message.Trim().Split(' ');
 			try
 			{
 				if (messageAsArray.Length == 1)
-					Client.LocalUser.SendMessage(Channel, getNewMarkov(messageAsArray[1]));
+					Client.LocalUser.SendMessage(Channel, getNewMarkov(messageAsArray[0]));
 				if (messageAsArray.Length > 2)
-					Client.LocalUser.SendMessage(Channel, getNewMarkov(messageAsArray[1] + " " + messageAsArray[2]));
+					Client.LocalUser.SendMessage(Channel, getNewMarkov(messageAsArray[0] + " " + messageAsArray[1]));
 				else
 					Client.LocalUser.SendMessage(Channel, getNewMarkov(""));
 			}
