@@ -296,8 +296,12 @@ namespace SimoBot.Features
 			features.commands["mc"] = Execute;
 		}
 
+
+		Dictionary<string, Dictionary<string, string>> configs;
+
 		public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
 		{
+			this.configs = configs;
 			string host = ConfigLoader.FindValueFromNestedDictionary(configs, "redishost");
 			int port = Convert.ToInt32(ConfigLoader.FindValueFromNestedDictionary(configs, "redisport"));
 
@@ -313,12 +317,17 @@ namespace SimoBot.Features
 
 		public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
 		{
+			mainDb = Convert.ToInt16(configs[Channel]["markovmain"]);
+			fastOneWordKeyDb = Convert.ToInt16(configs[Channel]["markovfast"]);
+
+			rclient.Db = mainDb;
+
 			string[] messageAsArray = Message.Trim().Split(' ');
 			try
 			{
 				if (messageAsArray.Length == 1)
 					Client.LocalUser.SendMessage(Channel, getNewMarkov(messageAsArray[0]));
-				if (messageAsArray.Length > 2)
+				else if (messageAsArray.Length > 2)
 					Client.LocalUser.SendMessage(Channel, getNewMarkov(messageAsArray[0] + " " + messageAsArray[1]));
 				else
 					Client.LocalUser.SendMessage(Channel, getNewMarkov(""));
