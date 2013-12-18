@@ -327,7 +327,7 @@ namespace SimoBot.Features
 			{
 				if (messageAsArray.Length == 1)
 					Client.LocalUser.SendMessage(Channel, getNewMarkov(messageAsArray[0]));
-				else if (messageAsArray.Length > 2)
+				else if (messageAsArray.Length >= 2)
 					Client.LocalUser.SendMessage(Channel, getNewMarkov(messageAsArray[0] + " " + messageAsArray[1]));
 				else
 					Client.LocalUser.SendMessage(Channel, getNewMarkov(""));
