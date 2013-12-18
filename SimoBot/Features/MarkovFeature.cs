@@ -293,7 +293,7 @@ namespace SimoBot.Features
 
 		public void RegisterFeature(EngineMessageHandlers features)
 		{
-			features.commands["SimoBot"] = Execute;
+			features.commands["mc"] = Execute;
 		}
 
 		public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
