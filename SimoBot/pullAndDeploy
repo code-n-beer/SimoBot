@@ -1,5 +1,5 @@
 git pull
 dmcs ./*.cs ./Features/*.cs -r:./IrcDotNet.dll -r:./ServiceStack/ServiceStack.Redis.dll -r:./ServiceStack/ServiceStack.Interfaces.dll -out:./simobot.exe
 git log -1 --pretty=%B > commitmessage.log
-ps x | grep simobot.exe | awk '{print $1}' | head -1 | xargs kill
+./killscript
 /usr/local/bin/mono ./simobot.exe
