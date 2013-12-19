@@ -58,48 +58,6 @@ namespace SimoBot.Features
 			return htmlCode;
 		}
 
-        private string getStuff(string Entry)
-        {
-			Entry = UrlEncode(Entry, Encoding.Default); 
-            string ret = "";
-
-            try
-            {
-				var request = (HttpWebRequest)WebRequest.Create(
-					@"http://www.lintukoto.net/viihde/oraakkeli/index.php?kysymys_24171206=" + Entry + "&rnd=24171206");
-                //request.UserAgent = "SimoBot/3.0 (tsarpf@gmail.com)";
-
-                var response = request.GetResponse();
-
-                var reader = XmlTextReader.Create(response.GetResponseStream());
-
-                reader.MoveToContent();
-
-				//reader.read("Vastaus");
-
-                do
-				{
-                    switch(reader.NodeType)
-					{
-                        case XmlNodeType.Element:
-                            string hurpdurp = reader.Name;
-                            string herpderp = reader.Value;
-							break;
-
-					}
-				}
-                while(reader.Read());
-
-                //ret = reader.ReadElementContentAsString();
-            }
-            catch (Exception e)
-            {
-                ret = e.Message;
-            }
-
-            return ret;
-        }
-
 		private static string UrlEncode(string s, Encoding e)
 		{
 			StringBuilder sb = new StringBuilder();
