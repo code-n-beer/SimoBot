@@ -131,7 +131,7 @@ namespace SimoBot.Features
 
                 if (!URL.ToLower().Contains("http://") && !URL.ToLower().Contains("https://"))
                 {
-                    URL = "http://" + URL; //.Replace(":", "");
+                    URL = "http://" + URL;
                 }
             }
             catch (NullReferenceException)
