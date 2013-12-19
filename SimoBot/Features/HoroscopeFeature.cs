@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IrcDotNet;
+using System.Net;
 using System.Text.RegularExpressions;
 
 namespace SimoBot
@@ -71,14 +72,14 @@ namespace SimoBot
         {
             Regex pTagRegex = new Regex(@"(<p>)");
             string[] htmlArray = pTagRegex.Split(html, pTagCount + 1);
-            string restOfHtml = htmlArray[pTagCount];
+            string result = htmlArray[pTagCount];
 
-            if (restOfHtml == null || restOfHtml.Length < 20)
+            if (result == null || result.Length < 20)
             {
                 return "Failed to parse HTML (horoscope too short)";
             }
 
-            return restOfHtml;
+            return result;
 
         }
 
@@ -88,9 +89,9 @@ namespace SimoBot
             string[] horoscopefinal = pTagRegex2.Split(html, 0);
             string result = horoscopefinal[0];
 
-            if (result == null || result.Length > 300)
+            if (result == null || result.Length > 500)
             {
-                return "Failed to parse HTML (tail after br-tag too long)";
+                return "Failed to parse HTML (horoscope too long)";
             }
 
             return result;
