@@ -128,7 +128,6 @@ namespace SimoBot.Features
 			s = s.Trim();
 
 			if (s.Split(' ').Length < 3) return;
-			if (s.Contains("simo")) return;
 
 			Dictionary<string, List<string>> chains = prepareDictionary(s);
 			if (chains == null) return;
@@ -294,6 +293,7 @@ namespace SimoBot.Features
 		public void RegisterFeature(EngineMessageHandlers features)
 		{
 			features.commands["mc"] = Execute;
+
 		}
 
 
