@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IrcDotNet;
-using System.Xml;
-using System.Net;
 using System.Text.RegularExpressions;
 
 namespace SimoBot
