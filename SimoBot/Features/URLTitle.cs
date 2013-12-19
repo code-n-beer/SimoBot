@@ -106,7 +106,7 @@ namespace SimoBot.Features
             }
             catch (Exception)
             {
-				return "";//"fail";//e.Message;
+				return "";
             }
         }
 
