@@ -22,9 +22,6 @@ namespace SimoBot
 			features.commands["remove"] = ExecuteRemove;
         }
 
-
-
-
         public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
         {
 			this.configs = configs;
