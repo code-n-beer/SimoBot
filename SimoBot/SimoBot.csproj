@@ -65,8 +65,11 @@
     <Compile Include="Engine.cs" />
     <Compile Include="Features\ExplFeature.cs" />
     <Compile Include="Features\HelpFeature.cs" />
+    <Compile Include="Features\HoroscopeFeature.cs" />
     <Compile Include="Features\IgnoreFeature.cs" />
-    <Compile Include="Features\MarkovFeature.cs" />
+    <Compile Include="Features\MarkovFeature.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Features\NowPlayingFeature.cs" />
     <Compile Include="Features\RandomFeature.cs" />
     <Compile Include="Features\TimerFeature.cs" />
