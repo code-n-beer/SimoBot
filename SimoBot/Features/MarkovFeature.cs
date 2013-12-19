@@ -123,8 +123,6 @@ namespace SimoBot.Features
 
 		public void addNewLineToRedis(string s)
 		{
-			//s = strip(s);
-
 			s = s.Trim();
 
 			if (s.Split(' ').Length < 3) return;
