@@ -22,8 +22,6 @@ namespace SimoBot
         {
             features.commands["ignore"] = Execute;
             features.commands["unignore"] = ExecuteUnignore;
-            features.commands["ig"] = Execute;
-            features.commands["unig"] = ExecuteUnignore;
         }
 
         public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
