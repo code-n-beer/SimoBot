@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using IrcDotNet;
 using System.Xml;
 using System.Net;
-using System.Compat.Web;
 using System.Text.RegularExpressions;
 
 namespace SimoBot
