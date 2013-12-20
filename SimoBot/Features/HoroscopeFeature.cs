@@ -51,9 +51,8 @@ namespace SimoBot
                 }
 
                 string html = getHTML(signs[message]);
-                int horoscopeLocationInPTags = 3 + 3 * getDayOfWeek();
 
-                string horoscope = dropHtmlPrecedingHoroscope(html, horoscopeLocationInPTags);
+                string horoscope = dropHtmlPrecedingHoroscope(html, message);
                 horoscope = dropHtmlTailingHoroscope(horoscope);
                 horoscope = html2Txt(horoscope);
 
@@ -68,11 +67,18 @@ namespace SimoBot
             return horoscope;
         }
 
-        private string dropHtmlPrecedingHoroscope(string html, int pTagCount)
+        private string dropHtmlPrecedingHoroscope(string html, string sign)
         {
-            Regex pTagRegex = new Regex(@"(<p>)");
-            string[] htmlArray = pTagRegex.Split(html, pTagCount + 1);
-            string result = htmlArray[pTagCount];
+            // disregard the first letter (too confusing trying to make it uppercase)
+            sign = sign.Remove(0, 1);
+            int tagCount = 2 * getDayOfWeek();
+
+            if (tagCount > 14)
+                return "Invalid date";
+
+            Regex pTagRegex = new Regex(@"("+sign+"</h3><p>)");
+            string[] htmlArray = pTagRegex.Split(html, tagCount + 1);
+            string result = htmlArray[tagCount];
 
             if (result == null || result.Length < 20)
             {
@@ -99,7 +105,7 @@ namespace SimoBot
 
         private int getDayOfWeek()
         {
-            return (int)DateTime.Today.DayOfWeek + 1;
+            return (int)DateTime.Today.DayOfWeek;
         }
 
         private string getHTML(string sign)
