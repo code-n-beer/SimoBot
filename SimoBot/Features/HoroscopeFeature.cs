@@ -105,7 +105,7 @@ namespace SimoBot
 
         private int getDayOfWeek()
         {
-            return (int)DateTime.Today.DayOfWeek;
+            return (DateTime.Today.DayOfWeek == DayOfWeek.Sunday) ? 7 : (int)DateTime.Today.DayOfWeek;
         }
 
         private string getHTML(string sign)
