@@ -64,6 +64,8 @@ namespace SimoBot
         {
             horoscope = horoscope.Replace("&auml;", "ä");
             horoscope = horoscope.Replace("&ouml;", "ö");
+            horoscope = horoscope.Replace("&Auml;", "Ä");
+            horoscope = horoscope.Replace("&Ouml;", "Ö");
             return horoscope;
         }
 

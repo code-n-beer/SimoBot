@@ -67,6 +67,7 @@
     <Compile Include="Features\HelpFeature.cs" />
     <Compile Include="Features\HoroscopeFeature.cs" />
     <Compile Include="Features\IgnoreFeature.cs" />
+    <Compile Include="Features\MarkovFeature.cs" />
     <Compile Include="Features\NowPlayingFeature.cs" />
     <Compile Include="Features\OracleFeature.cs" />
     <Compile Include="Features\RandomFeature.cs" />
