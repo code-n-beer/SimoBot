@@ -15,6 +15,7 @@ namespace SimoBot
         public void RegisterFeature(EngineMessageHandlers features)
         {
             features.commands["horos"] = Execute;
+            features.commands["hitler"] = NotImplemented;
         }
 
         public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
@@ -75,7 +76,7 @@ namespace SimoBot
             sign = sign.Remove(0, 1);
             int tagCount = 2 * getDayOfWeek();
 
-            if (tagCount > 14)
+            if (tagCount > 14 || tagCount < 2)
                 return "Invalid date";
 
             Regex pTagRegex = new Regex(@"("+sign+"</h3><p>)");
@@ -117,6 +118,12 @@ namespace SimoBot
             string content = client.DownloadString(inputUrl);
             return content;
         }
+
+        private void NotImplemented(IrcClient Client, string channel, IrcUser Sender, string message)
+        {
+            Client.LocalUser.SendMessage(channel, "Not implemented");
+        }
+
         private string horoscopeHelpMsg()
         {
             return "Usage: horos SIGN Where SIGN is the desired horoscope sign in Finnish (eg. neitsyt)";
