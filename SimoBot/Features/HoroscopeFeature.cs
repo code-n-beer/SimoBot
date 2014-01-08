@@ -23,6 +23,7 @@ namespace SimoBot
             signs = new Dictionary<string, string>();
             signs.Add("oinas", "aries");
             signs.Add("härkä", "taurus");
+            signs.Add("harka", "taurus");           // ääkkösvammaisille
             signs.Add("kaksoset", "gemini");
             signs.Add("rapu", "cancer");
             signs.Add("leijona", "leo");
