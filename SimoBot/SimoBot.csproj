@@ -74,6 +74,7 @@
     <Compile Include="Features\TimerFeature.cs" />
     <Compile Include="Features\UnicafeFeature.cs" />
     <Compile Include="Features\URLTitle.cs" />
+    <Compile Include="Features\VoteFeature.cs" />
     <Compile Include="Features\WikipediaFeature.cs" />
     <Compile Include="IFeature.cs" />
     <Compile Include="Message.cs" />
