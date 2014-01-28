@@ -89,7 +89,7 @@ namespace SimoBot.Features
 			if (result == word)
 				return getCompoundWord(length, ++depth);
 
-            return result + " herp";
+            return result;
         }
 
         private List<string> loadWords(Dictionary<string, Dictionary<string, string>> configs)
