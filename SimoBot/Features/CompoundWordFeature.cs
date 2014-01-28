@@ -23,25 +23,44 @@ namespace SimoBot.Features
 
         public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
         {
+
+            int num = 0;
+			if (Message.Trim().Length > 0)
+			{
+				try
+				{
+					num = Convert.ToInt32(Message);
+				}
+                catch(Exception e)
+				{
+					Console.WriteLine(e.Message);
+					Client.LocalUser.SendMessage(Channel, "!comp or !comp <integer>");
+					return;
+				}
+
+				Client.LocalUser.SendMessage(Channel, getCompoundWord(num));
+				return;
+			}
             Client.LocalUser.SendMessage(Channel, getCompoundWord());
         }
 
-        private string getCompoundWord()
+        private string getCompoundWord(int length = 3, int depth = 0)
         {
+
+			if (depth >= 1000)
+			{
+				return "Couldn't find a match in 1000 tries";
+			}
             int idx = new Random().Next(words.Count);
 
             string word = words[idx];
 
             List<string> fittingWords = new List<string>();
 
-            int compoundLength = 0;
-
-            int length = 3;
             for (int i = word.Length - length; i >= 0; i--)
             {
                 string subString = word.Substring(i, length);
 
-                //Lets try finding a substring that works, when we find one that works, we should stop finding words for longer 
                 for (int j = 0; j < words.Count; j++)
                 {
                     if (words[j].StartsWith(subString))
@@ -59,7 +78,7 @@ namespace SimoBot.Features
 
             if(fittingWords.Count == 0)
             {
-                return getCompoundWord();                
+                return getCompoundWord(length, ++depth);                
             }
 
             idx = new Random().Next(fittingWords.Count);
@@ -67,8 +86,10 @@ namespace SimoBot.Features
 
 			string result = word + sndWord.Substring(length, sndWord.Length - length);
 
+			if (result == word)
+				return getCompoundWord(length, ++depth);
 
-            return result;
+            return result + " herp";
         }
 
         private List<string> loadWords(Dictionary<string, Dictionary<string, string>> configs)
