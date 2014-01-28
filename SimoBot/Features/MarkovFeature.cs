@@ -162,7 +162,7 @@ namespace SimoBot.Features
 			int randomIdx = new Random(DateTime.Now.Millisecond).Next(foundWords.Count);
 
 			return foundWords[randomIdx];
-		}
+		}OutOfMemoryException 
 
 		private string mostCommonWord(List<string> words)
 		{
