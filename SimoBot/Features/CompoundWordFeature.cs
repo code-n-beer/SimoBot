@@ -12,7 +12,7 @@ namespace SimoBot.Features
         List<string> words;
         public void RegisterFeature(EngineMessageHandlers features)
         {
-            features.commands["!comp"] = Execute;
+            features.commands["comp"] = Execute;
         }
 
         Dictionary<string, string> configs;
@@ -37,12 +37,12 @@ namespace SimoBot.Features
             int compoundLength = 0;
 
             int length = 3;
-            for (int i = word.Length - length - 1; i >= 0; i--)
+            for (int i = word.Length - length; i >= 0; i--)
             {
                 string subString = word.Substring(i, length);
 
                 //Lets try finding a substring that works, when we find one that works, we should stop finding words for longer 
-                for (int j = 0; i < words.Count; i++)
+                for (int j = 0; j < words.Count; j++)
                 {
                     if (words[j].StartsWith(subString))
                     {
@@ -52,7 +52,6 @@ namespace SimoBot.Features
 
                 if (fittingWords.Count > 0)
                 {
-                    compoundLength = i;
                     break;
                 }
                 length++;
@@ -66,7 +65,7 @@ namespace SimoBot.Features
             idx = new Random().Next(fittingWords.Count);
             string sndWord = fittingWords[idx];
 
-            string result = word + sndWord.Substring(sndWord.Length - compoundLength - 1, compoundLength);
+			string result = word + sndWord.Substring(length, sndWord.Length - length);
 
 
             return result;
