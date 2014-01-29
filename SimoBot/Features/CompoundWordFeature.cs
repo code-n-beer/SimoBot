@@ -57,9 +57,9 @@ namespace SimoBot.Features
         private string getCompoundWord(int length = 3, int depth = 0)
         {
 
-			if (depth >= 3000)
+			if (depth >= 9001)
 			{
-				return "Couldn't find a match in 3000 tries";
+				return "Couldn't find a match in over 9000 tries";
 			}
             int idx = new Random().Next(words.Count);
 
