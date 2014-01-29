@@ -24,25 +24,30 @@ namespace SimoBot.Features
         public void Execute(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
         {
 
-            int num = 0;
-			if (Message.Trim().Length > 0)
-			{
-				try
-				{
-					num = Convert.ToInt32(Message);
-				}
-                catch(Exception e)
-				{
-					Console.WriteLine(e.Message);
-					Client.LocalUser.SendMessage(Channel, "!comp or !comp <integer>");
-					return;
-				}
+            if (Message.Trim().Length == 0)
+            {
+                Client.LocalUser.SendMessage(Channel, getCompoundWord());
+                return;
+            }
+            else if (Message.Split(' ').Length >= 2)
+            {
+                Client.LocalUser.SendMessage(Channel, "!comp or !comp <integer> or !comp <word>");
+            }
 
-				Client.LocalUser.SendMessage(Channel, getCompoundWord(num));
-				return;
-			}
-            Client.LocalUser.SendMessage(Channel, getCompoundWord());
-        }
+            int num = 0;
+
+            try
+            {
+                num = Convert.ToInt32(Message);
+            }
+            catch (Exception e)
+            {
+                Client.LocalUser.SendMessage(Channel, getCompoundWord(Message));
+                return;
+            }
+
+            Client.LocalUser.SendMessage(Channel, getCompoundWord(num));
+       }
 
         string[] forbiddenStrings = {
             "nen",
@@ -104,7 +109,55 @@ namespace SimoBot.Features
 
             return result;
         }
+        private string getCompoundWord(string word, int depth = 0)
+        {
 
+			if (depth >= 9001)
+			{
+				return "Couldn't find a match in over 9000 tries";
+			}
+
+            int length = 3;
+
+            List<string> fittingWords = new List<string>();
+
+            for (int i = word.Length - length; i >= 0; i--)
+            {
+                string subString = word.Substring(i, length);
+
+                if (forbiddenStrings.Contains(subString))
+                    continue;
+
+                for (int j = 0; j < words.Count; j++)
+                {
+                    if (words[j].StartsWith(subString))
+                    {
+                        fittingWords.Add(words[j]);
+                    }
+                }
+
+                if (fittingWords.Count > 0)
+                {
+                    break;
+                }
+                length++;
+            }
+
+            if(fittingWords.Count == 0)
+            {
+                return "No luck";
+            }
+
+            int idx = new Random().Next(fittingWords.Count);
+            string sndWord = fittingWords[idx];
+
+			string result = word + sndWord.Substring(length, sndWord.Length - length);
+
+            if (result == word)
+                return "No luck";
+
+            return result;
+        }
         private List<string> loadWords(Dictionary<string, Dictionary<string, string>> configs)
         {
             string fileName = ConfigLoader.FindValueFromNestedDictionary(configs, "compoundwords");
