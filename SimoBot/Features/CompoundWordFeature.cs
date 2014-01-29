@@ -51,6 +51,7 @@ namespace SimoBot.Features
             "ton",
             "tön",
             "mus",
+            "set",
             "ine"};
         private string getCompoundWord(int length = 3, int depth = 0)
         {
