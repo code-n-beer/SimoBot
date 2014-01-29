@@ -32,6 +32,7 @@ namespace SimoBot.Features
             else if (Message.Split(' ').Length >= 2)
             {
                 Client.LocalUser.SendMessage(Channel, "!comp or !comp <integer> or !comp <word>");
+                return;
             }
 
             int num = 0;
