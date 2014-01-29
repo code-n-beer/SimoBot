@@ -70,6 +70,9 @@ namespace SimoBot.Features
             {
                 string subString = word.Substring(i, length);
 
+                if (forbiddenStrings.Contains(subString))
+                    continue;
+
                 for (int j = 0; j < words.Count; j++)
                 {
                     if (words[j].StartsWith(subString))
