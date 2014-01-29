@@ -52,13 +52,14 @@ namespace SimoBot.Features
             "tön",
             "mus",
             "set",
+            "ini",
             "ine"};
         private string getCompoundWord(int length = 3, int depth = 0)
         {
 
-			if (depth >= 2000)
+			if (depth >= 3000)
 			{
-				return "Couldn't find a match in 1000 tries";
+				return "Couldn't find a match in 3000 tries";
 			}
             int idx = new Random().Next(words.Count);
 
