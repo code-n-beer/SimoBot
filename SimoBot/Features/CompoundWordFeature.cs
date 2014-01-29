@@ -44,10 +44,18 @@ namespace SimoBot.Features
             Client.LocalUser.SendMessage(Channel, getCompoundWord());
         }
 
+        string[] forbiddenStrings = {
+            "nen",
+            "tus",
+            "tys",
+            "ton",
+            "tön",
+            "mus",
+            "ine"};
         private string getCompoundWord(int length = 3, int depth = 0)
         {
 
-			if (depth >= 1000)
+			if (depth >= 2000)
 			{
 				return "Couldn't find a match in 1000 tries";
 			}
