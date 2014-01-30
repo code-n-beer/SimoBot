@@ -26,6 +26,13 @@ namespace SimoBot
         {
 			this.configs = configs;
 			explDictionaries = new Dictionary<string, Dictionary<string, string>>();
+            
+            ReadFromFile();
+        }
+
+        private void ReadFromFile()
+        {
+            //This should be done less often
 			foreach (var channel in configs)
 			{
 				explDictionaries[channel.Key] = loadDictionary(channel.Value[configExplNameKey]);
@@ -34,6 +41,7 @@ namespace SimoBot
 
         public void Execute(IrcDotNet.IrcClient Client, string channel, IrcDotNet.IrcUser Sender, string message)
         {
+            ReadFromFile();
 			message = message.Trim();
 			string expl = "";
 			if (message.Trim() == "")
@@ -63,6 +71,7 @@ namespace SimoBot
 
         public void ExecuteAdd(IrcDotNet.IrcClient Client, string Channel, IrcDotNet.IrcUser Sender, string Message)
         {
+            ReadFromFile();
             string[] messageAsArray = Message.Trim().Split(' ');
 			string name = messageAsArray[0].Trim();
 			string expl = "";
