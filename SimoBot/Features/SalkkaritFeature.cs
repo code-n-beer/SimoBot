@@ -12,11 +12,11 @@ namespace SimoBot.Features
 			string fileName = ConfigLoader.FindValueFromNestedDictionary(configs, "salkkarit");
 			if (fileName != null) {
 				Console.WriteLine("Initializing salkkarit");
-				ReadWords(fileName);
+				ReadSalkkariFile(fileName);
 			}
 		}
 
-		private void ReadWords(string fileName)
+		private void ReadSalkkariFile(string fileName)
 		{
 			System.IO.StreamReader reader;
 			try
@@ -29,12 +29,17 @@ namespace SimoBot.Features
 				return;
 			}
 
+			ReadLines(reader);
+		}
+
+		void ReadLines(System.IO.StreamReader reader)
+		{
 			words = new List<String>();
 			string line = reader.ReadLine();
 			while (line != null) {
-				line = line.Trim();
-				if (line.Length > 0 && line[0] != '#') {
-					words.Add(line.Split('\t')[1]);
+				string[] splitLine = line.Trim().Split('\t');
+				if (splitLine.Length >= 2) {
+					words.Add(splitLine[1]);
 				}
 				line = reader.ReadLine();
 			}
