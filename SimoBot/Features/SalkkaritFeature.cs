@@ -18,18 +18,15 @@ namespace SimoBot.Features
 
 		private void ReadSalkkariFile(string fileName)
 		{
-			System.IO.StreamReader reader;
 			try
 			{
-				reader = new System.IO.StreamReader(fileName);
+				System.IO.StreamReader reader = new System.IO.StreamReader(fileName);
+				ReadLines(reader);
 			}
 			catch (System.IO.IOException e)
 			{
 				Console.WriteLine("Could not open salkkarit file: " + fileName);
-				return;
 			}
-
-			ReadLines(reader);
 		}
 
 		void ReadLines(System.IO.StreamReader reader)
