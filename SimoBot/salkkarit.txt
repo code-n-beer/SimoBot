@@ -1,0 +1,2635 @@
+# source: http://fi.wikipedia.org/wiki/Luettelo_televisiosarjan_Salatut_el%C3%A4m%C3%A4t_jaksoista
+# license: Creative Commons Attribution-Share Alike 3.0
+
+# 1. tuotantokausi (1999)
+1.	Pihlajakadun asukkaat kokevat järkytyksen	25.01.1999
+2.	Siljasta tulee paha tytärpuoli	26.01.1999
+3.	Aki kompastuu omaan nokkeluuteensa	27.01.1999
+4.	Jenni ja Katja tahtovat pitää Tonista kiinni	28.01.1999
+5.	Seppo jää kiinni rysän päältä	29.01.1999
+6.	Kuka tappoi Tyynen?	01.02.1999
+7.	Epäluuloa ilmassa	02.02.1999
+8.	Laura ja Markus ovat napit vastakkain	03.02.1999
+9.	Katjan hulttiosisko	04.02.1999
+10.	Syyllinen sormi osoittaa Sakua	05.02.1999
+11.	Lauralla ja Markuksella kipinöi	08.02.1999
+12.	Aleksi saa puolustajan	09.02.1999
+13.	Aki joutuu treffiansaan	10.02.1999
+14.	Ullaa uhkaillaan	11.02.1999
+15.	Jenni aiheuttaa hormonimyrskyn	12.02.1999
+16.	Katja kuulee ikävän totuuden	15.02.1999
+17.	Ullan ihmissuhdesoppa sakenee	16.02.1999
+18.	Miia osoittaa luonteenlujuutta	17.02.1999
+19.	Menneisyys piinaa Aleksia	18.02.1999
+20.	Elinan elämään puututaan	19.02.1999
+21.	Laura saa Jukan pelkäämään	22.02.1999
+22.	Katja ei jaksa kuunnella Jennin moralisointia	23.02.1999
+23.	Ismon itsehillintä pettää ikävin seurauksin	24.02.1999
+24.	Ulla rikkoo kirjesalaisuutta	24.02.1999
+25.	Saku ja Silja huolestuvat ystävästään	25.02.1999
+26.	Jukka ja Hanna jakavat salaisuuden, joka uhkaa muuttaa heidän elämänsä pysyvästi	01.03.1999
+27.	Ismon pahimmat pelot ovat käymässä toteen	02.03.1999
+28.	Markuksen unelmatreffit saavat märän lopun	03.03.1999
+29.	Lauran on pakko niellä ylpeytensä	04.03.1999
+30.	Kari mykistää ystävät ja perheen	05.03.1999
+31.	Saku ei peittele tunteitaan	08.03.1999
+32.	Romanssi ei olekaan ihan sitä, mitä Miia odotti	10.03.1999
+33.	Toni tekee lämpimän tunnustuksen Jennille	12.03.1999
+34.	Niin työssä kuin huveissakin Aki näyttää päässeen voittoputkeen	15.03.1999
+35.	Kari on selityksen velkaa	16.03.1999
+36.	Saku kuorruttaa Kallen oksennuksella	17.03.1999
+37.	Toni ottaa ohjat käsiinsä	18.03.1999
+38.	Seppo pitää pojalleen puhuttelun	19.03.1999
+39.	Pelkoja ja hormoneja	22.03.1999
+40.	Laura antaa Sakulle rakkausvalistusta	23.03.1999
+41.	Jukka kuulee järkyttäviä totuuksia	24.03.1999
+42.	Miian yritykset pelastaa kärsivä sielu näköjään epäonnistuivat	25.03.1999
+43.	Lauran elämäntapa osoittautuu hyvin vaaralliseksi	26.03.1999
+44.	Kari pääsee Jukan niskan päälle	29.03.1999
+45.	Pahaa-aavistamaton Aleksi luottaa vilpilliseen ystäväänsä	30.03.1999
+46.	Laura saa tarjouksen, josta hän erittäin mielellään kieltäytyisi	01.04.1999
+47.	Aki yrittää päihittää Tonin suunsoitossa	02.04.1999
+48.	Houkutus on suuri, kun Kari löytää itsensä vaarallisesta suhteesta	03.04.1999
+49.	Toni katuu osaansa Jennin sydänsuruihin	04.04.1999
+50.	Kateus pistää Katjaa	05.04.1999
+51.	Toni lohduttaa Jenniä	07.04.1999
+52.	Aleksilla on paineita	08.04.1999
+53.	Laitelat harrastavat talviurheilua	09.04.1999
+54.	Katja ja Jenni haikailevat Tonin perään	12.04.1999
+55.	Silja paljastaa Sakun suunnitelmat	15.04.1999
+56.	Yllättävän käänteen saanut hiihtoretki kuohuttaa Salinien menneisyyttä	19.04.1999
+57.	Salin vs Salin	20.04.1999
+58.	Golfkriisi koettelee Lauraa ja Markusta	21.04.1999
+59.	Silakkapihvien viettelys Vainioilla	22.04.1999
+60.	Barbaari, Markus ja Aki; naiset ja karman laki	23.04.1999
+61.	Markus osoittautuu yllättävän hyväksi ja huonoksi golfissa	26.04.1999
+62.	Hanna ja Maarit törmäyskurssilla	27.04.1999
+63.	Mustasukkaisuuden uhkapeli - Jennillä on kovat panokset	28.04.1999
+64.	Veri on viintä sakeampaa	29.04.1999
+65.	Ismo lämmittelee - tunteita ja moottoreita	30.04.1999
+66.	Laura saa selville, että hänen ylennykseensä sisältyy ei-toivottu ehto	03.05.1999
+67.	Jenni ja ruusut eivät aina sovi yhteen	04.05.1999
+68.	Markus saa tarjouksen, josta on vaikea kieltäytyä	05.05.1999
+69.	Hääkellot kutsuvat - vaikka vahingossa	06.05.1999
+70.	Seksiä ja totuuksia	07.05.1999
+71.	Markukselle selviää, että hänellä on salainen ihailija	10.05.1999
+72.	Ullan ja Sepon lemmenlomalle ilmaantuu yllätysvieras menneisyydestä	11.05.1999
+73.	Laura pelastaa Markuksen kuolemaakin pahemmalta kohtalolta	12.05.1999
+74.	Maaritin elämä saa sysäyksen uuteen suuntaan	13.05.1999
+75.	Rastatytön murtunut itsetunto	14.05.1999
+76.	Aleksi menettää kontrollin	17.05.1999
+77.	Ullan mitta täyttyy	18.05.1999
+78.	Maaritin treffit Ismon kanssa saavat yllättävän käänteen	19.05.1999
+79.	Tonin kosteat yllätysjuhlat	20.05.1999
+80.	Akin menneisyys uhkaa Markuksen tulevaisuutta	21.05.1999
+81.	Katja saa silmäyksen kylmästä totuudesta	24.05.1999
+82.	Tyynellä on salaperäinen ihailija	25.05.1999
+83.	Voitto saa Ullan ja Sepon sapen kiehumaan	26.05.1999
+84.	Ismon pettymys ihmissuhteisiin purkautuu tuhoavana raivona	27.05.1999
+85.	Miian treffit päättyvät katastrofiin	28.05.1999
+86.	Salinien salatut elämät	31.05.1999
+87.	Ulla tekee sopimattoman ehdotuksen	01.06.1999
+88.	Jenni rakkauden, rahan ja rikollisuuden kolmiossa	02.06.1999
+89.	Kalle saa Harrilta enemmän kuin mitä alun perin tinki	03.06.1999
+90.	Markus kuulee lopultakin totuuden Akista	04.06.1999
+
+# 2. tuotantokausi (1999–2000)
+91.	Hanna tekee vaikean valintansa	30.08.1999
+92.	Teinirakkauden monimutkaiset kuviot	31.08.1999
+93.	Aki saa tarjouksen ryhtyä vaaralliseen diiliin	01.09.1999
+94.	Kallen todelliset tunteet paljastuvat	02.09.1999
+95.	Ullan menneisyys paljastuu - kalliin seuraamuksin	03.09.1999
+96.	Virkavaltaan pettyneet Ismo ja Jukka ottavat lain omiin käsiinsä / Ismon ja Jukan laki	06.09.1999
+97.	Tonin valheilta katkaistaan siivet	07.09.1999
+98.	Huijatun Siljan raivonpurkaus saa traagisen lopun	08.09.1999
+99.	Kallelle tarjotaan mahdollisuutta jättää ennakkoluulot taakseen	09.09.1999
+100.	Salinien perhepotretin uudelleenmuotoilu	10.09.1999
+101.	Toni ja syyllisyyden taakka	13.09.1999
+102.	Jenni haistaa palaneen käryä	14.09.1999
+103.	Maarit laskee yhteen 1+1	15.09.1999
+104.	Rahaa vai rakkautta - Ulla testaa tunteita	16.09.1999
+105.	Hannan suunnitelmat saavat ei-toivotun käänteen	17.09.1999
+106.	Jukka saa kuulla sokkiuutisen	20.09.1999
+107.	Jennin lipsahdus saattaa Akin vaaraan	21.09.1999
+108.	Kari haluaa onnellisen perheen	22.09.1999
+109.	Silja joutuu kolmiodraaman keskelle	23.09.1999
+110.	Maaritin pelastusoperaatio saa yllättävän käänteen	24.09.1999
+111.	Ismon kyseenalaiset hurmausmenetelmät	27.09.1999
+112.	Aki tekee sopimuksen pirun kanssa	28.09.1999
+113.	Kari aiheuttaa Aleksille päänvaivaa	29.09.1999
+114.	Jenni kokee Pasin todellisen luonteen	30.09.1999
+115.	Hanna tekee ratkaisunsa	01.10.1999
+116.	Aki toimii pelastavana enkelinä	04.10.1999
+117.	Seppo tekee karmaisevan löydön	05.10.1999
+118.	Ullan huoli puolisostaan	06.10.1999
+119.	Jenni saa tarpeekseen väkivaltakierteestä	07.10.1999
+120.	Hanna asettaa Jukan seinää vasten	08.10.1999
+121.	Jennin mitta täyttyy	11.10.1999
+122.	Sovinto tuo Ismon elämään muutakin kuin mielenrauhaa	12.10.1999
+123.	Aki kääntää takkiaan muutamia kertoja	13.10.1999
+124.	Kauhun hetkiä Vainioilla	14.10.1999
+125.	Laura saa erikoisen jäähyväislahjan	15.10.1999
+126.	Aleksi leikkii Elinan sydämellä	18.10.1999
+127.	Toni huomaa poliisin olevan pienin hänen ongelmistaan	19.10.1999
+128.	Saku - murtunut teinicasanova	20.10.1999
+129.	Ismo ihmissuhdekarusellissa	21.10.1999
+130.	Hanna näkee tuhon ennusmerkkejä	22.10.1999
+131.	Ei kahta ilman kolmatta - Toni saa kolauksen rakkaudessa	25.10.1999
+132.	Miia tekee sydäntäsärkevän löydön	26.10.1999
+133.	Ulla jää kiinni huijaamisesta - kahdesti	27.10.1999
+134.	Silja pudottaa Jukan reaalimaailmaan	28.10.1999
+135.	Katja häkeltyy Tonin itsekeskeisyydestä	29.10.1999
+136.	Uhkaava ilmapiiri varjostaa Hannan paluuta	01.11.1999
+137.	Toni pelkää pahinta veljensä puolesta	02.11.1999
+138.	Jenni ja arvoituksellinen yövieras	03.11.1999
+139.	Saku antaa parhaan miehen voittaa	04.11.1999
+140.	Naamion takaa paljastuvat kasvot Lauran menneisyydestä	05.11.1999
+141.	Markus ratkaisee hääongelman	08.11.1999
+142.	Siljan itsetunto saa kolhuja	09.11.1999
+143.	Jukka esittää Aleksille hankalan pyynnön	10.11.1999
+144.	Elinalle paljastuu karvas totuus	11.11.1999
+145.	Tonin päätös saa Petrin suunniltaan	12.11.1999
+146.	Jenni saa yllättävän huomionosoituksen	15.11.1999
+147.	Toni joutuu kasvokkain vaaran kanssa	16.11.1999
+148.	Sakun mainetta uhkaavat menneisyyden haamut	17.11.1999
+149.	Karin kuningasajatus kuohuttaa Aleksia	18.11.1999
+150.	Lauran ja Markuksen suhdepalaverin keskeyttää odottamaton vieras	19.11.1999
+151.	Polttarihumua Barbaarissa	22.11.1999
+152.	Murtunut bestman	23.11.1999
+153.	Yhteiset vastoinkäymiset tuovat Markuksen ja Elinan tunteet pintaan	24.11.1999
+154.	Jukan ja Hannan kuherruskuukausi saa odottamattoman käänteen	25.11.1999
+155.	Laura ei pysty enää vastustamaan kiusausta	26.11.1999
+156.	Siljan sydän heittää voltin - järkytyksestä	29.11.1999
+157.	Jukka ja Hanna jakavat "rakkautensa" naapureidensa kanssa	30.11.1999
+158.	Kalle kemiallisen rakkauden lumoissa	01.12.1999
+159.	Akin tuuri loppuu	02.12.1999
+160.	Salinit saavat suru-uutisen	03.12.1999
+161.	Laura tekee kotoaan ikävän löydön	06.12.1999
+162.	Ulla tuuppaa kananpojan ulos pesästä	07.12.1999
+163.	Ismo menee nyrkin verran liian pitkälle	08.12.1999
+164.	Akin ja Markuksen ystävyys säröilee	09.12.1999
+165.	Miia ottaa asiat hallintaansa	10.12.1999
+166.	Saku tekee Miialle tarjouksen	13.12.1999
+167.	Kari käyttää äärimmäistä oikotietä	14.12.1999
+168.	Elina astuu rohkean askeleen	15.12.1999
+169.	Seppo ei osaa suhtautua poikaansa	16.12.1999
+170.	Ismo saa naiset itkemään - laulamalla	17.12.1999
+171.	Aki tanssittaa Lauraa omaan tahtiinsa	20.12.1999
+172.	Jukka turvautuu sissitaktiikkaan	21.12.1999
+173.	Silja on päättänyt saada mitä haluaa	22.12.1999
+174.	Aleksi tahtoo Hannan ja puoli valtakuntaa	23.12.1999
+175.	Utelias silmäpari takahuoneessa todistaa kiellettyä suudelmaa	24.12.1999
+176.	Aleksin passi hankaloittaa jäähyvästejä	27.12.1999
+177.	Silja saa Atelta intiimin tarjouksen	28.12.1999
+178.	Miia taistelee oikeudestaan rakkauteen	29.12.1999
+179.	Ulla käyttää yleisavainta paljastaakseen Salinien salaisuudet	30.12.1999
+180.	Jukka kuulee kielletystä suudelmasta	31.12.1999
+181.	Salinien sisarusten kilpailuasetelmassa toisen on hävittävä	11.01.2000
+182.	Katjan mitta lähenee täyttöpistettään	12.01.2000
+183.	Kalle sekaantuu Miian tärkeään päätökseen	13.01.2000
+184.	Ismon tilannearvio menee pahasti pieleen	14.01.2000
+185.	Sakun miehisyyden symbolin tavoittelu saa katastrofaalisen lopun	17.01.2000
+186.	Silja ei ole varma, miten pitkälle on valmis menemään	18.01.2000
+187.	Salinit saavat sokkiuutisia Ateenasta	19.01.2000
+188.	Miia kamppailee omantuntonsa kanssa	20.01.2000
+189.	Saku väärinkäsitysten isänä	21.01.2000
+190.	Ulla käyttää elektroniikkaa salaisuuksien paljastamiseen	24.01.2000
+191.	Miia järjestää miehuuskokeen	25.01.2000
+192.	Ismon ja Raunin intohimo muuttuu paloksi	26.01.2000
+193.	Kreikkalainen jumalatar saa Hannan tunteet kuohumaan	27.01.2000
+194.	Jenni suunnittelee uutta uraa	28.01.2000
+195.	Aleksi sotkee Elinan ja Markuksen kuvioita	31.01.2000
+196.	Ismo esittää Raunille elämää suuremman kysymyksen	01.02.2000
+197.	Ulla etsii korteista elämäänsä sisältöä	02.02.2000
+198.	Sakun mainosura on kiinni muutamasta tavusta	03.02.2000
+199.	Silja jää kiinni itse teosta	04.02.2000
+200.	Mustasukkaisuus saa Hannan antamaan periksi	07.02.2000
+201.	Uskonasiat aiheuttavat ryppyjä Ismon ja Raunin rakkauteen	08.02.2000
+202.	Ulla huomaa ennustaneensa vajaasta pakasta	09.02.2000
+203.	Jenni tekee uuden aluevaltauksen Tonin harmiksi	10.02.2000
+204.	Siljan salaisuus alkaa valjeta Hannalle	11.02.2000
+205.	Ulla yllättää Markuksen pyynnöllään	14.02.2000
+206.	Jukka palaa nuorten juttuihin	15.02.2000
+207.	Siskojen välisestä ystävyydestä	16.02.2000
+208.	Mustasukkaisuus riipii Akia	17.02.2000
+209.	Ismo hellittää otettaan Raunista	18.02.2000
+210.	Kalle on matkalla kaapista ulos	21.02.2000
+211.	Sepon kätköt puhuttavat	22.02.2000
+212.	Silja tilittää Jukalle tekosiaan	23.02.2000
+213.	Karu arki koettelee Miiaa ja Mikaa	24.02.2000
+214.	Katjalla ja Valtterilla on yhteinen projekti	25.02.2000
+215.	Sakun tapaama tyttö on lähes täydellinen	28.02.2000
+216.	Aki lähtee karkuretkelle	29.02.2000
+217.	Kalle pesee verta nenästään	01.03.2000
+218.	Katja saa kauan kaivatun suudelman	02.03.2000
+219.	Laura ei säästele Markusta	03.03.2000
+220.	Tonilla on siskonvaihtoviikot	06.03.2000
+221.	Jenni tasapainoilee tunteidensa kanssa	07.03.2000
+222.	Ismo tekee tiliä menneisyydestään	08.03.2000
+223.	Sakun menetys on ammattijääkiekolle bonusta	09.03.2000
+224.	Aki joutuu pärjäämään omillaan	10.03.2000
+225.	Kallen tunnehurmos halutaan piilottaa	14.03.2000
+226.	Suuri maailma avautuu Siljalle	15.03.2000
+227.	Katjan kieroilu saa nöyryyttävän lopun	16.03.2000
+228.	Saku ajaa kohti surun syövereitä	17.03.2000
+229.	Surua ja syyllisyydentuntoa sairaalassa	20.03.2000
+230.	Miiaa pyydetään antamaan elämä elämästä	21.03.2000
+231.	Aki saa viimein palkkansa	22.03.2000
+232.	Kalle järkyttää lapsuudentoveriaan	23.03.2000
+233.	Toni väläyttää uutta puolta itsestään	24.03.2000
+234.	Miia uhmaa lakia	27.03.2000
+235.	Laura saa odottamattoman tarjouksen	28.03.2000
+236.	Markuksen naisvierailut herättävät kohua	29.03.2000
+237.	Elina kaipaa turhaan huomiota osakseen	30.03.2000
+238.	Aki käy vaarallista kauppaa Jennillä	31.03.2000
+239.	Sakun kiirastuli syytetyn penkillä	03.04.2000
+240.	Silja tiedostaa perheensä sisäiset suhteet	04.04.2000
+241.	Silja hyvästelee pahan äitipuolen	05.04.2000
+242.	Maarit lietsoo jännitettä	06.04.2000
+243.	Aleksi yllättää Hannan	07.04.2000
+244.	Ulla kostaa Sepolle	10.04.2000
+245.	Jennillä on inhottava ihailija	11.04.2000
+246.	Jukalla on painava mielipide lapsista	12.04.2000
+247.	Katja käy miehen kimppuun	13.04.2000
+248.	Sakun oireilu huolettaa	14.04.2000
+249.	Miia näkee valoa tunnelin päässä	17.04.2000
+250.	Tyyne palaa Pihlajakadulle	18.04.2000
+251.	Jennin lähtösuunnitelmat saavat mielet kuohumaan	19.04.2000
+252.	Sakua sanoo Chiqi-tita	20.04.2000
+253.	Ulla utelee totuuksia Tyyneltä	21.04.2000
+254.	Markus, järjen mies	24.04.2000
+255.	Katja pitää huolta itse itsestään	25.04.2000
+256.	Hanna laatii ukaasin	26.04.2000
+257.	Valkoiset valheet yhdistävät Taalasmaita	27.04.2000
+258.	Miia epäilee lähimmäisensä rehellisyyttä	28.04.2000
+259.	Naisten logiikka sekoittaa Jukan pään	01.05.2000
+260.	Laura haluaa jättää vanhan taakseen	02.05.2000
+
+# 3. tuotantokausi (2000–2001)
+261.	Markus hurmaa koko rahan edestä	28.08.2000
+262.	Salaperäisyys verhoaa Miiaa	29.08.2000
+263.	Jenni saa tuta tosi rakkauden tuskat	30.08.2000
+264.	Ulla huomaa värien vaihtuneen	31.08.2000
+265.	Maarit epäilee poikiensa siveellisyyttä	01.09.2000
+266.	Tee se itse -Seppo	04.09.2000
+267.	Katjalle kelpaavat Jenni-räippeet	05.09.2000
+268.	Ismon iso ratas on kovilla	06.09.2000
+269.	Maarit muistuttaa Hannaa realiteeteista	07.09.2000
+270.	Sakun huoli kasvaa entisestään	08.09.2000
+271.	Jukan tunteet ovat umpisolmussa	11.09.2000
+272.	Ismon järkytysten määrä kasvaa	12.09.2000
+273.	Miia uskoo näkevänsä taivaan portit	13.09.2000
+274.	Katja leikkii Amoria	14.09.2000
+275.	Menneisyys ei jätä Lauraa rauhaan	15.09.2000
+276.	Yksinäisyys kalvaa kaipaavaa Katjaa	18.09.2000
+277.	Toinen Salinin veljeksistä saa uutta toivoa, toinen ei	19.09.2000
+278.	Sepon laiskuus kostautuu	20.09.2000
+279.	Markus saa tuta rakkauden tuskan	21.09.2000
+280.	Ylpeyden vai rakkauden riemuvoitto?	22.09.2000
+281.	Elina kyllästyy kahvilakohellukseen	25.09.2000
+282.	Aleksi pelkää menettäneensä kaiken	26.09.2000
+283.	Bisnesnainen nimeltä Maarit	27.09.2000
+284.	Laura tuntee olevansa kaikkien ongelmien äiti	28.09.2000
+285.	Kolmikko metsän siimeksessä	29.09.2000
+286.	Ullan uudet kuviot sekoittuvat	02.10.2000
+287.	Markuksen lojaalisuutta kyseenalaistetaan	03.10.2000
+288.	Sauli, lapsi ilman rakkautta	04.10.2000
+289.	Miian ja Sakun suunnitelmat kuohuttavat mieliä	05.10.2000
+290.	Hannan on tehtävä päätös	06.10.2000
+291.	Aki näkee kultaisen tilaisuuden edessään	09.10.2000
+292.	Ihme tekee vaikutuksen Miiaan	10.10.2000
+293.	Lauran lapsenvahtiongelmat jatkuvat	12.10.2000
+294.	Kalle löytää lohtua	13.10.2000
+295.	Maarit ja Aleksi huomaavat vaaran merkit	16.10.2000
+296.	Kallen kosto on märkä	17.10.2000
+297.	Oikean ja väärän ero vaivaa Elinaa	18.10.2000
+298.	Akin neuvot kaivertavat Markusta	19.10.2000
+299.	Jukka on teiden risteyksessä	20.10.2000
+300.	Saku kieltäytyy uskomasta pahinta	23.10.2000
+301.	Jenni aikoo selvittää totuuden	24.10.2000
+302.	Chiqi-etsivä ja kadonneen isän arvoitus	25.10.2000
+303.	Saku jaksaa uskoa mahdottomaan	26.10.2000
+304.	Sauli piiloutuu tuskaltaan	27.10.2000
+305.	Kalle tuntee olonsa ulkopuoliseksi	30.10.2000
+306.	Ulla syöksyy opintoelämän riemuihin	31.10.2000
+307.	Laura uhraa oman onnensa	01.11.2000
+308.	Katja on vaalea ja viileä	02.11.2000
+309.	Aleksi ymmärtää kaiken väärin	03.11.2000
+310.	Valheet vievät Maaritin mukanaan	04.11.2000
+311.	Seppo osoittaa olevansa runouden ritari	07.11.2000
+312.	Hannan petos syvenee	08.11.2000
+313.	Chiqi saa uuden ystävän	09.11.2000
+314.	Markus menee, minne muut määräävät	10.11.2000
+315.	Rahaan tottuneen Jennin maailma murtuu	13.11.2000
+316.	Valokuvat sekoittavat ihmissuhdepakan	14.11.2000
+317.	Kiipeilyseinä saa Katjan tunteet vellomaan	15.11.2000
+318.	Maaritin ja Jukan uudenlainen suhde	16.11.2000
+319.	Aki saalistaa jälleen	17.11.2000
+320.	Kalle saa Ismon tunteet roihuamaan	20.11.2000
+321.	Lauran salaisuudet leviävät	21.11.2000
+322.	Seppo kukkotappelun sovittelijana	22.11.2000
+323.	Uusi kämppis sotkee Maaritin rakkauselämän	23.11.2000
+324.	Jenni ja Katja - julkisuudenkipeät blondit	24.11.2000
+325.	Markus ja Toni viettävät miehistä iltaa	27.11.2000
+326.	Miia löytää uudelleen uskonsa	28.11.2000
+327.	Chiqi oppii, ettei ilmaista ateriaa ole olemassakaan	29.11.2000
+328.	Sakun on valittava perheen ja rakkauden välillä	30.11.2000
+329.	Jenni lietsoo pahat voimat esiin	01.12.2000
+330.	Hannan on tehtävä elämänsä vaikein päätös	04.12.2000
+331.	Markus valehtelee rakastamalleen naiselle	05.12.2000
+332.	Ismon kiitollisuudenosoitus aiheuttaa hämminkiä	06.12.2000
+333.	Maarit tuntee yksinäisyyden painon	07.12.2000
+334.	Sauli joutuu aikuisten syytösten kohteeksi	08.12.2000
+335.	Jennin hääpäivä on yllätyksiä täynnä	11.12.2000
+336.	Seppo oppii, millainen on ahneen loppu	12.12.2000
+337.	Akin lohdutustaktiikkaa kyseenalaistetaan	13.12.2000
+338.	Elinan kyyneleet tehoavat	14.12.2000
+339.	Ismo saa odottamattoman vieraan	15.12.2000
+340.	Jenni aloittaa PR-sodan	18.12.2000
+341.	Rauni paljastaa Afrikan salaisuutensa	19.12.2000
+342.	Aleksi ymmärtää, mitkä hänen pelinsä panokset ovat	20.12.2000
+343.	Saku saa huonoja uutisia	21.12.2000
+344.	Hanna jää hädän hetkellä yksin	22.12.2000
+345.	Ismo kuulee tahtomattaan totuuden	25.12.2000
+346.	Jenniä yritetään suojella huonoilta uutisilta	26.12.2000
+347.	Chiqi saa uuden vihamiehen	27.12.2000
+348.	Seppo sortuu omaan ansaansa	28.12.2000
+349.	Markus tekee kaikki onnellisiksi - paitsi Elinan	29.12.2000
+350.	Jukka paljastaa todelliset tunteensa	01.01.2001
+351.	Raunin on päätettävä, elääkö oppinsa mukaan	02.01.2001
+352.	Jennin tunnustus ei aiheuta odotettua reaktiota	03.01.2001
+353.	Ullan manipuloinnit nostattavat Lauran raivon	04.01.2001
+354.	Saku möläyttää raa'an totuuden julki	05.01.2001
+355.	Ismo keksii keinon pelastaa suhteensa	08.01.2001
+356.	Aki ei löydä oikeita sanoja	09.01.2001
+357.	Jukka löytää sisäisen työväenluokkaisen sankarinsa	10.01.2001
+358.	Maarit etsii nuoruuden lähdettä	11.01.2001
+359.	Seppo kohtaa vihollisen	12.01.2001
+360.	Sakun ja Virpin herkkä hetki saa yllättävän todistajan	15.01.2001
+361.	Katja joutuu vitsailunsa takia vaikeuksiin	16.01.2001
+362.	Markus on tosiystävä	17.01.2001
+363.	Ulla kaipaa vähemmän puhetta ja enemmän toimintaa	18.01.2001
+364.	Maarit haluaa Akin, muttei ihan niin kuin Aki luulee	19.01.2001
+365.	Saku uhraa mahdollisuuden onneen Miian vuoksi	22.01.2001
+366.	Lauran on pakko tehdä sopimus pirun kanssa	23.01.2001
+367.	Miian vihollinen lähestyy	24.01.2001
+368.	Ismo saa tuta petturuuden seuraukset	25.01.2001
+369.	Aki taistelee oikeudestaan rakkauteen	26.01.2001
+370.	Katja pakenee todellisuutta turvalliseksi kokemallaan tavalla	29.01.2001
+371.	Ismo on innoissaan tavatessaan Miian "varjostajan"	30.01.2001
+372.	Jukan on pistettävä asiat tärkeysjärjestykseen	31.01.2001
+373.	Asiat eivät suju Maaritin suunnitelman mukaan	01.02.2001
+374.	Kallen katkeruus menee liian pitkälle	02.02.2001
+375.	Jennille paljastuu kamala totuus	05.02.2001
+376.	Vaara lähestyy Miiaa	06.02.2001
+377.	Aki kääntää varman tappion voitoksi	07.02.2001
+378.	Elina pelaa likaista peliä sotkuisin seurauksin	08.02.2001
+379.	Yllättävä puhelu kaukomailta pelastaa Maaritin kuilun partaalta	09.02.2001
+380.	Hanna huomaa, että rakkaalla lapsella on monta nimeä	12.02.2001
+381.	Saku käy taistoon pelastaakseen rakkaansa	13.02.2001
+382.	Ulla ja Elina joutuvat Sepon käytännön pilan kohteeksi	14.02.2001
+383.	Chiqi päättää unohtaa unelmansa lopullisesti	15.02.2001
+384.	Aleksi järjestää tietämättään tuparit	16.02.2001
+385.	Jennille selviää, että Akista on miestä monelle	19.02.2001
+386.	Laura muuttuu sankarista petturiksi	20.02.2001
+387.	Markus saa liittolaisen rakkaastaan	21.02.2001
+388.	Hanna huomaa, ettei olekaan korvaamaton	22.02.2001
+389.	Katja kokee tiimityöskentelyn tuskat	23.02.2001
+390.	Kalle tekee päätöksen armeijan suhteen	26.02.2001
+391.	Ulla leikkii Amoria	27.02.2001
+392.	Laura ja Seppo panevat suut makeaksi	28.02.2001
+393.	Elina värvää kätyrin huonoin seurauksin	01.03.2001
+394.	Sakun tuuliviiri kääntyy kerran	02.03.2001
+395.	Kahleet estävät Jennin pääsyn rakkaansa luo	05.03.2001
+396.	Rauni vetää maton alta	06.03.2001
+397.	Salinien perhe saa vieraan ulkomailta	07.03.2001
+398.	Katjan välistäveto ei suju ihan suunnitelmien mukaan	08.03.2001
+399.	Ismo kätkee ja kovettuu	09.03.2001
+400.	Miia hyvästelee parhaan ystävänsä	12.03.2001
+401.	Elina kokee hyytäviä hetkiä	13.03.2001
+402.	Jukkaa revitään joka suuntaan	14.03.2001
+403.	Chiqi törmää byrokratiaan	15.03.2001
+404.	Mister X pilaa Taalasmaiden ilon	16.03.2001
+405.	Pelastava enkeli auttaa Sakua	19.03.2001
+406.	Elinan odotus palkitaan	20.03.2001
+407.	Markus purkaa huonoa oloa ystäväänsä	21.03.2001
+408.	Katja etsii - ja bingo!	22.03.2001
+409.	Aki käyttää tietojaan hyväkseen	23.03.2001
+410.	Ullan suunnitelmat turvallisen tulevaisuuden suhteen kokevat takaiskun	26.03.2001
+411.	Saku tuntee kummaa kutinaa	28.03.2001
+412.	Hanna säikähtää sijaisäidin omivaa käytöstä	30.03.2001
+413.	Jukkaa kiinnostaa isyyskysymys	02.04.2001
+414.	Karin huolto alkaa pelata	04.04.2001
+415.	Salineilla vietetään jälleen jäähyväisiä	05.04.2001
+416.	Elina taistelee platonisen ja lihallisen rakkauden välillä	06.04.2001
+417.	Katja saa uutisia Saksasta	09.04.2001
+418.	Hanna sortuu omaan näppäryyteensä	11.04.2001
+419.	Kalle on unohtaa tärkeän merkkipäivän	13.04.2001
+420.	Yllätysbileet ovat nimensä mukaiset	16.04.2001
+421.	Aki hämääntyy Katjan roolileikeistä	17.04.2001
+422.	Petra kylvää epäilyksen torajyviä Aleksin mieleen	18.04.2001
+423.	Jaana kohtaa yksinhuoltajan arjen	19.04.2001
+424.	Laura ottaa ohjat omiin käsiin	20.04.2001
+425.	Hannan pahimmasta pelosta tulee totta	23.04.2001
+426.	Taalasmaiden perhe kokee ohikiitäviä onnenhetkiä	24.04.2001
+427.	Akin suunnitelma alkaa selkeytyä	25.04.2001
+428.	Markus laittaa asioita väärään tärkeysjärjestykseen	26.04.2001
+429.	Kallen ottelu johtaa paljastukseen	27.04.2001
+430.	Teemun unelmien ilta muuttuu kamalaksi	30.04.2001
+431.	Aleksi uskoo omaan ratkaisukykyynsä	01.05.2001
+432.	Elinan unelman toteutuminen on millistä kiinni	02.05.2001
+433.	Pakon edessä Aki lopettaa turhan pehmoilun	03.05.2001
+434.	Markus painottelee isän ja pojan välillä	04.05.2001
+435.	Kalle saa kokea armeijan hyviäkin puolia	07.05.2001
+436.	Petran pakomatka päättyy	08.05.2001
+437.	Teemun tunteet johtavat väärään tunnustukseen	09.05.2001
+438.	Kari haluaa näyttää romanttisen puolensa Katjalle	10.05.2001
+439.	Rakkauden menetys pelottaa Elinaa	11.05.2001
+440.	Ismolle esitellään vävyehdokas	14.05.2001
+
+# 4. tuotantokausi (2001–2002)
+441-442.	Laura kohtaa uhkan äitiydelleen	20.08.2001
+443.	Jukka kokee petturuuden syvimmän olemuksen	21.08.2001
+444.	Markus oppii, että liika luottamus tuntuu luissa ja ytimissä	22.08.2001
+445.	Säikähtänyt Hanna muuttuu raisu-Hannaksi	23.08.2001
+446.	Katja yrittää pelastaa, mitä pelastettavissa on	24.08.2001
+447.	Markus petaa asemaansa perheessään	27.08.2001
+448.	Aamu saa ihailijan	28.08.2001
+449.	Akin toimintasuunnitelma alkaa muotoutua	29.08.2001
+450.	Ulla ottaa ohjat käsiinsä	30.08.2001
+451.	Laura pettyy, kun vanha suola ei reagoi odotetulla tavalla	31.08.2001
+452.	Vanha muusa kiilaa nuoren edelle	03.09.2001
+453.	Aamu huomaa olevansa pahassa välikädessä	04.09.2001
+454.	Aki pelaa kahta peliä yhtä aikaa	07.09.2001
+455.	Miia uskoo rakkauden voimaan	10.09.2001
+456.	Ismo saa loistavan vihjeen	11.09.2001
+457.	Maarit tarvitsee Jukan apua	12.09.2001
+458.	Eerik ottaa kohtalon omiin käsiinsä	13.09.2001
+459.	Laura Marsista, Markus Venuksesta	14.09.2001
+460.	Aki saa yllättävän tehtävän	17.09.2001
+461.	Hanna pääsee hajulle totuudesta	18.09.2001
+462.	Sauli tekee päätöksen	19.09.2001
+463.	Pitkä viha kärjistyy kissatappeluun	20.09.2001
+464.	Markus uhkaa jäädä aisankannattajaksi	21.09.2001
+465.	Teemu puolustaa sisarensa kunniaa	24.09.2001
+466.	Katja Vainio - Pihlajakadun Neiti Etsivä	25.09.2001
+467.	Ulla huomaa, että kellä onni on, se onnen kätkeköön	26.09.2001
+468.	Aamun on vaikea sopeutua perheen uuteen tilanteeseen	27.09.2001
+469.	Jukka turvautuu äärimmäisiin keinoihin saadakseen kostonsa	28.09.2001
+470.	Avajaisissa paljastetaan muutakin kuin tauluja	01.10.2001
+471.	Jaana puolustaa naarasleijonan tavoin esikoisensa oikeuksia	02.10.2001
+472.	Väärinkäsitys saa Elinan pään pyörälle	03.10.2001
+473.	Veljekset kuin ilvekset	04.10.2001
+474.	Markuksen sukupuusta katkeaa oksa	05.10.2001
+475.	Jukka ilmestyy koston viitta harteillaan	08.10.2001
+476.	Hannan pahat teot kostautuvat	09.10.2001
+477.	Teemu sählää itsensä silmätikuksi	10.10.2001
+478.	Jaanan rehellisyyspuheet osuvat omaan nilkkaan	11.10.2001
+479.	Tohvelisankari Seppo	12.10.2001
+480.	Miian mieli harhailee	15.10.2001
+481.	Jukka pistää paperityöt vireille	16.10.2001
+482.	Ulla peittää ryppyä rakkaudessa	17.10.2001
+483.	Aki vie ja Ekholmit vikisevät	18.10.2001
+484.	Kolmas pyörä saa Ismon huolestumaan	19.10.2001
+485.	Aamu Robin Hoodin viitassa	22.10.2001
+486.	Aleksia ärsyttää uusi lapsenhoitaja	23.10.2001
+487.	Elina tekee päätöksen mustan hevosensa suhteen	24.10.2001
+488.	Erimielisyydet riepottelevat miesten kerhoa	25.10.2001
+489.	Aki tajuaa, että reisi on reiteistä paras	26.10.2001
+490.	Kari haluaa kaiken tai ei mitään	29.10.2001
+491.	Jälleennäkemisbileet Lapissa	30.10.2001
+492.	Kateus pistää Roosaa	31.10.2001
+493.	Jukka uhraa kaksi ystävää saadakseen yhden uuden	01.11.2001
+494.	Pihlajakadun lemmenkaruselli pyörii villisti	02.11.2001
+495.	Aamu pelkää tehneensä valinnan liian aikaisin	05.11.2001
+496.	Elina sotkeutuu salaisuuksiin	06.11.2001
+497.	Surua häähumun keskellä	07.11.2001
+498.	Ismo ja Maarit yhdistävät voimansa	08.11.2001
+499.	Laura kohtaa sinkkuelämän arjen	09.11.2001
+500.	Saku järkyttää Hannan mielenrauhaa	12.11.2001
+501.	Roosa on uskollinen ystävä	13.11.2001
+502.	Sosiaalinen omatunto kääntää Teemun auttamaan	14.11.2001
+503.	Amia arveluttaa Salinien oravanpyörä	15.11.2001
+504.	Ulla laajentaa työnkuvansa poliisin tehtäviin	16.11.2001
+505.	Jaana kokee kauhun hetkiä	19.11.2001
+506.	Hanna puhuu sivu suunsa	20.11.2001
+507.	Lauran uudet suunnitelmat herättävät pahaa verta	21.11.2001
+508.	Katja huomaa, että kolmannet pyörät tuottavat ongelmia	22.11.2001
+509.	Ulla painii luokkatietoisuuden ja itsekkyyden välilllä	23.11.2001
+510.	Elinalle tarjotaan mahdollisuutta itsenäisyyteen yllättävältä taholta	26.11.2001
+511.	Kari koettaa miellyttää, mutta kompastelee pahasti	27.11.2001
+512.	Surullinen salaisuus lähentää Miiaa ja Sakua	28.11.2001
+513.	Hanna ajautuu perimmäisten kysymysten äärelle	29.11.2001
+514.	Jaanan iloinen ilta venähtää iloiseen aamuun	30.11.2001
+515.	Ismon onnen lieskat sammuvat	03.12.2001
+516.	Inka sotkeutuu valheiden verkkoon	04.12.2001
+517.	Kari kompastuu omaan näppäryyteensä	05.12.2001
+518.	Aamu järjestää uimajamboreen	06.12.2001
+519.	Karinin rattopoika meinaa paljastua	07.12.2001
+520.	Kirjoitukset saavat järkyttävän käänteen	08.12.2001
+521.	Aki ei halua olla salagigolo	09.12.2001
+522.	Ylpeys saa Roosan ottamaan riskin	10.12.2001
+523.	Saku purkaa turhautumistaan äärimmäisin keinoin	11.12.2001
+524.	Elina miettii, lähteäkö juhlliin palvelijaksi vai palveltavaksi	12.12.2001
+525.	Ennustaja-Ulla saa kilpailijan	13.12.2001
+526.	Karin koulutus johtaa suudelmaan	14.12.2001
+527.	Jaana tajuaa rajatiedon kaupallisen potentiaalin	17.12.2001
+528.	Aamu kamppailee ennakkoluulojensa kanssa	18.12.2001
+529.	Teemu kyllästyy olemaan murheiden kaatopaikka	02.01.2002
+530.	Markuksen pahin painajainen käy toteen	03.01.2002
+531.	Aleksi soutaa ja huopaa rakkauden aavalla	04.01.2002
+532.	Madame Tellervon ensimmäinen työpäivä	07.01.2002
+533.	Sakun on vaikea hyväksyä Miian päätöstä	08.01.2002
+534.	Inka polttaa liian monta siltaa	09.01.2002
+535.	Aki pistää repun selkään	10.01.2002
+536.	Teemun voitonjuhla jää lyhyeksi	11.01.2002
+537.	Ismo tarttuu oljenkorteen	14.01.2002
+538.	Teiniprinsessan ego kokee kolauksen	15.01.2002
+539.	Camilla etsii - ja löytää	16.01.2002
+540.	Tunteellinen totuusleikki	17.01.2002[3]
+541.	Karista kehkeytyy Pihlajakadun Don Juan	18.01.2002
+542.	Atlantin takaa saapuu vieras	21.01.2002
+543.	Ulla joutuu mielentilojen vuoristorataan	22.01.2002
+544.	Jukka ei osaa nielaista vihan hedelmää	23.01.2002
+545.	Seppo kuulee yllättävän uutisen	24.01.2002
+546.	Saku keksii suunnan tulevaisuudelleen	25.01.2002
+547.	Laura yrittää vaimentaa omantuntonsa	28.01.2002
+548.	Ken hurmaa - mutta väärän naisen	29.01.2002
+549.	Camilla kiristää itselleen tietoja	30.01.2002
+550.	Jaana joutuu eettisen ongelman eteen	31.01.2002
+551.	Maarit uskoo päässeensä jymyuutisen jäljille	01.02.2002
+552.	Elina löytää tien Markuksen luo	04.02.2002
+553.	Nuoret muusikot aloittavat yhteistyön	05.02.2002
+554.	Aamu heiluu ihastuksen ja koston rajamailla	06.02.2002
+555.	Roosa tekee rohkean siirron	07.02.2002
+556.	Maarit järjestää elämäänsä uusiksi	08.02.2002
+557.	Jukka yllättää itsensäkin	11.02.2002
+558.	Seppo haluaa ratkaista teltanpystytysongelman	12.02.2002
+559.	Geelin naamiaiskarnevaalit	13.02.2002
+560.	Jukan raivo kärjistyy	14.02.2002
+561.	Elina haluaa olla prinsessa eikä pyykkäri	15.02.2002
+562.	Tuplatreffit eivät mene niin kuin Aamu oli suunnitellut	18.02.2002
+563.	Ullan tehopirtelö päätyy väärään suuhun	19.02.2002
+564.	Teemu esittää uhkavaatimuksen	20.02.2002
+565.	Jukka löytää labyrintin keskeltä totuuden	21.02.2002
+566.	Ismo hermostuu uuteen apulaiseen	22.02.2002
+567.	Laura taiteilee riskien rajoilla	25.02.2002
+568.	Pelkkä tahdonvoima ei enää riitä Markukselle	26.02.2002
+569.	Camillan menneisyydestä löytyy vanha tuttu	27.02.2002
+570.	Onni soittaa Roosan ovikelloa	28.02.2002
+571.	Maarit epäilee nyyhkytarinaa	01.03.2002
+572.	Syyllisyys sovittaa hirttosilmukkaa Jukan kaulaan	04.03.2002
+573.	Markus ei tajua, että niin makaa kuin petaa	05.03.2002
+574.	Roosa ottaa tärkeän askeleen kohti itsenäisyyttä	06.03.2002
+575.	Jännittävä testitilanne	07.03.2002
+576.	Sankari-Ken kyllästyy salailuun	08.03.2002
+577.	Tukijoukot saattavat Ismon noloon tilanteeseen	11.03.2002
+578.	Camilla pääsee vihdoin lähemmäs etsimäänsä	12.03.2002
+579.	Markus piristää itseään	13.03.2002
+580.	Inka levyttää valheiden viulujen säestämänä	14.03.2002
+581.	Ulla houkutellaan peiteoperaatioon	15.03.2002
+582.	Elina etsii paikkaansa rakkaittensa elämässä	18.03.2002
+583.	Sisarusrakkaus joutuu koetukselle	19.03.2002
+584.	Jukka päättää korjata menneisyyden virheet	20.03.2002
+585.	Karin päätös hämmentää Lauran	21.03.2002
+586.	Ulla riemastuu iloisesta uutisesta	22.03.2002
+587.	Aleksi rakentaa illuusion	25.03.2002
+588.	Hanna uskoo Sofian sulattavan kaikki jäät	26.03.2002
+589.	Ismo pakenee hellyyden raskasta kosketusta	27.03.2002
+590.	Aleksin isyysonni joutuu koetukselle	28.03.2002
+591.	Inkan iskelmätaivas on pilviä täynnä	29.03.2002
+592.	Mustasukkaisuus jäytää Elinaa	01.04.2002
+593.	Sofia lähtee löytöretkelle	02.04.2002
+594.	Ken ei halua olla liian helppo nakki	03.04.2002
+595.	Kari voittaa taistelun, jota ei enää ole	04.04.2002
+596.	Aamu kuulee yllättävän tunnustuksen	05.04.2002
+597.	Huoli tekee Jukasta kielikellon	08.04.2002
+598.	Inka-Liina vaihtaa tyyliä	09.04.2002
+599.	Ken saa apua odottamattomalta taholta	10.04.2002
+600.	Tilaisuus tekee Aleksista teekkarin	13.04.2002
+601.	Katja ei halua olla vankilaleski	14.04.2002
+602.	Ismo saa vihanaisen	15.04.2002
+603.	Markus aloittaa soidinmenot	16.04.2002
+604.	Inka näkee yllättävän strip-tease-show'n	17.04.2002
+605.	Karin viimeiset kiusaukset	20.04.2002
+606.	Anopit kilpasilla	21.04.2002
+607.	Valheelliset vauvakuvat	22.04.2002
+608.	Auttava käsi kurkottelee Markusta kohti	23.04.2002
+609.	Inka johtaa kakunpelastusoperaatiota	24.04.2002
+610.	Keskeytynyt häävalssi	27.04.2002
+
+# 5. tuotantokausi (2002–2003)
+611.	Valheet siivittävät Jennin paluuta	02.09.2002
+612.	Aamu sovittelee veljesriitaa	03.09.2002
+613.	Camilla kohtaa kasvot menneisyydestä	04.09.2002
+614.	Aleksilla on yllättävää opiskeluseuraa	05.09.2002
+615.	Jaanan uusperheen vaikea alku	06.09.2002
+616.	Elina herää avioliiton karuun arkeen	09.09.2002
+617.	Jenni ja Laura löytävät yhteisen intressin	10.09.2002
+618.	Ulla ottaa ohjat käsiinsä	11.09.2002
+619.	Jukka ja Maarit intohimoa etsimässä	12.09.2002
+620.	Aamu, draamakuningatar	13.09.2002
+621.	Markus päättää aloittaa puhtaalta pöydältä	16.09.2002
+622.	Jenni tekee paluuta arkeen	17.09.2002
+623.	Hanna näyttää, kuinka bailataan kunnolla	18.09.2002
+624.	Teemu valmistautuu debyyttiin	19.09.2002
+625.	Katja ja kadonneen siemenen metsästys	20.09.2002
+626.	Aleksin opinnot arvioidaan julkisesti	23.09.2002
+627.	Elina pettyy veljeensä	24.09.2002
+628.	Karin parisuhteet ajavat karikolle	25.09.2002
+629.	Hanna astuu uraputkeen	26.09.2002
+630.	Ujous on ihastuneen Inkan kompastuskivi	27.09.2002
+631.	Elina saa parasta lääkettä suruunsa - rakkautta	30.09.2002
+632.	Daniel testaa taitojaan työnjohtajana	01.10.2002
+633.	Luontopoika lumoaa Aamun	02.10.2002
+634.	Omatunto pistää Katjaa	03.10.2002
+635.	Jenni syöksee tulta ja tappuraa	04.10.2002
+636.	Teemu saa tarjouksen vanhalta vihtahousulta	07.10.2002
+637.	Elina ryhtyy huumepoliisiksi	08.10.2002
+638.	Totuus murtaa Karin ja Katjan suhdetta	09.10.2002
+639.	Aamu virittää lemmenverkkoja	10.10.2002
+640.	Sofian hoitajan haiseva kosto	11.10.2002
+641.	Niemisillä kiistellään Teemun oikeuksista	14.10.2002
+642.	Ken ja Daniel eivät mahdu saman katon alle	15.10.2002
+643.	Marja-mummo tuo järjestyksen Salinien huusholliin	16.10.2002
+644.	Camilla saa tarpeekseen noitavainosta	17.10.2002
+645.	Jaana kamppailee painokompleksin kanssa	18.10.2002
+646.	Lauran kohteliaisuus kostautuu	21.10.2002
+647.	Aamu kylvää, mutta Inka korjaa sadon	22.10.2002
+648.	Aleksi pelkää olevansa kahden naisen mies	23.10.2002
+649.	Jennillä on uutta vipinää miesrintamalla	24.10.2002
+650.	Marja-mummon hormonit hyrräävät	25.10.2002
+651.	Laura tutustuu arkeen à la Kari	28.10.2002
+652.	Seppo ja Aleksi ajattelevat happamia Marjasta	29.10.2002
+653.	Aamu ja Inka kamppailevat Ilarin huomiosta	30.10.2002
+654.	Jenni ottaa vastuun Nikosta, ainakin melkein	31.10.2002
+655.	Jaana etsii apua kilokriisiinsä	01.11.2002
+656.	Aleksi tuntee mustasukkaisuuden pistoksen	04.11.2002
+657.	Kari puhuu itsensä vaikeuksiin	05.11.2002
+658.	Seppo aikoo yllättää Ullan lämpimällä lahjalla	06.11.2002
+659.	Jenni joutuu valitsemaan treffien ja lastenhoidon välilllä	07.11.2002
+660.	Jaanalla on aihetta itsetutkiskeluun	08.11.2002
+661.	Elina päättää kävellä Camillan yli	11.11.2002
+662.	Laura joutuu anopin pihteihin	12.11.2002
+663.	Inka uskoo saaneensa selkävoiton Aamusta	13.11.2002
+664.	Aleksi ja Hanna käyvät tahtojen taistoa	14.11.2002
+665.	Ismo ymmärtää koiruutensa	15.11.2002
+666.	Aamu antaa pirulle pikkusormen - ja vähän muutakin	18.11.2002
+667.	Ami opettaa ja ihastuu	19.11.2002
+668.	Maarit saa yllättävän mahdollisuuden	20.11.2002
+669.	Vesikatastrofi yhdistää Katjaa ja Karia	21.11.2002
+670.	Ismo kohtaa Leksan koston	22.11.2002
+671.	Daniel lohduttaa pomojaan	25.11.2002
+672.	Amin sydän sykkii Salinien lapsenhoitajalle	26.11.2002
+673.	Ismon rooli vaihtuu uhrista tekijäksi	27.11.2002
+674.	Katja yrittää astua ulos yksinäisyydestä	28.11.2002
+675.	Kari hyvästelee sekä eilisen että huomisen	29.11.2002
+676.	On Kenin ja Amin siivouspäivä	02.12.2002
+677.	Inka valitaan johtavaksi iskijäksi	03.12.2002
+678.	Inka, Teemu ja yllätyssuudelma	04.12.2002
+679.	Jenni ryhtyy missibisnekseen	05.12.2002
+680.	Maaritin onni saa Jukan epäluuloiseksi	06.12.2002
+681.	Jaanan perhe on pahin	09.12.2002
+682.	Lauran vaikea valinta	10.12.2002
+683.	Ami valmistautuu Sinnan valloitukseen	11.12.2002
+684.	Karin uutiset masentavat Katjan	12.12.2002
+685.	Camillan ylpeys kulkee hylkäämisen edellä	13.12.2002
+686.	Ismo setvii Roosan ihmissuhdekuvioita	16.12.2002
+687.	Jenni alkaa kaivata menetettyä mahdollisuutta	17.12.2002
+688.	Laura hinaa Ullan haaveet telakalle	18.12.2002
+689.	Sinna kujeilee vesillä	19.12.2002
+690.	Katja yllättää Jennin pyynnöllään	20.12.2002
+691.	Ismon vaikea tunnustus	23.12.2002
+692.	Maarit kylvää mustasukkaisuutta	24.12.2002
+693.	Suudelma paljastaa Inkalle kaiken	25.12.2002
+694.	Kari saa yllättävän ehdotuksen	26.12.2002
+695.	Katjan radikaali ratkaisu	27.12.2002
+696.	Jaana kaipaa Ismoa, mutta pelkää tämän menneisyyttä	20.01.2003
+697.	Kari lähtee uusille urille	21.01.2003
+698.	Aleksin ja Hannan hormonit hyrräävät epätahdissa	22.01.2003
+699.	Danielin ja Elinan välillä värisee	23.01.2003
+700.	Aamu myrkyttää suhteensa Ilariin	24.01.2003
+701.	Jaanan usko Ismoon horjuu	27.01.2003
+702.	Daniel aiheuttaa kolmiodraaman	28.01.2003
+703.	Äitiyden auvo ahdistaa Jenniä	29.01.2003
+704.	Aleksi haluaa eroon sinnikkäästä seireenistä	30.01.2003
+705.	Laura sulkee Karin huoliensa ulkopuolelle	31.01.2003
+706.	Ami pääsee seitsemänteen taivaaseen	03.02.2003
+707.	Jenni on sotkua luova Miss Keittiö	04.02.2003
+708.	Ulla ja Seppo suunnittelevat hermolomaa	05.02.2003
+709.	Jaanan esikoinen palaa kotiin	06.02.2003
+710.	Kari tuntee kateuden piston	07.02.2003
+711.	Inka hukkaa sen, mitä ei saa takaisin	10.02.2003
+712.	Elinan tuska on hyvä renki mutta huono isäntä	11.02.2003
+713.	Kari ryhtyy yltiöoptimistiksi	12.02.2003
+714.	Roosan rakkaus ja rahat eivät kulje käsi kädessä	13.02.2003
+715.	Laboratorio-isku laukeaa Aamun käsiin	14.02.2003
+716.	Aleksi riisuu haalarin	17.02.2003
+717.	Ismo ei halua pappia kyytiin	18.02.2003
+718.	Lauran piinaava odotus	19.02.2003
+719.	Jenni tajuaa olevansa lähempänä tuttipulloa kuin vodkapulloa	20.02.2003
+720.	Maarit kohtaa tutun kiusauksen	21.02.2003
+721.	Aamun lojaalisuus punnitaan	24.02.2003
+722.	Kari todistaa olevansa lahjomaton	25.02.2003
+723.	Elina ui Jasun verkkoon	26.02.2003
+724.	Jennin käteen jää vain vaippa	27.02.2003
+725.	Roosa ottaa hääohjat omiin käsiinsä	28.02.2003
+726.	Maaritin kulissiraittius horjuu	03.03.2003
+727.	Laura saa pojaltaan epäluottamuslauseen	04.03.2003
+728.	Daniel tarttuu menneisyyden härkää sarvista	05.03.2003
+729.	Aleksin ja Hannan rauhanprosessi onnistuu	06.03.2003
+730.	Roosa ei tahdo anopin helmoihin	07.03.2003
+731.	Saulin salaiset kansiot raottuvat Lauralle	10.03.2003
+732.	Danielin omatunto pannaan kevätsiivoukseen	11.03.2003
+733.	Jenni siirtyy nettiaikaan	12.03.2003
+734.	Inka ei pysty lakaisemaan muistoja maton alle	13.03.2003
+735.	Maarit on ginin paras ystävä	14.03.2003
+736.	Daniel kohtaa menneisyytensä kasvoista kasvoihin	16.03.2003
+737.	Hanna on haluttua seuraa	17.03.2003
+738.	Karilla on vaaralliset eväät	21.03.2003
+739.	Aamu joutuu pesemään tekojensa jälkipyykkiä	24.03.2003
+740.	Inkan kulissit kaatuvat	25.03.2003
+741.	Hanna sanoo haikaralle "kyllä"	26.03.2003
+742.	Camilla hajottaa ja hallitsee	27.03.2003
+743.	Ami tipahtaa omaan ansaansa	31.03.2003
+744.	Virkavalta saa Karin kiikkiin	02.04.2003
+745.	Aamu antaa Kenille kylmää kyytiä	04.04.2003
+746.	Karin valheella on lyhyet jäljet	07.04.2003
+747.	Jenni leijuu nettipilvissä	08.04.2003
+748.	Teemu pakottaa Inkaa hakemaan apua	09.04.2003
+749.	Jukka saa Hannalta intiimin yllätyksen	10.04.2003
+750.	Laura ottaa pikajunan pohjoiseen	11.04.2003
+751.	Aamu liimaa elämänsä sirpaleita	14.04.2003
+752.	Hannan suudelma vainoaa Jukkaa	15.04.2003
+753.	Kari tekee epätoivoisen ratkaisun	16.04.2003
+754.	Teemu pettää Inkan luottamuksen ollakseen sen arvoinen	17.04.2003
+755.	Camilla kirii Elinan edelle anopin kesyttämisessä	18.04.2003
+756.	Amin unelma on Jennille komediaa	21.04.2003
+757.	Jaana valitsee valheen	22.04.2003
+758.	Kari ahdistaa Maaritin nurkkaan	23.04.2003
+759.	Teemun poikuus on vaarassa	24.04.2003
+760.	Huoli ajaa Hannan kohtalokkaalle matkalle	25.04.2003
+761.	Ami on kaikkien ystävien sankari	28.04.2003
+762.	Seppo saa Inkan isän näyttämään todelliset kasvonsa	29.04.2003
+763.	Kassakone kilisee Jaanan taskuun	30.04.2003
+764.	Ken pelästyy Aamun sarastuksesta	01.05.2003
+765.	Aleksi saa toivoa	02.05.2003
+766.	Ken läpäisee lemmenleikkien peruskurssin	05.05.2003
+767.	Ulla ottaa oikeuden omiin käsiinsä	06.05.2003
+768.	Sielunveli löytää Jennin	07.05.2003
+769.	Daniel etsii sijaa majatalosta	08.05.2003
+770.	Katri aiheuttaa Kenissä paniikkia	09.05.2003
+771.	Camilla jatkaa lääkekokeilujaan	12.05.2003
+772.	Ken ja Inka juonivat toistensa hyväksi	13.05.2003
+773.	Maarit joutuu katsomaan totuutta peiliin	14.05.2003
+774.	Jaanan epärehellisyys kantaa huonoa hedelmää	15.05.2003
+775.	Sielunveli aiheuttaa Jennille järkytyksen	16.05.2003
+
+# 6. tuotantokausi (2003–2004)
+776.	Elina pelkää itseään	01.09.2003
+777.	Aleksi tekee miehen teon	01.09.2003
+778.	Jaanalla ei ole savua ilman tulta	02.09.2003
+779.	Aleksi tahtoo päästää Hannan rauhaan	03.09.2003
+780.	Camilla ei tahdo pahaksi äitipuoleksi	04.09.2003
+781.	Aamu pelaa Kenillä ihmissuhdepokeria	05.09.2003
+782.	Jenni ottaa sylkinäytteen myös Tonilta	08.09.2003
+783.	Teemulla on liikaa seuraa lemmenlaivalle	09.09.2003
+784.	Daniel tekee tunnustuksen	10.09.2003
+785.	Kari ja Laura kokevat elämän ihmeen	11.09.2003
+786.	Hanna on poissa	12.09.2003
+787.	Kari saa maistaa, mitä onni on	15.09.2003
+788.	Teemu ei voi seurata tunteitaan	16.09.2003
+789.	Tonille syötetään köyttä	17.09.2003
+790.	Jaana ja Ismo löytävät toisensa valheiden verkossa	18.09.2003
+791.	Aamu estää Keniä nostamasta kytkintä	19.09.2003
+792.	Elina saa Kenin silmät aukenemaan	22.09.2003
+793.	Inkan kotelosta kuoriutuu trendiperhonen	23.09.2003
+794.	Tonin onni on Camillan menetys	24.09.2003
+795.	Aamu toimii Amorina	25.09.2003
+796.	Aleksin viimeiset hyvästit	26.09.2003
+797.	Ojalan veljekset ovat kuin tappelevat ilvekset	29.09.2003
+798.	Aleksi sulkee oven ulkomaailmaan	30.09.2003
+799.	Karin keittiössä on jo toinen kokki	01.10.2003
+800.	Totuus ajaa Jennin ratkaisuun	02.10.2003
+801.	Maaritin syntisäkki on painavampi, kuin mitä Jukka kuvittelee	03.10.2003
+802.	Katri ja Teemu ratkovat ristikkoa väärinkäsityksillä	06.10.2003
+803.	Elinalle tyrkytetään sekä ystävyyttä että rakkautta	07.10.2003
+804.	Camillan sodassa kaikki keinot ovat sallittuja	08.10.2003
+805.	Ami taistelee reiluuden ja rakkauden ristitulessa	09.10.2003
+806.	Nopeat syövät hitaat, Ismo ja Jaana!	10.10.2003
+807.	Aleksi latelee Maaritille pelin säännöt	13.10.2003
+808.	Teinihelvetti katkaisee Jaanan selän	14.10.2003
+809.	Niko johtaa Katjan salaisuuden jäljille	15.10.2003
+810.	Aamu päättää vaihtaa perhettä	16.10.2003
+811.	Ulla puuttuu poikansa urakehitykseen	17.10.2003
+812.	Jaana-emo pelkää poikasensa lentävän pesästä	20.10.2003
+813.	Jenni ei tahdo Tonista viikonloppuisää	21.10.2003
+814.	Daniel saa ammatinvalinnan ohjausta	22.10.2003
+815.	Maarit saa tukihenkilöltään hämmentävää tukea	23.10.2003
+816.	Aleksin työnhakua vaikeuttavat sekä ylpeys että ennakkoluulo	24.10.2003
+817.	Camilla kutsuu pimeyden voimia	27.10.2003
+818.	Ismo yksityisyrittää liikaa	28.10.2003
+819.	Aamu tuntee olevansa kaksinkin yksin	29.10.2003
+820.	Niko on viaton viestintuoja	30.10.2003
+821.	Karia odottaa perheyllätys	31.10.2003
+822.	Voiko Aamu leppyä päivässä?	03.11.2003
+823.	Laura on Venuksesta, Kari Marsista	04.11.2003
+824.	Aleksi nielaisee palasen ylpeydestään	05.11.2003
+825.	Ismo näkee itsekkyytensä läpi	06.11.2003
+826.	Elinan biologinen kello pärähtää soimaan	07.11.2003
+827.	Karin menneisyys kummittelee Lauralle	10.11.2003
+828.	Aleksin ideat ovat kapuloita Jukan rattaissa	11.11.2003
+829.	Jenni häilyy pelon ja toivon rajamailla	12.11.2003
+830.	Huoli tekee Ullasta tunkeilevan anopin	13.11.2003
+831.	Laura tekee kohtalokkaan virheen	14.11.2003
+832.	Aleksin irtautuminen Sofiasta on lapsen kengissä	17.11.2003
+833.	Aamu aloittaa kissatappelun	18.11.2003
+834.	Camilla nuolaisee ennen kuin tipahtaa	19.11.2003
+835.	Daniel pelkää Elinan vetävän yhtä köyttä väärään suuntaan	20.11.2003
+836.	Ismo kääntää elämässään uuden lehden	21.11.2003
+837.	Laura ei äänestäisi Karia vuoden isäksi	24.11.2003
+838.	Katri pyytää ottelutaukoa ihmissuhdepelistä	25.11.2003
+839.	Seppo kokee miehisyytensä ajautuneen karille	26.11.2003
+840.	Ken tekee hyvää hallaa	27.11.2003
+841.	Jukka joutuu lukemaan menneisyytensä haamuista	28.11.2003
+842.	Jaana keräilee Ismoa pala palalta	01.12.2003
+843.	Aleksi puhdistautuu äitinsä likasangossa	02.12.2003
+844.	Elina tuo Geeliin uusia tuulia	03.12.2003
+845.	Maarit lankeaa kiellettyyn hedelmään	04.12.2003
+846.	Ulla ja Seppo pääsevät hormonitasapainoon	05.12.2003
+847.	Aleksi ei näe poispääsyä keittämästään liemestä	08.12.2003
+848.	Teemun kunnianhimo koettelee hänen rehellisyyttään	09.12.2003
+849.	Camilla ei hävitä Elinan valtapeliä	10.12.2003
+850.	Inka tahtoo olla oman elämänsä seppä	11.12.2003
+851.	Maarit saa aikaan suuren kirjallisuuskeskustelun	12.12.2003
+852.	Laura haluaa lapselleen nimen ja itselleen miehen	05.01.2004
+853.	Inkan taivaalla näkyy uusia pilviä	06.01.2004
+854.	Elina ja Camilla taistelevat ylikomentajan paikasta	07.01.2004
+855.	Sauli puhkuu pyhää vihaa	08.01.2004
+856.	Perheparatiisin liepeillä vaanii käärme nimeltä Simo	09.01.2004
+857.	Jaana ja Jukka löytävät kielletyn hedelmän	12.01.2004
+858.	Ken saa pomoltaan tarjouksen	13.01.2004
+859.	Tuhman Saulin uhma ei ota laantuakseen	14.01.2004
+860.	Viesti lahden takaa murskaa Amin toiveet	15.01.2004
+861.	Teemun unelmat saavat siivet alleen	16.01.2004
+862.	Jenni tahtoo lentää uutta tulevaisuutta kohti	19.01.2004
+863.	Lauran talossa on liian monta isäntää	20.01.2004
+864.	Inka löytää itsensä jälleen asuntojonosta	21.01.2004
+865.	Ullan ja Sepon salapoliisityö tuottaa tuloksen	22.01.2004
+866.	Jenni ja Camilla kohtaavat Tonin vielä kerran	23.01.2004
+867.	Jos Aamulla ei ole kivaa, muillakaan ei saa olla	26.01.2004
+868.	Ulla tahtoo parisuhderemontin	27.01.2004
+869.	Salinien vitsaus on uskollisuuden kitsaus	28.01.2004
+870.	Kenille tarjotaan viimeistä oljenkortta	29.01.2004
+871.	Aleksi kirjoittaa Maaritin kirjan puuttuvan luvun	30.01.2004
+872.	Jaana laittaa laput Ismon silmille	02.02.2004
+873.	Kenin sydän tahtoo sairaslomaa	03.02.2004
+874.	Maaritin onni on yksinäinen	04.02.2004
+875.	Aamun säätiedotuksessa luvataan sumua ja kyyneleitä	05.02.2004
+876.	Kari opettaa koko Pihlajakadulle sokkoleikkiä	06.02.2004
+877.	Ami antautuu virran vietäväksi	09.02.2004
+878.	Elina ja Daniel potevat ihmissuhdeuupumusta	10.02.2004
+879.	Ismo pääsee totuuden liepeille	11.02.2004
+880.	Jaana valehtelee itsensä ulos pinteestä	12.02.2004
+881.	Serkkupoika tuo Amille jobinpostia	13.02.2004
+882.	Elinan pää kääntyy pieniin päin	16.02.2004
+883.	Camillan juonitteluvaisto on pettämätön	17.02.2004
+884.	Seppo tekee aikamatkan antiikkiin	18.02.2004
+885.	Jukka ja Maarit selvittävät tilinsä	19.02.2004
+886.	Ken tarttuu suutelutilaisuuteen	20.02.2004
+887.	Ismo tajuaa totuuden pala palalta	23.02.2004
+888.	Rakkaudenkaipuu sekoittaa Elinan suuntavaistoa	24.02.2004
+889.	Kari ui Saulin sormusrysään	25.02.2004
+890.	Maarit saa kutsun rapakon taakse	26.02.2004
+891.	Ossi sekoittaa pakkaa	27.02.2004
+892.	Laura etsii itseään uran ja kodin väliltä	01.03.2004
+893.	Katri iskee silmänsä Rakkavaaran perintöprinssiin	02.03.2004
+894.	Jaana säveltää elämälleen uutta säkeistöä	03.03.2004
+895.	Ossilla ei ole puhtaita jauhoja pussissa	04.03.2004
+896.	Uusperhe suunnistaa kohti uutta tulevaisuutta	05.03.2004
+897.	Putkisto mutkistaa Karin suunnitelmia	08.03.2004
+898-900.	(ohitettu numeroinnissa)	
+901.	Yllätys pohjoisesta sekoittaa Rikun ja Ossin pasmat	09.03.2004
+902.	Sepon ja Ullan rakkauden tiellä on romuja	10.03.2004
+903.	Jenni ryhtyy Neiti Etsiväksi	11.03.2004
+904.	Elinan elimistössä kytee huimaava yllätys	12.03.2004
+905.	Katrille tarjoillaan kiellettyä hedelmää	15.03.2004
+906.	Kari aikoo klubikeisariksi hinnalla millä hyvänsä	16.03.2004
+907.	Ismo hyvästelee elämänsä	17.03.2004
+908.	Rikusta syyllisyys on katsojan silmissä	18.03.2004
+909.	Camilla haistaa haudatun koiran	22.03.2004
+910.	Kukaan ei kuuntele Elinan salaisuutta	24.03.2004
+911.	Kari aikoo ravintola-alalle vaikka väkisin	26.03.2004
+912.	Paula aiheuttaa kaaosta pihlajakatulaisissa	29.03.2004
+913.	Camilla kaataa Lauran korttitalon	30.03.2004
+914.	Ossi metsästää pesää	01.04.2004
+915.	Jenni lentelee uutiskyyhkynä	05.04.2004
+916.	Sepon unelmista tulee antiikkia	07.04.2004
+917.	Ossi haluaa enemmän kuin työpaikan	12.04.2004
+918.	Paula työntää nenänsä liian syvälle	13.04.2004
+919.	Kari pukeutuu menestyjän valepukuun	14.04.2004
+920.	Ken saa Camillalta kyytiä	15.04.2004
+921.	Ulla haluaa Seppoon yksinoikeuden	16.04.2004
+922.	Ken kelpaa vain salasuhteeseen	19.04.2004
+923.	Kari joutuu kertaheitolla syvemmälle suohon	20.04.2004
+924.	Katri lipuu rakkauden rinteeseen	21.04.2004
+925.	Seppo järjestää ja tuhoaa	22.04.2004
+926.	Ossi ja Riku aloittavat tyrmäävän yhteiselon	23.04.2004
+927.	Jennillä menee jauhot suuhun	26.04.2004
+928.	Inkan menneisyyden peikot näyttäytyvät jälleen	27.04.2004
+929.	Laura ja Sauli tapailevat yhteistä säveltä	28.04.2004
+930.	Riku haluaa kuorrutuksen, ei koko kakkua	29.04.2004
+931.	Jennin onni on katoavaista	30.04.2004
+932.	Ismo haluaa kasvaa aikuisena ja kauppiaana	03.05.2004
+933.	Helin tunteet tekevät täyskäännöksen	04.05.2004
+934.	Ken ei tiedä, ketä kumartaa	05.05.2004
+935.	Viesti menneisyydestä tyrmää Sepon	06.05.2004
+
+# 7. tuotantokausi (2004–2005)
+936.	Sauli pelkää Pandoran lipasta, joka pysäytti Sepon sydämen	30.08.2004
+937.	Katja aloittaa julman piiloleikin	31.08.2004
+938.	Elina sivaltaa Keniä rehellisyyspiiskalla	01.09.2004
+939.	Ismo etsii kadonnutta yhteisvastuuta ja yllättyy	02.09.2004
+940.	Helin kosto ei olekaan suloinen	03.09.2004
+941.	Piiri pieni pyörii Katrin ympärillä	06.09.2004
+942.	Laura valehtelee itsensä totuuden tielle	07.09.2004
+943.	Karia kiskotaan kahteen suuntaan	08.09.2004
+944.	Camillan laiva lastataan liian täyteen	09.09.2004
+945.	Heli ja Sauli keinuvat rakkauden pilvilinnoihin	10.09.2004
+946.	Ken joutuu kohtaamaan Camillan pimeän puolen	13.09.2004
+947.	Ulla tajuaa elämänsä suurimman aikapommin tikittävän	14.09.2004
+948.	Inka painii tulevaisuutensa kanssa	15.09.2004
+949.	Rikun essutemppu tehoaa	16.09.2004
+950.	Amerikan rauta sekoittaa Saulin pasmat	17.09.2004
+951.	Ken ei tyydy pelkkään kiisseliin, vaan haluaa koko kattauksen	20.09.2004
+952.	Inkan tulevaisuus loistaa kirkkaana kuin nuottiavain	21.09.2004
+953.	Rikun musta sukka nostaa päätään	22.09.2004
+954.	Elinan pulla kohoaa, mutta syöjiä ei ole	23.09.2004
+955.	Heli ei pysty pitämään äitiään kurissa	24.09.2004
+956.	Kenin onnellisuuspussista riittää jaettavaa	27.09.2004
+957.	Sauli saa kuulla olevansa syyllinen	28.09.2004
+958.	Ulla varjelee Seppoa kaikelta, mitä ikinä keksiikin pelätä	29.09.2004
+959.	Aamun itsevarmuus kasvaa askel askeleelta	30.09.2004
+960.	Katja pakkaa laukkunsa	01.10.2004
+961.	Laura houkuttelee haahuilevaa Karia persikalla	04.10.2004
+962.	Sauli juuttuu valheen juoksuhiekkaan	05.10.2004
+963.	Ken ja Aamu kohtaavat muistojen ruusutarhassa	06.10.2004
+964.	Inka sanoo viimeisen sanan, ja se on "HEI"	07.10.2004
+965.	Riku ja Ossi laskevat mopot karkuun	08.10.2004
+966.	Laura lähettää Katjan Espanjaan	11.10.2004
+967.	Annikan logiikka hämmentää poikien sielunelämää	12.10.2004
+968.	Ulla uskoo saaneensa aikalisän	13.10.2004
+969.	Aamu suunnittelee Kenille ja Camillalle ikimuistoisia häitä	14.10.2004
+970.	Danielilla on kaksi uutta roolia	15.10.2004
+971.	Jennin aika parrasvaloissa päättyy ennen kuin ehtii alkaakaan	18.10.2004
+972.	Saulin mielestä Annika tähtää vääriä keiloja	19.10.2004
+973.	Paulan tuliainen on varsin miehekäs	20.10.2004
+974.	Laura tekee sen, mitä tosiystävän tulee tehdä	21.10.2004
+975.	Camilla ja Ken tahtovat kumpikin onnea	22.10.2004
+976.	Aamu tahtoisi jäädä, mutta moottoritie on kuuma	25.10.2004
+977.	Laura huomaa, etteivät sydämen lupaukset olekaan ikuisia	26.10.2004
+978.	Kohtalo koettelee Elinaa kovimman kautta	27.10.2004
+979.	Ami tahtoo käpertyä parisuhteen peiton alle	28.10.2004
+980.	Ullan korttitalo keikkuu	29.10.2004
+981.	Parisuhteen odotushorisontti hämmentää Helin	01.11.2004
+982.	Amin mitta alkaa täyttyä	02.11.2004
+983.	Lassen mielestä kanalassa voi olla vain yksi kukko	03.11.2004
+984.	Katja soutaa ja huopaa suhteidensa aallokossa	04.11.2004
+985.	Ossi saa tarkkanäköisen Leila-ystävän	05.11.2004
+986.	Annikalla on enemmän näkemystä kuin kokemusta	08.11.2004
+987.	Jennillä on keskinkertaisuuskriisi	09.11.2004
+988.	Katja muuttuu näkymättömäksi	10.11.2004
+989.	Rikun sukat ovat mustaakin mustemmat	11.11.2004
+990.	Heli kertoo Ismolle synkän muiston Paulan menneisyydestä	12.11.2004
+991.	Katja katoaa horisonttiin	15.11.2004
+992.	Pyörremyrsky Annika kylvää tuhoa	16.11.2004
+993.	Ken polttaa siltansa Camillaan	17.11.2004
+994.	Ismon hyveellisyys joutuu koetukselle	18.11.2004
+995.	Seppo tiirikoi muistinsa lukkoja	19.11.2004
+996.	Jenni astuu Paulan varpaille	22.11.2004
+997.	Kari yrittää elää haikean tuskan kanssa	23.11.2004
+998.	Annika siirtyy lastenleikeistä aikuisempaan seuraan	24.11.2004
+999.	Katri tajuaa osuneensa Ossin sydämeen	25.11.2004
+1000.	Ulla katsoo pelkoaan suoraan silmiin	26.11.2004
+1001.	Paljon melua Ismon suukosta	29.11.2004
+1002.	Sepon valinta	30.11.2004
+1003.	Paula ja Heli parisuhteiden rajapyykeillä	01.12.2004
+1004.	Jenni palaa koulunpenkille	02.12.2004
+1005.	Lasse kotiutuu yllätyksen hevosvoimalla	03.12.2004
+1006.	Jenni ja Ami saapuvat elämän risteysasemalle	06.12.2004
+1007.	Ulla ottaa käyttöön äärimmäisen strategian	07.12.2004
+1008.	Sauli testaa ruohon vihreyttä aidan toisella puolella	08.12.2004
+1009.	Epäluottamuksen raskas pilvi varjostaa Paulan auringon	09.12.2004
+1010.	Laura saa ihailua kotiinkuljetuksena	10.12.2004
+1011.	Jenni-morsian pukeutuu valkoisiin valheisiin	03.01.2005
+1012.	Ossi tekee ystävälleen karhunpalveluksen	04.01.2005
+1013.	Annikan horoskooppi ei olekaan huuhaata	05.01.2005
+1014.	Laura on liian kuuma kissa jäädäkseen seinäruusuksi	06.01.2005
+1015.	Elina saa kimppuunsa kalvokostajan	07.01.2005
+1016.	Lassen hirvipaisti ei ole yleisömenestys	10.01.2005
+1017.	Ossin otsaan liimataan mestarileipurin leima	11.01.2005
+1018.	Seppo metsästää oikeaa naista väärälle miehelle	12.01.2005
+1019.	Laura säätää tunteidensa pakastimen sulatusasentoon	13.01.2005
+1020.	Ken uskoo pelastaneensa Annikan piparkakkutalosta	14.01.2005
+1021.	Jenni kompuroi kivisellä koulutiellä	17.01.2005
+1022.	Paha olo yhdistää Annikaa ja Saulia	18.01.2005
+1023.	Sepon ja Ullan laivat välttävät karilleajon	19.01.2005
+1024.	Ossi tarjoaa lempeää flunssalääkettä	20.01.2005
+1025.	Erä-Ismo ja ystävyyden liukkaat koetinkivet	21.01.2005
+1026.	Laura on virittää loukun Aaro-hiirelle	24.01.2005
+1027.	Sauli ei olekaan rehti ulkoilmaihminen	25.01.2005
+1028.	Rikun rakkaalla on katala kilpailija	26.01.2005
+1029.	Ulla löytää varastosta antiikin, joka ei sinne kuulu	27.01.2005
+1030.	Jenni palautuu kolahtaen maanpinnalle	28.01.2005
+1031.	Seppo liukastelee ihmissuhdejäätiköllä	31.01.2005
+1032.	Ossi haluaa olla oman elämänsä sankari	01.02.2005
+1033.	Saulin herkut joutuvat vääriin käsiin	02.02.2005
+1034.	Jennin työkalupakki on kadoksissa	03.02.2005
+1035.	Työintoinen Katri astuu suden luolaan	04.02.2005
+1036.	Katri kysyy neuvoa sydämeltään	07.02.2005
+1037.	Seppo häätää seksipedon vuoteestaan	08.02.2005
+1038.	Timantit ovat Jennin parhaita ystäviä	09.02.2005
+1039.	Rakkauden riskit ahdistavat Saulia	10.02.2005
+1040.	Aaro saa nootin miehuuskokeessa	11.02.2005
+1041.	Katri sotkeutuu tunteiden seittiin	14.02.2005
+1042.	Jennin ovella on monta kolkuttajaa	15.02.2005
+1043.	Ismo ravistelee rasistin viittaa päältään	16.02.2005
+1044.	Sauli viettää lemmekästä syntymäpäivää	17.02.2005
+1045.	Lauran ritarilla on erikoispitkä ratsu	18.02.2005
+1046.	Annika löytää Saulin heikon pisteen	21.02.2005
+1047.	Ulla nostattaa rautaesiripun mestari-Amor-juonellaan	22.02.2005
+1048.	Ismo saa voiton kotiin	23.02.2005
+1049.	Elinan elämästä on salainen kansio	24.02.2005
+1050.	Hiipivä mummo herättää pakokauhua Taalasmaissa	25.02.2005
+1051.	Jennin kiitokset saavat hämmentävän vastaanoton	28.02.2005
+1052.	Riku, maanteiden kuningas	01.03.2005
+1053.	Elina sahaa juuriaan poikki	02.03.2005
+1054.	Sauli piilottaa suhteensa kaappiin	03.03.2005
+1055.	Menneisyyden käsi ojentuu Paulaa kohti	04.03.2005
+1056.	Jenni kiertyy kiitollisuuden kierteeseen	07.03.2005
+1057.	Saulin salaverkkoon takertuu ylimääräinen kärpänen	08.03.2005
+1058.	Rehellisyys ei peri Sievisiä	09.03.2005
+1059.	Onnellisten saarten enkeli kutsuu Keniä	14.03.2005
+1060.	Ulla pöllyttää kissankarvoja	15.03.2005
+1061.	Illallisilta jää Paulan hampaankoloon sitkeä roska	16.03.2005
+1062.	Elina lentää perhekriisistä toiseen	17.03.2005
+1063.	Pehmolelu kiristää tunnelman Kivirannoilla	18.03.2005
+1064.	Sauli pyristelee kahden tyttöystävän loukussa	21.03.2005
+1065.	Jenni pujottaa itsensä koukkuun	22.03.2005
+1066.	Kasper ei saa vastausta huhuiluunsa	24.03.2005
+1067.	Katri etsii kadonnutta rakasta	25.03.2005
+1068.	Ismon suusta satelee sammakoita	28.03.2005
+1069.	Annika raottaa salaisuuksien verhoaan	29.03.2005
+1070.	Jenni rimpuilee Heikin kutomassa seitissä	30.03.2005
+1071.	Annika yrittää karkottaa pahan pois	31.03.2005
+1072.	Jennin epätoivon tunnelissa näkyy sittenkin valoa	04.04.2005
+1073.	Lauran perheonnelassa vaanii vaara	05.04.2005
+1074.	Unissakävelijä johdattelee Ullan ja Sepon eri teille	06.04.2005
+1075.	Helin uusi ystävä on täynnä yllätyksiä	07.04.2005
+1076.	Katri ei halua elää elämäänsä pullonhengen kanssa	11.04.2005
+1077.	Seppo ja Ulla kiitävät muistojen parketilla	13.04.2005
+1078.	Jenni taistelee rakkaudesta kalliin keinoin	18.04.2005
+1079.	Paulan suunnitelmat eivät mene ihan putkeen	19.04.2005
+1080.	Elinan rakkaus isoäitiään kohtaan joutuu punnittavaksi	20.04.2005
+1081.	Onni ja suru vuorottelevat Taalasmaiden perheessä	21.04.2005
+1082.	Tuntematon voima särkee Sievisten perheonnen	22.04.2005
+1083.	Ismon ja Irman suunnitelmat lutviutuvat oudosti	25.04.2005
+1084.	Heli säntäilee oman onnensa tiellä kuin peura autonvaloissa	26.04.2005
+1085.	Pihlajakadun hiljaisuus laukeaa kaaokseen	27.04.2005
+
+# 8. tuotantokausi (2005–2006)
+1086.	Pyssyleikit kääntyvät tragediaksi Pihlajakadulla	30.08.2005
+1087.	Aaro kiristää rakkauden silmukkaa Lauran kaulassa	31.08.2005
+1088.	Annika ei usko sinkkuelämään	01.09.2005
+1089.	Sepon kissanpäivien ylle puhaltaa pohjoinen tuuli	02.09.2005
+1090.	Paula ei huomaa korttitalonsa huojuvan	05.09.2005
+1091.	Etelän lämpö yhdistää ystävät	06.09.2005
+1092.	Heli kulkee kohti sisäistä naiseuttaan	07.09.2005
+1093.	Ami huomaa olevansa liimattu kiinni perheeseensä	08.09.2005
+1094.	Ossin ja Elinan uusi ystävyys joutuu koetukselle	09.09.2005
+1095.	Ullan katse voi tappaa	12.09.2005
+1096.	Taalasmaiden soppaa sekoitetaan tuonpuoleisestakin asti	13.09.2005
+1097.	Laura taistelee ollakseen tasa-arvoinen	14.09.2005
+1098.	Heli pamauttaa Saulia nyrkillä palleaan	15.09.2005
+1099.	Irman kohokas lässähtää pannukakuksi	16.09.2005
+1100.	Aarolle ei sanota ei	19.09.2005
+1101.	Laura kompastuu kiireisiinsä	20.09.2005
+1102.	Sauli löytää syntipukin	21.09.2005
+1103.	Annika janoaa lumikinosten kuningattareksi	22.09.2005
+1104.	Rikun päätös horjuu salamavaloissa	23.09.2005
+1105.	Ulla, yön yksinäinen	26.09.2005
+1106.	Terapiarahat käyvät Amin hermoille	27.09.2005
+1107.	Elina saa hiljaisen mutta Viljaisen yllätyksen	28.09.2005
+1108.	Sauli päättää ottaa selvää Aarosta	29.09.2005
+1109.	Paula räjäyttää pommin Lassen silmille	30.09.2005
+1110.	Ismo aloittaa uuden elämän virtuaalimaailman avustuksella	03.10.2005
+1111.	Seppo ja Elina uskovat salailun voimaan	04.10.2005
+1112.	Ääni menneisyydestä romahduttaa Kasperin unelmat	05.10.2005
+1113.	Ami uuvahtaa itsesyytöksien alle	06.10.2005
+1114.	Ismo saa jättipotin eikä tiedä, itkeäkö vai nauraa	07.10.2005
+1115.	Sauli ryhtyy Herra Etsiväksi	10.10.2005
+1116.	Ismo on epätoivoisen rakkauden markkinoilla	11.10.2005
+1117.	Kuka lohduttaisi yksinäistä Annikaa?	12.10.2005
+1118.	Jenni kerää huomiota laihoin tuloksin	13.10.2005
+1119.	Ullan lähipiirissä käy varkaita	14.10.2005
+1120.	Kolossaalinen syyllisyys painaa Paulaa	17.10.2005
+1121.	Paula ripittäytyy rakkauden alttarilla	18.10.2005
+1122.	Aaro ei kestä Saulin salaisuuksia	19.10.2005
+1123.	Ulla yllättää kameleonttimaisuudellaan	20.10.2005
+1124.	Taneli sotkeutuu ujoutensa verkkoihin	21.10.2005
+1125.	Heli uhrautuu siskonsa vuoksi	24.10.2005
+1126.	Laura näkee välähdyksen jostakin hyvin pimeästä	25.10.2005
+1127.	Ismo jaksaa ja jaksaa	26.10.2005
+1128.	Irman delegointi karahtaa kiville	27.10.2005
+1129.	Lasse ei kestä selkärangattomuutta silmiensä edessä	28.10.2005
+1130.	Sauli ajautuu kohtalokkaaseen riitaan Aaron kanssa	31.10.2005
+1131.	Epätoivoinen Laura kurottuu kohti tytärtään	01.11.2005
+1132.	Ismo tuntee, kuinka vanhakin jo nuortuu	02.11.2005
+1133.	Annika on vain yksi Sievisen perheen ongelmista	03.11.2005
+1134.	Muistot lämmittävät Vainioiden kylmää kotia	04.11.2005
+1135.	Lasse suojelee Rikua kaikelta	07.11.2005
+1136.	Ismo saa illallisvieraan	08.11.2005
+1137.	Riku kohtaa auktoriteetin, jolle ei uhota	09.11.2005
+1138.	Elina leijuu pilvissä haaveidensa takia	10.11.2005
+1139.	Matriarkka Halonen suojelee poikastaan	11.11.2005
+1140.	Sauli ottaa käsiinsä oman elämänsä ohjat	14.11.2005
+1141.	Heli ja lepakkojen yö	15.11.2005
+1142.	Seppo pohtii älyköksi ryhtymistä	16.11.2005
+1143.	Katri tajuaa, ettei ole ainoa nainen Tanelin elämässä	17.11.2005
+1144.	Elina ei tiedä, ollako positiivinen vai negatiivinen	18.11.2005
+1145.	Nahkatuoli pyöräyttää Ossille jymy-yllärin	21.11.2005
+1146.	Ismolla on kuumat paikat	22.11.2005
+1147.	Kasper tekee U-käännöksen elämässään	23.11.2005
+1148.	Ossi esittää Elinalle tarjouksen, josta voi vain kieltäytyä	24.11.2005
+1149.	Ami ja Jenni terapiakurimuksessa	25.11.2005
+1150.	Oonan mitta täyttyy	28.11.2005
+1151.	Ossin miehuus joutuu puntariin	29.11.2005
+1152.	Lauraa sohaistaan arkaan paikkaan	30.11.2005
+1153.	Kasperin valtakunnassa on kutsumaton vieras	01.12.2005
+1154.	Heli lähtee lepakkometsälle	02.12.2005
+1155.	Jenni tekee mielestään ainoan oikean päätöksen	05.12.2005
+1156.	Yrjö riimittelee itsensä Ullan suosioon	07.12.2005
+1157.	Taneli saa vauhtia itsenäisyyspyrkimyksiinsä	08.12.2005
+1158.	Tanjan tavoite pyhittää keinot	09.12.2005
+1159.	Annikalla on keino motivaatiovaikeuksiinsa	12.12.2005
+1160.	Ullan uteliaisuus muuttuu epätoivoksi	13.12.2005
+1161.	Laura menettää yöunensa	16.01.2006
+1162.	Ismo kokee ihmeen	17.01.2006
+1163.	Kolossaalinen syyllisyys painaa Annikaa	18.01.2006
+1164.	Taneli vastaa luonnon kutsuun	19.01.2006
+1165.	Tanja tarjoilee Rikulle vain rehellisyysmurusia	23.01.2006
+1166.	Seppoa oksettaa Yrjö	24.01.2006
+1167.	Lauran häirikkö tekee seuraavan siirtonsa	25.01.2006
+1168.	Jenni takertuu elämään	26.01.2006
+1169.	Helin vapauden huuma kestää vain hetken	30.01.2006
+1170.	Ulla luo rakkauden säkeitä	31.01.2006
+1171.	Katrin pelko saa siivet	01.02.2006
+1172.	Sepon runoratsu laukkaa, Ullan ravaa maaliin asti	02.02.2006
+1173.	Ossi rypee syyllisyydessä	06.02.2006
+1174.	Sukkalaatikko katkaisee Ismo-kamelin selän	07.02.2006
+1175.	Annikan unelmat saavat uudet siivet	08.02.2006
+1176.	Laura haukkuu väärää puuta	09.02.2006
+1177.	Anoppi-Irman haukansilmä huomaa kaiken	13.02.2006
+1178.	Seppo joutuu arvosteluraadin eteen	15.02.2006
+1179.	Ossin katkeruus muuttuu käyttövoimaksi	16.02.2006
+1180.	Ami rohkaisee Jenniä rakkaudellaan	20.02.2006
+1181.	Aaro hoitaa Lauran sairaaksi	21.02.2006
+1182.	Irman ja Ullan salaystävyys hermostuttaa Seppoa	22.02.2006
+1183.	Kuka lohduttaisi vaatesuunnittelijaa?	23.02.2006
+1184.	Lapin junan matkaliput ovat haluttua tavaraa	27.02.2006
+1185.	Ismo luo nahkansa	28.02.2006
+1186.	Lasse sulattelee Helin tarjoilemaa jälkiruokaa	01.03.2006
+1187.	Jenni häivyttää sairauden mielestään	02.03.2006
+1188.	Laura saa Aarolta onnellisuuspillerin	06.03.2006
+1189.	Yrjö on istunut Sepon tuolissa	07.03.2006
+1190.	Snow Teamissa ovat kannat katossa	08.03.2006
+1191.	Tanja yllätetään housut kintuissa	09.03.2006
+1192.	Pakokauhu suutelee Paulaa	13.03.2006
+1193.	Seppo tanhuaa epätahdissa rakkauden tanssilattialla	14.03.2006
+1194.	Tanelilla on vaikeuksia irrottautua mökistä	15.03.2006
+1195.	Annika janoaa seikkailuja	16.03.2006
+1196.	Paulan mielestä kukat ovat epäilyttäviä	20.03.2006
+1197.	Jenni testaa viehätysvoimaansa	21.03.2006
+1198.	Annika putoaa kahden poikaystävän loukkuun	22.03.2006
+1199.	Ismo tuhoaa talossa ja Snow Teamissa	23.03.2006
+1200.	Elina ja Ossi pyydystävät vihamiehensä verkkoon	27.03.2006
+1201.	Jennin urheus kostautuu	28.03.2006
+1202.	Heli päättää kulkea omaa polkuaan	29.03.2006
+1203.	Bisnesmies-Ismo lähtee Rakkavaaraan	30.03.2006
+1204.	Seppo ottaa kantaakseen Irman luurankosäkin	03.04.2006
+1205.	Aaro ylittää Paulan rajan	04.04.2006
+1206.	Ossi kohtaa netissä pedon kasvot	05.04.2006
+1207.	Ossi ja Tanja tykkäävät vihata	06.04.2006
+1208.	Aaro hautaa salaisuuden Sipooseen	10.04.2006
+1209.	Irma kiristää otettaan Seposta	11.04.2006
+1210.	Ulla ihastelee petollisen esteetöntä tulevaisuutta	12.04.2006
+1211.	Paulan piina on ohi, mutta vain hetkeksi	13.04.2006
+1212.	Laura kohtaa painajaisensa	18.04.2006
+1213.	Salaperäisyys ei kiehdo Ullaa	19.04.2006
+1214.	Niko tietää yhtä ja toista painimisesta	20.04.2006
+1215.	Lasse on periaatteen mies	24.04.2006
+1216.	Totuus piirittää Tanelia	25.04.2006
+1217.	Elina näkee "Petterin" kahdet kasvot	26.04.2006
+1218.	Heli löytää mustat sukkansa	27.04.2006
+1219.	Nikon traumat purkautuvat väkivaltaisella tavalla	01.05.2006
+1220.	Romeon suosioon on salaisuus	02.05.2006
+1221.	Amille perhe on paras ja tärkein	03.05.2006
+1222.	Annika on lähellä taivasta, Kasper liian lähellä pilviä	04.05.2006
+1223.	Ulla antaa Sepolle merkin	08.05.2006
+1224.	Riku luottaa olkapään voimaan	09.05.2006
+1225.	Helin järkevyys joutuu koetukselle	10.05.2006
+1226.	Katri räpiköi tunteitten ristiaallokossa	11.05.2006
+1227.	Yrjön oudon käytöksen syy selviää	15.05.2006
+1228.	Paula yrittää avata ahdasta mieltään	16.05.2006
+1229.	Sallan unelmille ei ole hintaa	17.05.2006
+1230.	Rikun kynttilät palavat loppuun	18.05.2006
+1231.	Taneli kaivelee juuriaan	22.05.2006
+1232.	Paula ja tahdikkuus eivät kulje käsi kädessä	23.05.2006
+1233.	Seppo painii totuuden kanssa	24.05.2006
+1234.	Ulla tuntee elävänsä elämänsä parasta aikaa	25.05.2006
+1235.	Heli tajuaa, että kaiken takana on nainen	29.05.2006
+
+# 9. tuotantokausi (2006–2007)
+1236.	Annikan kädet ovat sidotut, ja niin ovat Paulankin	14.08.2006
+1237.	Riku sulkeutuu syyllisyyteensä	15.08.2006
+1238.	Marttyyrikruunu pukee Irmaa	16.08.2006
+1239.	Sallan ja Tuomon pesänrakennus kohtaa esteen	17.08.2006
+1240.	Laura löytää helpotuksen pahaan oloonsa	21.08.2006
+1241.	Paula murtaa särön Lassen panssariin	22.08.2006
+1242.	Seppo huolestuu Ullan tarpeista	23.08.2006
+1243.	Taneli epäilee eläneensä harhakuvitelmissa	24.08.2006
+1244.	Ismon ura lähtee nousuun Tanjan avulla	28.08.2006
+1245.	Romeolla on pieni salaisuus	29.08.2006
+1246.	Tuomo yrittää yllättää Sallan	30.08.2006
+1247.	Entäs nyt, Lasse Sievinen?	04.09.2006
+1248.	Neljä seinää ahdistaa Elinaa	05.09.2006
+1249.	Ami varmistuu elämänsä tylsyydestä	06.09.2006
+1250.	Ossillakin on tunteet	07.09.2006
+1251.	Heli ajaa Samin kanssa samalla bussilla	11.09.2006
+1252.	Tanja pyöräyttää lapinleukua Ossin haavassa	12.09.2006
+1253.	Meikkiesittelyssä risteilevät kylmät ja lämpimät sävyt	13.09.2006
+1254.	Annikan ja Romeon tähtitaivaalla syöksyy sukkula Venukseen	14.09.2006
+1255.	Teräsmies-Sepon voimat alkavat ehtyä	18.09.2006
+1256.	Silmukka Romeon salaisuuden ympärillä kiristyy	19.09.2006
+1257.	Tanjalle luovutetaan avaimet uuteen elämään	20.09.2006
+1258.	Katri on kylmä kalikka	21.09.2006
+1259.	Lasse ja Paula tanssivat pirunpolskaa	25.09.2006
+1260.	Laura dyykkaa roskalaatikosta lievitystä häästressiin	26.09.2006
+1261.	Ismo ei syö omasta kuormasta	27.09.2006
+1262.	Ami ei halua näytellä onnellista	28.09.2006
+1263.	Tanja valitsee puolensa	02.10.2006
+1264.	Salla käynnistää Tuomon miljöökoulutuksen	03.10.2006
+1265.	Heli valmistautuu elämänsä tärkeimpään päivään	04.10.2006
+1266.	Ismon suhde Tanjaan tiivistyy	05.10.2006
+1267.	Romeolla on tukalaa puun ja kuoren välissä	09.10.2006
+1268.	Elinan ärähdys saa Ullaan eloa	10.10.2006
+1269.	Ossin huumorin kukka kuihtuu kokonaan	11.10.2006
+1270.	Luistinrata vetää Amia puoleensa	12.10.2006
+1271.	Katri leikkii Peten tunteilla	16.10.2006
+1272.	Ulla saa vainun Lauran salaisuudesta	17.10.2006
+1273.	Tanja tuntee Ismon tuoksun	18.10.2006
+1274.	Romeo haluaa riuhtaista itsensä irti	19.10.2006
+1275.	Salla jalostaa hääideaansa	23.10.2006
+1276.	Elinan mitta täyttyy	24.10.2006
+1277.	Maijan hoidosta kehkeytyy monen hämmentäjän soppa	25.10.2006
+1278.	Ossi ottaa järeät aseet käyttöön	26.10.2006
+1279.	Jenni järjestää Amille aikalisän	30.10.2006
+1280.	Katri ottaa suuren askeleen Peteä kohti	31.10.2006
+1281.	Ulla löytää Lauran unohduksen taivaan	01.11.2006
+1282.	Ismon itsetunto rakoilee	02.11.2006
+1283.	Heli siirtyy lähipiirin aktivismiin	06.11.2006
+1284.	Tuomon mustasukkaisuus nousee tuhkasta	07.11.2006
+1285.	Amin on tehtävä valinta	08.11.2006
+1286.	Ossin uho tyrehtyy Elinan oikeaan suoraan	09.11.2006
+1287.	Viha ja rakkaus ottavat Sallasta mittaa	13.11.2006
+1288.	Sievisten perhe laajenee	14.11.2006
+1289.	Sallan ja Tuomon häät	15.11.2006
+1290.	Pete vie Katrin hissimatkalle helvettiin	16.11.2006
+1291.	Seppo on hetken sormuksen herra	20.11.2006
+1292.	Ami suunnittelee kiiltokuvatulevaisuutta Vainioiden perheelle	21.11.2006
+1293.	Lasse vaatii yhteisiä pelisääntöjä	22.11.2006
+1294.	Lauran onni on hauras	23.11.2006
+1295.	Annikan ja Romeon taivaalle nousee pilvi	27.11.2006
+1296.	Pikku-Maija valloittaa Paulan sydämen	28.11.2006
+1297.	Tuomo nostaa kissan lounaspöydälle	29.11.2006
+1298.	Ismo tekee työtä Tanjan eteen	30.11.2006
+1299.	Katri murtuu Tanjan käsiin	04.12.2006
+1300.	Laura ei pysty lukitsemaan pelkoa ulos	05.12.2006
+1301.	Romeo kysyy Annikalta tärkeän kysymyksen	07.12.2006
+1302.	Ami etsii tietä vapauteen	11.12.2006
+1303.	Lassen itsehillintä on kovalla koetuksella	12.12.2006
+1304.	Talutushihna kuristaa Tuomoa	13.12.2006
+1305.	Ismoa eivät raha-asiat paina	14.12.2006
+1306.	Heli ei hyväksy rikosta ilman rangaistusta	18.12.2006
+1307.	Oonan koulumatka saa äkkikäännöksen	19.12.2006
+1308.	Ismo pulikoi Pariisista lähikylpylään	20.12.2006
+1309.	Jenni tekee vaikean ratkaisun	21.12.2006
+1310.	Salla johdattaa kohtalon Lauran eteen	22.12.2006
+1311.	Ami ja Jenni riutuvat liian lähellä toisiaan	10.01.2007
+1312.	Pete ryhtyy satusedäksi	11.01.2007
+1313.	Helin yliopisto alkaa viimeinkin	15.01.2007
+1314.	Lasse järjestää pahalle palkkapäivän	16.01.2007
+1315.	Lauran sisällä herää intohimon peto	17.01.2007
+1316.	Ulla maalailee oikeutettuja piruja seinille	18.01.2007
+1317.	Jenni saa uuden kämppiksen	22.01.2007
+1318.	Laura kohtaa pedon silmästä silmään	23.01.2007
+1319.	Äitipuolen asema ei tyydytä Annikaa	24.01.2007
+1320.	Elina löytää onnen onnettomuudestaan	25.01.2007
+1321.	Laura päättää paljastaa riivaajansa	29.01.2007
+1322.	Kylpyläsuunnitelmat saavat Ullan ja Sepon suhteen kuplimaan	30.01.2007
+1323.	Ossi ja Lasse kaivavat sudelle kuoppaa	31.01.2007
+1324.	Ami jää ilman leikkikaveria	01.02.2007
+1325.	Annika vetää tempullaan maton omien jalkojensa alta	05.02.2007
+1326.	Elina ei vaadi Tuomolta mitään, Tuomo Elinalta kaiken	06.02.2007
+1327.	Annika saa ansionsa mukaan	07.02.2007
+1328.	Ullan luut eivät kestä Sepon lähentelyä	08.02.2007
+1329.	Laura saa yllätysvieraan	12.02.2007
+1330.	Elina ei jaksa enää Pihlajakadun sekasortoa	13.02.2007
+1331.	Ismon kierre kovenee	14.02.2007
+1332.	Annikan motiiveista on ylevyys kaukana	15.02.2007
+1333.	Elina ottaa osan salaisuudestaan mukaan Tampereelle	19.02.2007
+1334.	Jenni pyrkii elämässä eteenpäin	20.02.2007
+1335.	Annika puhaltaa viimeisen kynttilän	21.02.2007
+1336.	Amin järkytyksestä itää oivalluksen siemen	22.02.2007
+1337.	Sienet pakenevat Jenniä, mutta Eero ei	26.02.2007
+1338.	Romeo karistaa syyllisyyttä kintereiltään	27.02.2007
+1339.	Salin kuningatar purjehtii Pihlajakadulle	28.02.2007
+1340.	Tuomo haluaa sitoa Sallan tiukemmin kiinni itseensä	01.03.2007
+1341.	Laura pukee järkivalinnan rakkauden väreihin	05.03.2007
+1342.	Ulla kiristää Maaritin pinnan	06.03.2007
+1343.	Ismon alamäki jyrkkenee äkisti	07.03.2007
+1344.	Heli hylkää Samin ystävänpalveluksen	08.03.2007
+1345.	Ami pelaa rakkauden rulettia	12.03.2007
+1346.	Katri löytää elämän tarkoituksen	13.03.2007
+1347.	Jenni on utelias kirjekyyhky	14.03.2007
+1348.	Laura toivoo kaiken olevan toisin	15.03.2007
+1349.	Helin lukujärjestyksestä löytyy kiukunhallinnan abc-kurssi	19.03.2007
+1350.	Ismon itsevarmuus katkeaa koruyllätykseen	20.03.2007
+1351.	Ossi johdattelee Ismon onnettaren armoille	21.03.2007
+1352.	Yllättävä yövieras sekoittaa Lassen pasmoja	22.03.2007
+1353.	Ami haluaa kaikkien olevan kavereita	26.03.2007
+1354.	Jennin naisenvaistot heräävät	27.03.2007
+1355.	Romeo haluaa korjata sen minkä on rikkonut	28.03.2007
+1356.	Heli ei voi vastustaa Tarun tarjoilemia herkkuja	29.03.2007
+1357.	Lassen ja Romeon sovintoa juhlistaa suuri pamaus	02.04.2007
+1358.	Tervajokien vauvaprojekti tuottaa vihdoin tulosta	03.04.2007
+1359.	Ismo tekee rahaa viimeisilläkin elämänsä perustuksilla	04.04.2007
+1360.	Rakkaus tekee Laurasta pellen	05.04.2007
+1361.	Heli kohtaa tuntemattoman vihollisen	10.04.2007
+1362.	Minnan motto on carpe diem	11.04.2007
+1363.	Menneisyys ei päästä irti Paulasta	12.04.2007
+1364.	Maarit järjestää Ullalle ja Sepolle kuumat paikat	16.04.2007
+1365.	Aution sisarukset pääsevät väliaikaiseen sopuun	17.04.2007
+1366.	Ismo kattaa itselleen viimeisen aterian	18.04.2007
+1367.	Tuomo etenee riskillä	19.04.2007
+1368.	Seppo uskoo suoraan toimintaan	23.04.2007
+1369.	Aaron haamu vainoaa Eeroa	24.04.2007
+1370.	Heli hankkii kostoapua	25.04.2007
+1371.	Pettäjä-Tuomon hermot alkavat pettää	26.04.2007
+1372.	Ismon pörssi on laskujohteinen	01.05.2007
+1373.	Amin menneisyys haluaa piiloutua	02.05.2007
+1374.	Tanja ojentaa auttavan kätensä syvälle suonsilmään	03.05.2007
+1375.	Helin kosto on katkeransuloinen	07.05.2007
+1376.	Runous aiheuttaa riitoja Taalasmailla	08.05.2007
+1377.	Emma lyö palikkaa Romeon rattaisiin	09.05.2007
+1378.	Paula pakenee järjen ääntä	10.05.2007
+1379.	Jenni saa mitä haluaa - ja liikaakin	14.05.2007
+1380.	Menneisyys kolkuttaa Amin ovea	16.05.2007
+1381.	Sepolle ei kelpaa puolikas	17.05.2007
+1382.	Ismon ylpeys on kova pala nieltäväksi	21.05.2007
+1383.	Aika alkaa karata Helin käsistä	22.05.2007
+1384.	Taalasmaiden tietä valaisee hopeinen kuu	23.05.2007
+1385.	Maarit raottaa salaisuuksiensa verhoa	24.05.2007
+
+# 10. tuotantokausi (2007–2008)
+1386.	Routa ajaa karkulais-Sofian kotiin	20.08.2007
+1387.	Romeo löytää Juulian väärästä paikasta	21.08.2007
+1388.	Sepon elämästä tehdään kauppatavaraa	22.08.2007
+1389.	Juulia paljastaa todellisen luontonsa	23.08.2007
+1390.	Heli yrittää selättää ikävän	24.08.2007
+1391.	Jenni saa kutsun leijonan luolaan	27.08.2007
+1392.	Lasse joutuu testaamaan rakkauttaan vaimoonsa	28.08.2007
+1393.	Romeo ajautuu tutuille teille	29.08.2007
+1394.	Ismo ottaa lakin kouraan	30.08.2007
+1395.	Saippuakupla nousee Nooran päähän	31.08.2007
+1396.	Kari pitää meteliä itsestään	03.09.2007
+1397.	Ismo kärsii pohjakosketuksen	04.09.2007
+1398.	Tuomo haluaisi kakun, mutta saa vain pienen palan	05.09.2007
+1399.	Nikon salaiset tunteet nousevat pintaan	06.09.2007
+1400.	Valokeila lämmittää Seppoa	07.09.2007
+1401.	Kari halajaa helppoa rahaa	10.09.2007
+1402.	Kel Onni on, se onnen kätkeköön	11.09.2007
+1403.	Sepon sydän eheytyy	12.09.2007
+1404.	Elina näyttää Tuomolle, kuinka mennään eteenpäin	13.09.2007
+1405.	Tuomon rohkeus löytyy televisiosta	14.09.2007
+1406.	Oona räpiköi katsomon puolella	17.09.2007
+1407.	Laura ojentaa Tuomolle maailmanlopun	18.09.2007
+1408.	Jenni löytää totuuden ituja valkosipulista	19.09.2007
+1409.	Lasse taistelee tunteidensa tuulimyllyä vastaan	20.09.2007
+1410.	Kari saa toisenlaista vip-kohtelua	21.09.2007
+1411.	Noora ikuistaa Karin salaisuuden	24.09.2007
+1412.	Onni hymyilee Tuomolle	25.09.2007
+1413.	Tuhkimo-Salla hukkaa lasikenkänsä	26.09.2007
+1414.	Sofia rakastuu virtuaalisesti	27.09.2007
+1415.	Ismo tuomitaan syyttömänä	28.09.2007
+1416.	Oona taktikoi pelastaakseen perheensä	01.10.2007
+1417.	Ami nostaa käsiinsä jo kerran kehään heittämänsä hanskat	02.10.2007
+1418.	Sallan vatsassa lepattelevat ihastuksen perhoset	03.10.2007
+1419.	Pihlajakatulaiset tanssivat kaunottaren ja hirviön häitä	04.10.2007
+1420.	Juulia avaa linjan menneisyyteen	05.10.2007
+1421.	Ismon asiat järjestyvät kuin itsestään	08.10.2007
+1422.	Oona haukkuu väärää puuta	09.10.2007
+1423.	Sepon romantiikka muuttuu erotiikaksi	10.10.2007
+1424.	Sofia käy elämänkoulua	11.10.2007
+1425.	Elina ei halua puolikasta	12.10.2007
+1426.	Sofia hakee turvaa suden suusta	15.10.2007
+1427.	Epäilys kärventää Romeota	16.10.2007
+1428.	Salla hangoittelee onneaan vastaan	17.10.2007
+1429.	Seppo matkaa ojasta allikkoon	18.10.2007
+1430.	Eero pyytää pelastusrengasta	19.10.2007
+1431.	Noora pakottaa itsensä peruuttamaan	22.10.2007
+1432.	Tanja turvaa Ismon selustan	23.10.2007
+1433.	Salaisuus piinaa Paulaa	24.10.2007
+1434.	Pakkasvoide tuo auringon Sallan kasvoille	25.10.2007
+1435.	Nikon kunto ei kohene Amin treeneissä	26.10.2007
+1436.	Jennin käsi suojelee Eeroa	29.10.2007
+1437.	Elina antaa armopalan	30.10.2007
+1438.	Seppo etsii pannulle sijaa	31.10.2007
+1439.	Romeo kärvistelee kiirastulessaan	01.11.2007
+1440.	Sofia leikkii tulella	02.11.2007
+1441.	Elina vie ja vikisee	05.11.2007
+1442.	Romeo valitsee pienemmän pahan	06.11.2007
+1443.	Eero yrittää heittää Nikolle pelastusrenkaan	07.11.2007
+1444.	Paula ei saa anteeksi ajattelemattomuuttaan	08.11.2007
+1445.	Ismo saa uuden myymäläapulaisen	09.11.2007
+1446.	Lasse saa kuuman perunan syliinsä	12.11.2007
+1447.	Nooran totuus takertuu kurkkuun	13.11.2007
+1448.	Tie Elinan sydämeen käy kaapin kautta	14.11.2007
+1449.	Niko valmistuu elämänsä koitokseen	15.11.2007
+1450.	Laura lopettaa naamioleikit	16.11.2007
+1451.	Ami joutuu tajuamaan, ettei hauki aina ole kala	19.11.2007
+1452.	Juulian ja Romeon taivaalla on tummia pilviä	20.11.2007
+1453.	Sepon Amorin nuoli osuu napakymppiin	21.11.2007
+1454.	Ismo taantuu uhmaikään	22.11.2007
+1455.	Kari kieltäytyy kerrankin ilmaisesta lounaasta	23.11.2007
+1456.	Salla pilaa kahdet treffit yhdellä iskulla	26.11.2007
+1457.	Seppo vastustaa vaalisirkuksen vetovoimaa	27.11.2007
+1458.	Sofia uittaa ystävänsä	28.11.2007
+1459.	Tanja etsii puuttuvaa palaa	29.11.2007
+1460.	Joonatanin vaikea valinta	30.11.2007
+1461.	Laura saa käsiinsä polttavaa tietoa	03.12.2007
+1462.	Rafaelin Tiramisussa on taikaa	04.12.2007
+1463.	Sallan suu menee hetkeksi tukkoon	05.12.2007
+1464.	Menneisyys palaa Tanjan kasvoille kuin bumerangi	07.12.2007
+1465.	Ossi etsii elämää	10.12.2007
+1466.	Sofian maine joutuu vaakalaudalle	11.12.2007
+1467.	Pupu pysyy Nooran pöksyissä	12.12.2007
+1468.	Eero veljeilee vihollisen kanssa	13.12.2007
+1469.	Jenni luistelee äitiyden kaltevalla pinnalla	14.12.2007
+1470.	Lasse pelkää Sallan suurta suuta	17.12.2007
+1471.	Maarit lähestyy tietämättään totuutta	18.12.2007
+1472.	Juulia punnitsee rakkautensa määrää	19.12.2007
+1473.	Niko joutuu tahtomattaan filmitähdeksi	20.12.2007
+1474.	Seppo lipsahtaa politiikkaan	21.12.2007
+1475.	Ismo, Pihlajakadun Sherlock Holmes	24.12.2007
+1476.	Karin silmät avautuvat liian hitaasti	14.01.2008
+1477.	Seppo löytää Totuuden	15.01.2008
+1478.	Lauran lörppöys vahvistaa Paulan epäilyt	16.01.2008
+1479.	Tuomo järjestää yllätyksen	17.01.2008
+1480.	Houkutus muuttaa Juulian naapuriin	18.01.2008
+1481.	Ami haluaa poikansa parasta hinnalla millä hyvänsä	21.01.2008
+1482.	Sepon vaalimoottori yskii	22.01.2008
+1483.	Tanja arvelee Ismon kaapista löytyvän luurankoja	23.01.2008
+1484.	Noora karauttaa Karia karkuun	24.01.2008
+1485.	Sofia kääntää sivun totuuteen	25.01.2008
+1486.	Kari päättää testata rakkautensa	28.01.2008
+1487.	Ossin osterit kiihdyttävät tunteita	29.01.2008
+1488.	Ismon yllätys kääntyy häntä vastaan	30.01.2008
+1489.	Sofian sydän kokee viimeisen kolauksen	31.01.2008
+1490.	Sallasta timantit ovat tytön parhaat ystävät	01.02.2008
+1491.	Lauran ote elämästä lipsuu	04.02.2008
+1492.	Oona leikkii tulella, ja polttaa näppinsä	05.02.2008
+1493.	Ossi sätkii salaisuuksien verkossa	06.02.2008
+1494.	Rafaelilla on kalliita ystäviä	07.02.2008
+1495.	Tanja joutuu suden suuhun	08.02.2008
+1496.	Jarkon salaisuus saapuu kylään	11.02.2008
+1497.	Nooran kunnianhimot saavat kummia aikaan	12.02.2008
+1498.	Lauran mielikuvitus laukkaa kummitustalolla	13.02.2008
+1499.	Ami auttaa, vaikka väkisin	14.02.2008
+1500.	Sofian synttäribileistä tulee ihan tajuttomat	15.02.2008
+1501.	Eeron piinaaja saa kasvot	18.02.2008
+1502.	Isabella tanssii Sallan toiveiden haudalla	19.02.2008
+1503.	Seppo kohtaa enkelin	20.02.2008
+1504.	Sofia saa apua yllättävältä taholta	21.02.2008
+1505.	Tanja kutsuu menneisyytensä kylään	25.02.2008
+1506.	Joonatan, salaisuuden uusin vartija	26.02.2008
+1507.	Juulialle totuus onkin tarua ihmeellisempää	27.02.2008
+1508.	Laura koventaa otteita, ja se kannattaa	28.02.2008
+1509.	Nikon kynttilä paljastuu vakan alta	29.02.2008
+1510.	Ismo käy pedon kimppuun	03.03.2008
+1511.	Lassen puolitäysi lasi tyhjenee kertaheitolla	04.03.2008
+1512.	Sofian menneisyys ei ole tyhjä taulu	05.03.2008
+1513.	Seppo ratsastaa suosionsa harjalla	06.03.2008
+1514.	Lauran mielenterveyttä koetellaan jälleen	07.03.2008
+1515.	Juulia lentää pesästä	10.03.2008
+1516.	Rakastaja-Rafaelin uraputkessa on mutkia	11.03.2008
+1517.	Tanjan hyvä sydän on sokea	12.03.2008
+1518.	Jennin kuuma saunailta	13.03.2008
+1519.	Sallan uusi asukas on epävarmaa sorttia	17.03.2008
+1520.	Lasse joutuu turvautumaan taikurointiin	18.03.2008
+1521.	Jenni tarttuu oman elämänsä ohjaksiin	19.03.2008
+1522.	Taalasmaiden illallisella tapahtuu taas	20.03.2008
+1523.	Naispaholainen astuu taloon	21.03.2008
+1524.	Laura luottaa oikeuteen	25.03.2008
+1525.	Ismon ärsytyskynnys ylittyy	26.03.2008
+1526.	Ismolla on iskemätön suunnitelma	27.03.2008
+1527.	Laura saa avaimen pakoon	28.03.2008
+1528.	Sofia häilyy aikuisuuden kynnyksellä	31.03.2008
+1529.	Jarkon ja Isabellan rakkauden hedelmä onkin hapan	01.04.2008
+1530.	Helena on koston jumalatar	02.04.2008
+1531.	Miro avaa salaisuuksien padon	03.04.2008
+1532.	Ossi ei tajua haluavansa kiellettyä hedelmää	04.04.2008
+1533.	Sepon ihastus estää Helenan katalat suunnitelmat	07.04.2008
+1534.	Oona menee solmuun yrittäessään auttaa äitiään	08.04.2008
+1535.	Vainiot hajaantuvat maailmalle	09.04.2008
+1536.	Juhlatuuli puhaltaa pois Jennin haikean mielen	10.04.2008
+1537.	Oona vetoaa äitinsä järjettömyyteen	11.04.2008
+1538.	Ossin ja Isabellan tanssi tehoaa yleisöönsä	14.04.2008
+1539.	Nuori lempi kytee Pihlajakadulla	15.04.2008
+1540.	Seppo ajelee huolettomana suden suuhun	16.04.2008
+1541.	Sepon pussista löytyy puhtaita jauhoja	17.04.2008
+1542.	Kari vie Nooran riskialttiille retkelle	18.04.2008
+1543.	Miron näyttelijälahjoilla pysäytetään jopa lentokoneita	21.04.2008
+1544.	Paula takertuu valheiden verkkoon	22.04.2008
+1545.	Jenni saa sitä, mitä ei tilaa	23.04.2008
+1546.	Romeon yllä lepattaa Helenan kosto	24.04.2008
+1547.	Jenni hyppää uuden oriin selkään, mutta ohi menee	25.04.2008
+1548.	Ismon nyrkiniskujen kumu kuuluu kauas	28.04.2008
+1549.	Sallalla on suuria tunteita Pikku-Italiassa	29.04.2008
+1550.	Noora uskoo rakkautensa karikoiden olevan ohi	30.04.2008
+1551.	Salla laatii sotasuunnitelman	01.05.2008
+1552.	Tuuli puhaltaa Sievisten olohuoneeseen	02.05.2008
+1553.	Ossi haluaa siskonsa reviirilleen	05.05.2008
+1554.	Juulia pilaa samppanjajuhlan	06.05.2008
+1555.	Romeon pirtelö on liiankin pirteä	07.05.2008
+1556.	Essu pukee Juuliaa	08.05.2008
+1557.	Romeon menneisyydessä kummittelee vihainen äiti	09.05.2008
+1558.	Jennin ja Isabellan tyttöjen ilta saa miehisen käänteen	12.05.2008
+1559.	Maaritin menestys nousee Sofian päähän	13.05.2008
+1560.	Seppo tarpoo pettymysten suossa	14.05.2008
+1561.	Sofian karkumatka tulee määränpäähänsä	15.05.2008
+1562.	Seppo tekee oikein, mutta sydämessään niin väärin	16.05.2008
+1563.	Mustasukkaisuus kopauttaa Joonatania kalloon	19.05.2008
+1564.	Jarkko uskoo ikuiseen omistusoikeuteen	20.05.2008
+1565.	Leikkipuistossa väijyy paha poika	21.05.2008
+1566.	Joonatan esittää Oonalle uhkavaatimuksen	22.05.2008
+1567.	Nooran pelot pääsevät suitsistaan	23.05.2008
+1568.	Veera on vieraana omassa kodissaan	26.05.2008
+1569.	Arojen veljekset käyvät Helenan kaapilla	27.05.2008
+1570.	Maaritin kyyneleet virtaavat joka kotiin	28.05.2008
+1571.	Seppo lähtee surulliselle vankilareissulle	29.05.2008
+1572.	Veera löytää Panun aarteen	30.05.2008
+1573.	Miro on rakkauden enkeli	02.06.2008
+1574.	Sievisten perheonni suistuu syyllisyyden syövereihin	03.06.2008
+1575.	Jenni yllättyy siitä, mitä peiton alta paljastuu	04.06.2008
+
+# 11. tuotantokausi (2008–2009)
+1576.	Paula katoaa metsän uumeniin	18.08.2008	
+1577.	Joonatan oppii läksynsä kyseenalaisin keinoin	19.08.2008	
+1578.	Panu ja Veera rimpuilevat menneisyyden kahleissa	20.08.2008	
+1579.	Ossi tekee valinnan	21.08.2008	
+1580.	Maarit on oman elämänsä selvä kuningatar	22.08.2008	
+1581.	Kari kuorruttaa rakkautensa paprikalla	25.08.2008	
+1582.	Sampo bongaa lepakon	26.08.2008	
+1583.	Ismo tähyää tähtitaivaalle	27.08.2008	
+1584.	Isabella ja Jenni järjestävät Maaritille yllätysohjelmanumeron	28.08.2008	
+1585.	Paulan kirje herättää Lassen kaikki tunteet	29.08.2008	
+1586.	Juulia kutsuu Sampon tietämättään paratiisin porteille	01.09.2008	
+1587.	Jenni on lähes lahjomaton	02.09.2008	
+1588.	Ismo korjaa sen, minkä Miro rikkoo	03.09.2008	
+1589.	Oona pääsee kielioppikokeen varkaan jäljille	04.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1590.	Suora lähetys mullistaa Nooran elämän	05.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1591.	Kari saa kirjavaa katsojapalautetta	08.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1592.	Kas metsämökin ikkunan takaa, sielt Lasse sisään kurkistaa	09.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1593.	Jarkon ja Sallan suhde vapisee perustuksiltaan	10.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1594.	Jenni tunnistaa vasta hädän hetkellä sen oikean	11.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1595.	Panu ryhtyy häätämään haamua	12.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1596.	Lasse viihtyy Paulaa paremmin peiton alla	15.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1597.	Jarkon kengännauha katkaisee kamelin selän	16.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1598.	Ossi tulee ulos tunnekaapistaan	17.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1599.	Seppo löytää antiikkiliikkeestä vanhan rakkauden	18.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1600.	Nooran mieliksi Kari uskaltautuu ratsaille	19.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1601.	Verokarhu iskee kyntensä Jenniin	22.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1602.	Synttärisankarista tuleekin naamiosankari	23.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1603.	Käsikähmä selventää Sampon pään	24.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1604.	Pariisin kaduilla kulkee muitakin kuin Panu ja Veera	25.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1605.	Miro ampuu alas Sallan sovinnon enkelin	26.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1606.	Lassen ja Tanjan rakkauden ovella rapisee	29.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1607.	Maaritilta lähtee pappamopo käsistä	30.09.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1608.	Isabella aloittaa luokkataistelun poikansa rakkauselämästä	01.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1609.	Kuka tanssii Helenan kanssa?	02.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1610.	Juulia kompastuu omaan jalkaansa	03.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1611.	Miss Keittiö haaveilee comebackista	06.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1612.	Isabella hinkuaa aatelissäätyyn	07.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1613.	Oonan heräävä naiseus pelottaa Karia	08.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1614.	Juulia päättää sulattaa sydämensä	09.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1615.	Ismo sukeltaa kännykkäaikaan	10.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1616.	Juulian salaperäisyyden verho raottuu hieman	13.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1617.	Maarit ei jaksa enää salattuja elämiä	14.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1618.	Kaikki haluavat Paulan	15.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1619.	Jarkon ja Miron keilailta ei päädy hohdokkaasti	16.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1620.	Kari ryntää totuusjahtiin	17.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1621.	Maarit koluaa pahnan pohjia	20.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1622.	Poni antaa Karille kyytiä	21.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1623.	Jennille kaikki keinot ovat sallittuja	22.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1624.	Sampo ryhtyy kadonneen äitinsä metsästykseen	23.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1625.	Paulan sydän särkyy	24.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1626.	Sallakaan ei pysty vastustamaan Jardinin ihovoidetta	27.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1627.	Sampon silmien edessä kummittelee	28.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1628.	Tanja maksaa onnestaan julman hinnan	29.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1629.	Salin kuningatar luistelee parketilla	30.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1630.	Jenni joutuu Ossin ja AP:n soidintanssin pyörteisiin	31.10.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1631.	Tanja saa vastauksen rukouksiinsa	03.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1632.	Oona nousee anoppikapinaan	04.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1633.	Veera taistelee pahimman painajaisensa kanssa	05.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1634.	Maarit saa yllättävää apua viholliselta	06.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1635.	Jenni ja Ossi käyvät Elviksen puheilla	07.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1636.	Salla ottaa Ossin firman ohjat omiin käsiinsä	10.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1637.	Jarkon rasvassa on ylimääräinen ainesosa	11.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1638.	Seppo ja Ismo päättävät panostaa miesenergiaan	12.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1639.	Kari järkyttyy, kun polttaristrippari paljastaa vähän liikaa	13.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1640.	Ääni menneisyydestä kohottaa Iiriksen pilviin	14.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1641.	Panun lentokoneessa kummittelee	17.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1642.	Salla kurkottaa kuuseen, mutta kapsahtaa kaupalle	18.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1643.	Laiteriippuvuus masentaa Juuliaa	19.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1644.	Paula löytää onnen lähempää kuin tiesikään	20.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1645.	Maarit ajautuu kuilun reunalle	21.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1646.	Kauan eläköön Iiris!	24.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1647.	Salla ja Ismo yhdistyvät voitontahdossaan	25.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1648.	Lasse pillastuu hirven tuoksusta	26.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1649.	Jenni ja Ossi liihottavat tavarataivaassa	27.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1650.	Karin ja Nooran hääpäivästä tulee Juulian onnenpäivä	28.11.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1651.	Tanja kokee kauhun hetkiä leikkaussalin ovella	01.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1652.	Veera paljastaa pienemmän pahan salatakseen suuremman salaisuuden	02.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1653.	Paulan vuodet vaihtuvat	03.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1654.	Menneisyyden haamut masentavat Sallan	04.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1655.	Kari puhuu murheissaan ohi suunsa	05.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1656.	Joonatan joutuu anoppinsa kanssa törmäyskurssille	08.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1657.	Noora tekee katoamistempun	09.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1658.	Ossi saa yllättävän lähetyksen Amerikasta	10.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1659.	Jarkon menneisyys jyrää tulevan	11.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1660.	Helena nauttii perherauhasta vain hetken	12.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1661.	Lasse laittaa sotilasjuntan pystyyn	15.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1662.	Oona ja Miro eivät tiedä, että huoltomies soittaa vain kerran	16.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1663.	Salla ja Ismo saavat palkinnosta parhaimman	17.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1664.	Timanttikoruinen Jenni jää kiinni rysän päältä	18.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1665.	Peppi tunnustaa tunteensa päiväkirjalleen	19.12.2008	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1666.	Lasse virittää Paulalle juusto-loukun	12.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1667.	Niina tekee parhaan asiakkaansa tyytyväiseksi	13.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1668.	Ismo ja Salla kuntoilevat kohti toisiaan	14.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1669.	Helena ja Seppo sokaistuvat Sebastianista	15.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1670.	Panu joutuu kissatappelun todistajaksi	16.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1671.	Ossi antaa osakehuuman viedä	19.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1672.	Isabellan ja Karin otteet kovenevat	20.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1673.	Sallan ja Ismon kunnia on katoavaista	21.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1674.	Pepin päiväkirjamerkinnät herättävät hätäännystä	22.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1675.	Helenan totuuden torvi aukeaa liian myöhään	23.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1676.	Kari joutuu vastakkain menneisyytensä kanssa	26.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1677.	Lasse seilaa menneitä ja tulevia vesiään	27.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1678.	Peppi bilettää sydän särkyneenä	28.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1679.	Ismo paljastelee kylpylässä	29.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1680.	Kohtalo kouraisee kipeästi Joonatania	30.01.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1681.	Isabellan takinkääntö herättää keskustelua	02.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1682.	Joonatan kulkee muistojen maatilalla	03.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1683.	Niina istuttaa Jarkon satulaan	04.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1684.	Sallan järjestämä sovintoillallinen uhkaa jäädä nyrkin alle	05.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1685.	Kari epäilee, ettei vanhan vihollisen pussissa ole puhtaita jauhoja	06.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1686.	Aino-tyttönen kohtaa susi hukkasen	09.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1687.	Karin mielestä sankarin viitta on väärän miehen yllä	10.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1688.	Isabella erehtyy murtovarkaasta	11.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1689.	Pihlajakadun katuhaukka tekee mahalaskun	12.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1690.	Joonatan nielaisee elämäänsä uutta sisältöä	13.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1691.	Kari ja Isabella ajautuvat rysälle	16.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1692.	Jennin paratiisisaaren rauha rikotaan	17.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1693.	Panu keventää päätään	18.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1694.	Sepon peilikuvasta puuttuu puolet	19.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1695.	Juulian kiitollisuus kauhistuttaa Tanjaa	20.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1696.	Salla yllättää Ismon vieraista	23.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1697.	Juulia ja Joonatan etsivät munuaiselle nimeä	24.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1698.	Panu ja Veera ovat terapian tarpeessa	25.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1699.	Niinan salaisuus on vaarassa paljastua	26.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1700.	Kari siirtyy aikuisviihdealalle	27.02.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1701.	Peppi saa keppiä	02.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1702.	Eero vie Paulan luonnon alttarille	03.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1703.	Veera onkin väärä nainen	04.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1704.	Ismo repii Ossista sulan hattuunsa	05.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1705.	Oona esittelee Pihlajakatulaisille todellisen kauhuelokuvan	06.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1706.	Sampo kylvää vainoharhaisuutta	09.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1707.	Tanja ja Lasse teinistäytyvät	10.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1708.	Niina puhkeaa öisin outoon kukkaan	11.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1709.	Joonatan onnistuu salakavalassa juonessaan	12.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1710.	Salla nousee äitikapinaan	13.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1711.	Ismo lähtee innokkaana suden suuhun	16.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1712.	Oona ja Miro käyvät luokkataisteluun	17.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1713.	Joonatanin pato murtuu	18.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1714.	Jenni pakottaa Ossin vapaalle	19.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1715.	Jarkko seuraa Niinan jälkiä	20.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1716.	Tohtori tulee kaupunkiin	23.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1717.	Jenni haluaa rakkautensa kestävän ajasta ikuisuuteen	24.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1718.	Kari palaa koulun penkille	25.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1719.	Peppi kokee ei-toivotun déjà vun	26.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1720.	Sampon tunnustukset avaavat uuden oven	27.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1721.	Ossin elämään astuu tuntematon blondi	30.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1722.	Pelkuri-Joonatanista kuoriutuu sankari	31.03.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1723.	Sampo tajuaa itsenäisen elämän edut	01.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1724.	Ismo löytää tyynylleen mieluisen paikan	02.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1725.	Kalsarihuumori ei uppoa Veeraan	03.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1726.	Ismo tuomitaan tekemättömistä rikoksista	06.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1727.	Kari irtisanoutuu pellen tehtävästään	07.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1728.	Pepin laulu särkee sydämiä	08.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1729.	Ossi hakee yhteyttä Jenniin	09.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1730.	Helena uskoo rakkauden parantavaan voimaan	10.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1731.	Kari joutuu kahden naisen loukkuun	13.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1732.	Veera tarjoaa viimeisen ehtoollisen	14.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1733.	Menneisyys kaihertaa Jennin lisäksi myös Miikaa	15.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1734.	Jarkko lähtee tuhmille teille	17.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1735.	Ismo ajaa onnensa ohi	20.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1736.	Ismolla on pallo hukassa	21.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1737.	Jarkon moraali on liikaa Niinalle	22.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1738.	Ossi erottaa menneen ja tulevan	23.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1739.	Kari yrittää olla Pihlajakadun sormusten herra	24.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1740.	Eero sekaantuu asioihin, jotka eivät hänelle kuulu	27.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1741.	Peppi päättää siirtyä Platonista suoraan Amoriin	28.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1742.	Tilaisuus tekee Sallasta häävarkaan	29.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1743.	Jenni palaa vainiolleen	30.04.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1744.	Kari ryhtyy taidekriitikoksi	01.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1745.	Eeron painajaiset muuttuvat todeksi	04.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1746.	Taiteentuntija Kari saa yllättävän ihailijan	05.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1747.	Juulia valmistaa kohtalokkaan katkarapuyllätyksen	06.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1748.	Sebastianin suunnitelma sujuu kuin tanssi	07.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1749.	Ismo surisee onnesta	08.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1750.	Sampo ja Heidi kehittävät lyhytnäköisen juonen	11.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1751.	Peppi syyttää Heidiä identiteettivarkaaksi	12.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1752.	Niina saa tukea yllättävältä taholta	13.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1753.	Ikoni avaa ikkunan Helenan menneisyyteen	14.05.2009	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+1754.	Panu ja Iiris pelastavat toisensa	15.05.2009	
+1755.	Joonatan kohtaa känkkäränkkänsä	18.05.2009	
+1756.	Oona ja Isabella tapailevat yhteistä säveltä	19.05.2009	
+1757.	Aino haistaa Iiriksen pullantuoksussa palaneen käryä	20.05.2009	
+1758.	Joonatan näkee syitä sysissä mutta ei sepissä	21.05.2009	
+1759.	Ismo antaa Sallan maistaa omaa lääkettään	22.05.2009	
+1760.	Olavin menneisyys törmää nykyhetkeen	25.05.2009	
+1761.	Olavi kompastelee kuuliin	26.05.2009	
+1762.	Eero rakentaa parempaa tulevaisuutta	27.05.2009	
+1763.	Sallan valtaa morsiamen ikävä sulhon luo	28.05.2009	
+1764.	Helena aseistautuu menneisyyttään vastaan	29.05.2009	
+1765.	Perutaan häät, perutaan yhteinen hautapaikka?	01.06.2009	
+
+# 12. tuotantokausi (2009–2010)
+1766.	Kaikkien elämä ei jatku	24.08.2009
+1767.	Sebastianin perheidylli särkyy	25.08.2009
+1768.	Jarkko menettää kasvonsa	26.08.2009
+1769.	Etsivä Lasse löytää arkun	27.08.2009
+1770.	Peppi kaipaa kypsää kainaloa	28.08.2009
+1771.	Peppi vanhenee huomiosta vuosilla	31.08.2009
+1772.	Kyllä blondi blondin silmää nokkii	01.09.2009
+1773.	Lasse etsii uutta isyyttä itsestään	02.09.2009
+1774.	Salla haluaa nähdä valon	03.09.2009
+1775.	Tanja ja vaikeneva Jumala	04.09.2009
+1776.	Isabella häviää tuolileikin	07.09.2009
+1777.	Jenni korkkaa kenties viimeisen viinipullonsa	08.09.2009
+1778.	Miika häviää kamppailun tunteidensa kanssa	09.09.2009
+1779.	Paula kaipaa hyvästeilleen hyväksyntää	10.09.2009
+1780.	Ismo näkee näkyjä	11.09.2009
+1781.	Paula jättää muistot metsään	14.09.2009
+1782.	Sepon kuulat värjäytyvät kanervilla	15.09.2009
+1783.	Jenni ja Tanja vetävät vihan nuottaa	16.09.2009
+1784.	Taalasmailla on menossa asukkaiden vaihtoviikot	17.09.2009
+1785.	Yksinäisyys ei sovi Isabellan pirtaan	18.09.2009
+1786.	Tanjan viimeinen tulikaste	21.09.2009
+1787.	Lasse ratkaisee äitiyden pulmat isyydellä	22.09.2009
+1788.	Peppi joutuu ikäkriisiin	23.09.2009
+1789.	Suomalaisuus kihahtaa Noalle päähän	24.09.2009
+1790.	Jennin mallinura käynnistyy ryppyisesti	25.09.2009
+1791.	Pepin elämä on kuin vedellä täytetty viinapullo	28.09.2009
+1792.	Sievisten perhe kasvaa vielä yhdellä	29.09.2009
+1793.	Miron bisnekset herättävät Noan ruokahalun	30.09.2009
+1794.	Oona oppii, että humalaa seuraa krapula	01.10.2009
+1795.	Iiris löytää palan Pariisia Pihlajakadulta	02.10.2009
+1796.	Tanjan apu kauhistuttaa Jarkkoa	05.10.2009
+1797.	Miron katkera paluu	06.10.2009
+1798.	Isabellan menestyksen maljassa on halpa sivumaku	07.10.2009
+1799.	Peppi oppii, ettei rehellisyys kannata	08.10.2009
+1800.	Paula mönkii tuttuun paikkaan	09.10.2009
+1801.	Paula saa kaukaa kohtalokkaan kirjeen	12.10.2009
+1802.	Sara kylvää yhtäällä ja niittää toisaalla	13.10.2009
+1803.	Jenni vakoilee itsensä satimeen	14.10.2009
+1804.	Lassen mielestä paras mies voittakoon	15.10.2009
+1805.	Saran ansa laukeaa Jennin sormille	16.10.2009
+1806.	Ossi erottaa Saran saaliista kalaisan sivumaun	19.10.2009
+1807.	Iiris aikoo ammentaa arjesta	20.10.2009
+1808.	Sepon veri on vettä sakeampaa	21.10.2009
+1809.	Ismo rimpuilee kolmen naisen loukussa	22.10.2009
+1810.	Peppi löytää keinon lohduttaa Miroa	23.10.2009
+1811.	Ossi paranee vain sairastuakseen rakkauteen	26.10.2009
+1812.	Oona kohtaa virheitään silmästä silmään	27.10.2009
+1813.	Kari hämmästyy omaa viehätysvoimaansa	28.10.2009
+1814.	Joonatan saa Heidiltä vaatteet päältä	29.10.2009
+1815.	Helena häätää pahaa henkeä	30.10.2009
+1816.	Jarkko jättää hyvästit	02.11.2009
+1817.	Helin ystävänpalvelus on karhunpalvelus itselle	03.11.2009
+1818.	Noa joutuu pakotetusti oppimaan talon tavoille	04.11.2009
+1819.	Sebastian tarpoo hillasuolla	05.11.2009
+1820.	Joonatanin illasta eivät yllätykset lopu	06.11.2009
+1821.	Menneisyys koskettaa Jenniä	09.11.2009
+1822.	Isabella on voron viemää	10.11.2009
+1823.	Joonatanin vainoharhaisuus sattuu viattomaan uhriin	11.11.2009
+1824.	Peppi joutuu maksumieheksi hänen ja Miron virheestä	12.11.2009
+1825.	Helenasta tulee kauppatavaraa	13.11.2009
+1826.	Isabella liittyy tekopyhyyden seurakuntaan	16.11.2009
+1827.	Jenni jättää menneisyytensä taakseen, Miika löytää puolestaan sen edestään	17.11.2009
+1828.	Helena on muovailuvahaa Isabellan käsissä	18.11.2009
+1829.	Ismoa pelottaa elämän vuoristoradassa	19.11.2009
+1830.	Karista hänen elämänsä on perheestä	20.11.2009
+1831.	Jenni lentelee kakusta kukkaan	23.11.2009
+1832.	Kari vetää vintin täyteen	24.11.2009
+1833.	Oonalla ja Mirolla on salaisuus, josta he eivät tiedä edes itse	25.11.2009
+1834.	Miron omatunto kihlautuu	26.11.2009
+1835.	Isabella ei kestä maljapuheita	27.11.2009
+1836.	Sampo tekee itsestään vaihtoehdon	30.11.2009
+1837.	Ossin tarjoama jäätelö viilentää monia tunteita	01.12.2009
+1838.	Cindy tanssii tuhtien kanssa	02.12.2009
+1839.	Miika ja Katariina vaeltavat tuonelan virran vartta	03.12.2009
+1840.	Miika ja Katariina solmivat synkän sopimuksen	04.12.2009
+1841.	Oonan järki ja tunteet joutuvat koetukselle	07.12.2009
+1842.	Ismo tekee avioelämänsä ensimmäisen itsenäisen ratkaisun	08.12.2009
+1843.	Joonatan on valmis turpakäräjille	09.12.2009
+1844.	Virkavalta pilaa niin Ossin ja Jennin kuin Miikan ja Katariinankin päivän	10.12.2009
+1845.	Miika tarjoaa Katariinalle myrkkyä lääkkeeksi	11.12.2009
+1846.	Käärme luikertelee Isabellan puutarhaan	11.01.2010
+1847.	Iiris voittaa Kaukovaarojen kilpajuoksun	12.01.2010
+1848.	Kari ja Noora kaivavat menneisyydestä aineksia tulevaan	13.01.2010
+1849.	Salla panee elämänsä sekaisin	14.01.2010
+1850.	Miro uskoo, että kaukana voi päästä lähelle	15.01.2010
+1851.	Miika ja Katariina kohtaavat kylmän totuuden	18.01.2010
+1852.	Ismo on pyöreän pöydän ritari	19.01.2010
+1853.	Miro löytää hirviön huoneestaan	20.01.2010
+1854.	Katariina maksaa onnestaan lääketieteellisen hinnan	21.01.2010
+1855.	Oona ja Miro saavat vielä yhden tilaisuuden	22.01.2010
+1856.	Sampon syntipukki on väärää sukupuolta	25.01.2010
+1857.	Helenan suku uhkaa sammua	26.01.2010
+1858.	Panun hääkuume korventaa Iiristä	27.01.2010
+1859.	Lasselle huvittelukin on sydämen asia	28.01.2010
+1860.	Cindyn unelma paljastuu perheelliseksi	29.01.2010
+1861.	Peppi pistää pallopoikansa jäähylle	01.02.2010
+1862.	Sebastianin menneisyys kummittelee joka oven takana	02.02.2010
+1863.	Katariina turvautuu pikku apulaisiin	03.02.2010
+1864.	Isabellan sokeroinnista jää karvas maku	04.02.2010
+1865.	Sebastianin nojatuoli aiheuttaa kaaosta	05.02.2010
+1866.	Katariina rauhoittuu hieman liikaa	08.02.2010
+1867.	Naapurusto on käärmeissään Sebastianille	09.02.2010
+1868.	Heli pelaa uusilla paloilla	10.02.2010
+1869.	Iiriksen kaapista kuuluu kummia ääniä	11.02.2010
+1870.	Isabella on Ritvaakin pahempi käärme	12.02.2010
+1871.	Isabellan ja Helenan väliset rypyt eivät suoristu silittämällä	15.02.2010
+1872.	Iiris uskoo uuden aamun tuovan toivoa	16.02.2010
+1873.	Tuukan yllätys on mennä metsään	17.02.2010
+1874.	Iiris tunnustaa sateenkaariväriä	18.02.2010
+1875.	Onnen kynnyksellä Miikalle tulee Sara puseroon	19.02.2010
+1876.	Isabella tarjoilee pikkusuolaista	22.02.2010
+1877.	Miikan valheet alkavat ylittää valtameriä	23.02.2010
+1878.	Joonatanin matkailuelämykset alkavat jo kotona	24.02.2010
+1879.	Niko kokeilee parinvaihtoa	25.02.2010
+1880.	Paula menee lukkoon	26.02.2010
+1881.	Vilnassa tunnelma Jiristyy	01.03.2010
+1882.	Cindy haluaisi olla totuuden torvi	02.03.2010
+1883.	Aino ja Otto ajattelevat luontoa ja eläimiä	03.03.2010
+1884.	Katariina kyllästyy lääkärin leikkeihin	04.03.2010
+1885.	Isabella luikertaa itsensä umpisolmuun	05.03.2010
+1886.	Joonatan joutuu vodkan viemäksi	08.03.2010
+1887.	Sebastianin paljastus tulee puun takaa	09.03.2010
+1888.	Ossin ja Jennin salasuhde suistuu kontalleen	10.03.2010
+1889.	Heidi ei pääse Sievisten sukupuusta pitkälle	11.03.2010
+1890.	Seppo ei pääse pakoon valhettaan	12.03.2010
+1891.	Kaukovaarojen sotkua saapuu siivoamaan ammattilainen	15.03.2010
+1892.	Sampo ei jauha Nikolle kultaa	16.03.2010
+1893.	Helenan suunnitelma juuttuu Ullan kurkkuun	17.03.2010
+1894.	Jiri ei lähde kulumallakaan Heidin iholta	18.03.2010
+1895.	Ismon kauppiaanvaisto nostaa pullantuoksuista päätään	19.03.2010
+1896.	Peppi ei ymmärrä olevansa Nikon sätkynukke	22.03.2010
+1897.	Panu tahriintuu Iiriksen likaisessa pelissä	23.03.2010
+1898.	Niko etsii sopankeittäjää	24.03.2010
+1899.	Menneisyys kaikuu Cindyn korvissa	25.03.2010
+1900.	Talotaikurit moppaavat rotkon partaalla	26.03.2010
+1901.	Panun siivet katkeavat	29.03.2010
+1902.	Ismo päättää auttaa Elsan rajan taakse	30.03.2010
+1903.	Ossin lääkärileikkiin tarvitaan kaksi tohtoria	31.03.2010
+1904.	Heidin humala nousee Tuukan päähän	01.04.2010
+1905.	Katariina tajuaa menettäneensä pirulle koko käden	02.04.2010
+1906.	Ulla hukkaa upouuden sädekehänsä	05.04.2010
+1907.	Katariina täyttyy nuoruuden voimasta	06.04.2010
+1908.	Sievisillä rekka vie, posti tuo	07.04.2010
+1909.	Iiris tajuaa oikeuden ja kohtuuden eron	08.04.2010
+1910.	Elsa kuulee Oivan kutsun	09.04.2010
+1911.	Ulla ja Isabella keittävät melkoisen sopan	12.04.2010
+1912.	Jardinin huippumalli haussa	13.04.2010
+1913.	Ulla ja Isabella joutuvat nielemään tappionsa	14.04.2010
+1914.	Jenni ylikypsyy muotimaailmaan	15.04.2010
+1915.	Ismo saa viestin rajan takaa	16.04.2010
+1916.	Isabella lähettää Jirin suden suuhun	19.04.2010
+1917.	Niko leikkii lääkäriä	20.04.2010
+1918.	Lasse kieriskelee huomion hunajassa	21.04.2010
+1919.	Cindyllä käy huono faksi	22.04.2010
+1920.	Lassen moraali hiipii harmaalle alueelle	23.04.2010
+1921.	Sepon vasen ja oikea käsi kääntyvät häntä vastaan	26.04.2010
+1922.	Katariina saa hevosvoimia	27.04.2010
+1923.	Sebastian tuo pukkeja kaalimaalle	28.04.2010
+1924.	Niin Katariina petaa kuin makaa	30.04.2010
+1925.	Elsa muistaa Ismoa ilmastoinnin kautta	03.05.2010
+1926.	Ismo ei usko rehellisyyden perivän Elsaa	04.05.2010
+1927.	Sebastian kohtaa rakkautensa hedelmän	05.05.2010
+1928.	Paula tekee biologisia paljastuksia	06.05.2010
+1929.	Lasse testaa salaa isyyttään	07.05.2010
+1930.	Ismo piipahtaa tuplabonuspäivillä	10.05.2010
+1931.	Doctor Tuukka & Mister Hyde	11.05.2010
+1932.	Jirin vastaanotin nikottelee	12.05.2010
+1933.	Sebastianin isänvaisto kuohahtaa yli äyräiden	13.05.2010
+1934.	Pepin tulkinta herättää nukkuvia tunteita	14.05.2010
+1935.	Ismo verhoilee ihastuksensa	17.05.2010
+1936.	Jirin bändi-ilta muuttuu mollivoittoiseksi	18.05.2010
+1937.	Tuukan menneisyys antaa Cindylle kylmää kyytiä	19.05.2010
+1938.	Ismo hamuilee kiellettyä hedelmää	20.05.2010
+1939.	Kädet, jotka moppia heiluttavat	21.05.2010
+1940.	Jennin hoito alkaa toimia	24.05.2010
+1941.	Ossin pilkka osuu omaan nilkkaan	25.05.2010
+1942.	Heidi saa lahjaksi kyyneliä	26.05.2010
+1943.	Super-Sebastian suojelee heikompiaan	27.05.2010
+1944.	Katariina näkee sikailussaan porsaanreiän	28.05.2010
+1945.	Ismon hiihtoretki saa jäätävän lopun	31.05.2010
+
+# 13. tuotantokausi (2010–2011)
+1946.	Ismon henki on Katariinan veitsenterällä	30.08.2010
+1947.	Katariinan suusta pääsee kuollut sammakko	31.08.2010
+1948.	Sebastian näkee Eliaksen taivaan	01.09.2010
+1949.	Ossi bongaa lehdessä tutun salarakkaan	02.09.2010
+1950.	Minkä taakseen jättää, sen moottorikelkasta löytää	03.09.2010
+1951.	Jenni hamuaa vallan kahvaa	06.09.2010
+1952.	Ismo haluaa elää vaikka henki menisi	07.09.2010
+1953.	Heli ottaa peruuttamattoman askeleen	08.09.2010
+1954.	Kuva kertoo enemmän kuin tuhat Miikaa	09.09.2010
+1955.	Ratkaisun aamu sarastaa Antille	10.09.2010
+1956.	Hiipivä Niko, piilotettu ministeri	13.09.2010
+1957.	Tuukka tekee lapsellisen ehdotuksen	14.09.2010
+1958.	Isabellan kosto on nahkainen	15.09.2010
+1959.	Miika pakkaa Katariinan synnit reppuunsa	16.09.2010
+1960.	Sebastianin vanhat tutut tulevat uudella asialla	17.09.2010
+1961.	Peppi kurkistaa Heidin luurankokaappiin	20.09.2010
+1962.	Ihastus saa Heidin kiipeilemään seinille	21.09.2010
+1963.	Ismo punnitse armoa ja oikeutta	22.09.2010
+1964.	Sebastian huomaa, kuinka Meri tyyntyy ja myrskyää	23.09.2010
+1965.	Jenni hakee poliittista näkemystä salaisesta lähteestä	24.09.2010
+1966.	Jenni hakee helpotusta vessasta	27.09.2010
+1967.	Ismon valinta	28.09.2010
+1968.	Heli pääsee pussauskoppiin	29.09.2010
+1969.	Venla herää todellisuuteen ei-toivotussa seurassa	30.09.2010
+1970.	Katariina hautaa vanhaa ja löytää uutta	01.10.2010
+1971.	Seppo tuo Helenan elämään sähköä	04.10.2010
+1972.	Tuukan pettymys karkaa käsistä	05.10.2010
+1973.	Ossin puumanainen kiipeilee yllättävässä sukupuussa	06.10.2010
+1974.	Sebastian joutuu takaisin lähtöruutuun	07.10.2010
+1975.	Elsan haudalla tapahtuu	08.10.2010
+1976.	Isabella tulee ulos siivouskaapista	11.10.2010
+1977.	Ossi ryhtyy vallan vahtikoiraksi	12.10.2010
+1978.	Kuka lohduttaisi Heidiä?	13.10.2010
+1979.	Jiri ja Lasse löytävät yhteisen rytmin	14.10.2010
+1980.	Tekeekö tilaisuus Sebastianista varkaan?	15.10.2010
+1981.	Tuukka on Cindyn oljenkorsi	18.10.2010
+1982.	Kiskot vievät Tuukan ja Cindyn kohti tulevaisuutta	19.10.2010
+1983.	Ismo muuttuu hurmaajasta murhaajaksi	20.10.2010
+1984.	Peppi ottaa esiin aikuismaiset aseet	21.10.2010
+1985.	Katariinan rakkauselämä on kortilla	22.10.2010
+1986.	Heidin haavat kasvavat Pepin mielessä	25.10.2010
+1987.	Jiri siirtyy Severistä serverille	26.10.2010
+1988.	Helena saa uteliaisuudestaan päänsärkyä	27.10.2010
+1989.	Cindyn hääyö on pelkkää painajaista	28.10.2010
+1990.	Jenni punoo rakkautensa tulenarasta materiaalista	29.10.2010
+1991.	Jenni on ainoa, joka uskoo poliitikkoa	01.11.2010
+1992.	Tuukan mielestä liike on paras lääke	02.11.2010
+1993.	Naisten ajatukset hämmentävät Nikoa	03.11.2010
+1994.	Sievisten arjesta tulee tv-draamaa	04.11.2010
+1995.	Isabella antaa Sebastianille täysihoidon spa´ssa	05.11.2010
+1996.	Isabella tahtoo prinssin ja puoli valtakuntaa	08.11.2010
+1997.	Sebastian ui omaan katiskaansa	09.11.2010
+1998.	Heli haluaa maha-asukilleen kaksi äitiä	10.11.2010
+1999.	Sebastianin kanssa pelleillään	11.11.2010
+2000.	Yksi talo - kaksituhatta tarinaa	12.11.2010
+2001.	Helena pääsee sirkuksen aitiopaikalle	15.11.2010
+2002.	Sebastianin kipparin ura jää lyhyeksi	16.11.2010
+2003.	Heli huhuilee tyhjyyteen	17.11.2010
+2004.	Helena hukkaa hyvät kyyneleet	18.11.2010
+2005.	Jenni ja Katariina saavat väärän vainun Antin kalsareista	19.11.2010
+2006.	Lasse kokee armivan kohtalon	22.11.2010
+2007.	Katariina aikuistuu Antin vuoksi	23.11.2010
+2008.	Jennin ja Askon parisuhdesoppa maustuu Mintulla	24.11.2010
+2009.	Sepon valheilla on lyhyet jäljet	25.11.2010
+2010.	Ismo hakee ratkaisua tiskin takaa	26.11.2010
+2011.	Jenni riisuu Liisan naamion	29.11.2010
+2012.	Helena kylvää hyvää, mutta niittää pahaa	30.11.2010
+2013.	Seppo uskoo puhtauden puhuvan puolestaan	01.12.2010
+2014.	Jennin suu puhuu enemmän, kuin hän itse tajuaa	02.12.2010
+2015.	Niko ei osaa tehdä loppua yllätyksilleen	03.12.2010
+2016.	Jenni valmistautuu salamavalojen räiskeeseen	07.12.2010
+2017.	Ismon valheenpaljastin on epäkunnossa	08.12.2010
+2018.	Ei Sievisten nuoruus jää unholaan	09.12.2010
+2019.	Pepin ja Heidin humman taivas on niin tumma	10.12.2010
+2020.	Ossi on ihmeidentekijä	13.12.2010
+2021.	Helena ei käytä omia avaimiaan	14.12.2010
+2022.	Cindy joutuu epäilyjen kohteeksi	15.12.2010
+2023.	Jiri kuuntelee puskaradiota	17.12.2010
+2024.	Jirin kuntoutuminen tekee topin	20.12.2010
+2025.	Liisan kaksnaamaisuus sokaisee Ismon	21.12.2010
+2026.	Niko luo valoa Katariinan synkimmälle salaisuudelle	10.01.2011
+2027.	Ismon illallisten vieraslista tuottaa ongelmia Liisalle	11.01.2011
+2028.	Heli matkustaa suruunsa	12.01.2011
+2029.	Ossin hedelmäpuusta kuuluu koputusta	13.01.2011
+2030.	Ossi soutaa, Cindy huopaa, Jenni kiikaroi rannalla	14.01.2011
+2031.	Heidin ajanvarausjärjestelmä temppuilee	17.01.2011
+2032.	Cindy taistelee pimeyden voimia vastaan	18.01.2011
+2033.	Paula käy puumasta toimeen	19.01.2011
+2034.	Jirilläkin on hintansa	20.01.2011
+2035.	Sepon laatta lentää	21.01.2011
+2036.	Liisan pikkulintu laulaa Ismolle	24.01.2011
+2037.	Sepon uusi työnkuva puuroutuu	25.01.2011
+2038.	Peppi saa synttärilahjaksi sinivuokkoja	26.01.2011
+2039.	Lassen letku menee väärään osoitteeseen	27.01.2011
+2040.	Isabella ei ota elämää liian raskaasti	28.01.2011
+2041.	Lasse keksii erikoisen lääkkeen Paulan mustankipeyteen	31.01.2011
+2042.	Antin huolenpidolla ei ole rajoja	01.02.2011
+2043.	Liisan naamio uhkaa rakoilla	02.02.2011
+2044.	Heli on valmis kantamaan naapurin taakkaa	03.02.2011
+2045.	Pihlajakadulla on synkkä ja myrskyinen yö	04.02.2011
+2046.	Niko heittää kirveen kaivoon	07.02.2011
+2047.	Antti likaa lainkouransa	08.02.2011
+2048.	Jiri kaataa valovoimansa Paulan harteille	09.02.2011
+2049.	Onni yksillä, Tale toisilla	10.02.2011
+2050.	Lasse ei seiso Paulan rinnalla	11.02.2011
+2051.	Isabella etsii lapselleen sijaa majatalosta	14.02.2011
+2052.	Lasse nostaa kissan väärälle pöydälle	15.02.2011
+2053.	Heidin tanssiaiset ovat prinssiä vaille valmiit	16.02.2011
+2054.	Helena ei tiedä, että tyhjästä on paha nyhjästä	17.02.2011
+2055.	Katariina ei ole yksin	18.02.2011
+2056.	Severi ei pidä julkisesta liikenteestä	21.02.2011
+2057.	Isabella puhuu mitä sylki suuhun tuo	22.02.2011
+2058.	Kel onni on, sen Tale kätkeköön	23.02.2011
+2059.	Heidi kuulee sutinaa Pepin kaislikosta	24.02.2011
+2060.	Ismo laittaa Pirkon parkkiin	25.02.2011
+2061.	Talen rauhaisa kotielämä on siruina	28.02.2011
+2062.	Isabella kaipaa itseensä enemmän sisältöä	01.03.2011
+2063.	Ismon onni lipuu pois	02.03.2011
+2064.	Paula ja Lasse joutuvat kohtaamaan itsensä	03.03.2011
+2065.	Peppi näkee märkiä unia	04.03.2011
+2066.	Isabella saa kuulan kalloonsa	07.03.2011
+2067.	Syyllisyys painaa Peppiä	08.03.2011
+2068.	Helenan lounaaseen muodostuu jännittävä sivumaku	09.03.2011
+2069.	Pihlajakadun pojilla on pirtu merrassa	10.03.2011
+2070.	Sirun peitetarina säröilee	11.03.2011
+2071.	Tale muistelee Sepon vetämiä viivoja	14.03.2011
+2072.	Lasse jänistää Paulan leiriltä	15.03.2011
+2073.	Ismo on oman onnensa Seppo	16.03.2011
+2074.	Ossi saunoo totuuden esiin	17.03.2011
+2075.	Niko ottaa käyttöönsä biologiset aseet	18.03.2011
+2076.	Sepon hovi rapistuu	21.03.2011
+2077.	Katariinan namussa on erikoinen sivumaku	22.03.2011
+2078.	Liisa rikkoo Ismon hyvän sydämen siruiksi	23.03.2011
+2079.	Niko heijastaa videotykillä suolaa haavoihin	24.03.2011
+2080.	Isabella alkaa olla ihan kuitti	25.03.2011
+2081.	Ossi on lapsensa kanssa helisemässä	28.03.2011
+2082.	Pepin hevosella on turvaton olo	29.03.2011
+2083.	Liisa ei katso Ismon rakkauden hintalappua	30.03.2011
+2084.	Niko aukaisee Saraisen arkkunsa	31.03.2011
+2085.	Lätkässä oleva Tale kohtaa epäurheilijamaista käytöstä	01.04.2011
+2086.	Sergei tulee ulos kaapista	04.04.2011
+2087.	Katariina koskettuu Saran tavoin	05.04.2011
+2088.	Heli hautaa tulevaisuutensa, Ossi veisaa omalleen	06.04.2011
+2089.	Isabella saa rakkauspöpöjä	07.04.2011
+2090.	Pihlajakadun teinit leikkivät hengillä	08.04.2011
+2091.	Ismon valinta kuumentaa tunteita	11.04.2011
+2092.	Ismon on vaikea aloittaa puhtaalta pöydältä	12.04.2011
+2093.	Heli saa yllättävää perheenlisäystä	13.04.2011
+2094.	Niko on hullun hyvä tuki	14.04.2011
+2095.	Sergei lähtee lintumetsälle	15.04.2011
+2096.	Jennin ja Paulan dolce vita saa kotimaisen käänteen	18.04.2011
+2097.	Katariinan harha saa terapeutin pyörryksiin	19.04.2011
+2098.	Talen koulumenestys polttaa näppejä	20.04.2011
+2099.	Helena pelkää kokevansa tuplamenetyksen	21.04.2011
+2100.	Heidi tukkii Jirin suun	22.04.2011
+2101.	Ossin muuttolaatikossa pesii loinen	25.04.2011
+2102.	Isabella saa maistaa omaa tekomahaansa	26.04.2011
+2103.	Cindy esittää vatsalauseen	27.04.2011
+2104.	Lentävä auto menee yli Lassen hilseen	28.04.2011
+2105.	Peppi ei kilju riimusta	29.04.2011
+2106.	Antti hermostuu turhasta sähkönkulutuksesta	02.05.2011
+2107.	Pepin kemiankoe päättyy tukalaan kysymykseen	03.05.2011
+2108.	Isabellalla on ihan tajuttoman kummallinen päivä	04.05.2011
+2109.	Topille ei riitä hybridin kyyti	05.05.2011
+2110.	Talen itsevarmuus ryöpsähtää Iidan rinnuksille	06.05.2011
+2111.	Seppo etsii posliinia, mutta löytääkin nahkaa	09.05.2011
+2112.	Tale heittää voltin	10.05.2011
+2113.	Sergei saa tykin käkättimeensä	11.05.2011
+2114.	Antti antaa palaa	12.05.2011
+2115.	Ossin mielestä Cindy on aikamoinen äitiyspakkaus	13.05.2011
+2116.	Isabella juuttuu lähtöselvitykseen	16.05.2011
+2117.	Peppi kuulee hälytyskellojen soivan	17.05.2011
+2118.	Liisa loistaa Ismon perheteatterin tähtenä	18.05.2011
+2119.	Niko haluaa Katariinan avohoitoon	19.05.2011
+2120.	Tale saa Iidalta sateenkaaritukea	20.05.2011
+2121.	Liisa pelkää Arjan haasteita	23.05.2011
+2122.	Lassen vanhemmuus tekee tuhoja lelulaatikossa	24.05.2011
+2123.	Peppi tilipussittaa itsensä	25.05.2011
+2124.	Helenan kuulemat uutiset eivät ole raskaita	26.05.2011
+2125.	Katariina näkee kohtalonsa kasvot	27.05.2011
+
+# 14. tuotantokausi (2011–2012)
+2126.	Pihlajakadun haikaralla on pahat mielessä	29.08.2011	-
+2127.	Niko aikoo löytää Katariinan, vaikka kiven sisästä	30.08.2011	-
+2128.	Katariina tekee liian häkkinäisen päätelmän	31.08.2011	-
+2129.	Lassen suunnitelma on olevinaan lasten leikkiä	01.09.2011	-
+2130.	Topi piristyy Pepin pilleristä	02.09.2011	-
+2131.	Peppi on heikun keikun ja myöhemmin vinksin vonksin	05.09.2011	-
+2132.	Isabellan mielestä tulitauolla ei säästellä Kuulia	06.09.2011	-
+2133.	Topin kengät sopivat Jirin jälkiin	07.09.2011	-
+2134.	Tale on teloa talenttinsa	08.09.2011	-
+2135.	Ismo ja Liisa joutuvat vilttiketjuun	09.09.2011	-
+2136.	Yksi lensi yli Kuulan pesän	12.09.2011	-
+2137.	Antti tekee virheellisen virheen korjauksen	13.09.2011	-
+2138.	Peppiä pelottaa kamalasti	14.09.2011	-
+2139.	Peppi vaihtaa valkolakin mustaan myssyyn	15.09.2011	-
+2140.	Cindy on nimettömän ongelman edessä	16.09.2011	-
+2141.	Maria tiirikoi Helenan menneisyyden lukkoa	19.09.2011	-
+2142.	Seppo löytää oikean reseptin Helenan murheeseen	20.09.2011	-
+2143.	Niko tekee merkillisen avainnon	21.09.2011	-
+2144.	Iidan mäyräkoira pissii Jannen kintuille	22.09.2011	-
+2145.	Talen Siru-kortilla ei ole katetta	23.09.2011	-
+2146.	Lassea kiinnostavat enemmän kannut kuin kupit	26.09.2011	-
+2147.	Jannen ylipaisunut miehuus yllättää Iidan	27.09.2011	-
+2148.	Nikon hedelmällisestä suunnitelmasta loppuu mehut	28.09.2011	-
+2149.	Pepin kohtalo on katkolla	29.09.2011	-
+2150.	Isabellan ruuhkavuodet törmäävät vastaantulevaan liikenteeseen	30.09.2011	-
+2151.	Ismo ja Seppo salanoviiseina	03.10.2011	-
+2152.	Jenni saa rakkaudessa kymppimiikan	04.10.2011	-
+2153.	Peppi lähtee katkokävelemään	05.10.2011	-
+2154.	Jannen nyrkki puhuu Talelle rakkaudesta	06.10.2011	-
+2155.	Sergei päästää Pepin pyhimpäänsä	07.10.2011	-
+2156.	Isabella laittaa Sebastianin polvilleen	10.10.2011	-
+2157.	Pepin lemmenpesässä käy kuhina	11.10.2011	-
+2158.	Seppo kaasuttaa parempiin bileisiin	12.10.2011	-
+2159.	Niko nukkuu pommiin	13.10.2011	-
+2160.	Antti pelaa sekuntipeliä	14.10.2011	-
+2161.	Sepon salaisuudella on ihan tajuttomat seuraukset	17.10.2011	-
+2162.	Katariina kastautuu sovitusveteen	18.10.2011	-
+2163.	Ossi poikineen taipuu uusiin asentoihin	19.10.2011	-
+2164.	Janne tajuaa kaikkien teiden vievän koomaan	20.10.2011	-
+2165.	Isokarju vaalii lättinsä yksityisyyttä	21.10.2011	-
+2166.	Heidi saa vatsanväänteitä raa'asta lihasta	24.10.2011	-
+2167.	Ismon maine ryvettyy Liisan vanavedessä	25.10.2011	-
+2168.	Severi on luokaton koululainen	26.10.2011	-
+2169.	Isabellan terapia nojaa kielioppiin	27.10.2011	-
+2170.	Sievisten perunateatterissa on hiuksia nostattava käänne	28.10.2011	-
+2171.	Pepin levy jää päälle	31.10.2011	-
+2172.	Severillä on kielikellon syndrooma	01.11.2011	-
+2173.	Antti ei halua olla tyhjän pantti	02.11.2011	-
+2174.	Sebastian kokee poikamaisen yllätyksen	03.11.2011	-
+2175.	Ismo Bondaa Liisan kanssa	04.11.2011	-
+2176.	Heidi haukkuu väärää puuceetä	07.11.2011	-
+2177.	Sebastianin tutka kääntyy hilpeään tunnelmaan	08.11.2011	-
+2178.	Niko tarttuu pohjoistuuleen	09.11.2011	-
+2179.	Peppi saa pilvilinnaansa kahlitun kaverin	11.11.2011	-
+2180.	Jenni pudottaa pommin postiluukkuun	14.11.2011	-
+2181.	Pepin katkokätkö dyykataan	15.11.2011	-
+2182.	Jiristä löytyy kamaleontin piirteitä	16.11.2011	-
+2183.	Kuka jiritti ansan, Sergei Kuula?	17.11.2011	-
+2184.	Ismo valitsee pehmeän lähestymistavan	18.11.2011	-
+2185.	Sebastianin ja Isabellan taivaalle syttyy tähti	21.11.2011	-
+2186.	Isabellan pinta on vain kosmetiikkaa	22.11.2011	-
+2187.	Sergei, joka toiselle kuoppaa kaivaa	23.11.2011	-
+2188.	Ismon ongelma kohoaa toiseen potenssiin	24.11.2011	-
+2189.	Helenan tuutulaulu herättää Sebastianin	25.11.2011	-
+2190.	Heidin pulliin eksyy vanhaa suolaa	28.11.2011	-
+2191.	Isabella tajuaa häkkikatan munineen	29.11.2011	-
+2192.	Pepin huoneessa tapahtuu mobiilisaatio	30.11.2011	-
+2193.	Heidi saa karkailun loppumaan	01.12.2011	-
+2194.	Tale jättää uppoavan hinaajan	02.12.2011	-
+2195.	Katariinan ura on kuralla	05.12.2011	-
+2196.	Tale tekee tikusta asiaa	07.12.2011	-
+2197.	Seppo tahtoo kokea herätyksen	08.12.2011	-
+2198.	Katariinan sairaalassa suoritetaan leikkauksia	09.12.2011	-
+2199.	Paula on Sievisten tukevampi osapuoli	12.12.2011	-
+2200.	Heidi sukeltaa suhteeseen ja lyö päänsä pohjaan	13.12.2011	-
+2201.	Ismo ei suvaitse puhelin-exiä	14.12.2011	-
+2202.	Cindy hyvästelee poikansa	15.12.2011	-
+2203.	Isabellan sonni karkaa väärän lehmän laitumelle	16.12.2011	-
+2204.	Tale on kostean illan sammuva tähti	19.12.2011	-
+2205.	Seppo laulaa väärään mikkiin	20.12.2011	-
+2206.	Peppiä haetaan hitaille	23.01.2012	Kuvaohjelman ikäraja 12
+2207.	Seppo unohtaa varmuuslaitteet	24.01.2012	Kuvaohjelman ikäraja 12
+2208.	Tale tyytyy kaksosvaihtoehtoon	25.01.2012	Kuvaohjelman ikäraja 12
+2209.	Jiri piilottaa Heidiltä positiivisen puolensa	26.01.2012	Kuvaohjelman ikäraja 7
+2210.	Joonatan on avainasemassa	27.01.2012	Kuvaohjelman ikäraja 7
+2211.	Sepolla on selvästi hyvä päivä	30.01.2012	Kuvaohjelman ikäraja 7
+2212.	Antti löytää toukkia arkistosta	31.01.2012	Kuvaohjelman ikäraja 7
+2213.	Severi tekee hukkareissun	01.02.2012	Kuvaohjelman ikäraja 7
+2214.	Cindyn menneisyys kokee herätyksen	02.02.2012	Kuvaohjelman ikäraja 7
+2215.	Kuulan suvulle on kakkua tarjolla	03.02.2012	Kuvaohjelman ikäraja 7
+2216.	Cindy ei ole kovin kulttivoitunut	06.02.2012	Kuvaohjelman ikäraja 7
+2217.	Ossi on luotettava lahkolämmitin	07.02.2012	Kuvaohjelman ikäraja 7
+2218.	Liisa ei tahdo olla Salo vaarassa	08.02.2012	Kuvaohjelman ikäraja 7
+2219.	Jirin kahvila korkataan huolella	09.02.2012	Kuvaohjelman ikäraja 7
+2220.	Isabella kärsii kaaosväsymyksestä	10.02.2012	Kuvaohjelman ikäraja 7
+2221.	Isabella menettää mojonsa	13.02.2012	Kuvaohjelman ikäraja 7
+2222.	Joonatan ei siedä kalleuksiinsa kajoamista	14.02.2012	Kuvaohjelman ikäraja 7
+2223.	Cindyn lapsuudenkodissa on pannu kuumana	15.02.2012	Kuvaohjelman ikäraja 7
+2224.	Katariina avaa eräänkin henkireiän	16.02.2012	Kuvaohjelman ikäraja 7
+2225.	Ismo noudattaa avaimet käteen -periaatetta	17.02.2012	Kuvaohjelman ikäraja 7
+2226.	Cindy ei suostu enää kantamaan ristiään	20.02.2012	Kuvaohjelman ikäraja 7
+2227.	Vaikka kuinka Heidi hinkkaa, ei tämän kuva siitä kiillotu	21.02.2012	Kuvaohjelman ikäraja 7
+2228.	Sebastian ei pääse pintaa syvemmälle	22.02.2012	Kuvaohjelman ikäraja 7
+2229.	Seppo keventää lastinsa Talen harteille	23.02.2012	Kuvaohjelman ikäraja 7
+2230.	Sievisellä vallitsee hivityksen kauhistus	24.02.2012	Kuvaohjelman ikäraja 7
+2231.	Liisa räjäyttää puretun pommin	27.02.2012	Kuvaohjelman ikäraja 7
+2232.	Elias näkee homona vaivaa, eikä huomaa het'eroo	28.02.2012	Kuvaohjelman ikäraja 7
+2233.	Joonatanilla on harakan katse ja hanhen tuuri	29.02.2012	Kuvaohjelman ikäraja 7
+2234.	Jannen lämäri rikkoo Heidin puolustuksen	01.03.2012	Kuvaohjelman ikäraja 7
+2235.	Peppi antaa pirulle pikkusoiton	02.03.2012	Kuvaohjelman ikäraja 7
+2236.	Sebastian ei ymmärrä kielikuvaa	05.03.2012	Kuvaohjelman ikäraja 7
+2237.	Sepolle mikään ei ole selvää	06.03.2012	Kuvaohjelman ikäraja 7
+2238.	Lasse on kirjapaimen	07.03.2012	Kuvaohjelman ikäraja 7
+2239.	Katariina jäädyttää pelikenttänsä	08.03.2012	Kuvaohjelman ikäraja 7
+2240.	Ismon vastaisku on ikuisuus	09.03.2012	Kuvaohjelman ikäraja 7
+2241.	Isabella joutuu synkille teille	12.03.2012	Kuvaohjelman ikäraja 7
+2242.	Helenaa korpeaa tissuttelusta hissuttelu	13.03.2012	Kuvaohjelman ikäraja 7
+2243.	Seppo näppäilee väärää hanuria	14.03.2012	Kuvaohjelman ikäraja 7
+2244.	Elias tajuaa olevansa rintalasta	15.03.2012	Kuvaohjelman ikäraja 7
+2245.	Tale Taalasmaa ja pahan pappi	16.03.2012	Kuvaohjelman ikäraja 7
+2246.	Lasse ajaa naisen asiaa	19.03.2012	Kuvaohjelman ikäraja 7
+2247.	Tale lähtee appihyppelylle	20.03.2012	Kuvaohjelman ikäraja 7
+2248.	Pikku prinssi on panna Heidin linnaan	21.03.2012	Kuvaohjelman ikäraja 7
+2249.	Seppo ei kuuntele katkokotkotusta	22.03.2012	Kuvaohjelman ikäraja 7
+2250.	Muillakin kuin Ismolla on hyvä kuva Liisasta	23.03.2012	Kuvaohjelman ikäraja 7
+2251.	Sebastian paukuttaa tolkkua Katariinaan	26.03.2012	Kuvaohjelman ikäraja 7
+2252.	Iidan silmät alkavat larittaa	27.03.2012	Kuvaohjelman ikäraja 7
+2253.	Tale ei ole hyvä paimen	28.03.2012	Kuvaohjelman ikäraja 7
+2254.	Isabella luo menneen talven lumia	29.03.2012	Kuvaohjelman ikäraja 7
+2255.	Helena ei heitä Sepolle pelastusrengasta	30.03.2012	Kuvaohjelman ikäraja 7
+2256.	Matleena laskee luojansa levolle	02.04.2012	Kuvaohjelman ikäraja 7
+2257.	Paula ja Lasse kokevat vahingon ilon	03.04.2012	Kuvaohjelman ikäraja 7
+2258.	Joonatanin elämässä on salonkorjuun aika	04.04.2012	Kuvaohjelman ikäraja 7
+2259.	Liisalla on exästentiaalinen kriisi	05.04.2012	Kuvaohjelman ikäraja 7
+2260.	Sepon surupuvun kruunaa uusi kravatti	06.04.2012	Kuvaohjelman ikäraja 12
+2261.	Seppo laulaa viimeisen virtensä	09.04.2012	Kuvaohjelman ikäraja 12
+2262.	Isabella ottaa kieron kirjekurssin	10.04.2012	Kuvaohjelman ikäraja 7
+2263.	Lasse ja Paula tahtovat	11.04.2012	Kuvaohjelman ikäraja 7
+2264.	Koru paljastaa Annin todelliset kasvot	12.04.2012	Kuvaohjelman ikäraja 7
+2265.	Janne chättii väärää puuta	13.04.2012	Kuvaohjelman ikäraja 7
+2266.	Jiri himmaa Heidin himahimoa	16.04.2012	Kuvaohjelman ikäraja 7
+2267.	Antti jää kiinni housut nilkoissa	17.04.2012	Kuvaohjelman ikäraja 7
+2268.	Lassesta kuoriutuu koruharakka	18.04.2012	Kuvaohjelman ikäraja 7
+2269.	Matleena yllättyy siitä, mitä Katariinan puseron alta paljastuu	19.04.2012	Kuvaohjelman ikäraja 7
+2270.	Joonatan tahtoo tehdä suuren siirron	20.04.2012	Kuvaohjelman ikäraja 7
+2271.	Liisan katu täyttyy käteisestä	23.04.2012	Kuvaohjelman ikäraja 7
+2272.	Ismo suojelee kotipesäänsä	24.04.2012	Kuvaohjelman ikäraja 7
+2273.	Elias tykkää, kun tökätään	25.04.2012	Kuvaohjelman ikäraja 7
+2274.	Tale tajuaa, että luu jää vetävän käteen	26.04.2012	Kuvaohjelman ikäraja 7
+2275.	Paula kuulee mummia	27.04.2012	Kuvaohjelman ikäraja 7
+2276.	Totuuden äänite viiltää Pepin sydäntä	28.04.2012	Kuvaohjelman ikäraja 7
+2277.	Laukaus rikkoo metsän hiljaisuuden	01.05.2012	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2278.	Liisa haluaa saloisamman tulevaisuuden	02.05.2012	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2279.	Tale pelkää Talonmiehen vapaapäivää	03.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2280.	Sievisten ilo uhkaa jäädä tyngäksi	04.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2281.	Katariina vilauttaa jäsenkorttia	07.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2282.	Cindyä ei kiinnosta Ossin pelit vaan vehkeet	08.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2283.	Seppo valitsee pullonpyörityksessä totuuden ja tehtävän	09.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2284.	Sebastian antaa isän kädestä	10.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2285.	Antti pelkää olevansa pahan perimää	11.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2286.	Janne on saksikas uros	14.05.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2287.	Elias ei innostu naamioleikistä	15.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2288.	Antti veljeilee rikollisen kanssa	16.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2289.	Kirurgin viiltävä katse leikkaa Joonatanilta siivet	17.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2290.	Helena haluaa kaikki Kuulat samaan pussiin	18.05.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2291.	Ossi saa rakkauskirjeen	21.05.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia.
+2292.	Lasse evää anniskeluluvan	22.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2293.	Talen vessareissu huipentuu isoon paukkuun	23.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2294.	Elias kiihtyy Larin mailankäytöstä	24.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2295.	Antilla on ikävää	25.05.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia.
+2296.	Jirin marinointi kypsyttää Heidiä	28.05.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia.
+2297.	Ismolle ja Ossille koittaa duomiopäivä	29.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2298.	Sebastian huojuu taas kanjonin reunalla	30.05.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia.
+2299.	Talen kutkassa näkyy liikettä	31.05.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2300.	Severi ei osaa laskea tuntemattomia numeroita	01.06.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia.
+2301.	Ismo, sinä olet tähti	04.06.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2302.	Tale panee pystyyn saippuaoopperan	05.06.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2303.	Severi innostuu matkatoimiston annista	06.06.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on väkivaltaa.
+2304.	Eliaksen tunnelma laristuu	07.06.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2305.	Sieviset kohtaavat sillan yli synkän virran	08.06.2012	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+#15. tuotantokausi (2012–2013)
+
+2306.	Sieviset maksavat synkän virran vaatimia veroja	03.09.2012	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2307.	Isabella Holmdini - kahlekuningatar	04.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2308.	Elias lukee laria ja säädöksiä	05.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2309.	Ismon itsevarmuus täyttää Osmoksen	06.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2310.	Paulan ja Lassen suru on toisen onni	07.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2311.	Matleena ei suvaitse uskottomuutta	10.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2312.	Sieviset saavat kenkää	11.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2313.	Sergeille tarjoillaan kihlajaiskakkua	12.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2314.	Katariina on suhteettomuuteen kallellaan	13.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2315.	Antti ei näe saunatonttuja	14.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2316.	Ismon peilikuva on mollivoittoinen	17.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on väkivaltaa.
+2317.	Sebastianin valhe pukee veljeä	18.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2318.	Iidan elämä ei ole herkkua	19.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2319.	Heidi tunkee romantiikkaa väärään rakoon	20.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2320.	Sieviset kuulevat viikatemiehen virheestä	21.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2321.	Pepin tukijalka pettää	24.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2322.	Paulan henkinen ongelma ruumiillistuu	25.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2323.	Sergeitä uhkaa elinkautinen	26.09.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2324.	Isabellalla on Haagi auki	27.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2325.	Cindyn laina erääntyy	28.09.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on väkivaltaa.
+2326.	Ismon viisuista puuttuvat eurot	01.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2327.	Auf Wiedersehen, Cindy!	02.10.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia.
+2328.	Liisan puskuri todistaa Paulan puolesta	03.10.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia.
+2329.	Antin matkakuume nousee toiseen potenssiin	04.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2330.	Seksi vie ja taksi vie	05.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2331.	Paula on nuoren miehen muusa	08.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2332.	Peppi tahtoo prinssinsä linnaan	09.10.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia.
+2333.	Jenni saa jälleen kyytiä	10.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2334.	Talelle tulee jälleen suru puseroon	11.10.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2335.	Seppo maistaa viimeisen pisaran	12.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2336.	Elo virtaa Kallen suoniin	15.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2337.	Isabella saa selkärangan kokoamisohjeet	16.10.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2338.	Helena säästelee vitsaa	17.10.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2339.	Ossi tajuaa olevansa Juudaksen eno	18.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2340.	Lasse kuokkii vaarallista maaperää	19.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2341.	Eliaksen audio visualisoituu	22.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2342.	Yksi lensi yli parvekkeen, muistelee Paula	23.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on seksuaalisia viittauksia.
+2343.	Sebastian huomaa tulleensa itsekin yliajetuksi	24.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2344.	Kallelta vedetään kaappi jalkojen alta	25.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2345.	Kuulat asetetaan tähtäimeen	26.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2346.	Ismo kaahaa suoraan Sepon sydämeen	29.10.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2347.	Joonatanilla on kiero oljenkorsi kukkarossa	30.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2348.	Jiri ei tiedä, ketä iskeä	31.10.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2349.	Sebastian on pesänsä hylkäävä muuttolintu	1.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2350.	Iidan nälkä kasvaa suhteettomaksi	2.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2351.	Iida rääkkää väärää puuta	5.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2352.	Matleena sekaantuu ainekauppaan	6.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2353.	Äidinrakkaus pakottaa Paulaa	7.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2354.	Kallen pursi seilaa tutka pimeänä	8.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2355.	Biologinen kello herättää Cindyn	12.11.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2356.	Jiri pääsee takaisin kartalle	13.11.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2357.	O.J. ei ole enää oma itsensä	14.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2358.	Ismo, Lasse ja kauhea kankkunen	15.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2359.	Anni soittaa nuorille kellarihumppaa	16.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2360.	Peppi kärsii haamupahoinvoinnista	19.11.2012	Kuvaohjelman ikäraja: Sallittu / Kuvaohjelmassa on väkivaltaa.
+2361.	Seppo uskaltautuu käymään vieraissa	20.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2362.	Paula panee itsensä peliin	21.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2363.	Severi jättää erikoiset hyvästit	22.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2364.	Kallen rakkauden meri värjäytyy mustaksi	23.11.2012	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on väkivaltaa.
+2365.	Isabella luovuttaa vaatteensa hyväntekeväisyyteen	26.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2366.	Liisan oikeus on Kallen vääryys	27.11.2012	Kuvaohjelman ikäraja: Sallittu
+2367.	Isabellalla on kaaso pohjassa	28.11.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2368.	Sebastian johdattaa Isabellan vihille	29.11.2012	Kuvaohjelman ikäraja: Sallittu
+2369.	Jenni ei hallitse uniaan	30.11.2012	Kuvaohjelman ikäraja: Sallittu
+2370.	Paula on aistikkaasti harhassa	3.12.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2371.	Cindy maistelee vanhaa vuosikertaa	4.12.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2372.	Laura, Laura, Laura	5.12.2012	Kuvaohjelman ikäraja: Sallittu
+2373.	Kalle pakotetaan kotihoitoon	7.12.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2374.	Elias saa kovan kovaa vasten ja pehmenee	10.12.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2375.	Lassen on lähdettävä kauas päästäkseen lähemmäs Paulaa	11.12.2012	Kuvaohjelman ikäraja: Sallittu
+2376.	Ismon ja Liisan Sievistely ärsyttää Severiä	12.12.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2377	Salarakas kummastuttaa Iidaa	14.12.2012	Kuvaohjelman ikäraja: Sallittu
+2378	Pepin kupit kuumottavat Sergeitä	17.12.2012	Kuvaohjelman ikäraja: Sallittu
+2379	Cindyn päätös puhkeaa kukkaan	18.12.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2380.	Jirin käsittely saa Heidin veren kohisemaan	19.12.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2381.	Joonatan kuulee lyömättömiä uutisia	20.12.2012	Kuvaohjelman ikäraja: Sallittu
+2382.	Ismo ei ole radion kuumin sinkku	21.12.2012	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2383.	Ossi katselee sydämeltään vierähtänyttä kiveä	24.12.2012	Kuvaohjelman ikäraja: Sallittu
+2384.	Ossin ja Cindyn itkuhälyttimestä ei kuulu itkua	27.12.2012	Kuvaohjelman ikäraja: Sallittu
+2385.	Onkos tullut kesä nyt talven keskelle	28.12.2012	Kuvaohjelman ikäraja: Sallittu
+2386.	Kallelle tarjotaan pesää	14.01.2013	Kuvaohjelman ikäraja: Sallittu
+2387.	Talen kosto on ikuistettu	15.01.2013	Kuvaohjelman ikäraja: Sallittu
+2388.	Sergeillä on pieni ehdotus	16.01.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2389.	Hiipivä Ossi, ryntäilevä Cindy	17.01.2013	Kuvaohjelman ikäraja: Sallittu
+2390.	Seppo saa helpotusta maksetulta mieheltä	18.01.2013	Kuvaohjelman ikäraja: Sallittu
+2391.	Iida näkee paljasta syvemmälle	21.01.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2392.	Ossilla ei ole enää vaihtoehtoa	22.01.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2393.	Kaikki haluu O.J:ta	23.01.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2394.	Elias tajuaa Iidan ottaneen raskaasti	24.01.2013	Kuvaohjelman ikäraja: Sallittu
+2395.	Jennin rakkaus kylmää	25.01.2013	Kuvaohjelman ikäraja: Sallittu
+2396.	Helena herää haamutuimaan	28.01.2013	Kuvaohjelman ikäraja: Sallittu
+2397.	Jenni kokee ylösnousemuksen ihmeen	29.01.2013	Kuvaohjelman ikäraja: Sallittu
+2398.	Severi aloittaa paperisodan	30.01.2013	Kuvaohjelman ikäraja: Sallittu
+2399.	Joonatan ottaa osaa	31.01.2013	Kuvaohjelman ikäraja: Sallittu
+2400.	Jiri löytää itsensä kosteasta kolosta	01.02.2013	Kuvaohjelman ikäraja: Sallittu
+2401.	Joonatanin apu lähtee lanteista	04.02.2013	Kuvaohjelman ikäraja: Sallittu
+2402.	Lari ei ole Ottawa Eliasta mukaan	05.02.2013	Kuvaohjelman ikäraja: Sallittu
+2403.	Hölkynkölkyn, Severi Sievinen	06.02.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2404.	Katariina ja hunkkiniemen kreivi	07.02.2013	Kuvaohjelman ikäraja: Sallittu
+2405.	Sergein peli on mennä palasiksi	08.02.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2406.	Matleena ei haista palavan rakkauden käryä	11.02.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2407.	Kuulat kuulevat historian siipien havinaa	12.02.2013	Kuvaohjelman ikäraja: Sallittu
+2408.	Jiri ja alaston ase	13.02.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2409.	Helena nuijitaan uhrilampaaksi	14.02.2013	Kuvaohjelman ikäraja: Sallittu
+2410.	Jenni suostuu paljastaviin kuviin	15.02.2013	Kuvaohjelman ikäraja: Sallittu
+2411.	Lari ei haluaisi olla tapetilla	18.02.2013	Kuvaohjelman ikäraja: Sallittu
+2412.	Severi pääsee pussauskoppiin	19.02.2013	Kuvaohjelman ikäraja: Sallittu
+2413.	Roni oppii että vanhassa on vara parempi	20.02.2013	Kuvaohjelman ikäraja: Sallittu
+2414.	Isabellan timantit eivät ole ikuisia	21.02.2013	Kuvaohjelman ikäraja: Sallittu
+2415.	Helena kuumenee pelleteillä	22.02.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2416.	Pillerit pistävät Pepin laulamaan	25.02.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2417.	Lari saa korkeasta mailasta muutakin kuin kaksi minuuttia	26.02.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2418.	Helena käynnistää kalliin pesuohjelman	27.02.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2419.	Joonatanin on hankala isäistää asioita	28.02.2013	Kuvaohjelman ikäraja: Sallittu
+2420.	Osmo ja viimeinen duomio	01.03.2013	Kuvaohjelman ikäraja: Sallittu
+2421.	Ismolla ja Ossilla ei pyyhi hyvin	04.03.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2422.	Jiri tahtoo yhteisen tarinan tohtorin kanssa	05.03.2013	Kuvaohjelman ikäraja: Sallittu
+2423.	Severi pelkää, että Ismo lähtee lätkimään	06.03.2013	Kuvaohjelman ikäraja: Sallittu
+2424.	Katariina innostuu gaylaamaan	07.03.2013	Kuvaohjelman ikäraja: Sallittu
+2425.	Iida vetää Vesivehmaanjenkkaa	08.03.2013	Kuvaohjelman ikäraja: Sallittu
+2426.	Pihlajakatu kuulee isoa karjuntaa	11.03.2013	Kuvaohjelman ikäraja: Sallittu
+2427.	Kova Onni koettelee Ronia	12.03.2013	Kuvaohjelman ikäraja: Sallittu
+2428.	Pyöreä ystävä pelastaa Ismon päivän	13.03.2013	Kuvaohjelman ikäraja: Sallittu
+2429.	Sergei turvautuu vaihtokehtoiseen suunnitelmaan	14.03.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2430.	Heidi pitää asioita sisällään	15.03.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2431.	Maalari maalaa Kuulille synkkää kohtaloa	18.03.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2432.	Nyt sä lähdet tästä pelistä pois	19.03.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2433.	Kenelle kellot soivat	20.03.2013	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2434.	Suru saapuu Pihlajakadun ylle	21.03.2013	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2435.	Muistoissa vain oot	22.03.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2436.	Ossi haluaa laittaa panon tilille	25.03.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2437.	Pikku-Kalle vitsi lässähtää	26.03.2013	Kuvaohjelman ikäraja: Sallittu
+2438.	Joonatanin valheet ontuvat	27.03.2013	Kuvaohjelman ikäraja: Sallittu
+2439.	Elias kuumenee Larin jalkapelistä	28.03.2013	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2440.	Seppo luisuu kohti märkää unelmaa	01.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2441.	Tale ja Roni innostuvat ale-myynneistä	02.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2442.	Isabellan taloustutkimus saa käyrän nousuun	03.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2443.	Ossi ei henno puhdistaa pöytää murusesta	04.04.2013	Kuvaohjelman ikäraja: Sallittu
+2444.	Ismo vetää kommandona	05.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2445.	Peppi tippuu valosta pimeyteen	08.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2446.	Ronin valheet ovat musiikkia Talen korville	09.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2447.	Ismo paisuttelee asioita	10.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2448.	Kuulat ymmärtävät katsoa peiliin	11.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2449.	Iidan ympärillä ei ole tarpeeksi tukevia henkilöitä	12.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2450.	Isabella huomaa, että vanhassa voro pahempi	15.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2451.	Joonatan saa eteensä force majurin	16.04.2013	Kuvaohjelman ikäraja: Sallittu
+2452.	Cindystä emänä on ihanaa	17.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2453.	Kuulan toivo on vanha tuttu	18.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2454.	Ismo on kaulaansa myöten ongelmissa	19.04.2013	Kuvaohjelman ikäraja: Sallittu
+2455.	Peppi saa matkaseuraajan	22.04.2013	Kuvaohjelman ikäraja: Sallittu
+2456.	Heidi tajuaa jakaneensa tietämättään	23.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2457.	Sebastianin tehtävä on vain ajaa vain ajaa	24.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2458.	Katariina tajuaa Kallen puhuneen pehmeitä	25.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2459.	Tale yrittää olla mielin kielin	26.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2460.	Helena bongaa väärän linnun	29.04.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2461.	Helena tajuaa Sepon esittäneen teatterissa	30.04.2013	Kuvaohjelman ikäraja: Sallittu
+2462.	Heidi Poppanen ja muhiva soppanen	02.05.2013	Kuvaohjelman ikäraja: Sallittu
+2463.	Matleena tajuaa Talen puhuneen pupua	06.05.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2464.	Kalle tahtoo olla Katariinan suhteen avoin	07.05.2013	Kuvaohjelman ikäraja: Sallittu
+2465.	Sebastianilla on mutka matkassa	08.05.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2466.	Kuulat ovat umpitunnelissa	09.05.2013	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2467.	Katariina on kapulana kolmannessa pyörässä	13.05.2013	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2468.	Joonatanin peli on haluttua tavaraa	14.05.2013	Kuvaohjelman ikäraja: Sallittu
+2469.	Peppi hyppää takaisin enon veneeseen	15.05.2013	Kuvaohjelman ikäraja: Sallittu
+2470.	Sinä Iida, minä Jane	20.05.2013	Kuvaohjelman ikäraja: Sallittu
+2471.	Ismo syöksyy vihollisen kotipesään	21.05.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2472.	Cindy nauttii, kun Ossi itkee	22.05.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2473.	Roni Onnistuu	23.05.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2474.	Tohtori Tuhma iskee jälleen	27.05.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2475.	Peppiä potkitaan sinne ja tänne	28.05.2013	Kuvaohjelman ikäraja: Sallittu
+2476.	Pepin asiat ovat huonosti ainakin paperilla	29.05.2013	Kuvaohjelman ikäraja: Sallittu
+2477.	Ismo kärsii sivuhistoriavaikutuksista	30.05.2013	Kuvaohjelman ikäraja: Sallittu
+2478.	Helenan poika teki sen taas	03.06.2013	Kuvaohjelman ikäraja: Sallittu
+2479.	Iso pamppu saa Joonatanin veteläksi	04.06.2013	Kuvaohjelman ikäraja: Sallittu
+2480.	Janne painaa liikaa	05.06.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2481.	Joonatan - taistelija	06.06.2013	Kuvaohjelman ikäraja: Sallittu
+2482.	Peppi ei ole ihan kartalla	10.06.2013	Kuvaohjelman ikäraja: Sallittu
+2483.	Ismo päättää antaa Lasselle	11.06.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2484.	Ilkka osuu Larin nilkkaan	12.06.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2485.	Hetki lyö, viime hetki lyö	13.06.2013	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+#16. tuotantokausi (2013–2014)
+
+2486.	Oliver laulaa orpopojan valssin	09.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2487.	Ismolle tehdään silmään brasilialainen sahaus	10.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2488.	Larin pako loppuun juostu on	11.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2489.	Jiri panee kaiken lahjakortin varaan	12.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2490.	Tale on pyllypää	13.09.2013	Kuvaohjelman ikäraja: Sallittu
+2491.	Jiri on perso kokousviinerille	16.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2492.	Tale ilahtuu peräpäistä	17.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2493.	Lari on turvaton karkulainen	18.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2494.	Siperian tiikerit verkostoituvat	19.09.2013	Kuvaohjelman ikäraja: Sallittu
+2495.	Ismo kuulee äänen rajan takaa	20.09.2013	Kuvaohjelman ikäraja: Sallittu
+2496.	Ismo rohkaistuu pelkäämään	23.09.2013	Kuvaohjelman ikäraja: Sallittu
+2497.	Amandassa pesukarhutaan	24.09.2013	Kuvaohjelman ikäraja: Sallittu
+2498.	Matleenan haave lihallistuu	25.09.2013	Kuvaohjelman ikäraja: Sallittu
+2499.	Vippikay Jei, Joonatan	26.09.2013	Kuvaohjelman ikäraja: Sallittu
+2500.	Liisa ei pidä takaapäin tulijoista	27.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2501.	Katariinasta riittää koko perheelle	30.09.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2502.	Lari kuulee olevansa hoidon tarpeessa	01.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2503.	Sus'siunatkoon perhepäivällistä	02.10.2013	Kuvaohjelman ikäraja: Sallittu
+2504.	Joonatan - nanny pihalla	03.10.2013	Kuvaohjelman ikäraja: Sallittu
+2505.	Matleena kokee vasta-Rintalaa	04.10.2013	Kuvaohjelman ikäraja: Sallittu
+2506.	Joonatanilla on timanttinen suunnitelma	07.10.2013	Kuvaohjelman ikäraja: Sallittu
+2507.	Ismoa karmii karvan verran	08.10.2013	Kuvaohjelman ikäraja: Sallittu
+2508.	Jiri vaihtaa paistin kinkkuun	09.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2509.	Lennä, Matleena, lennä	10.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2510.	Zdravstvuj, Helena Kuula	11.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2511.	Monta Kuulaa, yksi luoti	14.10.2013	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2512.	Peppi synnyttää ongelmia	15.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2513.	Elias saa kyytiä perätilassa	16.10.2013	Kuvaohjelman ikäraja 12 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2514.	Tupee or not tupee?	17.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2515.	Talen elämä on siistiä	18.10.2013	Kuvaohjelman ikäraja: Sallittu
+2516.	Talon ainoa Taalasmaa	21.10.2013	Kuvaohjelman ikäraja: Sallittu
+2517.	Katariinan munkit ovat tarjolla	22.10.2013	Kuvaohjelman ikäraja: Sallittu
+2518.	Tale ottaa mummon ehdotuksesta vaarin	23.10.2013	Kuvaohjelman ikäraja: Sallittu
+2519.	Pepin ja Sergein välit korjaantuvat taigaiskusta	24.10.2013	Kuvaohjelman ikäraja: Sallittu
+2520.	Sebastian intoutuu keuhkoamaan	25.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta. Kuvaohjelmassa on seksuaalisia viittauksia.
+2521.	Tappajan näköinen Ossi	28.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2522.	Kokki, valehtelija, avovaimo ja Janne	29.10.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2523.	Katariinan lootassa surisee	30.10.2013	Kuvaohjelman ikäraja: Sallittu
+2524.	Taiga Taiga tuu, Taiga tuu tuu	31.10.2013	Kuvaohjelman ikäraja: Sallittu
+2525.	Ismo astuu Sepon reviirille	01.11.2013	Kuvaohjelman ikäraja: Sallittu
+2526.	Helena on ihan muistelmilla	04.11.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2527.	Elias ottaa itseensä	05.11.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2528.	Heidi saa kansionsa mukaan	06.11.2013	Kuvaohjelman ikäraja: Sallittu
+2529.	Lassea kiehtoo kaarallinen elämäntyyli	07.11.2013	Kuvaohjelman ikäraja: Sallittu
+2530.	Ossi näkee menneen toisen silmin	08.11.2013	Kuvaohjelman ikäraja: Sallittu
+2531.	Pepin perhe on levällään	11.11.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2532.	Joonatan hajottaa ja hjallitsee	12.11.2013	Kuvaohjelman ikäraja: Sallittu
+2533.	Sebastianilta pääsee bisou	13.11.2013	Kuvaohjelman ikäraja: Sallittu
+2534.	Ossin ohjelma ei sovi lapsille	14.11.2013	Kuvaohjelman ikäraja: Sallittu
+2535.	Tale eksyy mummotunneliin	15.11.2013	Kuvaohjelman ikäraja: Sallittu
+2536.	Talen koti on Ullanlinna	18.11.2013	Kuvaohjelman ikäraja: Sallittu
+2537.	Kalle palaa tuttuun pesään	19.11.2013	Kuvaohjelman ikäraja: Sallittu
+2538.	Lari on rikkileirillä	20.11.2013	Kuvaohjelman ikäraja: Sallittu
+2539.	Sievisten miehet eivät ole liian tarkkoja tavarastaan	21.11.2013	Kuvaohjelman ikäraja: Sallittu
+2540.	Heidin uusi kotieläin on nokikana	22.11.2013	Kuvaohjelman ikäraja: Sallittu
+2541.	Iida osallistuu Frans-pappa show'hun	25.11.2013	Kuvaohjelman ikäraja: Sallittu
+2542.	Ismolla ei ole kannat katossa	26.11.2013	Kuvaohjelman ikäraja: Sallittu
+2543.	Ossin takaluukku kerää katseita	27.11.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2544.	Ullalla on tajuttomat aaveet	28.11.2013	Kuvaohjelman ikäraja: Sallittu
+2545.	Mutta missä on O.J?	29.11.2013	Kuvaohjelman ikäraja: Sallittu
+2546.	Janne pelaa likkaista peliä	02.12.2013	Kuvaohjelman ikäraja: Sallittu
+2547.	Ossi piilottelee telttaansa	03.12.2013	Kuvaohjelman ikäraja: Sallittu
+2548.	Oliver tekee pohjanoteerauksen	04.12.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2549.	Sievisillä on akka sekaisin	05.12.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2550.	Ismolla on halvat huivit	09.12.2013	Kuvaohjelman ikäraja: Sallittu
+2551.	Pepillä on Kuula kipeänä	10.12.2013	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2552.	Larin elämä on kovvoo hommoo	11.12.2013	Kuvaohjelman ikäraja: Sallittu
+2553.	Cindy on maksettu nainen	12.12.2013	Kuvaohjelman ikäraja: Sallittu
+2554.	Ulla tahtoo talkkaritähdeksi	13.12.2013	Kuvaohjelman ikäraja: Sallittu
+2555.	Ismo on hengen heittopussi	16.12.2013	Kuvaohjelman ikäraja: Sallittu
+2556.	Katariina on mamu-täti	13.01.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2557.	Ulla-hiiri jää loukkuun	14.01.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2558.	Elias ei nuolaise edes, kun tipahtaa	15.01.2014	Kuvaohjelman ikäraja: Sallittu
+2559.	Severi kohtaa Transu Karvakuonon	16.01.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2560.	Cindy ja Liisa - kostottaret	17.01.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2561.	Helena menee perhe edellä puuhun	20.01.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2562.	Tale on merihätähousu	21.01.2014	Kuvaohjelman ikäraja: Sallittu
+2563.	Peppi kuulee kummia ja enoa	22.01.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2564.	Joonatan on iskussa	23.01.2014	Kuvaohjelman ikäraja: Sallittu
+2565.	Jirin rakkauselämä saa ex-tramaustetta	24.01.2014	Kuvaohjelman ikäraja: Sallittu
+2566.	Elias panee sukanvarteen	27.01.2014	Kuvaohjelman ikäraja: Sallittu
+2567.	Ismo etsii Liisaa, mutta päätyy maijaan	28.01.2014	Kuvaohjelman ikäraja: Sallittu
+2568.	Nikon mielestä Katariina on entistä puumempi	29.01.2014	Kuvaohjelman ikäraja: Sallittu
+2569.	Tao Tao Tallukka	30.01.2014	Kuvaohjelman ikäraja: Sallittu
+2570.	Severi kylvää, Lasse kyntää	31.01.2014	Kuvaohjelman ikäraja: Sallittu
+2571.	Talemeontin metamorfoosi	03.02.2014	Kuvaohjelman ikäraja: Sallittu
+2572.	Katariinan kitarapelissä on kielet mukana	04.02.2014	Kuvaohjelman ikäraja: Sallittu
+2573.	Severi liittyy lassensuojeluliittoon	05.02.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2574.	Larilla menee pitsa housuun	06.02.2014	Kuvaohjelman ikäraja: Sallittu
+2575.	Peppi hakee suojaa vainiolta	07.02.2014	Kuvaohjelman ikäraja: Sallittu
+2576.	Marianna kostuttaa uransa	10.02.2014	Kuvaohjelman ikäraja: Sallittu
+2577.	Lasse ei voi syyttää Kasperia ja Jesperiä	11.02.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on seksuaalisia viittauksia.
+2578.	Sateenkaari-Oliver, mustavalko-Sebastian	12.02.2014	Kuvaohjelman ikäraja: Sallittu
+2579.	Jiri huomaa, ettei luuskan käyttö kannata	13.02.2014	Kuvaohjelman ikäraja: Sallittu
+2580.	Ismon Ilmestyskirja. Nytkin	14.02.2014	Kuvaohjelman ikäraja: Sallittu
+2581.	Jannen puhelimessa on uusi appi	17.02.2014	Kuvaohjelman ikäraja: Sallittu
+2582.	Omenat putoavat kauas Sebastianin puusta	18.02.2014	Kuvaohjelman ikäraja: Sallittu
+2583.	Sinäkin, Kalleni	19.02.2014	Kuvaohjelman ikäraja: Sallittu
+2584.	Sergeitä kiehtoo hillo, muttei kakku	20.02.2014	Kuvaohjelman ikäraja: Sallittu
+2585.	Mariannan lempimauste on kumina sohvalla	21.02.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa.
+2586.	Joonatanilta menee hermot	24.02.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2587.	Ismo huomaa, että lattialtakin voi pudota	25.02.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on väkivaltaa. Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2588.	Talen lihallinen puoli paljastuu	26.02.2014	Kuvaohjelman ikäraja: Sallittu
+2589.	Lari on Don Komia	27.02.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2590.	Peppi on Äiti Vamma	03.03.2014	Kuvaohjelman ikäraja 7 / Kuvaohjelmassa on sisältöä, joka aiheuttaa ahdistusta.
+2591.	Pepin taigausko alkaa loppua	04.03.2014	
+2592.	Lassen saalis on metsästäjää ovelampi	05.03.2014	
+2593.	Iidan perhe levenee	06.03.2014	
+2594.	Talen puskafarssissa on viiltävä loppu	07.03.2014	
+2595.	Lari on itsensäpaljastaja	10.03.2014	
+2596.	Ismo tykkää lipasta	11.03.2014	
+2597.	Severi toistaa herran sanaa	12.03.2014	
+2598.	Peppi on toisen ilona	13.03.2014	
+2599.	Janne tunkeutuu sanniskelualueelle	14.03.2014	
+2600.	Heidi kuvastimesta kurkistaa	17.03.2014	
+2601.	Peppi käy yövuoroin vieraissa	18.03.2014	
+2602.	Ismo raivostuu syöpähoidosta	19.03.2014	
+2603.	Jannen pelinavaus pysähtyy pakkeihin	20.03.2014	
+2604.	Joonatanilla on Pala kurkussa	21.03.2014	
