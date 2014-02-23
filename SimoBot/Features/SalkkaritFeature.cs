@@ -10,10 +10,11 @@ namespace SimoBot.Features
 		public void Initialize(Dictionary<string, Dictionary<string, string>> configs)
 		{
 			string fileName = ConfigLoader.FindValueFromNestedDictionary(configs, "salkkarit");
-			if (fileName != null) {
-				Console.WriteLine("Initializing salkkarit");
-				ReadSalkkariFile(fileName);
+			if (fileName == null) {
+				Console.WriteLine("Could not read salkkarit configuration");
+				return;
 			}
+			ReadSalkkariFile(fileName);
 		}
 
 		private void ReadSalkkariFile(string fileName)
