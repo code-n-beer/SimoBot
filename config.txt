@@ -1,0 +1,17 @@
+ #testingk@
+ lastfmapikey=969e8501d73bc7c8cd220e7b53edd17c
+ lastfmfile=LastFmNick.txt
+ commitmessage=commitmessage.log
+ compoundwords=yhdyssanat.txt
+ nickname=SimoBot
+ password=juustosämpylä
+ realname=Simo Bot
+ username=simobot
+ channel=#testingk
+ explfile=expl.txt
+ ignofile=igno.txt
+ redishost=localhost
+ redisport=6381
+ markovmain=0
+ markovfast=1
+ server=openirc.snt.utwente.nl
