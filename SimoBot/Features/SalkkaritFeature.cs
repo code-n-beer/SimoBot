@@ -47,6 +47,10 @@ namespace SimoBot.Features
 
 		public void Execute(IrcDotNet.IrcClient client, string channel, IrcDotNet.IrcUser sender, string message)
 		{
+			if (words == null) {
+				client.LocalUser.SendMessage(channel, "salkkari data base not initialized :<");
+				return;
+			}
 			int index = new Random().Next(words.Count);
 			client.LocalUser.SendMessage(channel, words[index]);
 		}
