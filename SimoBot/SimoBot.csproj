@@ -83,6 +83,7 @@
     <Compile Include="Features\ReverseFeature.cs" />
     <Compile Include="Server.cs" />
     <Compile Include="Features\UguuFeature.cs" />
+    <Compile Include="Features\SalkkaritFeature.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
